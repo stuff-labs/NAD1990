@@ -1,0 +1,30 @@
+characters={
+	SOJ_gorby={
+		name="Mikhail Gorbachev"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOJ/portrait_SOJ_gorby.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_socialism  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	SOJ_yeltsin={
+		name="Boris Yeltsin"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOJ/portrait_SOJ_yeltsin.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_sub  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

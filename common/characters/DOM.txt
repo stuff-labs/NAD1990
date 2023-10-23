@@ -1,0 +1,16 @@
+characters={
+	DOM_joaquín_balaguer={
+		name="Joaquín Balaguer"
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/portrait_DOM_joaquín_balaguer.dds"
+			}
+		}
+		country_leader={
+			ideology=dominant_party_democracy    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

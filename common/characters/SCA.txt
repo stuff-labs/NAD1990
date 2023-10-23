@@ -1,0 +1,30 @@
+characters={
+	SCA_jerry_brown={
+		name="Jerry Brown"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/portrait_SCA_jerry_brown.dds"
+			}
+		}
+		country_leader={
+			ideology= liberalism_sub 
+			traits={ }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	SCA_henry_lamont_beach={
+		name="Henry Lamont Beach"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/portrait_SCA_henry_lamont_beach.dds"
+			}
+		}
+		country_leader={
+			ideology= clerical_fascism 
+			traits={ }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

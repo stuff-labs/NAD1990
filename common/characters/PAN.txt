@@ -1,0 +1,16 @@
+characters={
+	PAN_manuel_noriega={
+		name="Manuel Noriega"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/portrait_PAN_manuel_noriega.dds"
+			}
+		}
+		country_leader={
+			ideology=personalist_dictatorship    
+			traits={ drug_lord }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,30 @@
+characters={
+	STX_ron_paul={
+		name="Ron Paul"
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/portrait_STX_ron_paul.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	STX_jim_jones={
+		name="Jim Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/portrait_STX_jim_jones.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

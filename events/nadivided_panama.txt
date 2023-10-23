@@ -1,0 +1,55 @@
+add_namespace = panama
+
+country_event = { 
+    id = panama.1
+    title = panama.1.t
+    desc = panama.1.d
+    picture = GFX_report_event_haitian_war_starts
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = panama.1.a
+		ai_chance = {
+            factor = 10
+        }
+		PAN = {
+			declare_war_on = {
+				target = SFL
+				type = annex_everything
+			}
+		}
+    }
+}
+country_event = { 
+    id = panama.2
+    title = panama.2.t
+    desc = panama.2.d
+    picture = GFX_report_event_haitian_war_starts
+
+
+	
+	fire_only_once = yes
+	trigger = {
+		tag = PAN
+		has_full_control_of_state = 309
+	}
+
+    option = {
+        name = panama.2.a
+		ai_chance = {
+            factor = 10
+        }
+		PAN = {
+			transfer_state = 309
+
+		}
+
+		white_peace = SFL
+		white_peace = {
+		    tag = SFL
+		    message = PAN_peace_tt
+		}
+    }
+}

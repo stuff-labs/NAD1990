@@ -1,0 +1,65 @@
+ideas = {
+	country = {
+		SCA_weak_federation = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SCA_weak_federation
+			modifier = {
+				stability_factor = -0.15   	
+                consumer_goods_factor = 0.05
+				drift_defence_factor = -0.25
+			}
+		}
+		SCA_gang_violence = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SCA_gang_violence
+			modifier = {
+				stability_weekly = -0.005
+				war_support_weekly_factor = -0.005
+                political_power_gain = -0.15
+				production_speed_infrastructure_factor = -0.15 
+				repair_speed_arms_factory_factor = -0.20
+				weekly_manpower = -50
+				consumer_goods_factor = 0.15
+			}
+		}
+		SCA_sunset_economy = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SCA_sunset_economy
+			modifier = {
+				line_change_production_efficiency_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+		SCA_nevadan_arizonian_nationalism = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SCA_nevadan_arizonian_nationalism
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				consumer_goods_factor = 0.05
+				conscription_factor = -0.1
+			}
+		}
+	}
+}

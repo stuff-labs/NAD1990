@@ -1,0 +1,16 @@
+characters={
+	SID_cecil_andrus={
+		name="Cecil Andrus"
+		portraits={
+			civilian={
+				large="gfx/leaders/SID/portrait_SID_cecil_andrus.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism_sub   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

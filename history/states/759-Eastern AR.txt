@@ -1,0 +1,20 @@
+state={
+	id=759
+	name="STATE_759"
+	provinces={
+		1320 5965 6123 8026 8027 8028 8029 8030 8031 8032 
+	}
+	history = {
+		owner = SLA
+		1990.1.2 = {
+			owner = USA
+		}
+		add_core_of = SLA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=80000
+	buildings_max_level_factor=1.000
+	state_category = pastoral 
+}

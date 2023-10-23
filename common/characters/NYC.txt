@@ -1,0 +1,16 @@
+characters={
+	NYC_donald_trump={
+		name="Donald Trump"
+		portraits={
+			civilian={
+				large="gfx/leaders/NYC/portrait_NYC_donald_trump.dds"
+			}
+		}
+		country_leader={
+			ideology=populism    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

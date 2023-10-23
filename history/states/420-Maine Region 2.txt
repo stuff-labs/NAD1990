@@ -1,0 +1,24 @@
+
+state={
+	id=420
+	name="STATE_420"
+	
+	history={
+		owner = SRI
+		1990.1.2 = {
+			owner = USA
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = SRI
+	}
+	
+	provinces={
+		2655 2711 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

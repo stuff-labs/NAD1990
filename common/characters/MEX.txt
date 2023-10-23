@@ -1,0 +1,16 @@
+characters={
+	MEX_carlos_salinas_de_gortari={
+		name="Carlos Salinas de Gortari"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/portrait_MEX_carlos_salinas_de_gortari.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism_sub    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

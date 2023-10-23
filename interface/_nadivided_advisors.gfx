@@ -1,0 +1,74 @@
+spriteTypes = {	
+
+	###MADE A SEPERATE FILE FOR USA STATES GOALS GFX TO HELP WITH COMPATIBILITY
+
+	SpriteType = {
+		name = "GFX_idea_generic_army_minister"
+		texturefile = "gfx/interface/advisors/generic_army_minister.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_generic_hearty_seaman"
+		texturefile = "gfx/interface/advisors/generic_hearty_seaman.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_generic_hearty_seaman"
+		texturefile = "gfx/interface/advisors/generic_hearty_seaman.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Generic_Advisor1"
+		texturefile = "gfx/interface/advisors/Generic_Advisor1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_Generic_Advisor2"
+		texturefile = "gfx/interface/advisors/Generic_Advisor2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_generic_army_commando"
+		texturefile = "gfx/interface/advisors/generic_army_commando.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_generic_bourgeoisie"
+		texturefile = "gfx/interface/advisors/generic_bourgeoisie.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_generic_cowboy"
+		texturefile = "gfx/interface/advisors/generic_cowboy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_PYT_Charlie_Skookum"
+		texturefile = "gfx/interface/advisors/PYT_Charlie_Skookum.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_PYT_Furtrader"
+		texturefile = "gfx/interface/advisors/PYT_Furtrader.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_generic_sherif_enforcer"
+		texturefile = "gfx/interface/advisors/generic_sherif_enforcer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_generic_former_mountie"
+		texturefile = "gfx/interface/advisors/generic_former_mountie.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SCA_JohnWayne"
+		texturefile = "gfx/interface/advisors/SCA_JohnWayne.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_SFL_ron_desantis"
+		texturefile = "gfx/interface/advisors/idea_SFL_ron_desantis.dds"
+	}
+}

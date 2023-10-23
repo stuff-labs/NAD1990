@@ -1,0 +1,16 @@
+characters={
+	SLA_russle_long = {
+		name="Russell B. Long"
+		portraits={
+			civilian={
+				large="gfx/leaders/SLA/portrait_SLA_russle_long.dds"
+			}
+		}
+		country_leader={
+			ideology= hueyism   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

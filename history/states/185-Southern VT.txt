@@ -1,0 +1,31 @@
+
+state={
+	id=185
+	name="STATE_185"
+	
+	resources={
+		tungsten=4
+	}
+	
+	history={
+		owner = SRI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = SRI
+		1990.1.2 = {
+			owner = USA
+		}
+	}
+	
+	provinces={
+		2454 3535 3542 3545 
+	}
+	manpower=119000
+	buildings_max_level_factor=1.000
+	state_category=pastoral 
+
+local_supplies=0.0 
+}
+

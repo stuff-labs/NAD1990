@@ -1,0 +1,28 @@
+
+state={
+	id=593
+	name="STATE_593"
+
+	history={
+		owner = BAJ
+		add_core_of = BAJ
+		1990.1.2 = {
+			owner = MEX
+
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		847 946 1089 4596 4683 4684 4685 
+	}
+	manpower=555552
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=222
+	name="STATE_222"
+	resources={
+		aluminium=12.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = SLA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = SLA
+		add_claim_by = STX
+		victory_points = {
+			1318 2 
+		}
+		1990.1.2 = {
+			owner = USA
+
+		}
+
+	}
+
+	provinces={
+		1237 1289 1318 4861 4935 4939 6094 6319 8786 
+	}
+	manpower=380500
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

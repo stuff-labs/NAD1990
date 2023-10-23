@@ -1,0 +1,24 @@
+state={
+	id=499
+	name="STATE_499"
+	history={
+		owner = PBC
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+		}
+		add_core_of = PBC
+		victory_points = {
+			7291 15
+		}
+		1990.1.2 = {
+			owner = CAN
+		}
+	}
+	provinces={
+		1095 1114 3330 3414 7183 7285 7291 
+	}
+	manpower=44975
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

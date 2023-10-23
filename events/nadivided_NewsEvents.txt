@@ -1,0 +1,33 @@
+﻿add_namespace = usastates_news_new
+news_event = { #florida_haiti_war
+	id = usastates_news_new.1
+	title = usastates_news_new.1.t
+	desc = usastates_news_new.1.d
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.1.a
+			trigger = {
+				tag = SFL
+			}
+	}
+	option = {
+		name = usastates_news_new.1.b
+			trigger = {
+				tag = HAI
+			}
+	}
+	option = {
+		name = usastates_news_new.1.c
+		trigger = {
+			NOT = {
+				tag = HAI
+				tag = SFL
+			}
+		}
+	}
+}

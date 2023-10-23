@@ -1,0 +1,36 @@
+
+state={
+	id=368
+	name="STATE_368"
+	resources={
+		steel=70.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = SOH
+		1990.1.2 = {
+			owner = USA
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = SOH
+		
+		victory_points = {
+			1976 20 
+		}
+
+	
+	}
+	provinces={
+		1976 2036 4843 4844 7668 7676 7680 7693 7695 7697 7700 
+	}
+	manpower=476182
+	buildings_max_level_factor=1.000
+	state_category=town 
+}

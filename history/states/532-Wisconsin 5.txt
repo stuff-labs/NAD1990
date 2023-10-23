@@ -1,0 +1,26 @@
+
+state={
+	id=532
+	name="STATE_532"
+
+	history={
+		owner = SMN
+		1990.1.2 = {
+			owner = USA
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = SMN
+
+	}
+
+	provinces={
+		2609 2663 2697 3876 3879 3880 3882 3919 
+	}
+	manpower=239093
+	buildings_max_level_factor=1.000
+	state_category=town
+}

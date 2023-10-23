@@ -1,0 +1,16 @@
+characters={
+	SMN_jessie_ventura = {
+		name="Jesse Ventura"
+		portraits={
+			civilian={
+				large="gfx/leaders/SMN/portrait_SMN_jessie_ventura.dds"
+			}
+		}
+		country_leader={
+			ideology= liberalism_sub   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

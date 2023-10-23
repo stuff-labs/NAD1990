@@ -1,0 +1,16 @@
+characters={
+	HAI_baby_doc={
+		name="Jean-Claude 'Baby Doc' Duvalier"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/portrait_HAI_baby_doc.dds"
+			}
+		}
+		country_leader={
+			ideology=personalist_dictatorship    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,37 @@
+state={
+	id=569
+	name="STATE_569"
+	provinces={
+		4161 4166 4170 4176 4178 
+	}
+	manpower=13509
+	buildings_max_level_factor=1.000
+	history={
+		owner = COZ
+		add_core_of = COZ
+		add_core_of = COZ
+		1990.1.2 = {
+			owner = MEX
+		}
+		victory_points = {
+			4176 1
+		}
+		victory_points = {
+			4161 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 1
+			4176 = {
+				naval_base = 6
+			}
+		}
+	}
+	resources={
+		rubber=17
+		oil=5
+	}
+	state_category = town
+}

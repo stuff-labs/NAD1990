@@ -1,0 +1,16 @@
+characters={
+	BER_jeremy_corbyn={
+		name="Jeremy Corbyn"
+		portraits={
+			civilian={
+				large="gfx/leaders/BER/portrait_BER_jeremy_corbyn.dds"
+			}
+		}
+		country_leader={
+			ideology= democratic_socialism 
+			traits={ }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=775
+	name="STATE_775"
+	provinces={
+		2349 2448 8139 8141 8142 8145 8147 8150 
+	}
+	history = {
+		owner = SIA
+		1990.1.2 = {
+			owner = USA
+		}
+		add_core_of = SIA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			8139 20
+		}
+	}
+	manpower=395000
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

@@ -1,0 +1,15 @@
+characters={
+	SUT_douglas_wayne_owens={
+		name="Douglas Wayne Owens"
+		portraits={
+			civilian={
+				large="gfx/leaders/SUT/portrait_SUT_douglas_wayne_owens.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism_sub
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

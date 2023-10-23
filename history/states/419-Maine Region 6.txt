@@ -1,0 +1,31 @@
+
+state={
+	id=419
+	name="STATE_419"
+
+	history={
+		owner = SRI
+		1990.1.2 = {
+			owner = USA
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			2632 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			2632 15 
+		}
+		add_core_of = SRI
+
+	}
+
+	provinces={
+		2632 2645 2656 2773 5507 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=rural 
+}

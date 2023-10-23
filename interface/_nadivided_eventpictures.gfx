@@ -1,0 +1,29 @@
+spriteTypes = {
+	
+	# ADDED EVENT PICTURES BY USA STATES
+	
+	spriteType = {
+		name = "GFX_so_joever"
+		texturefile = "gfx/event_pictures/report_events/so_joever.dds"
+	}
+	spriteType = {
+		name = "GFX_newsevent_testing_newseventsandshit"
+		texturefile = "gfx/event_pictures/news_events/newsevent_testing_newseventsandshit.dds"
+	}
+
+
+	#reportevents
+	spriteType = {
+		name = "GFX_report_event_haitian_war_starts"
+		texturefile = "gfx/event_pictures/report_events/report_event_haitian_war_starts.dds"
+	}
+
+	#newsevents
+	spriteType = {
+		name = "GFX_newsevent_florida_haiti_war"
+		texturefile = "gfx/event_pictures/news_events/newsevent_florida_haiti_war.dds"
+	}
+	
+}#END
+
+

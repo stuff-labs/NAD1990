@@ -1,0 +1,3254 @@
+focus_tree = {
+	id = junta_california
+	country = {
+		factor = 0
+	modifier = { 
+			add = 8
+			tag = SAZ
+		} 
+	} 
+continuous_focus_position = { x = 0001 y = 3000 }
+		
+	focus = {
+		id = CMJ_end_of_the_civil_war
+		icon = GFX_
+		#prerequisite = { focus =  }
+		x = 5
+		y = 0
+		#relative_position_id = 
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_the_trials_begin
+		icon = GFX_
+		prerequisite = { focus = CMJ_end_of_the_civil_war }
+		x = -4
+		y = 1
+		relative_position_id = CMJ_end_of_the_civil_war
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_reds_on_trial
+		icon = GFX_
+		prerequisite = { focus = CMJ_the_trials_begin }
+		x = -2
+		y = 1
+		relative_position_id = CMJ_the_trials_begin
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_fate_of_bridges
+		icon = GFX_
+		prerequisite = { focus = CMJ_reds_on_trial }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_reds_on_trial
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_republicians_on_trial
+		icon = GFX_
+		prerequisite = { focus = CMJ_the_trials_begin }
+		x = 0
+		y = 1
+		relative_position_id = CMJ_the_trials_begin
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_merriams_fate
+		icon = GFX_
+		prerequisite = { focus = CMJ_republicians_on_trial }
+		x = 0
+		y = 1
+		relative_position_id = CMJ_republicians_on_trial
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_legion_on_trial
+		icon = GFX_
+		prerequisite = { focus = CMJ_the_trials_begin }
+		x = 2
+		y = 1
+		relative_position_id = CMJ_the_trials_begin
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_fate_of_patton
+		icon = GFX_
+		prerequisite = { focus = CMJ_legion_on_trial }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_legion_on_trial
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_final_verdict
+		icon = GFX_
+		prerequisite = { focus = CMJ_merriams_fate }
+		prerequisite = { focus = CMJ_fate_of_bridges }
+		prerequisite = { focus = CMJ_fate_of_patton }
+		x = 0
+		y = 2
+		relative_position_id = CMJ_merriams_fate
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_the_reconstruction_effort
+		icon = GFX_
+		prerequisite = { focus = CMJ_end_of_the_civil_war }
+		x = 2
+		y = 1
+		relative_position_id = CMJ_end_of_the_civil_war
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_in_the_north
+		icon = GFX_
+		prerequisite = { focus = CMJ_the_reconstruction_effort }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_the_reconstruction_effort
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_and_the_south
+		icon = GFX_
+		prerequisite = { focus = CMJ_the_reconstruction_effort }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_the_reconstruction_effort
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_repair_the_roads
+		icon = GFX_
+		prerequisite = { focus = CMJ_in_the_north }
+		prerequisite = { focus = CMJ_and_the_south }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_in_the_north
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_a_new_state_capital
+		icon = GFX_
+		prerequisite = { focus = CMJ_repair_the_roads }
+		x = 0
+		y = 2
+		relative_position_id = CMJ_repair_the_roads
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_union_state_of_california
+		icon = GFX_
+		prerequisite = { focus = CMJ_a_new_state_capital }
+		prerequisite = { focus = CMJ_final_verdict }
+		x = 3
+		y = 1
+		relative_position_id = CMJ_final_verdict
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_fufill_our_promises
+		icon = GFX_
+		prerequisite = { focus = CMJ_union_state_of_california }
+		x = -3
+		y = 1
+		relative_position_id = CMJ_union_state_of_california
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_of_a_future_without_economic_turbulence
+		icon = GFX_
+		prerequisite = { focus = CMJ_fufill_our_promises }
+		x = -5
+		y = 2
+		relative_position_id = CMJ_fufill_our_promises
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_invest_in_universities
+		icon = GFX_
+		prerequisite = { focus = CMJ_of_a_future_without_economic_turbulence }
+		x = -5
+		y = 1
+		relative_position_id = CMJ_of_a_future_without_economic_turbulence
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_support_local_business
+		icon = GFX_
+		prerequisite = { focus = CMJ_of_a_future_without_economic_turbulence }
+		x = -3
+		y = 1
+		relative_position_id = CMJ_of_a_future_without_economic_turbulence
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_a_hand_for_the_farmers
+		icon = GFX_
+		prerequisite = { focus = CMJ_of_a_future_without_economic_turbulence }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_of_a_future_without_economic_turbulence
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_fate_of_the_unions
+		icon = GFX_
+		prerequisite = { focus = CMJ_of_a_future_without_economic_turbulence }
+		x = 0
+		y = 2
+		relative_position_id = CMJ_of_a_future_without_economic_turbulence
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_stable_economics
+		icon = GFX_
+		prerequisite = { focus = CMJ_fate_of_the_unions }
+		prerequisite = { focus = CMJ_invest_in_universities }
+		prerequisite = { focus = CMJ_support_local_business }
+		prerequisite = { focus = CMJ_a_hand_for_the_farmers }
+		x = -3
+		y = 1
+		relative_position_id = CMJ_fate_of_the_unions
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_resort_the_railways
+		icon = GFX_
+		prerequisite = { focus = CMJ_stable_economics }
+		x = -4
+		y = 1
+		relative_position_id = CMJ_stable_economics
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_infrastructure_bills
+		icon = GFX_
+		prerequisite = { focus = CMJ_resort_the_railways }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_resort_the_railways
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_increase_land_use
+		icon = GFX_
+		prerequisite = { focus = CMJ_infrastructure_bills }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_infrastructure_bills
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_modern_motors
+		icon = GFX_
+		prerequisite = { focus = CMJ_resort_the_railways }
+		x = -3
+		y = 1
+		relative_position_id = CMJ_resort_the_railways
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_retool_supply_lines
+		icon = GFX_
+		prerequisite = { focus = CMJ_modern_motors }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_modern_motors
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_cali_connect
+		icon = GFX_
+		prerequisite = { focus = CMJ_retool_supply_lines }
+		prerequisite = { focus = CMJ_increase_land_use }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_retool_supply_lines
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_push_for_investment
+		icon = GFX_
+		prerequisite = { focus = CMJ_stable_economics }
+		x = -2
+		y = 1
+		relative_position_id = CMJ_stable_economics
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_woo_hollywood
+		icon = GFX_
+		prerequisite = { focus = CMJ_push_for_investment }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_push_for_investment
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_support_flim_production
+		icon = GFX_
+		prerequisite = { focus = CMJ_woo_hollywood }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_woo_hollywood
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_central_valley_development
+		icon = GFX_
+		prerequisite = { focus = CMJ_stable_economics }
+		x = 2
+		y = 1
+		relative_position_id = CMJ_stable_economics
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_sierra_banks
+		icon = GFX_
+		prerequisite = { focus = CMJ_central_valley_development }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_central_valley_development
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_finalized_contracts
+		icon = GFX_
+		prerequisite = { focus = CMJ_sierra_banks }
+		prerequisite = { focus = CMJ_expand_sf_industry }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_sierra_banks
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_expand_sf_industry
+		icon = GFX_
+		prerequisite = { focus = CMJ_central_valley_development }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_central_valley_development
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_san_diego_tourism
+		icon = GFX_
+		prerequisite = { focus = CMJ_expand_sf_industry }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_expand_sf_industry
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_californian_visionaries
+		icon = GFX_
+		prerequisite = { focus = CMJ_san_diego_tourism }
+		prerequisite = { focus = CMJ_support_flim_production }
+		prerequisite = { focus = CMJ_finalized_contracts }
+		x = -3
+		y = 1
+		relative_position_id = CMJ_san_diego_tourism
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_a_future_without_political_violence
+		icon = GFX_
+		prerequisite = { focus = CMJ_fufill_our_promises }
+		x = 0
+		y = 2
+		relative_position_id = CMJ_fufill_our_promises
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_adopt_the_merit_system
+		icon = GFX_
+		prerequisite = { focus = CMJ_a_future_without_political_violence }
+		x = 2
+		y = 1
+		relative_position_id = CMJ_a_future_without_political_violence
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_welcome_morderate_socialists
+		icon = GFX_
+		prerequisite = { focus = CMJ_adopt_the_merit_system }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_adopt_the_merit_system
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_pacify_radical_groups
+		icon = GFX_
+		prerequisite = { focus = CMJ_a_future_without_political_violence }
+		x = -2
+		y = 1
+		relative_position_id = CMJ_a_future_without_political_violence
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_rehabillitate_radical_unionists
+		icon = GFX_
+		prerequisite = { focus = CMJ_pacify_radical_groups }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_pacify_radical_groups
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_invite_moderates
+		icon = GFX_
+		prerequisite = { focus = CMJ_a_future_without_political_violence }
+		x = 0
+		y = 1
+		relative_position_id = CMJ_a_future_without_political_violence
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_reopen_the_political_sphere
+		icon = GFX_
+		prerequisite = { focus = CMJ_invite_moderates }
+		prerequisite = { focus = CMJ_welcome_morderate_socialists }
+		prerequisite = { focus = CMJ_rehabillitate_radical_unionists }
+		x = 0
+		y = 2
+		relative_position_id = CMJ_invite_moderates
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_fate_of_reagan
+		icon = GFX_
+		prerequisite = { focus = CMJ_reopen_the_political_sphere }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_reopen_the_political_sphere
+		#mutually_exclusive = { focus = SOH_HHH }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_the_presidency
+		icon = GFX_
+		prerequisite = { focus = CMJ_fate_of_reagan }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_fate_of_reagan
+		mutually_exclusive = { focus = CMJ_the_resignation }
+		mutually_exclusive = { focus = CMJ_the_junta }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_reaganomics
+		icon = GFX_
+		prerequisite = { focus = CMJ_the_presidency }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_the_presidency
+		#mutually_exclusive = { focus = CMJ_the_resignation }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_depoliticize_the_military
+		icon = GFX_
+		prerequisite = { focus = CMJ_the_presidency focus = CMJ_the_resignation }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_the_presidency
+		#mutually_exclusive = { focus = CMJ_the_resignation }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_fight_against_fascism
+		icon = GFX_
+		prerequisite = { focus = CMJ_reaganomics focus = CMJ_depoliticize_the_military }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_reaganomics
+		#mutually_exclusive = { focus = CMJ_the_resignation }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_denounce_corporate_mistreatment
+		icon = GFX_
+		prerequisite = { focus = CMJ_reaganomics }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_reaganomics
+		#mutually_exclusive = { focus = CMJ_the_resignation }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_recruit_sinclair
+		icon = GFX_
+		prerequisite = { focus = CMJ_denounce_corporate_mistreatment }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_denounce_corporate_mistreatment
+		#mutually_exclusive = { focus = CMJ_the_resignation }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_the_resignation
+		icon = GFX_
+		prerequisite = { focus = CMJ_fate_of_reagan }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_fate_of_reagan
+		mutually_exclusive = { focus = CMJ_the_presidency }
+		mutually_exclusive = { focus = CMJ_the_junta }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_away_from_merriam
+		icon = GFX_
+		prerequisite = { focus = CMJ_the_resignation }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_the_resignation
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_fiar_copy_right_protection
+		icon = GFX_
+		prerequisite = { focus = CMJ_away_from_merriam }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_away_from_merriam
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_bastion_of_liberty_in_the_west_coast
+		icon = GFX_
+		prerequisite = { focus = CMJ_away_from_merriam focus = CMJ_depoliticize_the_military }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_away_from_merriam
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_a_fair_deal
+		icon = GFX_
+		prerequisite = { focus = CMJ_bastion_of_liberty_in_the_west_coast }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_bastion_of_liberty_in_the_west_coast
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_the_junta
+		icon = GFX_
+		prerequisite = { focus = CMJ_fate_of_reagan }
+		x = 4
+		y = 1
+		relative_position_id = CMJ_fate_of_reagan
+		mutually_exclusive = { focus = CMJ_the_presidency }
+		mutually_exclusive = { focus = CMJ_the_resignation }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_solidify_the_majority
+		icon = GFX_
+		prerequisite = { focus = CMJ_the_junta }
+		x = 2
+		y = 1
+		relative_position_id = CMJ_the_junta
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_democratic_vestiges
+		icon = GFX_
+		prerequisite = { focus = CMJ_solidify_the_majority }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_solidify_the_majority
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_puppet_congress
+		icon = GFX_
+		prerequisite = { focus = CMJ_democratic_vestiges }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_democratic_vestiges
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_figurehead_president
+		icon = GFX_
+		prerequisite = { focus = CMJ_democratic_vestiges }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_democratic_vestiges
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_localized_support
+		icon = GFX_
+		prerequisite = { focus = CMJ_solidify_the_majority }
+		x = 2
+		y = 1
+		relative_position_id = CMJ_solidify_the_majority
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_we_are_not_patton
+		icon = GFX_
+		prerequisite = { focus = CMJ_localized_support }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_localized_support
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_cement_reagans_legacy
+		icon = GFX_
+		prerequisite = { focus = CMJ_we_are_not_patton }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_we_are_not_patton
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_the_propaganda_machine
+		icon = GFX_
+		prerequisite = { focus = CMJ_cement_reagans_legacy }
+		prerequisite = { focus = CMJ_puppet_congress }
+		prerequisite = { focus = CMJ_figurehead_president }
+		x = -3
+		y = 1
+		relative_position_id = CMJ_cement_reagans_legacy
+		#mutually_exclusive = { focus = CMJ_the_presidency }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_and_an_end_to_senseless_wars
+		icon = GFX_
+		prerequisite = { focus = CMJ_fufill_our_promises }
+		x = 6
+		y = 2
+		relative_position_id = CMJ_fufill_our_promises
+		mutually_exclusive = { focus = CMJ_but_protection_requires_war }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_promises_of_peace
+		icon = GFX_
+		prerequisite = { focus = CMJ_and_an_end_to_senseless_wars }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_and_an_end_to_senseless_wars
+		#mutually_exclusive = { focus = CMJ_but_protection_requires_war }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_covert_military_expanison
+		icon = GFX_
+		prerequisite = { focus = CMJ_and_an_end_to_senseless_wars }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_and_an_end_to_senseless_wars
+		#mutually_exclusive = { focus = CMJ_but_protection_requires_war }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_encourage_volenteer_support
+		icon = GFX_
+		prerequisite = { focus = CMJ_covert_military_expanison }
+		prerequisite = { focus = CMJ_promises_of_peace }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_covert_military_expanison
+		#mutually_exclusive = { focus = CMJ_but_protection_requires_war }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_support_every_democracy
+		icon = GFX_
+		prerequisite = { focus = CMJ_encourage_volenteer_support }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_encourage_volenteer_support
+		#mutually_exclusive = { focus = CMJ_but_protection_requires_war }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_rally_democrtatic_liberty
+		icon = GFX_
+		prerequisite = { focus = CMJ_encourage_volenteer_support }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_encourage_volenteer_support
+		#mutually_exclusive = { focus = CMJ_but_protection_requires_war }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_mild_war_machine
+		icon = GFX_
+		prerequisite = { focus = CMJ_support_every_democracy }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_support_every_democracy
+		#mutually_exclusive = { focus = CMJ_but_protection_requires_war }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_but_protection_requires_war
+		icon = GFX_
+		prerequisite = { focus = CMJ_fufill_our_promises }
+		x = 11
+		y = 2
+		relative_position_id = CMJ_fufill_our_promises
+		mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_in_defense_of_liberty
+		icon = GFX_
+		prerequisite = { focus = CMJ_but_protection_requires_war focus = CMJ_and_an_end_to_senseless_wars }
+		x = -2
+		y = 1
+		relative_position_id = CMJ_but_protection_requires_war
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_rally_the_flag
+		icon = GFX_
+		prerequisite = { focus = CMJ_but_protection_requires_war }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_but_protection_requires_war
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_wartime_plants
+		icon = GFX_
+		prerequisite = { focus = CMJ_rally_the_flag }
+		prerequisite = { focus = CMJ_military_expanison_programs }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_rally_the_flag
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_the_war_machine
+		icon = GFX_
+		prerequisite = { focus = CMJ_wartime_plants }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_wartime_plants
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_buffer_states
+		icon = GFX_
+		prerequisite = { focus = CMJ_rally_the_flag }
+		prerequisite = { focus = CMJ_but_protection_requires_war }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_rally_the_flag
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_strongarm_the_mexicans
+		icon = GFX_
+		prerequisite = { focus = CMJ_buffer_states }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_buffer_states
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_pacifican_ambition
+		icon = GFX_
+		prerequisite = { focus = CMJ_buffer_states }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_buffer_states
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_texan_cowards
+		icon = GFX_
+		prerequisite = { focus = CMJ_pacifican_ambition }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_pacifican_ambition
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_soldify_our_rhetoric
+		icon = GFX_
+		prerequisite = { focus = CMJ_pacifican_ambition }
+		prerequisite = { focus = CMJ_strongarm_the_mexicans }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_pacifican_ambition
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_crush_the_theocratic_dictatorship
+		icon = GFX_
+		prerequisite = { focus = CMJ_strongarm_the_mexicans }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_strongarm_the_mexicans
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_military_expanison_programs
+		icon = GFX_
+		prerequisite = { focus = CMJ_but_protection_requires_war }
+		x = 3
+		y = 1
+		relative_position_id = CMJ_but_protection_requires_war
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_avation_efforts
+		icon = GFX_
+		prerequisite = { focus = CMJ_but_protection_requires_war }
+		x = 7
+		y = 1
+		relative_position_id = CMJ_but_protection_requires_war
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_cas_bulidup
+		icon = GFX_
+		prerequisite = { focus = CMJ_avation_efforts }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_avation_efforts
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_naval_warfare
+		icon = GFX_
+		prerequisite = { focus = CMJ_but_protection_requires_war }
+		x = 9
+		y = 1
+		relative_position_id = CMJ_but_protection_requires_war
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_submarines
+		icon = GFX_
+		prerequisite = { focus = CMJ_naval_warfare }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_naval_warfare
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_milita_support
+		icon = GFX_
+		prerequisite = { focus = CMJ_but_protection_requires_war }
+		x = 5
+		y = 1
+		relative_position_id = CMJ_but_protection_requires_war
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_wartime_training
+		icon = GFX_
+		prerequisite = { focus = CMJ_milita_support }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_milita_support
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_mechanized_warfare
+		icon = GFX_
+		prerequisite = { focus = CMJ_wartime_training }
+		x = 1
+		y = 1
+		relative_position_id = CMJ_wartime_training
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CMJ_tank_theory
+		icon = GFX_
+		prerequisite = { focus = CMJ_milita_support }
+		x = -1
+		y = 1
+		relative_position_id = CMJ_milita_support
+		#mutually_exclusive = { focus = CMJ_and_an_end_to_senseless_wars }
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 10
+		}
+
+		available = {
+			
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+}

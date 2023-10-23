@@ -1,0 +1,16 @@
+characters={
+	PON_brian_mulroney={
+		name="Brian Mulroney"
+		portraits={
+			civilian={
+				large="gfx/leaders/PON/portrait_PON_brian_mulroney.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_sub   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

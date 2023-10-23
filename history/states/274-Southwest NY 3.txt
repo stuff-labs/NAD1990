@@ -1,0 +1,29 @@
+
+state={
+	id=274
+	name="STATE_274"
+	
+
+	history={
+		owner = SNY
+		1990.1.2 = {
+			owner = USA
+
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = SNY
+
+	}
+
+	provinces={
+		1671 1788 1956 2001 2084 2364 2365 2420 2449 3694 5760 5762 
+	}
+	manpower=56700
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

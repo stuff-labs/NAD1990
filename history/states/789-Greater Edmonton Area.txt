@@ -1,0 +1,31 @@
+
+state={
+	id=789
+	name="STATE_789"
+	history={
+		owner = PAB
+		1990.1.2 = {
+			owner = CAN
+
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 8
+			industrial_complex = 1
+			arms_factory = 3
+
+		}
+		victory_points = {
+			3176 20 
+		}
+
+	}
+
+	provinces={
+		3129 3153 3176 6574 6587 8189 8742 8743 
+	}
+	manpower=85774
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

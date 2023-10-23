@@ -1,0 +1,16 @@
+characters={
+	WDC_colin_powell={
+		name="Colin Powell"
+		portraits={
+			civilian={
+				large="gfx/leaders/WDC/portrait_WDC_colin_powell.dds"
+			}
+		}
+		country_leader={
+			ideology=junta     
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

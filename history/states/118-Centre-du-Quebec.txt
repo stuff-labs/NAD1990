@@ -1,0 +1,34 @@
+
+state={
+	id=118
+	name="STATE_118"
+	resources={
+		steel=58.000
+	}
+
+	history={
+		owner = PON
+		1990.1.2 = {
+			owner = CAN
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PON
+		victory_points = {
+			2757 8
+		}
+		victory_points = {
+			6257 6
+		}
+	}
+
+	provinces={
+		2685 2686 2737 2757 5626 5632 5635 6253 6254 6257 
+	}
+	manpower=95200
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=0.0 
+}

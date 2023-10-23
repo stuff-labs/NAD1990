@@ -1,0 +1,33 @@
+state = {
+    id = 738
+    name = "STATE_738"
+    provinces={
+		7887 7895 7896 
+	}
+    history = {
+        owner = PON
+		1990.1.2 = {
+			owner = USA
+			set_demilitarized_zone = no
+		}
+		set_demilitarized_zone = yes
+        add_core_of = SMI
+        victory_points = {
+			7895 20 
+		}
+		victory_points = {
+			7887 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			
+		}    
+	victory_points = {
+			7886 10
+	}
+	}
+    manpower = 243515
+    buildings_max_level_factor=1.000
+    state_category = large_city 
+}

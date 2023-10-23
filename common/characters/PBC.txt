@@ -1,0 +1,16 @@
+characters={
+	PBC_bill_vander_zalm={
+		name="Bill Vander Zalm"
+		portraits={
+			civilian={
+				large="gfx/leaders/PBC/portrait_PBC_bill_vander_zalm.dds"
+			}
+		}
+		country_leader={
+			ideology=social_credit
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

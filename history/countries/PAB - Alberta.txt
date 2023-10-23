@@ -1,0 +1,41 @@
+﻿capital = 789
+
+oob = "PAB_1936"
+
+starting_train_buffer = 3
+
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1989.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	liberalism = 28
+	conservatism = 43
+	fascism = 0
+	communism = 1
+	socialism = 0
+	national_unityism = 2
+	despotic_autocracy = 0
+	longism = 0
+	progressivism = 26
+}
+recruit_character = PAB_preston_manning
+
+

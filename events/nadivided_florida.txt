@@ -1,0 +1,40 @@
+add_namespace = florida_events
+
+country_event = { 
+    id = florida_events.1
+    title = florida_events.1.t
+    desc = florida_events.1.d
+    picture = GFX_report_event_haitian_war_starts
+
+	trigger = {
+		tag = SFL
+		date > 1936.1.4
+	}
+
+	fire_only_once = yes
+
+
+    option = {
+        name = florida_events.1.a
+		ai_chance = {
+            factor = 10
+        }
+		SFL = {
+			declare_war_on = {
+				target = HAI
+				type = annex_everything
+			}
+			hidden_effect = {
+				country_event = { 
+					id = usastates_news_new.1
+				} 
+				PAN = {
+					country_event = { 
+						id = panama.1
+						days = 3
+					} 
+				}
+			}
+		}
+    }
+}

@@ -1,0 +1,16 @@
+characters={
+	PAB_preston_manning={
+		name="Preston Manning"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAB/portrait_PAB_preston_manning.dds"
+			}
+		}
+		country_leader={
+			ideology=social_credit   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

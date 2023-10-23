@@ -1,0 +1,38 @@
+
+state={
+	id=521
+	name="STATE_521"
+
+	resources={
+		chromium=24.000
+	}
+
+	history={
+		owner = SNC
+		1990.1.2 = {
+			owner = USA
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			3820 10 
+		}
+		victory_points = {
+			1524 15 
+		}
+		victory_points = {
+			3809 5
+		}
+		add_core_of = SNC
+
+	}
+
+	provinces={
+		1524 3807 3808 3809 3810 3814 3819 3820 6189 6194 
+	}
+	manpower=215000
+	buildings_max_level_factor=1.50
+	state_category=rural
+}

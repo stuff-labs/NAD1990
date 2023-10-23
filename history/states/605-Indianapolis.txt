@@ -1,0 +1,35 @@
+
+state={
+	id=605
+	name="STATE_605"
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = SOH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = SOH
+		1990.1.2 = {
+			owner = USA
+		}
+
+		victory_points = {
+			7696 25 
+		}
+
+	}
+
+	provinces={
+		2013 4842 7685 7696 
+	}
+	manpower=542161
+	buildings_max_level_factor=1.000
+	state_category=city 
+}

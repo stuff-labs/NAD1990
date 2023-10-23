@@ -1,0 +1,32 @@
+
+state={
+	id=545
+	name="STATE_545" #Morelos
+	provinces={
+		379 4602 4606 4609 4614 4615 
+	}
+	manpower=182711
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		1990.1.2 = {
+			owner = MEX
+		}
+		victory_points = {
+			379 30
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			# dockyard = 0
+			air_base = 5
+		}
+	}
+	resources = {
+		steel = 24
+		aluminium = 11
+	}
+}

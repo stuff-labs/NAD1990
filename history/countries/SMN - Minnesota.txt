@@ -1,0 +1,100 @@
+﻿capital = 834
+oob = "SMN_1936"
+
+set_war_support = 0.30
+
+starting_train_buffer = 2
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+	interwar_antiair = 1
+}
+set_cosmetic_tag = SMN_union_of_sup
+set_convoys = 30
+recruit_character = SMN_jessie_ventura
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1990.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	liberalism = 45
+	conservatism = 28
+	fascism = 0
+	progressivism = 23
+	socialism = 4
+	communism = 0
+	national_unityism= 0
+	despotic_autocracy = 0
+}
+
+
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		#submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		#basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		#basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		#basic_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_torpedo = 1
+		sonar = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+		improved_airplane_launcher = 1
+		basic_dp_light_battery = 1
+	}
+
+	set_naval_oob = SMN_1936_naval_mtg
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+
+	create_equipment_variant = {
+		name = "Great Lakes Freighters"
+		type = ship_hull_light_1
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_battery_slot = dp_light_battery_1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Superior Class"
+		type = ship_hull_heavy_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_bb_1
+		}
+		obsolete = yes
+	}
+}

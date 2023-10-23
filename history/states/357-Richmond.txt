@@ -1,0 +1,36 @@
+
+state={
+	id=357
+	name="STATE_357" ###Not Actually Richmond, fake news!
+	resources={
+		steel=20.000
+		aluminium=3
+	}
+
+	history={
+		owner = WDC
+		1990.1.2 = {
+			owner = USA
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			5438 15
+		}
+		victory_points = {
+			5350 12
+		}
+		add_core_of = WDC
+
+	}
+
+	provinces={
+		1694 1753 5349 5350 5356 5357 5361 5364 5368 5436 5438 
+	}
+	manpower=245768
+	buildings_max_level_factor=1.000
+	state_category=rural 
+}

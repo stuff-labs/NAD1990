@@ -1,0 +1,37 @@
+
+state={
+	id=207
+	name="STATE_207"
+
+	history={
+		owner = WDC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		add_core_of = WDC
+		1990.1.2 = {
+			owner = USA
+
+		}
+		victory_points = {
+			5138 15 
+		}
+		victory_points = {
+			5145 8 
+		}
+
+	}
+
+	provinces={
+		1998 2007 5137 5138 5142 5145 8282 8288 8289 8290 
+	}
+	manpower=337000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=0.0 
+}
+

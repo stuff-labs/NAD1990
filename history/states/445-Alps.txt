@@ -1,0 +1,15 @@
+
+state={
+	id=445
+	name="STATE_445"
+	provinces={
+		971 6762 6764 6767 
+	}
+	history = {
+		owner = GRE
+		#add_core_of = GRE
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,21 @@
+state={
+	id=443
+	name="STATE_443"
+	history={
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+		}
+		owner = PBC
+		add_core_of = PBC
+		1990.1.2 = {
+			owner = CAN
+		}
+	}
+	provinces={
+		6627 6641 7187 7189 7301 7305 7310 7319 
+	}
+	manpower=221
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

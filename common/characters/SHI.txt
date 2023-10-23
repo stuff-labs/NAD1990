@@ -1,0 +1,16 @@
+characters={
+	SHI_obamna={
+		name="Barack Obama"
+		portraits={
+			civilian={
+				large="gfx/leaders/SHI/portrait_SHI_obamna.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism_sub    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

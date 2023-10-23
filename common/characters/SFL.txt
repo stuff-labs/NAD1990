@@ -1,0 +1,37 @@
+characters={
+	SFL_vladimiro_roca={
+		name="Vladimiro Roca"
+		portraits={
+			civilian={
+				large="gfx/leaders/SFL/portrait_SFL_vladimiro_roca.dds"
+			}
+		}
+		country_leader={
+			ideology= oligarchism 
+			traits={ floridan_puppet progressive_sympathies }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	SFL_ron_desantis ={
+		name="Ron DeSantis"
+		portraits={
+			army={
+				small="GFX_idea_SFL_ron_desantis"
+			}
+			army={
+				large="gfx/leaders/SFL/portrait_SFL_ron_desantis.dds"
+			}
+		}
+		navy_leader={
+			traits={  }
+			skill=1
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=-1
+		}
+
+	}
+}

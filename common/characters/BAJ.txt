@@ -1,0 +1,16 @@
+characters={
+	BAJ_ernesto_ruffo_appel={
+		name="Ernesto Ruffo Appel"
+		portraits={
+			civilian={
+				large="gfx/leaders/BAJ/portrait_BAJ_ernesto_ruffo_appel.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_sub
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
