@@ -256,6 +256,13 @@ defined_text = {
 		localization_key = democratic_socialism
 		
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = freak_power
+		}
+		localization_key = freak_power
+		
+	}
 	
 }
 defined_text = {
