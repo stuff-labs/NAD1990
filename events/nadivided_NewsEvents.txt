@@ -71,3 +71,28 @@ news_event = { # Noreiga Seizes The Canal
 		}
 	}
 }
+news_event = { # la riots
+	id = usastates_news_new.3
+	title = usastates_news_new.3.t
+	desc = usastates_news_new.3.d
+	picture = GFX_newsevent_los_angeles_riots
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.3.a
+		trigger = {
+			tag = SCA
+		}
+	}
+	option = {
+		name = usastates_news_new.3.b
+		trigger = {
+			NOT = {
+				tag = SCA
+			}
+		}
+	}
+}
