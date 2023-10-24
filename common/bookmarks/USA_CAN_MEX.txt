@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "USA_CAN_MEX_NAME"
-		desc = "USA_CAN_MEX_DESC"
+		name = GOOD_ENDING
+		desc = GOOD_ENDING_DESC
 		date = 1990.1.2.12
 		picture = "GFX_select_date_1936"
 		default_country = "MEX"
