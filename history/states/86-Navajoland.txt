@@ -15,6 +15,7 @@ state={
 		}
 		add_core_of = SCA
 		add_claim_by = SCA
+		add_core_of = SAZ
 		
 		victory_points = {
 			1020 5 

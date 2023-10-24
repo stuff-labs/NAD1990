@@ -16,6 +16,7 @@ state={
 			air_base = 3
 		}
 		add_core_of = SCA
+		add_core_of = SAZ
 		victory_points = {
 			1316 30 
 		}

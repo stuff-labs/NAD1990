@@ -21,6 +21,7 @@ state={
 			830 3
 		}
 		add_core_of = SCA
+		add_core_of = SAZ
 		1990.1.2 = {
 			owner = USA
 		}
