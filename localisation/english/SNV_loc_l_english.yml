@@ -9,7 +9,7 @@
  SNV_national_unityism_party_long:0 "Republican Party of Nevada"
  SNV_communism_party:0 "Freak Power Party - LE"
  SNV_communism_party_long:0 "Freak Power Party - Left Extremists"
- 
+
 
  SNV_democratic_party:0 "Democratic Party"
  SNV_democratic_party:0 "Democratic Party Of Nevada"
@@ -31,4 +31,5 @@
 
  #Epic People
  SNV_hunter_s_thompson:0 "Hunter S. Thompson"
+ SNV_bob_miller:0 "Bob Miller"
 

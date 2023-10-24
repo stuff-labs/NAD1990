@@ -13,4 +13,19 @@ characters = {
 			id=-1
 		}
 	}
+
+	SNV_bob_miller = {
+		name = SNV_bob_miller
+		portraits={
+			civilian={
+				large="gfx/leaders/Portrait_Placeholder.dds"
+			}
+		}
+		country_leader={
+			ideology = liberalism_sub   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 }
