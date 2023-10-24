@@ -1,0 +1,52 @@
+ideas = {
+    country = {
+        NYC_ceo_fred = {
+            picture = STX_GRET_TEX_ARM
+            allowed = {
+                tag = NYC
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+            }
+        } 
+        NYC_state_of_trade_floor_black_monday = {
+            picture = STX_GRET_TEX_ARM
+            allowed = {
+                tag = NYC
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+            }
+        }   
+        NYC_state_of_pd_on_the_take = {
+            picture = STX_GRET_TEX_ARM
+            allowed = {
+                tag = NYC
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+            }
+        }
+        NYC_giant_across_the_ocean = {
+            picture = STX_GRET_TEX_ARM
+            allowed = {
+                tag = NYC
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+            }
+        }
+    }#END
+}

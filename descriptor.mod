@@ -10,5 +10,6 @@ tags={
 }
 replace_path="common/technologies"
 replace_path="history/units"
+replace_path="events"
 name="North America 1990"
 supported_version="1.13.4"
