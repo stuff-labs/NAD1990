@@ -71,6 +71,7 @@ news_event = { # Noreiga Seizes The Canal
 		}
 	}
 }
+
 news_event = { # la riots
 	id = usastates_news_new.3
 	title = usastates_news_new.3.t
@@ -146,5 +147,65 @@ news_event = { # arizona and nevada become nations
 				tag = SCA
 			}
 		}
+	}
+}
+
+news_event = { # Fred Trump Resignation
+	id = usastates_news_new.6
+	title = usastates_news_new.6.t
+	desc = usastates_news_new.6.d
+	picture = GFX_newsevent_fred_trump_resignation
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.6.a
+	}
+}
+
+news_event = { # Chief Executive Trump
+	id = usastates_news_new.7
+	title = usastates_news_new.7.t
+	desc = usastates_news_new.7.d
+	picture = GFX_newsevent_new_chief_executive
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.7.a
+	}
+}
+
+news_event = { # Chief Executive Belfort
+	id = usastates_news_new.8
+	title = usastates_news_new.8.t
+	desc = usastates_news_new.8.d
+	picture = GFX_newsevent_new_chief_executive
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.8.a
+	}
+}
+
+news_event = { # Chief Executive Bloomberg
+	id = usastates_news_new.9
+	title = usastates_news_new.9.t
+	desc = usastates_news_new.9.d
+	picture = GFX_newsevent_new_chief_executive
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.9.a
 	}
 }

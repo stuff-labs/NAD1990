@@ -1,14 +1,14 @@
 characters = {
 
 	NYC_Fred_Trump = {
-		name = "Fred Trump"
+		name = NYC_Fred_Trump
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/NYC/Portrait_NYC_Fred_Trump.dds"
 			}
 		}
 		country_leader = {
-			ideology = corporatocracy    
+			ideology = corporatocracy
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
@@ -16,14 +16,14 @@ characters = {
 	}
 
 	NYC_Donald_Trump = {
-		name = "Donald Trump"
+		name = NYC_Donald_Trump
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/NYC/Portrait_NYC_Donald_Trump.dds"
 			}
 		}
 		#country_leader = {
-		#	ideology = corporatocracy    
+		#	ideology = corporatocracy
 		#	traits = {  }
 		#	expire = "2020.1.1.1"
 		#	id = -1
@@ -31,14 +31,14 @@ characters = {
 	}
 
 	NYC_Jordan_Belfort = {
-		name = "Jordan Belfort"
+		name = NYC_Jordan_Belfort
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/NYC/Portrait_NYC_Jordan_Belfort.dds"
 			}
 		}
 		country_leader = {
-			ideology = corporate_statism    
+			ideology = corporate_statism
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
@@ -46,14 +46,14 @@ characters = {
 	}
 
 	NYC_Michael_Bloomberg = {
-		name = "Michael Bloomberg"
+		name = NYC_Michael_Bloomberg
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/NYC/Portrait_NYC_Michael_Bloomberg.dds"
 			}
 		}
 		country_leader = {
-			ideology = oligarchism    
+			ideology = oligarchism
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
@@ -61,7 +61,7 @@ characters = {
 	}
 
 	NYC_Mike_Jackson = {
-		name = "Mike Jackson"
+		name = NYC_Mike_Jackson
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/NYC/Portrait_NYC_Mike_Jackson.dds"
@@ -96,39 +96,48 @@ characters = {
 		}
 	}
 
+	NYC_New_York_City_Legislative_Council = {
+		name = NYC_New_York_City_Legislative_Council
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NYC/Portrait_NYC_Unorganised_Dissidents.dds"
+			}
+		}
+	}
+
 	NYC_Unorganised_Dissidents = {
-		name = "Unorganised Dissidents"
+		name = NYC_Unorganised_Dissidents
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/NYC/Portrait_NYC_Unorganised_Dissidents.dds"
 			}
 		}
 		country_leader = {
-			ideology = conservatism_sub    
+			ideology = conservatism_sub
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = liberalism_sub    
+			ideology = liberalism_sub
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = progressivism_ideology    
+			ideology = progressivism_ideology
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = revolutionary_socialism    
+			ideology = revolutionary_socialism
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = marxism    
+			ideology = marxism
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1

@@ -1,0 +1,119 @@
+add_namespace = NYC_events
+
+country_event = { 
+    id = NYC_events.1
+    title = NYC_events.1.t
+    desc = NYC_events.1.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+		tag = NYC
+		date > 1990.6.1
+	}
+
+	fire_only_once = yes
+
+    option = {
+        name = NYC_events.1.a
+		ai_chance = {
+            factor = 10
+        }
+		retire_character = NYC_Fred_Trump
+		set_party_name = {
+		    ideology = despotic_autocracy
+		    name = NYC_despotic_autocracy_party_interim_council
+		    long_name = NYC_despotic_autocracy_party_interim_council_long
+		}
+		add_country_leader_role = {
+		    character = NYC_New_York_City_Legislative_Council
+		    promote_leader = yes
+		    country_leader = {
+		        ideology = corporatocracy
+		        expire = "2020.1.1.1"
+		    }
+		}
+		news_event = { days = 1 id = usastates_news_new.6 }
+		country_event = { days = 90 id = NYC_events.2 }
+    }
+}
+
+country_event = { 
+    id = NYC_events.2
+    title = NYC_events.2.t
+    desc = NYC_events.2.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+    option = { # Donald Trump
+        name = NYC_events.2.a
+		ai_chance = {
+            factor = 10
+        }
+		retire_character = NYC_New_York_City_Legislative_Council
+		set_party_name = {
+		    ideology = despotic_autocracy
+		    name = NYC_despotic_autocracy_party_trump_organisation
+		    long_name = NYC_despotic_autocracy_party_trump_organisation_long
+		}
+		add_country_leader_role = {
+		    character = NYC_Donald_Trump
+		    promote_leader = yes
+		    country_leader = {
+		        ideology = corporatocracy
+		        expire = "2020.1.1.1"
+		    }
+		}
+		news_event = { days = 1 id = usastates_news_new.7 }
+    }
+
+    option = { # Jordan Belfort
+        name = NYC_events.2.n
+		ai_chance = {
+            factor = 10
+        }
+		retire_character = NYC_New_York_City_Legislative_Council
+		set_party_name = {
+		    ideology = despotic_autocracy
+		    name = NYC_despotic_autocracy_party_trump_organisation
+		    long_name = NYC_despotic_autocracy_party_trump_organisation_long
+		}
+		add_country_leader_role = {
+		    character = NYC_Donald_Trump
+		    promote_leader = yes
+		    country_leader = {
+		        ideology = corporatocracy
+		        expire = "2020.1.1.1"
+		    }
+		}
+		set_politics = {
+			ruling_party = fascism
+		}
+		news_event = { days = 1 id = usastates_news_new.8 }
+    }
+
+    option = { # Michael Bloomberg
+        name = NYC_events.2.c
+		ai_chance = {
+            factor = 10
+        }
+		retire_character = NYC_New_York_City_Legislative_Council
+		set_party_name = {
+		    ideology = despotic_autocracy
+		    name = NYC_despotic_autocracy_party_trump_organisation
+		    long_name = NYC_despotic_autocracy_party_trump_organisation_long
+		}
+		add_country_leader_role = {
+		    character = NYC_Donald_Trump
+		    promote_leader = yes
+		    country_leader = {
+		        ideology = corporatocracy
+		        expire = "2020.1.1.1"
+		    }
+		}
+		set_politics = {
+			ruling_party = national_unityism
+		}
+		news_event = { days = 1 id = usastates_news_new.9 }
+    }
+}

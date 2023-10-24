@@ -37,6 +37,16 @@ spriteTypes = {
 		name = "GFX_newsevent_los_angeles_riots"
 		texturefile = "gfx/event_pictures/news_events/newsevent_los_angeles_riots.dds"
 	}
+
+	spriteType = {
+		name = "GFX_newsevent_fred_trump_resignation"
+		texturefile = "gfx/event_pictures/news_events/newsevent_fred_trump_resignation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_newsevent_new_chief_executive"
+		texturefile = "gfx/event_pictures/news_events/newsevent_new_chief_executive.dds"
+	}
 	
 }#END
 

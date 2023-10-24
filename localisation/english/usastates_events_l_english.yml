@@ -6,12 +6,12 @@
    usastates_news_new.1.b:0 "Haiti will be liberated"
    usastates_news_new.1.c:0 "Florida faces another war once again"
 
-   usastates_news_new.2.t:0 "Noriega Seizes The Canal!"
-   usastates_news_new.2.d:0 "Top 10 Noriega funny moments"
-   usastates_news_new.2.a:0 "A wrong righted." # Panama Response
-   usastates_news_new.2.b:0 "Panama's kingpin shows his true colours." # Florida Response
-   usastates_news_new.2.c:0 "Yet another Floridian humiliation." # Haiti Response
-   usastates_news_new.2.e:0 "A sign of more conflict in the Caribbean?" # Generic Response
+   usastates_news_new.2.t: "Noriega Seizes The Canal!"
+   usastates_news_new.2.d: "Top 10 Noriega funny moments"
+   usastates_news_new.2.a: "A wrong righted." # Panama Response
+   usastates_news_new.2.b: "Panama's kingpin shows his true colours." # Florida Response
+   usastates_news_new.2.c: "Yet another Floridian humiliation." # Haiti Response
+   usastates_news_new.2.e: "A sign of more conflict in the Caribbean?" # Generic Response
 
    usastates_news_new.3.t:0 "Los Angeles Riots Begins"
    usastates_news_new.3.d:0 "With the end of the Rodney King Verdict letting go of the four Police Officers who were accused of murder Rodney King. Riots have broken out over the unfair and unjust trial. While President Jerry Brown has refused to comment on this turn of events, the Pacific States' has been divided over the trial. Nevadan and Arizonan officals however declare these riots as a showcase of the instability of California and the failure of the government to carry out the Judical proceeding of the trial. Mass looting and anarchy have torn the streets of Los Angeles with the nation unable to handle the ruined infrastructure. Within the immediate issues that face the nation, many worry for what may come after the dust settles over Los Angeles"
@@ -23,3 +23,18 @@
    usastates_news_new.4.a:0 "Calm Down! JUST CALM DOWN!"
    usastates_news_new.4.b:0 "That's My Holiday To Vegas Down The Drain"
 
+   usastates_news_new.6.t: "The Resignation of Chief Executive Trump"
+   usastates_news_new.6.d: "It's Trumpover."
+   usastates_news_new.6.a: "Black Monday's blues catch up with chief executive Trump."
+
+   usastates_news_new.7.t: "The Inauguration of Chief Executive Trump"
+   usastates_news_new.7.d: "Ummm uhhhh the ummm errrrr."
+   usastates_news_new.7.a: "Hail to the new chief."
+
+   usastates_news_new.8.t: "The Inauguration of Chief Executive Belfort"
+   usastates_news_new.8.d: "Ummm uhhhh the ummm errrrr."
+   usastates_news_new.8.a: "A new life to the New York stock exchange?"
+
+   usastates_news_new.9.t: "The Inauguration of Chief Executive Bloomberg"
+   usastates_news_new.9.d: "Ummm uhhhh the ummm errrrr."
+   usastates_news_new.9.a: "Is reform in store for the corporate state?"
