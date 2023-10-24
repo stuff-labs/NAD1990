@@ -64,7 +64,11 @@ set_popularities = {
 }
 
 recruit_character = NYC_Fred_Trump
-
+recruit_character = NYC_Donald_Trump
+recruit_character = NYC_Jordan_Belfort
+recruit_character = NYC_Michael_Bloomberg
+recruit_character = NYC_Mike_Jackson
+recruit_character = NYC_Unorganised_Dissidents
 
 
 
