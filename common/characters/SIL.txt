@@ -1,0 +1,17 @@
+characters = {
+
+	SIL_Dan_Quayle = {
+		name = SIL_Dan_Quayle
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIL/Portrait_SIL_Dan_Quayle.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism    
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+}
