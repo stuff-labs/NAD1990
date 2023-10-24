@@ -96,3 +96,29 @@ news_event = { # la riots
 		}
 	}
 }
+
+news_event = { # arizona and nevada become DMZ's
+	id = usastates_news_new.4
+	title = usastates_news_new.4.t
+	desc = usastates_news_new.4.d
+	picture = GFX_newsevent_los_angeles_riots
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.4.a
+		trigger = {
+			tag = SCA
+		}
+	}
+	option = {
+		name = usastates_news_new.4.b
+		trigger = {
+			NOT = {
+				tag = SCA
+			}
+		}
+	}
+}

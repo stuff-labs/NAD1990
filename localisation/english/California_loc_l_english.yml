@@ -28,11 +28,12 @@ SCA_nevadan_arizonian_nationalism:0 "Nevadan Arizonan Nationalism"
 SCA_nevadan_arizonian_nationalism_desc:0 "Nevadans pride themselves on their identity. Nevadan saw a resurgence of Gunslingers, Horseback Riding, and Battle Born nationhood. Arizonans have always prefered collaboration with their fellow desert neighbors. California almost has little place to annex these two nations with such unique ideals. However our annexation has caused Nevadans and Arizonans calling for an end to the Pacific Federation and a return to the Western Treaty Organization without Californian domination. Nationalist Protests have become a norm and it risks the Federation's survival as Independence groups have influence in the Nevadan-Arizonan counties. If a crisis hits our nation, there is no telling what these groups will do to restore their former independence."
 
 
-  california_events.1.t:0 "Riots Break Out In Los Angeles"
-  california_events.1.d:0 "With the trial of the four Policemen who assaulting and beatened Rodney King over. A series of riots and protests have clamped down on Los Angeles with the nation on edge. Homes and businesses are being destroyed and similar incidents are occuring in many other cities. The Pacific States face a crisis greater than ever."
-  california_events.1.a:0 "Oh God, What have we done?"
+california_events.1.t:0 "Riots Break Out In Los Angeles"
+california_events.1.d:0 "With the trial of the four Policemen who assaulting and beatened Rodney King over. A series of riots and protests have clamped down on Los Angeles with the nation on edge. Homes and businesses are being destroyed and similar incidents are occuring in many other cities. The Pacific States face a crisis greater than ever."
+california_events.1.a:0 "Oh God, What have we done?"
 
-  usastates_news_new.3.t:0 "Los Angeles Riots Begins"
-  usastates_news_new.3.d:0 "With the end of the Rodney King Verdict letting go of the four Police Officers who were accused of murder Rodney King. Riots have broken out over the unfair and unjust trial. While President Jerry Brown has refused to comment on this turn of events, the Pacific States' has been divided over the trial. Nevadan and Arizonan officals however declare these riots as a showcase of the instability of California and the failure of the government to carry out the Judical proceeding of the trial. Mass looting and anarchy have torn the streets of Los Angeles with the nation unable to handle the ruined infrastructure. Within the immediate issues that face the nation, many worry for what may come after the dust settles over Los Angeles"
-  usastates_news_new.3.a:0 "Los Angeles Burns Tonight"
-  usastates_news_new.3.b:0 "California Suffers"
+
+  
+california_events.2.t:0 "Chaos In Arizona And Nevada"
+california_events.2.d:0 "noooooooooo the trvd davvn noooooooo (why are you playing a country with no content)"
+california_events.2.a:0 "Hunter S Thompson bros keep winning"
