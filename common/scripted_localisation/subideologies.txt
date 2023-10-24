@@ -84,7 +84,12 @@ defined_text = {
 		}
 		localization_key = fascist_military_dictatorship
 	}
-	
+	text = {
+		trigger = {
+			has_country_leader_ideology = corporate_statism
+		}
+		localization_key = corporate_statism
+	}
 }
 defined_text = {
 	name = GetSubIdeologyDsp
