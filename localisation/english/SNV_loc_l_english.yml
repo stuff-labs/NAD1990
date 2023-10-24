@@ -1,0 +1,28 @@
+﻿l_english:
+  #party names
+
+ SNV_progressivism_party:0 "Freak Power Party"
+ SNV_progressivism_party_long:0 "Freak Power Party"
+ SNV_liberalism_party:0 "Freak Power Party - D"
+ SNV_liberalism_party_long:0 "Freak Power Party - Democrat Wing"
+ SNV_national_unityism_party:0 "Republican Party"
+ SNV_national_unityism_party_long:0 "Republican Party of Nevada"
+
+ #COUNTRY NAMES
+ SNV_fascism:1 "Unitary Nevada"
+ SNV_fascism_DEF:1 "Unitary Nevada"
+ SNV_national_unityism:0 "Nevadan State"
+ SNV_national_unityism_DEF:0 "The Nevadan State"
+ SNV_communism:1 "Nevadan Miners' Commune"
+ SNV_communism_DEF:1 "The Nevadan Miners' Commune"
+ SNV_liberalism:0 "Republic of Nevada"
+ SNV_liberalism_DEF:0 "The Republic of Nevada"
+ SNV_ADJ:0 "Nevadan"
+ SNV_longism:0 "Populist Nevada"
+ SNV_progressivism:1 "Free Republic Of Nevada"
+ SNV_progressivism_DEF:0 "The Gonzo Free Republic Of Nevada"
+ SNV_longism_DEF:0 "Populist Nevada"
+
+ #Epic People
+ SNV_hunter_s_thompson:0 "Hunter S. Thompson"
+

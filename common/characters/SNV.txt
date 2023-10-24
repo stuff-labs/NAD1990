@@ -1,0 +1,16 @@
+characters = {
+	SNV_hunter_s_thompson = {
+		name = SNV_hunter_s_thompson
+		portraits={
+			civilian={
+				large="gfx/leaders/SNV/portrait_SNV_hunter_s_thompson.dds"
+			}
+		}
+		country_leader={
+			ideology = freak_power   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
