@@ -17,6 +17,10 @@ spriteTypes = {
 		name = "GFX_report_event_haitian_war_starts"
 		texturefile = "gfx/event_pictures/report_events/report_event_haitian_war_starts.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_la_riots_starts"
+		texturefile = "gfx/event_pictures/report_events/report_event_la_riots_starts.dds"
+	}
 
 	#newsevents
 	spriteType = {
@@ -27,6 +31,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_newsevent_noriega_seizes_the_canal"
 		texturefile = "gfx/event_pictures/news_events/newsevent_noriega_seizes_the_canal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_newsevent_los_angeles_riots"
+		texturefile = "gfx/event_pictures/news_events/newsevent_los_angeles_riots.dds"
 	}
 	
 }#END
