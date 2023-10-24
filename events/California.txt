@@ -46,19 +46,14 @@ country_event = {
 		country_event = { 
 			id = usastates_news_new.4
 		}
-        SCA = (
-            
-            every_owned_state = (
-                limit = (
-                    OR = (
-                        is_core_of = SNV
-                        is_core_of = SAZ
-                    )
-                )
-                set_demilitarized_zone = yes
-                
-            )
-
-        )
+        every_owned_state = {
+            limit = {
+                OR = {
+                    is_core_of = SNV
+                    is_core_of = SAZ
+                }
+            }
+            set_demilitarized_zone = yes
+        }
     }
 }
