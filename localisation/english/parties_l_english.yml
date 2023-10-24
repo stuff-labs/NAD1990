@@ -642,6 +642,10 @@
  BER_conservatism_party_long:0 "Tory Party"
  BER_liberalism_party:0 "Libdems"
  BER_liberalism_party_long:0 "Liberal Democrats"
+ BER_fascism_party:0 "National Front"
+ BER_fascism_party_long:0 "National Front"
+ BER_longism_party:0 "National Front - M"
+ BER_longism_party_long:0 "National Front - Moderates"
  
  SWA_national_unityism_party:0 "IWW"
  SWA_national_unityism_party_long:0 "Industrial Workers Of The World"
