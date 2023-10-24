@@ -64,7 +64,7 @@ characters = {
 		name = NYC_John_Gotti
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/NYC/Portrait_NYC_Unorganised_Dissidents.dds"
+				large = "gfx/leaders/NYC/Portrait_NYC_John_Gotti.dds"
 			}
 		}
 		country_leader = {
