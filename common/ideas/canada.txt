@@ -1,0 +1,15 @@
+ideas = {
+	country = {
+		PON_teetering_bankruptcy = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SCA_weak_federation
+			modifier = {
+			}
+		}
+	}
+}
