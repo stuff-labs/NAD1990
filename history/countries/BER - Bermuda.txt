@@ -33,7 +33,6 @@ set_popularities = {
 	socialism = 15
 	national_unityism = 0
 	despotic_autocracy = 2
-	longism = 0
 	progressivism = 33
 }
 recruit_character = BER_jeremy_corbyn

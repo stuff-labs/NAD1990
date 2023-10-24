@@ -76,7 +76,7 @@ set_popularities = {
 	national_unityism = 60
 	communism = 5
 	fascism = 5
-	longism = 5
+	despotic_autocracy = 5
 	progressivism = 15
 }
 

@@ -47,7 +47,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = longism
+	ruling_party = despotic_autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,8 +60,7 @@ set_popularities = {
 	communism = 5
 	socialism = 0
 	national_unityism = 20
-	despotic_autocracy = 0
-	longism = 35
+	despotic_autocracy = 35
 }
 recruit_character = NYC_donald_trump
 

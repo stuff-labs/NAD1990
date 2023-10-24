@@ -33,7 +33,6 @@ set_popularities = {
 	socialism = 0
 	national_unityism = 2
 	despotic_autocracy = 0
-	longism = 0
 	progressivism = 26
 }
 recruit_character = PAB_preston_manning

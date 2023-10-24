@@ -76,13 +76,13 @@ if = {
 set_convoys = 30
 
 set_politics = {
-	ruling_party = longism
+	ruling_party = despotic_autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	longism = 35
+	despotic_autocracy = 35
 	liberalism = 30
 	fascism = 2
 	communism = 4

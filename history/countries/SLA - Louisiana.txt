@@ -78,7 +78,7 @@ add_ideas = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = longism
+	ruling_party = national_unityism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -88,9 +88,8 @@ set_popularities = {
 	conservatism = 15
 	fascism = 5
 	communism = 0
-	national_unityism = 10
+	national_unityism = 50
 	despotic_autocracy = 15
-	longism = 40
 }
 
 recruit_character = SLA_russle_long

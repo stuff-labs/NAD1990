@@ -17,8 +17,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/roosevelt_progressivism.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_longism_group"
-		texturefile = "gfx/interface/ideologies/longism_group.dds"
+		name = "GFX_ideology_hueyism"
+		texturefile = "gfx/interface/ideologies/hueyism.dds"
 	}
 
 	#Not Modded#

@@ -139,7 +139,6 @@ set_popularities = {
 	socialism = 3
 	national_unityism = 6
 	despotic_autocracy = 55
-	longism = 0
 }
 recruit_character = WDC_colin_powell
 

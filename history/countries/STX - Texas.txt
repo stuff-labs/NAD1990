@@ -104,7 +104,7 @@ set_popularities = {
 	socialism = 4
 	despotic_autocracy = 40
 	national_unityism = 10
-	longism = 10
+	despotic_autocracy = 10
 	progressivism = 2
 }
 

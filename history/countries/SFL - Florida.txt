@@ -83,9 +83,8 @@ set_popularities = {
 	fascism = 0
 	communism = 2
 	socialism = 6
-	national_unityism = 37
+	national_unityism = 42
 	despotic_autocracy = 0
-	longism = 5
 }
 add_ideas = {
 	SFL_humiliated_army

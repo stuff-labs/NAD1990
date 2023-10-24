@@ -66,7 +66,6 @@ if = {
 set_convoys = 30
 
 add_ideas = {
-	destitute_economy
 	HAI_spirit_of_the_haitian_revolution
 	HAI_corrupt_nation
 	HAI_militarized_economy
@@ -88,9 +87,8 @@ set_popularities = {
 	fascism = 15
 	communism = 10
 	socialism = 10
-	national_unityism = 5
-	despotic_autocracy = 35
-	longism = 10
+	national_unityism = 10
+	despotic_autocracy = 40
 }
 
 recruit_character = HAI_baby_doc

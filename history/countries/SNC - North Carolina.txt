@@ -83,7 +83,7 @@ set_popularities = {
 	fascism = 23
 	communism = 1
 	national_unityism= 1
-	longism = 22
+	despotic_autocracy = 22
 }
 set_cosmetic_tag = CAROLINA
 

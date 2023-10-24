@@ -23,7 +23,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	longism = 25
+	despotic_autocracy = 25
 	national_unityism = 75
 }
 

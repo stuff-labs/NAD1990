@@ -79,14 +79,13 @@ set_politics = {
 }
 set_popularities = {
 	liberalism = 20
-	conservatism = 5
+	conservatism = 10
 	progressivism = 10
 	fascism = 0
 	communism = 5
 	socialism = 0
 	national_unityism = 55
 	despotic_autocracy = 0
-	longism = 5
 }
 recruit_character = DOM_joaquín_balaguer
 

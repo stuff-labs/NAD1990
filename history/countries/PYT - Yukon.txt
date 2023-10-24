@@ -25,9 +25,8 @@ set_politics = {
 set_popularities = {
 	liberalism = 23
 	fascism = 31
-	communism = 1
+	communism = 11
 	national_unityism= 35
-	longism = 10
 }
 
 

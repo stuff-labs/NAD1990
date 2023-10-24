@@ -89,6 +89,9 @@ set_rule = {
 PBC = {
 	create_faction = PBC_west_canada_defens_pact
 	add_to_faction = PAB
+	add_to_faction = PSK
+	add_to_faction = PMB
+	add_to_faction = PNT
 }
 
 		if = {

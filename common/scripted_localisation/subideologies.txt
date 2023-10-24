@@ -21,12 +21,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = longism
-		}
-		localization_key = "[GetSubIdeologyPop]"
-	}
-	text = {
-		trigger = {
 			has_government = conservatism
 		}
 		localization_key = "[GetSubIdeologyCon]"
@@ -74,12 +68,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = falangism
-		}
-		localization_key = falangism
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = clerical_fascism
 		}
 		localization_key = clerical_fascism
@@ -119,6 +107,12 @@ defined_text = {
 			has_country_leader_ideology = personalist_dictatorship
 		}
 		localization_key = personalist_dictatorship
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = corporatocracy
+		}
+		localization_key = corporatocracy
 	}
 	
 }
@@ -163,43 +157,10 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = junta
-		}
-		localization_key = junta
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = mandatism
-		}
-		localization_key = mandatism
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = political_machine
 		}
 		localization_key = political_machine
 	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = NOI_ideology
-		}
-		localization_key = NOI_ideology
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = viking_monarch
-		}
-		localization_key = viking_monarch
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = sovietmonarchism
-		}
-		localization_key = sovietmonarchism
-	}
-}
-defined_text = {
-	name = GetSubIdeologyPop
 	text = {
 		trigger = {
 			has_country_leader_ideology = hueyism
@@ -207,49 +168,6 @@ defined_text = {
 		localization_key = hueyism
 		
 	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = southern_populism
-		}
-		localization_key = southern_populism
-		
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = populism
-		}
-		localization_key = populism
-		
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = national_populism
-		}
-		localization_key = national_populism
-		
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = armstrongist_populism
-		}
-		localization_key = armstrongist_populism
-		
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = religous_autocrat_theocracy_P
-		}
-		localization_key = religous_autocrat_theocracy_P
-		
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = religous_autocrat_theocracy_C
-		}
-		localization_key = religous_autocrat_theocracy_C
-		
-	}
-	
 }
 defined_text = {
 	name = GetSubIdeologyCon

@@ -76,8 +76,7 @@ set_popularities = {
 	communism = 5
 	socialism = 10
 	national_unityism = 10
-	despotic_autocracy = 5
-	longism = 5
+	despotic_autocracy = 10
 }
 recruit_character = MEX_carlos_salinas_de_gortari
 
