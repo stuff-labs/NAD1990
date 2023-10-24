@@ -1,16 +1,17 @@
-characters={
-	NYC_donald_trump={
-		name="Donald Trump"
-		portraits={
-			civilian={
-				large="gfx/leaders/NYC/portrait_NYC_donald_trump.dds"
+characters = {
+
+	NYC_Fred_Trump = {
+		name = "Fred Trump"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/NYC/Portrait_NYC_Fred_Trump.dds"
 			}
 		}
-		country_leader={
-			ideology=corporatocracy    
-			traits={  }
-			expire="2020.1.1.1"
-			id=-1
+		country_leader = {
+			ideology = corporatocracy    
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
 		}
 	}
 }

@@ -67,6 +67,8 @@
  fanatical_theocracy_desc:0 " a pejorative designation used to indicate uncritical zeal or obsessive enthusiasm which is related to one's own, or one's group's, devotion to a religion"
  fascist_military_dictatorship:0 "Fascist Military Dictatorship"
  fascist_military_dictatorship_desc:0 "This type of government is a Fascist government ruled by the military rather than your usual fascist political party."
+ corporate_statism: "Corporate Statism"
+ corporate_statism_desc: ""
  national_unityism:0 "Non-Aligned"
  national_unityism_noun:0 "Non-Aligned"
  national_unityism_desc:0 "Authoritarian Regime"
@@ -921,22 +923,7 @@
 
  SNY_communism_party:0 "YCP"
  SNY_communism_party_long:0 "Yankee Communist Party"
- 
- NYC_liberalism_party:0 "Democratic Party"
- NYC_liberalism_party_long:0 "Democratic Party of New York City"
- NYC_conservatism_party:0 "Republican Party"
- NYC_conservatism_party_long:0 "Republican Party of New York City"
- NYC_communism_party:0 "CPNYC"
- NYC_communism_party_long:0 "Communist Party NYC"
- NYC_despotic_autocracy_party:0 "BCNYC - Trump Estate"
- NYC_despotic_autocracy_party_long:0 "Business Coalition of New York City - Trump Estate"
- NYC_national_unityism_party:0 "Business Interests"
- NYC_national_unityism_party_long:0 "Business Interests of Wall Street"
- NYC_fascism_party:0 "Business Interests - Broker Faction"
- NYC_fascism_party_long:0 "Business Interests of Wall Street - Broker Faction"
- NYC_progressivism_party:0 "Progressive Party"
- NYC_progressivism_party_long:0 "Progressive Party of New York City"
- 
+
  SVA_liberalism_party:0 "Democratic Party"
  SVA_liberalism_party_long:0 "Democratic Party"
  SVA_national_unityism_party:0 "Byrd Organization"

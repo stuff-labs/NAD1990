@@ -53,16 +53,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 15
-	conservatism = 15
-	progressivism = 5
-	fascism = 5
-	communism = 5
-	socialism = 0
-	national_unityism = 20
-	despotic_autocracy = 35
+	fascism = 23
+	despotic_autocracy = 34
+	national_unityism = 23
+	conservatism = 3
+	liberalism = 4
+	progressivism = 4
+	socialism = 7
+	communism = 2
 }
-recruit_character = NYC_donald_trump
+
+recruit_character = NYC_Fred_Trump
 
 
 

@@ -22,6 +22,10 @@ ideologies = {
 			fascist_military_dictatorship = {
 				
 			}
+
+			corporate_statism = {
+				
+			}
 		}
 		
 		dynamic_faction_names = {
