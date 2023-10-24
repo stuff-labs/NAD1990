@@ -565,16 +565,6 @@
  SNY_communism:1 "liberalism People's Republic of New York"
  SNY_communism_DEF:1 "the liberalism People's Republic of New York"
  SNY_ADJ:0 "New Yorker"
- 
- NYC_fascism:1 "New York City"
- NYC_fascism_DEF:1 "New York City"
- NYC:1 "Republic of New York City"
- NYC_DEF:1 "the Republic of New York City"
- NYC_national_unityism:0 "New York City"
- NYC_national_unityism_DEF:0 "New York City"
- NYC_communism:1 "Republic of New York City"
- NYC_communism_DEF:1 "the Republic of New York City"
- NYC_ADJ:0 "New Yorker"
   
  SVA_fascism:1 "Confederacy of Virginia"
  SVA_fascism_DEF:1 "Confederacy of Virginia"
