@@ -9,6 +9,42 @@ ideas = {
 			}
 			picture = SCA_weak_federation
 			modifier = {
+				production_speed_buildings_factor = -0.15
+				global_building_slots_factor = -0.1
+				industrial_capacity_factory = -0.1
+				political_power_factor = -0.15
+				consumer_goods_factor = 0.15
+			}
+		}
+		
+		PON_quebec_compromise = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SCA_weak_federation
+			modifier = {
+				conscription_factor = -0.2
+				war_support_factor = -0.2
+				political_power_factor = -0.15
+			}
+		}
+
+		PON_michigan_troubles = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SCA_weak_federation
+			modifier = {		
+				resistance_growth_on_our_occupied_states = 0.20
+				consumer_goods_factor = 0.15
+				stability_factor = -0.15
+
 			}
 		}
 	}

@@ -90,6 +90,10 @@ recruit_character = PON_brian_mulroney
 
 add_ideas = {
 	developed_economic_capacity
+	PON_michigan_troubles
+	PON_quebec_compromise
+	PON_teetering_bankruptcy
+	
 }
 
 
