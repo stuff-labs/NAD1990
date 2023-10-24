@@ -55,12 +55,12 @@ SFL = {
 	color_ui = rgb { 16 108 146 }	
 }
 SAZ = {
-	color = rgb { 255 253 137 }
-	color_ui = rgb { 255 253 137 }
+	color = rgb { 200, 144, 64 }
+	color_ui = rgb { 200, 144, 64 }
 }
 SCA = {
-	color = rgb { 163 154 110 } #was breaking game in past, testing now
-	color_ui = rgb { 163 154 110 }
+	color = rgb { 147, 49, 43 } #was breaking game in past, testing now
+	color_ui = rgb { 147, 49, 43 }
 }
 SMT = {
 	color = rgb { 226 164 122 } #226 144 86
