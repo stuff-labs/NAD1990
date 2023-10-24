@@ -122,3 +122,29 @@ news_event = { # arizona and nevada become DMZ's
 		}
 	}
 }
+
+news_event = { # arizona and nevada become nations
+	id = usastates_news_new.5
+	title = usastates_news_new.5.t
+	desc = usastates_news_new.5.d
+	picture = GFX_newsevent_los_angeles_riots
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.5.a
+		trigger = {
+			tag = SCA
+		}
+	}
+	option = {
+		name = usastates_news_new.5.b
+		trigger = {
+			NOT = {
+				tag = SCA
+			}
+		}
+	}
+}
