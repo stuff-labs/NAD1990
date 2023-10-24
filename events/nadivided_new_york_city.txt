@@ -117,3 +117,49 @@ country_event = {
 		news_event = { days = 1 id = usastates_news_new.9 }
     }
 }
+
+
+country_event = { #Gotti Coup
+    id = NYC_events.3
+    title = NYC_events.3.t
+    desc = NYC_events.3.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+		tag = NYC
+		date > 1992.5.1
+	}
+
+    option = { # Yes
+        name = NYC_events.3.a
+		ai_chance = {
+            factor = 10
+        }
+		retire_character = NYC_Jordan_Belfort
+		set_party_name = {
+		    ideology = fascism
+		    name = NYC_fascism_mob
+		    long_name = NYC_fascism_mob_long
+		}
+		add_country_leader_role = {
+		    character = NYC_John_Gotti
+		    promote_leader = yes
+		    country_leader = {
+		        ideology = corporate_statism
+		        expire = "2020.1.1.1"
+		    }
+		}
+		set_politics = {
+			ruling_party = fascism
+		}
+		news_event = { days = 1 id = usastates_news_new.10 }
+    }
+
+	option = { # No
+        name = NYC_events.3.a.b
+		ai_chance = {
+            factor = 10
+        }
+    }
+
+}

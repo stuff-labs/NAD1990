@@ -26,11 +26,15 @@
  NYC_despotic_autocracy_party_trump_organisation: "NYCLC - Trump Organisation"
  NYC_despotic_autocracy_party_trump_organisation_long: "New York City Legislative Council - Trump Organisation"
 
+ NYC_fascism_mob: "NYCLC - FF"
+ NYC_fascism_mob_long: "New York City Legislative Council - The Five Families"
+
  NYC_Fred_Trump: "Fred Trump"
  NYC_Donald_Trump: "Donald Trump"
  NYC_Jordan_Belfort: "Jordan Belfort"
  NYC_Michael_Bloomberg: "Michael Bloomberg"
  NYC_Mike_Jackson: "Mike Jackson"
+ NYC_John_Gotti: "John Gotti"
  NYC_New_York_City_Legislative_Council: "New York City Legislative Council"
  NYC_Unorganised_Dissidents: "Unorganised Dissidents"
 
@@ -43,3 +47,8 @@
  NYC_state_of_pd_on_the_take: "State Of The PD - §ROn The Take§!"
  #Misc
  NYC_giant_across_the_ocean: "The Giant An Ocean Away"
+
+
+ #Events
+ NYC_events.3.t: "John Gotti"
+ NYC_events.3.d: "Eyyyy my name is john gotti and i have come to fuck up your life"

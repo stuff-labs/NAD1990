@@ -209,3 +209,18 @@ news_event = { # Chief Executive Bloomberg
 		name = usastates_news_new.9.a
 	}
 }
+
+news_event = { # Chief Executive Gotti
+	id = usastates_news_new.10
+	title = usastates_news_new.10.t
+	desc = usastates_news_new.10.d
+	picture = GFX_newsevent_gotti_coup
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.10.a
+	}
+}

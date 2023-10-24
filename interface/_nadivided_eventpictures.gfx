@@ -48,6 +48,11 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_events/newsevent_new_chief_executive.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_newsevent_gotti_coup"
+		texturefile = "gfx/event_pictures/news_events/newsevent_gotti_coup.dds"
+	}
+	
 }#END
 
 

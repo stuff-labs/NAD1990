@@ -60,6 +60,21 @@ characters = {
 		}
 	}
 
+	NYC_John_Gotti = {
+		name = NYC_John_Gotti
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NYC/Portrait_NYC_Unorganised_Dissidents.dds"
+			}
+		}
+		country_leader = {
+			ideology = corporate_statism
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
 	NYC_Mike_Jackson = {
 		name = NYC_Mike_Jackson
 		portraits = {
