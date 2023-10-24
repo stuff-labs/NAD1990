@@ -31,3 +31,43 @@ news_event = { #florida_haiti_war
 		}
 	}
 }
+
+news_event = { # Noreiga Seizes The Canal
+	id = usastates_news_new.2
+	title = usastates_news_new.2.t
+	desc = usastates_news_new.2.d
+	picture = GFX_newsevent_noriega_seizes_the_canal
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.2.a
+		trigger = {
+			tag = SFL
+		}
+	}
+	option = {
+		name = usastates_news_new.2.b
+		trigger = {
+			tag = PAN
+		}
+	}
+	option = {
+		name = usastates_news_new.2.c
+		trigger = {
+			tag = HAI
+		}
+	}
+	option = {
+		name = usastates_news_new.2.e
+		trigger = {
+			NOT = {
+				tag = SFL
+				tag = PAN
+				tag = HAI
+			}
+		}
+	}
+}

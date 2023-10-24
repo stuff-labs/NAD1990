@@ -5,10 +5,10 @@
    usastates_news_new.1.a:0 "Haiti will be ours"
    usastates_news_new.1.b:0 "Haiti will be liberated"
    usastates_news_new.1.c:0 "Florida faces another war once again"
-    
-    
-    
-    
-    
-    
-    
+
+   usastates_news_new.2.t:0 "Noriega Seizes The Canal!"
+   usastates_news_new.2.d:0 "Top 10 Noriega funny moments"
+   usastates_news_new.2.a:0 "A wrong righted." # Panama Response
+   usastates_news_new.2.b:0 "Panama's kingpin shows his true colours." # Florida Response
+   usastates_news_new.2.c:0 "Yet another Floridian humiliation." # Haiti Response
+   usastates_news_new.2.e:0 "A sign of more conflict in the Caribbean?" # Generic Response

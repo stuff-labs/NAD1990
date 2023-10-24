@@ -23,6 +23,11 @@ spriteTypes = {
 		name = "GFX_newsevent_florida_haiti_war"
 		texturefile = "gfx/event_pictures/news_events/newsevent_florida_haiti_war.dds"
 	}
+
+	spriteType = {
+		name = "GFX_newsevent_noriega_seizes_the_canal"
+		texturefile = "gfx/event_pictures/news_events/newsevent_noriega_seizes_the_canal.dds"
+	}
 	
 }#END
 
