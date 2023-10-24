@@ -4,11 +4,131 @@ characters = {
 		name = "Fred Trump"
 		portraits = {
 			civilian = {
-				large="gfx/leaders/NYC/Portrait_NYC_Fred_Trump.dds"
+				large = "gfx/leaders/NYC/Portrait_NYC_Fred_Trump.dds"
 			}
 		}
 		country_leader = {
 			ideology = corporatocracy    
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	NYC_Donald_Trump = {
+		name = "Donald Trump"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NYC/Portrait_NYC_Donald_Trump.dds"
+			}
+		}
+		#country_leader = {
+		#	ideology = corporatocracy    
+		#	traits = {  }
+		#	expire = "2020.1.1.1"
+		#	id = -1
+		#}
+	}
+
+	NYC_Jordan_Belfort = {
+		name = "Jordan Belfort"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NYC/Portrait_NYC_Jordan_Belfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = corporate_statism    
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	NYC_Michael_Bloomberg = {
+		name = "Michael Bloomberg"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NYC/Portrait_NYC_Michael_Bloomberg.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism    
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	NYC_Mike_Jackson = {
+		name = "Mike Jackson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NYC/Portrait_NYC_Mike_Jackson.dds"
+			}
+			army = {
+				large = "gfx/leaders/NYC/Portrait_NYC_Mike_Jackson.dds"
+				small = "GFX_idea_advisor_Placeholder"
+			}
+		}
+		field_marshal = {
+			traits = { trait_cautious commando trickster offensive_doctrine }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor={
+			slot = high_command
+			idea_token = idea_NYC_Mike_Jackson
+			ledger = air
+			allowed = {
+				original_tag = NYC
+			}
+			traits = {
+				air_airborne_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	NYC_Unorganised_Dissidents = {
+		name = "Unorganised Dissidents"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NYC/Portrait_NYC_Unorganised_Dissidents.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_sub    
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = liberalism_sub    
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = progressivism_ideology    
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = revolutionary_socialism    
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = marxism    
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
