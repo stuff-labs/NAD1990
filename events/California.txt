@@ -107,6 +107,7 @@ country_event = { #They break off
                 }
                 set_demilitarized_zone = no
             }
+            drop_cosmetic_tag = PAZIFIK
         }
     }
 }
