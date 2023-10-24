@@ -630,6 +630,8 @@
  PSK_national_unityism_party:0 "Liberal Party"
  PSK_national_unityism_party_long:0 "Liberal Party"
 
+ BER_communism_party:0 "Jorjorwell Loyalists"
+ BER_communism_party_long:0 "Jojorwell loyalists who want to outlaw smoking crack and drink driving to create 1984"
  BER_socialism_party:0 "Labour Party"
  BER_socialism_party_long:0 "Labour Party"
  BER_progressivism_party:0 "Labour Party"
@@ -644,7 +646,7 @@
  BER_liberalism_party_long:0 "Liberal Democrats"
  BER_fascism_party:0 "National Front"
  BER_fascism_party_long:0 "National Front"
- BER_longism_party:0 "National Front - M"
+ BER_longism_party:0 "National Front - Mdw   "
  BER_longism_party_long:0 "National Front - Moderates"
  
  SWA_national_unityism_party:0 "IWW"
