@@ -100,7 +100,7 @@ characters = {
 		name = NYC_New_York_City_Legislative_Council
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/NYC/Portrait_NYC_Unorganised_Dissidents.dds"
+				large = "gfx/leaders/NYC/Portrait_NYC_New_York_City_Legislative_Council.dds"
 			}
 		}
 	}
