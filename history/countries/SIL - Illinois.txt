@@ -21,27 +21,23 @@ set_convoys = 65
  	developed_economic_capacity
  }
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = national_unityism
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes 
+	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 45
-	communism = 5
-	fascism = 5
+	fascism = 0
+	despotic_autocracy = 0
+	national_unityism = 48
+	conservatism = 32
+	liberalism = 0
+	progressivism = 0
+	socialism = 20
 	communism = 0
-	national_unityism= 20
-	despotic_autocracy = 10
-	progressivism = 15
 }
-set_cosmetic_tag = SIL_croithir
-41 = {
-	add_dynamic_modifier = { modifier = SIL_mob_wars }
-}
-692 = {
-	add_dynamic_modifier = { modifier = SIL_mob_wars }
-}
+
+recruit_character = SIL_Dan_Quayle
 
  ############################### BBA STUFF #########################
 
