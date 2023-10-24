@@ -1,5 +1,20 @@
 ﻿l_english:
 
+ HAI_liberalism_party:0 "PL"
+ HAI_liberalism_party_long:0 "Pati Liberal"
+ HAI_communism_party:0 "PKA"
+ HAI_communism_party_long:0 "Pati Kominis Ayisyen"
+ HAI_national_unityism_party:0 "Independent"
+ HAI_national_unityism_party_long:0 "Independent"
+ HAI_despotic_autocracy_party:0 "FHL"
+ HAI_despotic_autocracy_party_long:0 "Free Haitian Forces"
+ HAI_socialism_party:0 "FA-FdC"
+ HAI_socialism_party_long:0 "Caribbean Anti Floridian Front"
+ HAI_longism_party:0 "Independent"
+ HAI_longism_party_long:0 "Independent"
+ HAI_fascism_party:0 "FAd'H"
+ HAI_fascism_party_long:0 "Forces Armées d'Haïti"
+
     HAI_spirit_of_the_haitian_revolution:0 "Spirit of The Haitian Revolution"
     HAI_spirit_of_the_haitian_revolution_desc:0 "Just like the slaves who fought for their liberty from France, we are fighting for our own liberty against Florida. We fought over a decades long war against Florida in the countryside. By force did Papa Doc and Baby Doc save Haiti from it's doom as a Floridan colony. And we continue to fight for the total liberation of North Haiti. Our Republic has never seen such a great cultural revival. We will maintain the Legacy of 1804 and keep Haiti forever free."
     HAI_corrupt_nation:0 "Deeply Corrupt Nation"

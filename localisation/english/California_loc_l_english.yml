@@ -1,4 +1,23 @@
 ﻿l_english:
+
+ SCA_liberalism_party:0 "Democratic Party"
+ SCA_liberalism_party_long:0 "Democratic Party"
+ SCA_communism_party:0 "CPC"
+ SCA_communism_party_long:0 "Communist Party of California"
+ SCA_fascism_party:0 "Posse Comitatus"
+ SCA_fascism_party_long:0 "Posse Comitatus"
+ SCA_fascism_party_nadivided_short:0 "The Walt Disney Company"
+ SCA_fascism_party_nadivided_long:0 "The Walt Disney Company"
+ SCA_national_unityism_party:0 "National Union Party"
+ SCA_national_unityism_party_long:0 "National Union Party"
+ SCA_progressivism_party:0 "PaFP"
+ SCA_progressivism_party_long:0 "Peace and Freedom Party"
+ SCA_socialism_party:0 "PaFP - Radical"
+ SCA_socialism_party_long:0 "Peace and Freedom Party - Radical Faction"
+ SCA_despotic_autocracy_party:0 "PNG"
+ SCA_despotic_autocracy_party_long:0 "Pacifican National Guard"
+
+
 SCA_weak_federation:0 "Fragile Federation"
 SCA_weak_federation_desc:0 "The Pacific States are far beyond united as of yet. Our Union with Arizona and Nevada was created during wartime with an unfair deal for both. And the the supposed imbalanced priority of the Pacific States being exclusively focused on California. We are a bastion of democracy on the West Coast and an unstable one. Tenisons are rampant as Oregon and Mexico plot for a war against our fair nation. The government is at a deadlock on the issue of further integration of Utah, Idaho, and Baja California when we can't yet begin to sow the issues in the first 2 integrated states."
 SCA_gang_violence:0 "Rampant Gang Violence"
