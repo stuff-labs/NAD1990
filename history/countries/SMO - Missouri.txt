@@ -2,6 +2,7 @@
 
 oob = "SMO_1936"
 
+recruit_character = SMO_john_ashcroft
 set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
@@ -18,6 +19,10 @@ set_technology = {
 
 set_convoys = 30
 
+add_ideas = {
+	SMO_tips_hotline
+	SMO_kansas_city_tensions
+}
 
 
 set_politics = {
@@ -27,8 +32,12 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 23
+	liberalism = 10
+	conservatism = 20
 	fascism = 5
-	communism = 3
-	national_unityism= 69
+	progressivism = 0
+	socialism = 10
+	communism = 0
+	national_unityism =  30
+	despotic_autocracy = 25
 }
