@@ -37,4 +37,10 @@ set_popularities = {
 }
 recruit_character = PAB_preston_manning
 
+set_autonomy = {
+	target = PNT
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.0
+}
+
 

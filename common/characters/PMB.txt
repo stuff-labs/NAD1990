@@ -3,7 +3,7 @@ characters={
 		name="Garry Filmon"
 		portraits={
 			civilian={
-				large="gfx/leaders/PON/portrait_PMB_garry_filmon.dds"
+				large="gfx/leaders/PMB/portrait_PMB_garry_filmon.dds"
 			}
 		}
 		country_leader={

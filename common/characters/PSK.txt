@@ -1,0 +1,16 @@
+characters={
+	PSK_roy_romanow={
+		name="Roy Romanow"
+		portraits={
+			civilian={
+				large="gfx/leaders/PSK/portrait_PSK_roy_romanow.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democracy   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

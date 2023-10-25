@@ -591,8 +591,12 @@
  PAB_liberalism_party:0 "Liberal Party"
  PAB_liberalism_party_long:0 "Liberal Party of Alberta"
  
- PSK_national_unityism_party:0 "Liberal Party"
- PSK_national_unityism_party_long:0 "Liberal Party"
+ PSK_progressivism_party:0 "NDPS"
+ PSK_progressivism_party_long:0 "New Democratic Party of Saskatchewan"
+ PSK_conservatism_party:0 "PCS"
+ PSK_conservatism_party_long:0 "Progressive Conservatives of Saskatchewan"
+ PSK_liberalism_party:0 "LPS"
+ PSK_liberalism_party_long:0 "Liberal Party of Saskatchewan"
 
  BER_communism_party:0 "Jorjorwell Loyalists"
  BER_communism_party_long:0 "Jojorwell loyalists who want to outlaw smoking crack and drink driving to create 1984"
@@ -1034,8 +1038,11 @@
  SND_despotic_autocracy_party:0 "NPL"
  SND_despotic_autocracy_party_long:0 "Nonpartisan League"
 
- SSD_national_unityism_party:0 "Democratic Party"
- SSD_national_unityism_party_long:0 "Democratic Party"
+ SND_despotic_autocracy_party:0 "NPL"
+ SND_despotic_autocracy_party_long:0 "Nonpartisan League"
+
+ PNT_conservatism_party:0 "Albertan Adminstration"
+ PNT_conservatism_party_long:0 "Albertan Adminstration"
 
  SMN_progressivism_party:0 "Green-Grassroots" #Chris Wright (activist)
  SMN_progressivism_party_long:0 "Green Party-Grassroots Party Coalition"
