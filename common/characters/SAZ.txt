@@ -1,0 +1,16 @@
+characters={
+	SAZ_john_mccain = {
+		name="John McCain"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAZ/portrait_SAZ_john_mccain.dds"
+			}
+		}
+		country_leader={
+			ideology= conservatism_sub   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

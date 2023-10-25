@@ -18,17 +18,22 @@ set_technology = {
 
 set_convoys = 10
 
+recruit_character = SAZ_john_mccain
 set_politics = {
-	ruling_party = national_unityism
-	last_election = "1936.1.1"
+	ruling_party = conservatism
+	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 13
-	fascism = 27
-	communism = 12
-	national_unityism= 48
+	liberalism = 35
+	conservatism = 40
+	fascism = 0
+	progressivism = 25
+	socialism = 0
+	communism = 0
+	national_unityism= 0
+	despotic_autocracy = 0
 }
 
 

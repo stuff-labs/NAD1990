@@ -968,8 +968,14 @@
  MAR_fascism_party:0 "KKK"
  MAR_fascism_party_long:0 "Klu Klux Klan"
  
- SAZ_national_unityism_party:0 "Democratic Party"
- SAZ_national_unityism_party_long:0 "Democratic Party"
+ SAZ_national_unityism_party:0 "Union Party"
+ SAZ_national_unityism_party_long:0 "Union Party" 
+ SAZ_conservatism_party:0 "ACP"
+ SAZ_conservatism_party_long:0 "Arizonian Conservative Party"
+ SAZ_progressivism_party:0 "Freak Power (A)"
+ SAZ_progressivism_party_long:0 "Freak Power Arizona"
+ SAZ_liberalism_party:0 "ALDP"
+ SAZ_liberalism_party_long:0 "Arizona Liberal Democratic Party"
  
  
  SNM_liberalism_party:0 "Democratic Party"
