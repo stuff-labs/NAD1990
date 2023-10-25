@@ -23,12 +23,19 @@ set_convoys = 30
 
 set_politics = {
 	ruling_party = national_unityism
-	last_election = "1936.1.1"
+	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	national_unityism= 70
-	progressivism = 30
+	fascism = 0
+	despotic_autocracy = 0
+	national_unityism = 44
+	conservatism = 20
+	liberalism = 36
+	progressivism = 0
+	socialism = 0
+	communism = 0
 }
 
+recruit_character = SIA_Terry_Branstad

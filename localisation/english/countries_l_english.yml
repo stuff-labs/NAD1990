@@ -368,16 +368,6 @@
  SKY_DEF:0 "the Commonwealth of Kentucky"
  SKY_ADJ:0 "Kentuckan"
  
- SIA_fascism:1 "Iowa"
- SIA_fascism_DEF:1 "Iowa"
- SIA_national_unityism:0 "Iowa"
- SIA_national_unityism_DEF:0 "Iowa"
- SIA_communism:1 "Socialist Republic of Iowa"
- SIA_communism_DEF:1 "The Socialist Republic of Iowa"
- SIA:0 "Republic of Iowa"
- SIA_DEF:0 "Republic of Iowa"
- SIA_ADJ:0 "Iowan"
- 
  SNE_fascism:1 "Nebraska"
  SNE_fascism_DEF:1 "Nebraska"
  SNE_national_unityism:0 "Nebraska"

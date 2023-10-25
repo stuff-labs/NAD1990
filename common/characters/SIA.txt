@@ -1,0 +1,17 @@
+characters = {
+
+	SIA_Terry_Branstad = {
+		name = SIA_Terry_Branstad
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/Portrait_SIA_Terry_Branstad.dds"
+			}
+		}
+		country_leader = {
+			ideology = dominant_party_democracy
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+}
