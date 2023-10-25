@@ -17,6 +17,10 @@ set_technology = {
 	basic_train = 1
 }
 
+add_ideas = {
+	PAB_fruits_of_social_credit
+}
+
 set_convoys = 0
 
 set_politics = {

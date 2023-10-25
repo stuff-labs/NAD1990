@@ -4,6 +4,10 @@
  SMO_DEF: "the Republic of Missouri"
  SMO_ADJ: "Missourian"
 
+ SMO_communism: "Missourian Democratic Republic"
+ SMO_communism_DEF: "the Missourian Democratic Republic"
+ SMO_communism_ADJ: "Missourian"
+
  SMO_fascism_party: "Unorganised Radicals"
  SMO_fascism_party_long: "Unorganised Radicals"
  SMO_despotic_autocracy_party: "MSSP"
