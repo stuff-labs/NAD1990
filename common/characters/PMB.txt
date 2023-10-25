@@ -1,0 +1,16 @@
+characters={
+	PMB_garry_filmon={
+		name="Garry Filmon"
+		portraits={
+			civilian={
+				large="gfx/leaders/PON/portrait_PMB_garry_filmon.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_sub   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

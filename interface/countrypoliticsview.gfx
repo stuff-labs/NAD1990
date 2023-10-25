@@ -20,6 +20,18 @@ spriteTypes = {
 		name = "GFX_ideology_hueyism"
 		texturefile = "gfx/interface/ideologies/hueyism.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_nazism"
+		texturefile = "gfx/interface/ideologies/fascism_nazism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_corporatocracy"
+		texturefile = "gfx/interface/ideologies/despotic_autocracy_corporatocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_credit"
+		texturefile = "gfx/interface/ideologies/conservatism_social_credit.dds"
+	}
 
 	#Not Modded#
 
