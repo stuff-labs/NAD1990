@@ -580,17 +580,6 @@
  SWA_repub_long:0 "Republican Party"
  SWA_repub:0 "Republican Party"
  
- PAB_conservatism_party:0 "Social Credit Party (A)"
- PAB_conservatism_party_long:0 "Social Credit Party of Alberta"
- PAB_national_unityism_party:0 "Social Credit Party - Hardliners"
- PAB_national_unityism_party_long:0 "Social Credit Party of Alberta - Hardliners"
- PAB_progressivism_party:0 "NDP"
- PAB_progressivism_party_long:0 "New Democratic Party of Alberta"
- PAB_communism_party:0 "Communist Party"
- PAB_communism_party_long:0 "Communist Party of Alberta"
- PAB_liberalism_party:0 "Liberal Party"
- PAB_liberalism_party_long:0 "Liberal Party of Alberta"
- 
  PSK_progressivism_party:0 "NDPS"
  PSK_progressivism_party_long:0 "New Democratic Party of Saskatchewan"
  PSK_conservatism_party:0 "PCS"
