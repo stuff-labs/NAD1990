@@ -83,6 +83,10 @@ country_event = { #They break off
             country_event = { 
 			    id = usastates_news_new.5
 		    }
+            country_event = { 
+			    id = california_events.4
+                days = 25
+		    }
             every_state = {
                 limit = {
                     is_core_of = SAZ
@@ -109,5 +113,69 @@ country_event = { #They break off
             }
             drop_cosmetic_tag = PAZIFIK
         }
+    }
+}
+
+country_event = { #Tvd davn
+    id = california_events.4
+    title = california_events.4.t
+    desc = california_events.4.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = { #nothing lol
+        name = california_events.4.a
+		ai_chance = {
+            factor = 10
+        }
+        country_event = { 
+			id = usastates_news_new.11
+		}
+    }
+
+    option = { #wholsum
+        name = california_events.4.b
+		ai_chance = {
+            factor = 10
+        }
+        country_event = { 
+			id = usastates_news_new.12
+		}
+        set_politics = {
+			ruling_party = socialism
+		}
+        add_popularity = {
+            ideology = socialism
+            popularity = 0.2
+        }
+    }
+
+    option = { #Trvd
+        name = california_events.4.c
+		ai_chance = {
+            factor = 10
+        }
+        set_politics = {
+			ruling_party = fascism
+		}
+        add_popularity = {
+            ideology = fascism
+            popularity = 0.35
+        }
+        add_popularity = {
+            ideology = despotic_autocracy 
+            popularity = 0.2
+        }
+        add_popularity = {
+            ideology = national_unityism 
+            popularity = 0.15
+        }
+        country_event = { 
+			id = usastates_news_new.13
+		}
     }
 }

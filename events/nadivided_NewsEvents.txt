@@ -224,3 +224,48 @@ news_event = { # Chief Executive Gotti
 		name = usastates_news_new.10.a
 	}
 }
+
+news_event = { # cali election - no change
+	id = usastates_news_new.11
+	title = usastates_news_new.11.t
+	desc = usastates_news_new.11.d
+	picture = GFX_newsevent_gotti_coup
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.11.a
+	}
+}
+
+news_event = { # cali election - wholsum
+	id = usastates_news_new.12
+	title = usastates_news_new.12.t
+	desc = usastates_news_new.12.d
+	picture = GFX_newsevent_gotti_coup
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.12.a
+	}
+}
+
+news_event = { # cali election - wholsum
+	id = usastates_news_new.13
+	title = usastates_news_new.13.t
+	desc = usastates_news_new.13.d
+	picture = GFX_newsevent_gotti_coup
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.13.a
+	}
+}
