@@ -1047,8 +1047,11 @@
  SND_despotic_autocracy_party:0 "NPL"
  SND_despotic_autocracy_party_long:0 "Nonpartisan League"
 
- SSD_national_unityism_party:0 "Democratic Party"
- SSD_national_unityism_party_long:0 "Democratic Party"
+ SND_despotic_autocracy_party:0 "NPL"
+ SND_despotic_autocracy_party_long:0 "Nonpartisan League"
+
+ PNT_conservatism_party:0 "Albertan Adminstration"
+ PNT_conservatism_party_long:0 "Albertan Adminstration"
 
  SMN_progressivism_party:0 "Green-Grassroots" #Chris Wright (activist)
  SMN_progressivism_party_long:0 "Green Party-Grassroots Party Coalition"

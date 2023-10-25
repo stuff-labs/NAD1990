@@ -1,0 +1,16 @@
+characters={
+	PNT_alberta_administration = {
+		name="Administration of The Northwest Territories"
+		portraits={
+			civilian={
+				large="gfx/leaders/PNT/portrait_PNT_alberta_administration.dds"
+			}
+		}
+		country_leader={
+			ideology= social_credit   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

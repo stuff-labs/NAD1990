@@ -36,6 +36,7 @@ if = {
 
 set_convoys = 30
 
+recruit_character = PMB_garry_filmon
 set_politics = {
 	ruling_party = conservatism
 	last_election = "1990.1.1"

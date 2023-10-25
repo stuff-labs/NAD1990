@@ -20,6 +20,7 @@ set_technology = {
 
 set_convoys = 0
 
+recruit_character = PSK_roy_romanow
 set_politics = {
 	ruling_party = progressivism
 	last_election = "1988.1.1"
