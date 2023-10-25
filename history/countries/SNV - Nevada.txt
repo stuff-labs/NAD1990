@@ -5,6 +5,7 @@ oob = "SNV_1936"
 starting_train_buffer = 2
 recruit_character = SNV_hunter_s_thompson
 recruit_character = SNV_bob_miller
+recruit_character = SNV_vegas_oligarchs
 set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1

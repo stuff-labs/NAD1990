@@ -28,4 +28,19 @@ characters = {
 			id=-1
 		}
 	}
+
+	SNV_vegas_oligarchs = {
+		name = SNV_vegas_oligarchs
+		portraits={
+			civilian={
+				large="gfx/leaders/SNV/portrait_SNV_vegas_oligarchs.dds"
+			}
+		}
+		country_leader={
+			ideology = oligarchism   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 }
