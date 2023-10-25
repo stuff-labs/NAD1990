@@ -973,6 +973,13 @@
  SAZ_progressivism_party_long:0 "Freak Power Arizona"
  SAZ_liberalism_party:0 "ALDP"
  SAZ_liberalism_party_long:0 "Arizona Liberal Democratic Party"
+
+ PMB_liberalism_party:0 "LPM"
+ PMB_liberalism_party_long:0 "Liberal Party of Manitoba"
+ PMB_progressivism_party:0 "NDPM"
+ PMB_progressivism_party_long:0 "New Democratic Party of Manitoba"
+ PMB_conservatism_party:0 "CDPM"
+ PMB_conservatism_party_long:0 "Conservative Democratic Party of Manitoba"
  
  
  SNM_liberalism_party:0 "Democratic Party"
