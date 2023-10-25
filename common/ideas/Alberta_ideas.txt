@@ -1,0 +1,16 @@
+ideas = {
+    country = {
+        PAB_fruits_of_social_credit = {
+            picture = STX_GRET_TEX_ARM
+            allowed = {
+                tag = PAB
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+            }
+        }
+    }#END
+}
