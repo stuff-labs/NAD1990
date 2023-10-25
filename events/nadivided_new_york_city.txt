@@ -127,8 +127,10 @@ country_event = { #Gotti Coup
 
 	trigger = {
 		tag = NYC
-		date > 1992.5.1
+		date > 1992.1.12
 	}
+
+	fire_only_once = yes
 
     option = { # Yes
         name = NYC_events.3.a
