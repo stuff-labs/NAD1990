@@ -1,0 +1,1325 @@
+#Welcome to texas, where wokeist ideology (like not sending mexican kids to the oil plants for 17 hours a day) goes to die
+focus_tree = {
+	id = texas_focus
+	
+	country = {
+		factor = 0
+	
+		modifier = {		
+			add = 10
+			tag = STX
+		}
+	}
+	continuous_focus_position = { x = 1 y = 3300 }
+
+	focus = {
+		id = STX_legacy_of_the_second_red_river_war
+		icon = GFX_
+		#prerequisite = { focus =  }
+		x = 0
+		y = 0
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.1
+			}
+		}
+	}
+	focus = {
+		id = STX_memories_of_the_civil_war
+		icon = GFX_
+		prerequisite = { focus = STX_legacy_of_the_second_red_river_war }
+		x = -2
+		y = 1
+		relative_position_id = STX_legacy_of_the_second_red_river_war
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.2
+			}
+		}
+	}
+	focus = {
+		id = STX_the_republics_mistakes
+		icon = GFX_
+		prerequisite = { focus = STX_legacy_of_the_second_red_river_war }
+		x = 0
+		y = 1
+		relative_position_id = STX_legacy_of_the_second_red_river_war
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.3
+			}
+		}
+	}
+	focus = {
+		id = STX_the_past_weaknesses
+		icon = GFX_
+		prerequisite = { focus = STX_legacy_of_the_second_red_river_war }
+		x = 2
+		y = 1
+		relative_position_id = STX_legacy_of_the_second_red_river_war
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.4
+			}
+		}
+	}
+	focus = {
+		id = STX_a_lone_star
+		icon = GFX_
+		prerequisite = { focus = STX_the_republics_mistakes }
+		prerequisite = { focus = STX_memories_of_the_civil_war }
+		prerequisite = { focus = STX_the_past_weaknesses }
+		x = 0
+		y = 2
+		relative_position_id = STX_the_republics_mistakes
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.5
+			}
+		}
+	}
+	#ECONOMY
+	focus = {
+		id = STX_the_booming_oil_industry
+		icon = GFX_
+		prerequisite = { focus = STX_a_lone_star }
+		x = -6
+		y = 2
+		relative_position_id = STX_a_lone_star
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = {
+				STX_lone_star_oil
+			}
+		}
+	}
+	focus = {
+		id = STX_fund_r_and_d
+		icon = GFX_
+		prerequisite = { focus = STX_the_booming_oil_industry }
+		x = -2
+		y = 1
+		relative_position_id = STX_the_booming_oil_industry
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = STX_expand_the_reserves
+		icon = GFX_
+		prerequisite = { focus = STX_the_booming_oil_industry }
+		x = 0
+		y = 1
+		relative_position_id = STX_the_booming_oil_industry
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_resource = {
+    			type = oil
+    			amount = 50
+    			state = 79
+			}
+		}
+	}
+	focus = {
+		id = STX_appeal_to_the_west
+		icon = GFX_
+		prerequisite = { focus = STX_the_booming_oil_industry }
+		x = 2
+		y = 1
+		relative_position_id = STX_the_booming_oil_industry
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = {
+				STX_trade_with_the_west
+			}
+		}
+	}
+	focus = {
+		id = STX_give_executives_cuts
+		icon = GFX_
+		prerequisite = { focus = STX_fund_r_and_d }
+		prerequisite = { focus = STX_expand_the_reserves }
+		x = 1
+		y = 1
+		relative_position_id = STX_fund_r_and_d
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = STX_lone_star_oil
+				add_idea = STX_lone_star_oil_buffed
+			}
+		}
+	}
+	focus = {
+		id = STX_enter_businessmen_into_congress
+		icon = GFX_
+		prerequisite = { focus = STX_give_executives_cuts }
+		x = 0
+		y = 1
+		relative_position_id = STX_give_executives_cuts
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.6
+			}
+		}
+	}
+	focus = {
+		id = STX_efficiency_before_wellbeing
+		icon = GFX_
+		prerequisite = { focus = STX_appeal_to_the_west }
+		prerequisite = { focus = STX_expand_the_reserves }
+		x = -1
+		y = 1
+		relative_position_id = STX_appeal_to_the_west
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas = {
+				STX_regulations_relaxed
+			}
+		}
+	}
+	focus = {
+		id = STX_protect_new_mexican_oil
+		icon = GFX_
+		prerequisite = { focus = STX_efficiency_before_wellbeing }
+		x = 0
+		y = 1
+		relative_position_id = STX_efficiency_before_wellbeing
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			SNM = {
+				give_resource_rights = {
+					receiver = STX
+					state = 147
+					resources = { oil }
+				}
+				give_resource_rights = {
+					receiver = STX
+					state = 151
+					resources = { oil }
+				}
+			}
+		}
+	}
+	focus = {
+		id = STX_the_oil_flows
+		icon = GFX_
+		prerequisite = { focus = STX_protect_new_mexican_oil }
+		prerequisite = { focus = STX_enter_businessmen_into_congress }
+		x = -1
+		y = 1
+		relative_position_id = STX_protect_new_mexican_oil
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			every_owned_state = {
+				limit = {
+					AND = {
+						oil < 10
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+    				type = infrastructure
+   		 			level = 2
+    				instant_build = yes
+				}
+			}
+		}
+	}
+	#ARMY
+	focus = {
+		id = STX_the_great_texan_army
+		icon = GFX_
+		prerequisite = { focus = STX_a_lone_star }
+		x = 0
+		y = 2
+		relative_position_id = STX_a_lone_star
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			army_experience = 25
+		}
+	}
+	focus = {
+		id = STX_youth_organizations
+		icon = GFX_
+		prerequisite = { focus = STX_the_great_texan_army }
+		x = -2
+		y = 1
+		relative_position_id = STX_the_great_texan_army
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_ideas {
+				STX_youth_organizations
+			}
+		}
+	}
+	focus = {
+		id = STX_shift_the_general_staff
+		icon = GFX_
+		prerequisite = { focus = STX_the_great_texan_army }
+		x = 0
+		y = 1
+		relative_position_id = STX_the_great_texan_army
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+
+		completion_reward = {
+			swap_ideas = {
+    			remove_idea = STX_the_great_texan_army
+    			add_idea = STX_the_great_texan_army_first_buff
+			}
+		}
+	}
+	focus = {
+		id = STX_expand_the_forts
+		icon = GFX_
+		prerequisite = { focus = STX_the_great_texan_army }
+		x = 2
+		y = 1
+		relative_position_id = STX_the_great_texan_army
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_increase_military_spending
+		icon = GFX_
+		prerequisite = { focus = STX_youth_organizations }
+		prerequisite = { focus = STX_shift_the_general_staff }
+		x = 1
+		y = 1
+		relative_position_id = STX_youth_organizations
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+    			remove_idea = STX_the_great_texan_army_first_buff
+    			add_idea = STX_the_great_texan_army_second_buff
+			}
+		}
+	}
+	focus = {
+		id = STX_expand_the_factories
+		icon = GFX_
+		prerequisite = { focus = STX_expand_the_forts }
+		prerequisite = { focus = STX_shift_the_general_staff }
+		x = -1
+		y = 1
+		relative_position_id = STX_expand_the_forts
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			165 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+    				type = industrial_complex
+   		 			level = 2
+    				instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = STX_loosen_gun_control
+		icon = GFX_
+		prerequisite = { focus = STX_expand_the_factories }
+		prerequisite = { focus = STX_increase_military_spending }
+		x = -1
+		y = 1
+		relative_position_id = STX_expand_the_factories
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1300
+				producer = STX
+			}
+		}
+	}
+	focus = {
+		id = STX_come_and_take_it
+		icon = GFX_
+		prerequisite = { focus = STX_loosen_gun_control }
+		x = 0
+		y = 1
+		relative_position_id = STX_loosen_gun_control
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			swap_ideas = {
+    			remove_idea = STX_the_great_texan_army_second_buff
+    			add_idea = STX_the_great_texan_army_third_buff
+			}
+		}
+	}
+	#YRVDISM
+	focus = {
+		id = STX_the_duty_of_every_texan
+		icon = GFX_
+		prerequisite = { focus = STX_a_lone_star }
+		x = 6
+		y = 2
+		relative_position_id = STX_a_lone_star
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_insert_propaganda_into_churches
+		icon = GFX_
+		prerequisite = { focus = STX_the_duty_of_every_texan }
+		x = -2
+		y = 1
+		relative_position_id = STX_the_duty_of_every_texan
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_bumping_up_the_security_budget
+		icon = GFX_
+		prerequisite = { focus = STX_the_duty_of_every_texan }
+		x = 0
+		y = 1
+		relative_position_id = STX_the_duty_of_every_texan
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_the_flag_flies_everywhere
+		icon = GFX_
+		prerequisite = { focus = STX_the_duty_of_every_texan }
+		x = 2
+		y = 1
+		relative_position_id = STX_the_duty_of_every_texan
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_the_true_citizen
+		icon = GFX_
+		prerequisite = { focus = STX_bumping_up_the_security_budget }
+		prerequisite = { focus = STX_insert_propaganda_into_churches }
+		x = -1
+		y = 1
+		relative_position_id = STX_bumping_up_the_security_budget
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_the_patriot_act
+		icon = GFX_
+		prerequisite = { focus = STX_the_flag_flies_everywhere }
+		prerequisite = { focus = STX_bumping_up_the_security_budget }
+		x = -1
+		y = 1
+		relative_position_id = STX_the_flag_flies_everywhere
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_we_wont_go_gently_into_the_night
+		icon = GFX_
+		prerequisite = { focus = STX_the_true_citizen }
+		prerequisite = { focus = STX_the_patriot_act }
+		x = -1
+		y = 1
+		relative_position_id = STX_the_patriot_act
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_god_texas_and_paul
+		icon = GFX_
+		prerequisite = { focus = STX_we_wont_go_gently_into_the_night }
+		x = 0
+		y = 1
+		relative_position_id = STX_we_wont_go_gently_into_the_night
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_the_lost_lands
+		icon = GFX_
+		prerequisite = { focus = STX_the_oil_flows }
+		prerequisite = { focus = STX_come_and_take_it }
+		prerequisite = { focus = STX_god_texas_and_paul }
+		x = 0
+		y = 2
+		relative_position_id = STX_come_and_take_it
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_mobilize_the_economy
+		icon = GFX_
+		prerequisite = { focus = STX_the_lost_lands }
+		x = -2
+		y = 1
+		relative_position_id = STX_the_lost_lands
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_ready_the_troops
+		icon = GFX_
+		prerequisite = { focus = STX_the_lost_lands }
+		x = 0
+		y = 1
+		relative_position_id = STX_the_lost_lands
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_push_congress
+		icon = GFX_
+		prerequisite = { focus = STX_the_lost_lands }
+		x = 2
+		y = 1
+		relative_position_id = STX_the_lost_lands
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_the_oklahoma_incident
+		icon = GFX_
+		prerequisite = { focus = STX_push_congress }
+		prerequisite = { focus = STX_ready_the_troops }
+		prerequisite = { focus = STX_mobilize_the_economy }
+		x = -2
+		y = 1
+		relative_position_id = STX_push_congress
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_the_third_red_river_war
+		icon = GFX_
+		prerequisite = { focus = STX_the_oklahoma_incident }
+		x = 0
+		y = 2
+		relative_position_id = STX_the_oklahoma_incident
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+}

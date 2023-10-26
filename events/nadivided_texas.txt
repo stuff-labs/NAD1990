@@ -1,0 +1,124 @@
+#ILOVERONPAUL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
+add_namespace = texas_events
+country_event = {  #Legacy Of
+    id = texas_events.1
+    title = texas_events.1.t
+    desc = texas_events.1.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.1.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {  #Civil War
+    id = texas_events.2
+    title = texas_events.2.t
+    desc = texas_events.2.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.2.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {  #Republics Mistakes
+    id = texas_events.3
+    title = texas_events.3.t
+    desc = texas_events.3.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.3.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {  #Past Weakness
+    id = texas_events.4
+    title = texas_events.4.t
+    desc = texas_events.4.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.4.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {  #A Lone Star
+    id = texas_events.5
+    title = texas_events.5.t
+    desc = texas_events.5.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.4.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {  #Corpos Enter Congress
+    id = texas_events.6
+    title = texas_events.6.t
+    desc = texas_events.6.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.6.a
+		ai_chance = {
+            factor = 10
+        }
+        set_party_name = {
+		    ideology = fascism
+		    name = STX_corporate_party_name
+		    long_name = STX_corporate_party_name_long
+		}
+        add_popularity = {
+            ideology = fascism
+            popularity = 0.03
+        }
+    }
+}

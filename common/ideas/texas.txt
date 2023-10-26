@@ -21,6 +21,82 @@ ideas = {
                 conscription = 0.05
             }
         }
+        STX_the_great_texan_army_first_buff = {
+            picture = STX_GRET_TEX_ARM
+            name = STX_the_great_texan_army
+            desc = STX_the_great_texan_army_desc
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = -0.15
+                stability_factor = -0.1
+                consumer_goods_factor = 0.1
+                war_support_factor = 0.15
+                training_time_factor = 0.10
+                enemy_partisan_effect = -0.15
+                army_core_attack_factor = 0.10
+                army_core_defence_factor = 0.10
+                conscription = 0.05
+                planning_speed = 0.10
+            }
+        }
+        STX_the_great_texan_army_second_buff = {
+            picture = STX_GRET_TEX_ARM
+            name = STX_the_great_texan_army
+            desc = STX_the_great_texan_army_desc
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = -0.15
+                stability_factor = -0.1
+                consumer_goods_factor = 0.1
+                war_support_factor = 0.15
+                training_time_factor = 0.10
+                enemy_partisan_effect = -0.15
+                army_core_attack_factor = 0.10
+                army_core_defence_factor = 0.10
+                conscription = 0.05
+                planning_speed = 0.10
+                production_speed_arms_factory_factor = 0.20
+                offence = 0.05
+            }
+        }
+        STX_the_great_texan_army_third_buff = {
+            picture = STX_GRET_TEX_ARM
+            name = STX_the_great_texan_army
+            desc = STX_the_great_texan_army_desc
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = -0.15
+                stability_factor = -0.1
+                consumer_goods_factor = 0.1
+                war_support_factor = 0.15
+                training_time_factor = 0.10
+                enemy_partisan_effect = -0.15
+                army_core_attack_factor = 0.15
+                army_core_defence_factor = 0.15
+                conscription = 0.05
+                planning_speed = 0.10
+                production_speed_arms_factory_factor = 0.20
+                offence = 0.05
+            }
+        }
         STX_the_shattered_lone_star = {
             picture = STX_broken_star
             allowed = {
@@ -55,6 +131,84 @@ ideas = {
                 consumer_goods_factor = 0.05
                 production_speed_industrial_complex_factor = -0.10
                 production_speed_infrastructure_factor = -0.15
+            }
+        }
+        STX_youth_organizations = {
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                conscription = 0.04
+            }
+        }
+        STX_lone_star_oil = {
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                fuel_gain_factor = 0.15
+            }
+        }
+        STX_lone_star_oil_buffed = {
+            name = STX_lone_star_oil
+            desc = STX_lone_star_oil_desc
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                fuel_gain_factor = 0.15
+                consumer_goods_factor = 0.05
+            }
+        }
+        STX_regulations_relaxed = {
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = 0.05
+                industrial_capacity_factory = 0.05
+            }
+        }
+        STX_trade_with_the_west = {
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            targeted_modifier = {
+                tag = BER	
+                trade_cost_for_target_factor = -0.2
+            }
+            targeted_modifier = {
+                tag = MEX	
+                trade_cost_for_target_factor = -0.2
+            }
+            targeted_modifier = {
+                tag = PON	
+                trade_cost_for_target_factor = -0.2
             }
         }
     }#END
