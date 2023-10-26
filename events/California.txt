@@ -135,6 +135,8 @@ country_event = { #Tvd davn
         country_event = { 
 			id = usastates_news_new.11
 		}
+
+        set_global_flag = california_went_nowhere
     }
 
     option = { #wholsum
@@ -152,6 +154,8 @@ country_event = { #Tvd davn
             ideology = socialism
             popularity = 0.2
         }
+
+        set_global_flag = california_went_socialist
     }
 
     option = { #Trvd
@@ -177,5 +181,7 @@ country_event = { #Tvd davn
         country_event = { 
 			id = usastates_news_new.13
 		}
+
+        set_global_flag = california_went_trvd
     }
 }

@@ -3,7 +3,7 @@ characters={
 		name= SMO_john_ashcroft
 		portraits={
 			civilian={
-				large="gfx/leaders/placeholder.dds"
+				large="gfx/leaders/SMO/portrait_SMO_john_ashcroft.dds"
 			}
 		}
 		country_leader={
@@ -17,7 +17,7 @@ characters={
 		name= SMO_communist_underground
 		portraits={
 			civilian={
-				large="gfx/leaders/placeholder.dds"
+				large="gfx/leaders/SMO/portrait_SMO_john_ashcroft.dds"
 			}
 		}
 		country_leader={
