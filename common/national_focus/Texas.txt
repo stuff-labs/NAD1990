@@ -194,6 +194,7 @@ focus_tree = {
 			
 		}
 	}
+	#ECONOMY
 	focus = {
 		id = STX_the_booming_oil_industry
 		icon = GFX_
@@ -503,6 +504,7 @@ focus_tree = {
 			
 		}
 	}
+	#ARMY
 	focus = {
 		id = STX_the_great_texan_army
 		icon = GFX_
@@ -534,7 +536,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			army_experience = 25
 		}
 	}
 	focus = {
@@ -568,7 +570,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_ideas {
+				STX_youth_organizations
+			}
 		}
 	}
 	focus = {
@@ -598,11 +602,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
 		}
 
 		completion_reward = {
-			
+			swap_ideas = {
+    			remove_idea = STX_the_great_texan_army
+    			add_idea = STX_the_great_texan_army_first_buff
+			}
 		}
 	}
 	focus = {
@@ -671,7 +677,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			swap_ideas = {
+    			remove_idea = STX_the_great_texan_army_first_buff
+    			add_idea = STX_the_great_texan_army_second_buff
+			}
 		}
 	}
 	focus = {
@@ -706,7 +715,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			165 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+    				type = industrial_complex
+   		 			level = 2
+    				instant_build = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -741,7 +757,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1300
+				producer = STX
+			}
 		}
 	}
 	focus = {
@@ -775,9 +795,13 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			swap_ideas = {
+    			remove_idea = STX_the_great_texan_army_second_buff
+    			add_idea = STX_the_great_texan_army_third_buff
+			}
 		}
 	}
+	#YRVDISM
 	focus = {
 		id = STX_the_duty_of_every_texan
 		icon = GFX_
