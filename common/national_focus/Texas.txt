@@ -1,3 +1,4 @@
+#Welcome to texas, where wokeist ideology (like not sending mexican kids to the oil plants for 17 hours a day) goes to die
 focus_tree = {
 	id = texas_focus
 	
@@ -42,7 +43,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.1
+			}
 		}
 	}
 	focus = {
@@ -76,7 +79,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.2
+			}
 		}
 	}
 	focus = {
@@ -110,7 +115,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.3
+			}
 		}
 	}
 	focus = {
@@ -144,7 +151,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.4
+			}
 		}
 	}
 	focus = {
@@ -164,7 +173,9 @@ focus_tree = {
 		}
 
 		available = {
-
+			country_event = {
+				id = texas_events.5
+			}
 		}
 		
 		bypass = {

@@ -19,10 +19,13 @@
  STX_longism_party:0 "Christian Party"
  STX_longism_party_long:0 "Christian Party of Texas"
 
-    STX_the_shattered_lone_star:0 "The Shattered Lone Star"
-    STX_the_shattered_lone_star_desc:0 "Protest, Riots, and Political Unrest has defined the Texan political sphere for decades now. Our people are growing tired of our nationalist policies, our scathing rhetoric, and the little change that happens in Texas. Congress is at a deadlock with disagreements and massive incidents plaguing it. The government would be at it's knees if any mass protest or great disaster occurs."
-    STX_legacy_of_the_second_red_river_war:0 "Legacy of The Second Red River War"
-    STX_legacy_of_the_second_red_river_war_desc:0 "Texas was once poised to be a Superpower on the North American Continent, that opportunity was crushed with the loss of Eastern Texas and the Texan Panhandle. The Second Red River War was the greatest tragedy in Texan history. It is this loss that had later on caused Texas to fall into a Civil War in 1938. Then after the Civil War ended, we had to lick our wounds while the Louisianans and the Oklahomians sat back and enjoyed the riches of our rightful land. Now in recent times, President Paul has reopened the wounds of the Second Red River War, vowing to rescind the Houston Treaty and bring Texas back to it's rightful glory as a Superpower in North America."
-    STX_the_great_texan_army:0 "The Great Texan Army"
-    STX_the_great_texan_army_desc:0 "Ron Paul's administration has massively expanded the military and it's budget in preperation for a conflict with Lousiana and Oklahoma. Nationalist Fervor is at an all time high in the Republican Party. However this massive increase in military funding has curtailed many other industrial sectors and has reduced our funds for disaster prevention or electricity. With the economy on a less than ideal condition, we can only hope that this military bulidup will be worth it."
+ STX_corporate_party_name:0 "Republican Party - CIG's"
+ STX_corporate_party_name_long:0 "Republican Party - Corporate Interest Groups"
+ ####Focuses
+ STX_the_shattered_lone_star:0 "The Shattered Lone Star"
+ STX_the_shattered_lone_star_desc:0 "Protest, Riots, and Political Unrest has defined the Texan political sphere for decades now. Our people are growing tired of our nationalist policies, our scathing rhetoric, and the little change that happens in Texas. Congress is at a deadlock with disagreements and massive incidents plaguing it. The government would be at it's knees if any mass protest or great disaster occurs."
+ STX_legacy_of_the_second_red_river_war:0 "Legacy of The Second Red River War"
+ STX_legacy_of_the_second_red_river_war_desc:0 "Texas was once poised to be a Superpower on the North American Continent, that opportunity was crushed with the loss of Eastern Texas and the Texan Panhandle. The Second Red River War was the greatest tragedy in Texan history. It is this loss that had later on caused Texas to fall into a Civil War in 1938. Then after the Civil War ended, we had to lick our wounds while the Louisianans and the Oklahomians sat back and enjoyed the riches of our rightful land. Now in recent times, President Paul has reopened the wounds of the Second Red River War, vowing to rescind the Houston Treaty and bring Texas back to it's rightful glory as a Superpower in North America."
+ STX_the_great_texan_army:0 "The Great Texan Army"
+ STX_the_great_texan_army_desc:0 "Ron Paul's administration has massively expanded the military and it's budget in preperation for a conflict with Lousiana and Oklahoma. Nationalist Fervor is at an all time high in the Republican Party. However this massive increase in military funding has curtailed many other industrial sectors and has reduced our funds for disaster prevention or electricity. With the economy on a less than ideal condition, we can only hope that this military bulidup will be worth it."
 
