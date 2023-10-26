@@ -1,0 +1,15 @@
+#ALL TEXAN TREES WILL BE STORED HERE, PLEASE CATAGORISE EACH TREE SECTION AND SET OF FOCUSES - STUFF
+#CONTENTS - 
+#1: INTRO TREE = "texas_intro_tree"
+
+focus_tree = {
+    id = texas_intro_tree
+	continuous_focus_position = { x = 7887 y = 2}
+	country = {
+		factor = 0
+        modifier = {
+			add = 1000
+			tag = STX
+		}
+	}
+}
