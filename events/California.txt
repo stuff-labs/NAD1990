@@ -1,4 +1,5 @@
 add_namespace = california_events
+add_namespace = california_events_trvd_path
 country_event = { 
     id = california_events.1
     title = california_events.1.t
@@ -83,6 +84,10 @@ country_event = { #They break off
             country_event = { 
 			    id = usastates_news_new.5
 		    }
+            country_event = { 
+			    id = california_events.4
+                days = 25
+		    }
             every_state = {
                 limit = {
                     is_core_of = SAZ
@@ -108,6 +113,181 @@ country_event = { #They break off
                 set_demilitarized_zone = no
             }
             drop_cosmetic_tag = PAZIFIK
+        }
+    }
+}
+
+country_event = { #Tvd davn
+    id = california_events.4
+    title = california_events.4.t
+    desc = california_events.4.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = { #nothing lol
+        name = california_events.4.a
+		ai_chance = {
+            factor = 10
+        }
+        country_event = { 
+			id = usastates_news_new.11
+		}
+
+        set_global_flag = california_went_nowhere
+    }
+
+    option = { #wholsum
+        name = california_events.4.b
+		ai_chance = {
+            factor = 10
+        }
+        country_event = { 
+			id = usastates_news_new.12
+		}
+        set_politics = {
+			ruling_party = socialism
+		}
+        add_popularity = {
+            ideology = socialism
+            popularity = 0.2
+        }
+
+        set_global_flag = california_went_socialist
+    }
+
+    option = { #Trvd
+        name = california_events.4.c
+		ai_chance = {
+            factor = 10
+        }
+        set_politics = {
+			ruling_party = fascism
+		}
+        add_popularity = {
+            ideology = fascism
+            popularity = 0.35
+        }
+        add_popularity = {
+            ideology = despotic_autocracy 
+            popularity = 0.2
+        }
+        add_popularity = {
+            ideology = national_unityism 
+            popularity = 0.15
+        }
+        country_event = { 
+			id = usastates_news_new.13
+		}
+
+        set_global_flag = california_went_trvd
+    }
+}
+
+country_event = { #WAR FOR NEVADA
+    id = california_events.5
+    title = california_events.5.t
+    desc = california_events.5.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+		tag = SCA
+		date > 1992.10.1
+	}
+
+	fire_only_once = yes
+
+
+    option = { 
+        name = california_events.5.a
+		ai_chance = {
+            factor = 10
+        }
+        country_event = { 
+			id = usastates_news_new.14
+		}
+        declare_war_on = {
+            target = SNV
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = SAZ
+            type = annex_everything
+        }
+
+    }
+}
+
+
+
+#TRVD PATH EVENTS
+
+country_event = { #Alliance With Montana
+    id = california_events_trvd_path.5
+    title = california_events_trvd_path.5.t
+    desc = california_events_trvd_path.5.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+		tag = SCA
+		has_global_flag = california_went_trvd
+        AND = {
+            NOT = {
+                AND = {
+                    country_exists = SAZ
+                    country_exists = SNV
+                }
+            }
+        }
+	}
+
+	fire_only_once = yes
+
+
+    option = { 
+        name = california_events_trvd_path.5.a
+		ai_chance = {
+            factor = 10
+        }
+        set_global_flag = CALIFORNIA_TRVD_ALONE
+    }
+
+    option = { #The alliance with montana path
+        name = california_events_trvd_path.5.b
+		ai_chance = {
+            factor = 0
+        }
+        set_global_flag = CALIFORNIA_MONTANA_ALLIES
+    }
+}
+
+country_event = { #War With Baja
+    id = california_events_trvd_path.6
+    title = california_events_trvd_path.6.t
+    desc = california_events_trvd_path.6.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+		tag = SCA
+		has_global_flag = california_went_trvd
+        date > 1992.12.5
+        
+	}
+
+	fire_only_once = yes
+
+
+    option = { 
+        name = california_events_trvd_path.5.a
+		ai_chance = {
+            factor = 10
+        }
+        declare_war_on = {
+            target = BAJ
+            type = annex_everything
         }
     }
 }

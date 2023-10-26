@@ -390,15 +390,7 @@
  SKS_DEF:0 "the Republic of Kansas"
  SKS_ADJ:0 "Kansan"
  
- SMO_fascism:1 "Missouri"
- SMO_fascism_DEF:1 "Missouri"
- SMO_national_unityism:0 "Missouri"
- SMO_national_unityism_DEF:0 "Missouri"
- SMO_communism:1 "Republic of Missouri"
- SMO_communism_DEF:1 "The Republic of Missouri"
- SMO:0 "Republic of Missouri"
- SMO_DEF:0 "the Republic of Missouri"
- SMO_ADJ:0 "Missourian"
+
  
  ####################COLORADO TAGS#################
  SCO_fascism:1 "Centennial Colorado"

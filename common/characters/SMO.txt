@@ -1,0 +1,31 @@
+characters={
+	SMO_john_ashcroft = {
+		name= SMO_john_ashcroft
+		portraits={
+			civilian={
+				large="gfx/leaders/SMO/portrait_SMO_john_ashcroft.dds"
+			}
+		}
+		country_leader={
+			ideology = dominant_party_democracy   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	SMO_john_ashcroft_commie = { #stasi communism with american charachteristics
+		name= SMO_communist_underground
+		portraits={
+			civilian={
+				large="gfx/leaders/SMO/portrait_SMO_john_ashcroft.dds"
+			}
+		}
+		country_leader={
+			ideology = leninism   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+			desc = "SMO_communist_underground_desc"
+		}
+	}
+}

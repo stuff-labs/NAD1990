@@ -1,0 +1,33 @@
+ideas = {
+    country = {
+        SMO_tips_hotline = { # https://www.youtube.com/watch?v=7xbJ-Dg7FR4
+            picture = STX_GRET_TEX_ARM
+            allowed = {
+                tag = SMO
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                stability_factor = 0.15
+                encryption_factor = 0.20
+                foreign_subversive_activites = -0.25
+            }
+        }
+        SMO_kansas_city_tensions = {
+            picture = STX_GRET_TEX_ARM
+            allowed = {
+                tag = SMO
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                custom_effect_tooltip = SMO_kansas_city_tensions_tooltip
+            }
+            custom_effect_tooltip = SMO_kansas_city_tensions_tooltip
+        }
+    }#END
+}

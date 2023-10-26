@@ -1,0 +1,28 @@
+ideas = {
+    country = {
+        PAB_fruits_of_social_credit = { #I LOVE SOCIAL CREDIT
+            picture = STX_GRET_TEX_ARM
+            allowed = {
+                tag = PAB
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                consumer_goods_factor = -0.1
+                industrial_capacity_factory = 0.15
+                trade_opinion_factor = -0.8
+                
+
+            }
+            targeted_modifier = {
+                tag = PBC	
+                trade_cost_for_target_factor = -0.5
+            }
+        }
+    }#END
+}
+
+#+1000000 CROWN CREDITS
+#GOD SAVE THE KING
