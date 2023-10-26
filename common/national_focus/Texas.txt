@@ -261,7 +261,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_research_slot = 1
 		}
 	}
 	focus = {
@@ -295,7 +295,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_resource = {
+    			type = oil
+    			amount = 50
+    			state = 79
+			}
 		}
 	}
 	focus = {
@@ -329,7 +333,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_ideas = {
+				STX_trade_with_the_west
+			}
 		}
 	}
 	focus = {
@@ -364,7 +370,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = STX_lone_star_oil
+				add_idea = STX_lone_star_oil_buffed
+			}
 		}
 	}
 	focus = {
@@ -398,7 +407,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.6
+			}
 		}
 	}
 	focus = {
@@ -433,7 +444,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_ideas = {
+				STX_regulations_relaxed
+			}
 		}
 	}
 	focus = {
@@ -467,7 +480,18 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			SNM = {
+				give_resource_rights = {
+					receiver = STX
+					state = 147
+					resources = { oil }
+				}
+				give_resource_rights = {
+					receiver = STX
+					state = 151
+					resources = { oil }
+				}
+			}
 		}
 	}
 	focus = {
@@ -502,7 +526,19 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			every_owned_state = {
+				limit = {
+					AND = {
+						oil < 10
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+    				type = infrastructure
+   		 			level = 2
+    				instant_build = yes
+				}
+			}
 		}
 	}
 	#ARMY

@@ -94,3 +94,31 @@ country_event = {  #A Lone Star
         }
     }
 }
+
+country_event = {  #Corpos Enter Congress
+    id = texas_events.6
+    title = texas_events.6.t
+    desc = texas_events.6.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.6.a
+		ai_chance = {
+            factor = 10
+        }
+        set_party_name = {
+		    ideology = fascism
+		    name = STX_corporate_party_name
+		    long_name = STX_corporate_party_name_long
+		}
+        add_popularity = {
+            ideology = fascism
+            popularity = 0.03
+        }
+    }
+}

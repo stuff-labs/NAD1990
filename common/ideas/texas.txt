@@ -159,5 +159,57 @@ ideas = {
                 fuel_gain_factor = 0.15
             }
         }
+        STX_lone_star_oil_buffed = {
+            name = STX_lone_star_oil
+            desc = STX_lone_star_oil_desc
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                fuel_gain_factor = 0.15
+                consumer_goods_factor = 0.05
+            }
+        }
+        STX_regulations_relaxed = {
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                production_speed_buildings_factor = 0.05
+                industrial_capacity_factory = 0.05
+            }
+        }
+        STX_trade_with_the_west = {
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            targeted_modifier = {
+                tag = BER	
+                trade_cost_for_target_factor = -0.2
+            }
+            targeted_modifier = {
+                tag = MEX	
+                trade_cost_for_target_factor = -0.2
+            }
+            targeted_modifier = {
+                tag = PON	
+                trade_cost_for_target_factor = -0.2
+            }
+        }
     }#END
 }
