@@ -1,0 +1,31 @@
+add_namespace = nevada_events
+country_event = {  #Alliance
+    id = nevada_events.1
+    title = nevada_events.1.t
+    desc = nevada_events.1.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+        AND = {
+		    tag = SNV
+		    country_exists = SAZ
+        }
+	}
+
+	fire_only_once = yes
+
+
+    option = {
+        name = nevada_events.1.a
+		ai_chance = {
+            factor = 10
+        }
+		SNV = {
+            create_faction = ARIZONA_NEVADA_FACTION_NAME
+        }
+        SNV = {
+            add_to_faction = SAZ
+        }
+    }
+}
+
