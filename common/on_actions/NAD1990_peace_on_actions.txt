@@ -1,0 +1,22 @@
+on_actions = {
+
+	on_capitulation = {
+
+		effect = {
+
+			#FROM = {
+			#	save_global_event_target_as = winning_country
+			#}
+			#ROOT = {
+			#	save_global_event_target_as = losing_country
+			#}
+
+			FROM = {
+				annex_country = {
+					target = ROOT
+					transfer_troops = no
+				}
+			}
+		}
+	}
+}
