@@ -211,5 +211,51 @@ ideas = {
                 trade_cost_for_target_factor = -0.2
             }
         }
+        STX_bumped_up_sec_budget = {
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                encryption_factor = 0.05
+                drift_defence_factor = 0.1
+            }
+        }
+        STX_patriot_act = { # https://youtu.be/c9qzU078Tdg?si=3cc-4bTxnV6BXiun
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                encryption_factor = 0.15
+                drift_defence_factor = 0.2
+                communism_drift = -0.03
+                conservatism_drift = -0.03
+                liberalism_drift = -0.03
+                progressivism_drift = -0.03
+                socialism_drift = -0.03
+            }
+        }
+        STX_we_will_not_go_gently = { 
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                war_support_factor = 0.2
+            }
+        }
     }#END
 }

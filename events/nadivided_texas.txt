@@ -122,3 +122,106 @@ country_event = {  #Corpos Enter Congress
         }
     }
 }
+
+country_event = {  #regular church
+    id = texas_events.7
+    title = texas_events.7.t
+    desc = texas_events.7.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.7.a
+		ai_chance = {
+            factor = 10
+        }
+        country_event = {
+            id = texas_events.8
+            days = 15
+        }
+    }
+}
+
+country_event = {  #Jones Introduction
+    id = texas_events.8
+    title = texas_events.8.t
+    desc = texas_events.8.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.8.a
+		ai_chance = {
+            factor = 10
+        }
+        country_event = {
+            id = texas_events.9
+            days = 15
+        }
+    }
+}
+
+country_event = {  #David Introduction
+    id = texas_events.9
+    title = texas_events.9.t
+    desc = texas_events.9.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.9.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {  #True Citizen Event - https://www.youtube.com/watch?v=UNLM0M4h-HM&pp=ygUKY29uc3VsIGhsMg%3D%3D
+    id = texas_events.11
+    title = texas_events.11.t
+    desc = texas_events.11.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.11.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {  #GOD TEXAS AND PAUL
+    id = texas_events.12
+    title = texas_events.12.t
+    desc = texas_events.12.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.12.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}

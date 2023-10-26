@@ -870,7 +870,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_war_support = 0.05
 		}
 	}
 	focus = {
@@ -904,7 +904,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.7
+			}
 		}
 	}
 	focus = {
@@ -938,7 +940,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_ideas = {
+				STX_bumped_up_sec_budget
+			}
 		}
 	}
 	focus = {
@@ -972,7 +976,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -1007,7 +1011,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.11
+			}
 		}
 	}
 	focus = {
@@ -1042,7 +1048,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = STX_bumped_up_sec_budget
+				add_idea = STX_patriot_act
+			}
 		}
 	}
 	focus = {
@@ -1077,7 +1086,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_ideas = {
+				STX_we_will_not_go_gently
+			}
 		}
 	}
 	focus = {
@@ -1111,7 +1122,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.11
+			}
 		}
 	}
 	focus = {
@@ -1181,7 +1194,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = low_economic_mobilisation
+				add_idea = war_economy
+			}
 		}
 	}
 	focus = {
