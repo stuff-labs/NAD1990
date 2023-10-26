@@ -173,9 +173,6 @@ focus_tree = {
 		}
 
 		available = {
-			country_event = {
-				id = texas_events.5
-			}
 		}
 		
 		bypass = {
@@ -191,7 +188,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.5
+			}
 		}
 	}
 	#ECONOMY
@@ -226,7 +225,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_ideas = {
+				STX_lone_star_oil
+			}
 		}
 	}
 	focus = {
