@@ -1,5 +1,6 @@
 #ILOVERONPAUL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
 add_namespace = texas_events
+add_namespace = texas_flavour ##bri tish spelling
 country_event = {  #Legacy Of
     id = texas_events.1
     title = texas_events.1.t
@@ -223,5 +224,103 @@ country_event = {  #GOD TEXAS AND PAUL
 		ai_chance = {
             factor = 10
         }
+    }
+}
+
+
+#tex flavour
+country_event = {  #bad gdp growth rate
+    id = texas_flavour.1
+    title = texas_flavour.1.t
+    desc = texas_flavour.1.d
+    picture = GFX_report_event_gdp_growth_is_bad_no_money
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_flavour.1.a
+		ai_chance = {
+            factor = 10
+        }
+        add_political_power = -15
+    }
+}
+country_event = {  #poverty rates up by 15%
+    id = texas_flavour.2
+    title = texas_flavour.2.t
+    desc = texas_flavour.2.d
+    picture = GFX_report_event_people_are_poor_catshock
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_flavour.2.a
+		ai_chance = {
+            factor = 10
+        }
+        add_political_power = -10
+    }
+}
+country_event = {  #homelessness crisis
+    id = texas_flavour.3
+    title = texas_flavour.3.t
+    desc = texas_flavour.3.d
+    picture = GFX_report_event_homeless_just_buy_a_house_lol
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_flavour.3.a
+		ai_chance = {
+            factor = 10
+        }
+        add_political_power = -25
+    }
+}
+country_event = {  #brain drain gang
+    id = texas_flavour.4 #To be honest, if it's wrong, I don't want to be right
+    title = texas_flavour.4.t #I don't wanna talk if you're not gonna talk to me nice
+    desc = texas_flavour.4.d #Talk to me nice, talk to me nice
+    picture = GFX_report_event_teachers_striking #I don't wanna talk if you're not gonna talk to me nice
+
+	is_triggered_only = yes 
+
+	fire_only_once = yes 
+
+
+    option = { 
+        name = texas_flavour.4.a
+		ai_chance = {
+            factor = 10
+        }
+        add_political_power = -10
+    }
+}
+country_event = {  
+    id = texas_flavour.5
+    title = texas_flavour.5.t 
+    desc = texas_flavour.5.d 
+    picture = GFX_report_event_number_six_gas_station_attendent_is
+
+	is_triggered_only = yes 
+
+	fire_only_once = yes 
+
+
+    option = { 
+        name = texas_flavour.5.a
+		ai_chance = {
+            factor = 10
+        }
+        add_political_power = -5
     }
 }
