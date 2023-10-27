@@ -39,9 +39,9 @@
  ###events
 
  #loc beneath texas_events.1.d:0 doesn't work, hashed it out because it's like 3:59 and i want to read events and sleep
- #texas_events.1.t:0 "The Great Loss"
- #texas_events.1.d:0 "Texas fell into a war with both Louisiana and Oklahoma with the deranged Huey Long leading the charge against the Republic. susussussu amognsuussusussuussususussssusussuussuussus"
- #texas_events.1.a "societ y"
+ texas_events.1.t:0 "The Great Loss"
+ texas_events.1.d:0 "Texas fell into a war with both Louisiana and Oklahoma with the deranged Huey Long leading the charge against the Republic. susussussu amognsuussusussuussususussssusussuussuussus"
+ texas_events.1.a:0 "societ y"
 
  ###flavor events
  texas_flavour.1.t:0 "Reporting Period"
