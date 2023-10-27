@@ -21,6 +21,26 @@ spriteTypes = {
 		name = "GFX_report_event_la_riots_starts"
 		texturefile = "gfx/event_pictures/report_events/report_event_la_riots_starts.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_gdp_growth_is_bad_no_money"
+		texturefile = "gfx/event_pictures/report_events/report_event_gdp_growth_is_bad_no_money.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_people_are_poor_catshock"
+		texturefile = "gfx/event_pictures/report_events/report_event_people_are_poor_catshock.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_homeless_just_buy_a_house_lol"
+		texturefile = "gfx/event_pictures/report_events/report_event_homeless_just_buy_a_house_lol.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_teachers_striking"
+		texturefile = "gfx/event_pictures/report_events/report_event_teachers_striking.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_number_six_gas_station_attendent_is"
+		texturefile = "gfx/event_pictures/report_events/report_event_number_six_gas_station_attendent_is.dds"
+	}
 
 	#newsevents
 	spriteType = {
@@ -51,6 +71,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_newsevent_gotti_coup"
 		texturefile = "gfx/event_pictures/news_events/newsevent_gotti_coup.dds"
+	}
+
+	spriteType = {
+		name = "GFX_newsevent_north_hollywood"
+		texturefile = "gfx/event_pictures/news_events/newsevent_north_hollywood.dds"
 	}
 	
 }#END

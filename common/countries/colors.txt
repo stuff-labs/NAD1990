@@ -63,7 +63,7 @@ SCA = {
 	color_ui = rgb { 147, 49, 43 }
 }
 SMT = {
-	color = rgb { 226 164 122 } #226 144 86
+	color = rgb { 75 94 77 } #226 144 86
 	color_ui = rgb { 226 164 122 }
 }
 BAJ = {
@@ -127,8 +127,8 @@ NYC = {
 	color_ui = rgb { 82 47 222 }
 }
 WDC = {
-	color = rgb { 0 132 255 }
-	color_ui = rgb { 0 132 255 }
+	color = rgb { 87 107 122 }
+	color_ui = rgb { 87 107 122 }
 }
 SID = {
 	color = rgb { 189 126 64 }
