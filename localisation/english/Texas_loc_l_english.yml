@@ -32,10 +32,16 @@
  STX_the_great_texan_army:0 "The Great Texan Army"
  STX_the_great_texan_army_desc:0 "Ron Paul's administration has massively expanded the military and it's budget in preperation for a conflict with Lousiana and Oklahoma. Nationalist Fervor is at an all time high in the Republican Party. However this massive increase in military funding has curtailed many other industrial sectors and has reduced our funds for disaster prevention or electricity. With the economy on a less than ideal condition, we can only hope that this military bulidup will be worth it."
 
+
+
+
+
  ###events
- texas_events.1.t:0 "The Great Loss"
- texas_events.1.d:0 "Texas fell into a war with both Louisiana and Oklahoma with the deranged Huey Long leading the charge against the Republic. susussussu amognsuussusussuussususussssusussuussuussus"
- texas_events.1.a
+
+ #loc beneath texas_events.1.d:0 doesn't work, hashed it out because it's like 3:59 and i want to read events and sleep
+ #texas_events.1.t:0 "The Great Loss"
+ #texas_events.1.d:0 "Texas fell into a war with both Louisiana and Oklahoma with the deranged Huey Long leading the charge against the Republic. susussussu amognsuussusussuussususussssusussuussuussus"
+ #texas_events.1.a "societ y"
 
  ###flavor events
  texas_flavour.1.t:0 "Reporting Period"
