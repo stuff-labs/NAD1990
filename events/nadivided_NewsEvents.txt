@@ -1,4 +1,5 @@
 ﻿add_namespace = usastates_news_new
+add_namespace = usastates_news_flavor
 news_event = { #florida_haiti_war
 	id = usastates_news_new.1
 	title = usastates_news_new.1.t
@@ -267,5 +268,32 @@ news_event = { # cali election - wholsum
 
 	option = {
 		name = usastates_news_new.13.a
+	}
+}
+
+###flavor
+news_event = { #noth hollywood shooting
+	id = usastates_news_flavor.1
+	title = usastates_news_flavor.1.t
+	desc = usastates_news_flavor.1.d
+	picture = GFX_newsevent_north_hollywood
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_flavor.1.a
+			trigger = {
+				tag = SCA
+			}
+	}
+	option = {
+		name = usastates_news_flavor.1.b
+			trigger = {
+				NOT = {
+					tag = SCA
+				}
+			}
 	}
 }
