@@ -227,6 +227,108 @@ country_event = {  #GOD TEXAS AND PAUL
     }
 }
 
+country_event = {  #mfw oklahoma exists
+    id = texas_events.13
+    title = texas_events.13.t
+    desc = texas_events.13.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.13.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {  #mfw congress
+    id = texas_events.14
+    title = texas_events.14.t
+    desc = texas_events.14.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.14.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {  #false flag manchuria moment
+    id = texas_events.15
+    title = texas_events.15.t
+    desc = texas_events.15.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.15.a
+		ai_chance = {
+            factor = 10
+        }
+        country_event = {
+            id = texas_events.16
+            days = 5
+        }
+    }
+}
+
+country_event = {  #angy ron paul
+    id = texas_events.16
+    title = texas_events.16.t
+    desc = texas_events.16.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.16.a
+		ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+country_event = {  #the war starts
+    id = texas_events.17
+    title = texas_events.17.t
+    desc = texas_events.17.d
+    picture = GFX_report_event_la_riots_starts
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.17.a
+		ai_chance = {
+            factor = 10
+        }
+        custom_effect_tooltip = STX_war_start_tooltip
+        custom_effect_tooltip = STX_seven_months_reminder_tooltip
+    }
+}
+
+
 
 #tex flavour
 country_event = {  #bad gdp growth rate

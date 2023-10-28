@@ -1190,7 +1190,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			add_state_core = 163
+			add_state_core = 222
+			add_state_core = 223
+			add_state_core = 153
+			add_state_core = 152
+			country_event = {
+				id = texas_events.13
+			}
 		}
 	}
 	focus = {
@@ -1245,7 +1252,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			
 		}
 		
 		bypass = {
@@ -1261,7 +1268,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			army_experience = 20
+			add_timed_idea = {
+				idea = STX_troop_surge
+				days = 180
+			}
 		}
 	}
 	focus = {
@@ -1291,7 +1302,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
+			country_event = texas_events.14
 		}
 
 		completion_reward = {
@@ -1315,7 +1326,7 @@ focus_tree = {
 		}
 
 		available = {
-
+			
 		}
 		
 		bypass = {
@@ -1327,7 +1338,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
+			country_event {
+				id = texas_events.15
+			}
 		}
 
 		completion_reward = {
@@ -1365,7 +1378,12 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			
+			hidden_effect = {
+				country_event = {
+					id = texas_events.17
+				}
+			}
+			custom_effect_tooltip = STX_the_third_red_river_war_tooltip
 		}
 	}
 }

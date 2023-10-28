@@ -257,5 +257,18 @@ ideas = {
                 war_support_factor = 0.2
             }
         }
+        STX_troop_surge = { 
+            picture = STX_texas_epic_fail_map
+            allowed = {
+                tag = STX
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                training_time_factor = -0.2
+            }
+        }
     }#END
 }
