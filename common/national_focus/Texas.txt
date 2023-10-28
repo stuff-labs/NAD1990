@@ -13,7 +13,7 @@ focus_tree = {
 	continuous_focus_position = { x = 1 y = 3300 }
 
 	focus = {
-		id = STX_legacy_of_the_second_red_river_war
+		id = STX_legacy_of_the_second_red_river_war_focus
 		icon = GFX_
 		#prerequisite = { focus =  }
 		x = 0
@@ -51,10 +51,10 @@ focus_tree = {
 	focus = {
 		id = STX_memories_of_the_civil_war
 		icon = GFX_
-		prerequisite = { focus = STX_legacy_of_the_second_red_river_war }
+		prerequisite = { focus = STX_legacy_of_the_second_red_river_war_focus }
 		x = -2
 		y = 1
-		relative_position_id = STX_legacy_of_the_second_red_river_war
+		relative_position_id = STX_legacy_of_the_second_red_river_war_focus
 
 		cost = 1
 
@@ -87,10 +87,10 @@ focus_tree = {
 	focus = {
 		id = STX_the_republics_mistakes
 		icon = GFX_
-		prerequisite = { focus = STX_legacy_of_the_second_red_river_war }
+		prerequisite = { focus = STX_legacy_of_the_second_red_river_war_focus }
 		x = 0
 		y = 1
-		relative_position_id = STX_legacy_of_the_second_red_river_war
+		relative_position_id = STX_legacy_of_the_second_red_river_war_focus
 
 		cost = 1
 
@@ -123,10 +123,10 @@ focus_tree = {
 	focus = {
 		id = STX_the_past_weaknesses
 		icon = GFX_
-		prerequisite = { focus = STX_legacy_of_the_second_red_river_war }
+		prerequisite = { focus = STX_legacy_of_the_second_red_river_war_focus }
 		x = 2
 		y = 1
-		relative_position_id = STX_legacy_of_the_second_red_river_war
+		relative_position_id = STX_legacy_of_the_second_red_river_war_focus
 
 		cost = 1
 
@@ -561,7 +561,7 @@ focus_tree = {
 	}
 	#ARMY
 	focus = {
-		id = STX_the_great_texan_army
+		id = STX_the_great_texan_army_focus
 		icon = GFX_
 		prerequisite = { focus = STX_a_lone_star }
 		x = 0
@@ -597,10 +597,10 @@ focus_tree = {
 	focus = {
 		id = STX_youth_organizations
 		icon = GFX_
-		prerequisite = { focus = STX_the_great_texan_army }
+		prerequisite = { focus = STX_the_great_texan_army_focus }
 		x = -2
 		y = 1
-		relative_position_id = STX_the_great_texan_army
+		relative_position_id = STX_the_great_texan_army_focus
 
 		cost = 3
 
@@ -633,10 +633,10 @@ focus_tree = {
 	focus = {
 		id = STX_shift_the_general_staff
 		icon = GFX_
-		prerequisite = { focus = STX_the_great_texan_army }
+		prerequisite = { focus = STX_the_great_texan_army_focus }
 		x = 0
 		y = 1
-		relative_position_id = STX_the_great_texan_army
+		relative_position_id = STX_the_great_texan_army_focus
 
 		cost = 3
 
@@ -669,10 +669,10 @@ focus_tree = {
 	focus = {
 		id = STX_expand_the_forts
 		icon = GFX_
-		prerequisite = { focus = STX_the_great_texan_army }
+		prerequisite = { focus = STX_the_great_texan_army_focus }
 		x = 2
 		y = 1
-		relative_position_id = STX_the_great_texan_army
+		relative_position_id = STX_the_great_texan_army_focus
 
 		cost = 3
 
