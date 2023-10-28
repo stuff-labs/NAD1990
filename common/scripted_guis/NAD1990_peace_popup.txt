@@ -1,0 +1,23 @@
+scripted_gui = {
+	nad1990_peace_popup_window = {
+		window_name = "nad1990_peace_popup_window"
+		context_type = player_context
+		properties = {
+			winner_flag = {
+				image = "[winning_country.GetFlag]"
+			}
+			loser_flag = {
+				image = "[losing_country.GetFlag]"
+			}
+		}
+		visible = {
+			is_ai = no
+			has_global_flag = global_flag_peace_popup
+		}
+		effects = {
+			close_button_click = {
+				clr_global_flag = global_flag_peace_popup
+			}
+		}
+	}
+}

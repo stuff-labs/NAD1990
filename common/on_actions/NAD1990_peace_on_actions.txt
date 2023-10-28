@@ -4,12 +4,14 @@ on_actions = {
 
 		effect = {
 
-			#FROM = {
-			#	save_global_event_target_as = winning_country
-			#}
-			#ROOT = {
-			#	save_global_event_target_as = losing_country
-			#}
+			FROM = {
+				save_global_event_target_as = winning_country
+			}
+			ROOT = {
+				save_global_event_target_as = losing_country
+			}
+
+			set_global_flag = global_flag_peace_popup
 
 			FROM = {
 				annex_country = {

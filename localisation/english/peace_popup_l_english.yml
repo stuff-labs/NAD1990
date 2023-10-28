@@ -1,0 +1,6 @@
+﻿l_english:
+
+ NAD1990_PEACE_POPUP_TITLE: "DIPLOMATIC ALERT"
+ NAD1990_PEACE_POPUP_DESCRIPTION: "[winning_country.GetNameWithFlag] has conquered [losing_country.GetNameWithFlag]."
+ NAD1990_PEACE_POPUP_FLAVOUR: "One must imagine [winning_country.GetName] happy."
+ NAD1990_PEACE_POPUP_BUTTON: "CLOSE"

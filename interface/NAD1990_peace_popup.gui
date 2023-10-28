@@ -1,0 +1,78 @@
+guiTypes = {
+	containerWindowType = {
+		name = "nad1990_peace_popup_window"
+		position = { x = 0 y = 0 }
+		size = { width = 564 height = 300 }
+		orientation= center
+		origo = center
+		moveable = yes
+		fade_time = 200
+		fade_type = linear
+		show_sound = peace_summary_message
+		#hide_sound = menu_close_window
+		click_to_front = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_thin_border2"
+		}
+
+		iconType = {
+			name = "winner_flag"
+			position = { x = 20 y = 17 }
+			quadTextureSprite = "GFX_player_flag"
+		}
+
+		iconType = {
+			name = "loser_flag"
+			position = { x = 463 y = 17 }
+			quadTextureSprite = "GFX_player_flag"
+		}
+
+		instantTextBoxType = {
+			name = "peace_popup_title"
+			position = { x = 100 y = 25 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "NAD1990_PEACE_POPUP_TITLE"
+			maxWidth = 360
+			maxHeight = 40
+			fixedsize = yes
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "peace_popup_description"
+			position = { x = 50 y = 86 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "NAD1990_PEACE_POPUP_DESCRIPTION"
+			maxWidth = 460
+			maxHeight = 72
+			format = centre
+			vertical_alignment = centre
+		}
+
+		instantTextBoxType = {
+			name = "peace_popup_flavour"
+			position = { x = 50 y = 168 }
+			font = "hoi_18mbs"
+			text = "NAD1990_PEACE_POPUP_FLAVOUR"
+			maxWidth = 460
+			maxHeight = 72
+			format = centre
+			vertical_alignment = centre
+		}
+
+		buttonType = {
+			name = "close_button"
+			position = { x=213 y =240}
+			quadTextureSprite ="GFX_sort_button_140x29"
+			buttonText = "NAD1990_PEACE_POPUP_BUTTON"
+			buttonFont = "hoi_18mbs"
+			shortcut = "RETURN"
+			clicksound = click_default
+		}
+	}
+}
