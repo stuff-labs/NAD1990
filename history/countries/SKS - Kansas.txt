@@ -31,13 +31,17 @@ set_convoys = 30
 
 set_politics = {
 	ruling_party = liberalism
-	last_election = "1936.1.1"
+	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 23
-	fascism = 2
-	communism = 5
-	national_unityism= 70
+	liberalism = 45
+	conservatism = 35
+	fascism = 0
+	progressivism = 15
+	socialism = 5
+	communism = 0
+	national_unityism= 0
+	despotic_autocracy = 0
 }

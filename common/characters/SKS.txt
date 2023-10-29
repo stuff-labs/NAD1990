@@ -1,0 +1,16 @@
+characters={
+	SKS_joan_finney = {
+		name="Joan Finney"
+		portraits={
+			civilian={
+				large="gfx/leaders/SKS/portrait_SKS_joan_finney.dds"
+			}
+		}
+		country_leader={
+			ideology= liberalism_sub   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
