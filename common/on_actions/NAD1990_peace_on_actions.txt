@@ -19,6 +19,47 @@ on_actions = {
 					transfer_troops = no
 				}
 			}
+
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = SCA
+					}
+					FROM = {
+						OR = {
+							original_tag = SAZ
+							original_tag = SNV
+						}
+					}
+				}
+				JEF = {
+					transfer_state = 252
+					transfer_state = 253
+					transfer_state = 172
+					transfer_state = 173
+				}
+				RCA = {
+					transfer_state = 24
+					transfer_state = 52
+					transfer_state = 404
+					transfer_state = 25
+					transfer_state = 403
+					transfer_state = 402
+					transfer_state = 51
+					transfer_state = 84
+					transfer_state = 401
+				}
+				LAA = {
+					transfer_state = 55
+					transfer_state = 170
+					transfer_state = 85
+					transfer_state = 400
+					transfer_state = 171
+					transfer_state = 43
+					transfer_state = 83
+					transfer_state = 688
+				}
+			}
 		}
 	}
 }
