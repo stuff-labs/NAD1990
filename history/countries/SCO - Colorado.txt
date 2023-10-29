@@ -26,15 +26,23 @@ add_ideas =  {
 
 set_convoys = 30
 
+recruit_character = SCO_john_andrews
+
 set_politics = {
-	ruling_party = national_unityism 
+	ruling_party = despotic_autocracy 
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	communism = 35
-	national_unityism = 65
+	liberalism = 5
+	conservatism = 7
+	fascism = 8
+	progressivism = 0
+	socialism = 0
+	communism = 0
+	national_unityism= 10
+	despotic_autocracy = 70
 }
 
 

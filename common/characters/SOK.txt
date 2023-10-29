@@ -3,7 +3,7 @@ characters={
 		name="Oklahoma Reconstruction Authority"
 		portraits={
 			civilian={
-				large="gfx/leaders/SOK/SOK_military_reconstruction_authority.dds"
+				large="gfx/leaders/SOK/portrait_SOK_military_reconstruction_authority.dds"
 			}
 		}
 		country_leader={

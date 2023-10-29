@@ -393,14 +393,14 @@
 
  
  ####################COLORADO TAGS#################
- SCO_fascism:1 "Centennial Colorado"
- SCO_fascism_DEF:1 "Centennialian"
- SCO_national_unityism:0 "Colorado"
- SCO_national_unityism_DEF:0 "Colorado"
+ SCO_fascism:1 "State of Colorado"
+ SCO_fascism_DEF:1 "the State of Colorado"
+ SCO_national_unityism:0 "State of Colorado"
+ SCO_national_unityism_DEF:0 "State of Colorado"
  SCO_communism:1 "Miner's Republic Of Colorado"
  SCO_communism_DEF:1 "the Miner's Republic Of Colorado"
- SCO:0 "Republic of Colorado"
- SCO_DEF:0 "the Republic of Colorado"
+ SCO:0 "State of Colorado"
+ SCO_DEF:0 "the State of Colorado"
  SCO_ADJ:0 "Coloradan"
  
  OCO_fascism:1 "Old Colorado Provisional Goverment"

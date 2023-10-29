@@ -1,0 +1,16 @@
+characters={
+	SCO_john_andrews={
+		name="John Andrews"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCO/portrait_SCO_john_andrews.dds"
+			}
+		}
+		country_leader={
+			ideology= despotism 
+			traits={ }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
