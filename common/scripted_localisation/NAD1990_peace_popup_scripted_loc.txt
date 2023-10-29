@@ -32,6 +32,15 @@ defined_text = {
 	}
 
 	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = SIA
+			}
+		}
+		localization_key = NAD1990_IOWA_LOSER_PEACE_POPUP_FLAVOUR
+	}
+
+	text = {
 		localization_key = NAD1990_DEFAULT_PEACE_POPUP_FLAVOUR
 	}
 }
