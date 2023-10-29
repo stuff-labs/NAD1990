@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_STX_god_texas_and_paul"
+		texturefile = "gfx/interface/goals/STX_god_texas_and_paul.dds"
+	}
+}

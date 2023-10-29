@@ -518,7 +518,7 @@ focus_tree = {
 		prerequisite = { focus = STX_protect_new_mexican_oil }
 		prerequisite = { focus = STX_enter_businessmen_into_congress }
 		x = -1
-		y = 1
+		y = 2
 		relative_position_id = STX_protect_new_mexican_oil
 
 		cost = 3
@@ -850,7 +850,7 @@ focus_tree = {
 		icon = GFX_
 		prerequisite = { focus = STX_loosen_gun_control }
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = STX_loosen_gun_control
 
 		cost = 3
@@ -1143,10 +1143,10 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_god_texas_and_paul
-		icon = GFX_
+		icon = GFX_STX_god_texas_and_paul
 		prerequisite = { focus = STX_we_wont_go_gently_into_the_night }
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = STX_we_wont_go_gently_into_the_night
 
 		cost = 3
