@@ -19,16 +19,24 @@ set_technology = {
 
 set_convoys = 30
 
+recruit_character = SND_george_sinner
+
 set_politics = {
-	ruling_party = despotic_autocracy
-	last_election = "1936.1.1"
+	ruling_party = liberalism
+	last_election = "1988.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 47
-	fascism = 1
-	communism = 1
-	national_unityism= 1
-	despotic_autocracy = 50
+	liberalism = 35
+	conservatism = 35
+	fascism = 0
+	progressivism = 20
+	socialism = 10
+	communism = 0
+	national_unityism= 0
+	despotic_autocracy = 0
 }
+
+set_cosmetic_tag = 	DAKOTA
+

@@ -1,0 +1,16 @@
+characters={
+	SND_george_sinner = {
+		name="George A. Sinner"
+		portraits={
+			civilian={
+				large="gfx/leaders/SMN/portrait_SND_george_sinner.dds"
+			}
+		}
+		country_leader={
+			ideology= liberalism_sub   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

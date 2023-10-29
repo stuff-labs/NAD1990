@@ -1041,11 +1041,14 @@
  STX_RANGER_SHORT:0 "TRP"
  STX_RANGER_LONG:0 "Texas Ranger Party" 
 
- SND_despotic_autocracy_party:0 "NPL"
- SND_despotic_autocracy_party_long:0 "Nonpartisan League"
-
- SND_despotic_autocracy_party:0 "NPL"
- SND_despotic_autocracy_party_long:0 "Nonpartisan League"
+ SND_liberalism_party:0 "NPL - Liberal"
+ SND_liberalism_party_long:0 "Nonpartisan League - Liberal"
+ SND_progressivism_party:0 "NPL - Social Democratic"
+ SND_progressivism_party_long:0 "Nonpartisan League - Social Democratic"
+ SND_conservatism_party:0 "CNBD"
+ SND_conservatism_party_long:0 "Conservative National Bloc of Dakota"
+ SND_socialism_party:0 "SUPD"
+ SND_socialism_party_long:0 "Social Unity Party of Dakota"
 
  PNT_conservatism_party:0 "Albertan Adminstration"
  PNT_conservatism_party_long:0 "Albertan Adminstration"
