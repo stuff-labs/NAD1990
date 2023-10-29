@@ -96,7 +96,7 @@
  viking_monarch:0 "Viking Restorationist" 
  viking_monarch_desc:0 "The Vikings were what made us great, we shall reclaim our heritage through expansion and restoring our honor."
  provisional_government:0 "Provisional Government"
- provisional_government:0 "desk bros keep winning"
+ provisional_government_desc:0 "desk bros keep winning"
  ###Modded Ideologies###
  longism:0 "Populist"
  longism_noun:0 "Populism"
