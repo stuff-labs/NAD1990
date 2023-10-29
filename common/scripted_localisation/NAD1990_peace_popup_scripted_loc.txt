@@ -45,6 +45,15 @@ defined_text = {
 
 	text = {
 		trigger = {
+			event_target:losing_country = {
+				original_tag = SIA
+			}
+		}
+		localization_key = NAD1990_IOWA_LOSER_PEACE_POPUP_FLAVOUR
+	}
+
+	text = {
+		trigger = {
 			event_target:winning_country = {
 				original_tag = SNV
 			}
@@ -53,6 +62,7 @@ defined_text = {
 			}
 		}
 		localization_key = NAD1990_NEVADA_DEFEAT_CALI_POPUP_FLAVOUR
+
 	}
 
 	text = {
