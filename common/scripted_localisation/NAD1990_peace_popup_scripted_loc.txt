@@ -1,0 +1,37 @@
+﻿defined_text = {
+	name = GetPeacePopupDesc
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = SLA
+			}
+			event_target:losing_country = {
+				original_tag = STX
+			}
+		}
+		localization_key = NAD1990_LOUISIANA_DEFEAT_TEXAS_PEACE_POPUP_DESC
+	}
+
+	text = {
+		localization_key = NAD1990_DEFAULT_PEACE_POPUP_DESC
+	}
+}
+
+defined_text = {
+	name = GetPeacePopupFlavour
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = SLA
+			}
+			event_target:losing_country = {
+				original_tag = STX
+			}
+		}
+		localization_key = NAD1990_LOUISIANA_DEFEAT_TEXAS_PEACE_POPUP_FLAVOUR
+	}
+
+	text = {
+		localization_key = NAD1990_DEFAULT_PEACE_POPUP_FLAVOUR
+	}
+}
