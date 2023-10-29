@@ -34,7 +34,7 @@ characters={ #LOC KEYS FOR NAMES PEOPLE
 		name= RCA_oscar_zeta_acosta
 		portraits={
 			civilian={
-				large="gfx/leaders/Portrait_Placeholder.dds"
+				large="gfx/leaders/SCA/portrait_SCA_oscar_zeta_accosta.dds"
 			}
 		}
 		country_leader={
