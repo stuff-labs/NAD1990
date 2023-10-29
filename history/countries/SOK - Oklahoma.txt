@@ -20,17 +20,22 @@ set_technology = {
 
 set_convoys = 30
 
+recruit_character = SOK_military_reconstruction_authority
 set_politics = {
 	ruling_party = despotic_autocracy
-	last_election = "1936.1.1"
+	last_election = "1990.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 9
-	fascism = 34
-	national_unityism= 12
-	despotic_autocracy = 45
+	liberalism = 10
+	conservatism = 15
+	fascism = 25
+	communism = 0
+	socialism = 0
+	national_unityism = 15
+	despotic_autocracy = 35
+	progressivism = 0
 }
 add_ideas = {
 	partial_economic_mobilisation

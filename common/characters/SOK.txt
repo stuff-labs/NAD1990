@@ -1,0 +1,16 @@
+characters={
+	SOK_military_reconstruction_authority = {
+		name="Oklahoma Reconstruction Authority"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOK/SOK_military_reconstruction_authority.dds"
+			}
+		}
+		country_leader={
+			ideology= junta   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
