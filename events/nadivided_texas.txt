@@ -408,7 +408,7 @@ country_event = {  #brain drain gang
     }
 }
 country_event = {  
-    id = texas_flavour.5
+    id = texas_flavour.5 # https://www.youtube.com/watch?v=ZY0DG8rUnCA&t=188s
     title = texas_flavour.5.t 
     desc = texas_flavour.5.d 
     picture = GFX_report_event_number_six_gas_station_attendent_is
