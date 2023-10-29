@@ -134,6 +134,8 @@ ideologies = {
 			}
 			dominant_party_democracy = {
 			}
+			provisional_government = {
+			}
 			hueyism = {
 				
 			}

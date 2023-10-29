@@ -20,8 +20,8 @@ on_actions = {
 				}
 			}
 
-			if = {
-				limit = {
+			if = { #Nevadan-Cali war - nevadan victory
+				limit = {#LOC AND PEOPLE FOR THE 2 PUPPETS WILL BE IN THE MAIN CALIFORNIAN FILES
 					ROOT = {
 						original_tag = SCA
 					}
@@ -48,6 +48,16 @@ on_actions = {
 					transfer_state = 51
 					transfer_state = 84
 					transfer_state = 401
+
+					add_state_core = 24
+					add_state_core = 52
+					add_state_core = 404
+					add_state_core = 25
+					add_state_core = 403
+					add_state_core = 402
+					add_state_core = 51
+					add_state_core = 84
+					add_state_core = 401
 				}
 				LAA = {
 					transfer_state = 55
@@ -58,6 +68,58 @@ on_actions = {
 					transfer_state = 43
 					transfer_state = 83
 					transfer_state = 688
+
+					add_state_core = 55
+					add_state_core = 170
+					add_state_core = 85
+					add_state_core = 400
+					add_state_core = 171
+					add_state_core = 43
+					add_state_core = 83
+					add_state_core = 688
+				}
+
+				SNV = {
+					set_autonomy = {
+						target = JEF
+						autonomy_state = autonomy_puppet
+						end_wars = no
+						end_civil_wars = no
+					}
+
+					set_autonomy = {
+						target = RCA
+						autonomy_state = autonomy_puppet
+						end_wars = no
+						end_civil_wars = no
+					}
+				}
+
+				SAZ = {
+					set_autonomy = {
+						target = LAA
+						autonomy_state = autonomy_puppet
+						end_wars = no
+						end_civil_wars = no
+					}
+				}
+
+				LAA = {
+					set_politics = {
+						ruling_party = national_unityism
+					}
+					add_popularity = {
+						ideology = national_unityism 
+						popularity = 0.35
+        			}
+					add_popularity = {
+						ideology = conservatism 
+						popularity = 0.20
+        			}
+					add_popularity = {
+						ideology = liberalism 
+						popularity = 0.20
+        			}
 				}
 			}
 		}

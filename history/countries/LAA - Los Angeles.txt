@@ -1,5 +1,7 @@
 ﻿capital = 43
 
+recruit_character = LAA_provisional_authority
+
 # Log Angeles city-state
 #oob = ""
 

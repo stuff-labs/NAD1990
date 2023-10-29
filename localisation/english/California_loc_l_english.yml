@@ -17,23 +17,31 @@
  SCA_despotic_autocracy_party:0 "PNG"
  SCA_despotic_autocracy_party_long:0 "Pacifican National Guard"
 
+ #IDEAS
+  SCA_weak_federation:0 "Fragile Federation"
+  SCA_weak_federation_desc:0 "The Pacific States are far beyond united as of yet. Our Union with Arizona and Nevada was created during wartime with an unfair deal for both. And the the supposed imbalanced priority of the Pacific States being exclusively focused on California. We are a bastion of democracy on the West Coast and an unstable one. Tenisons are rampant as Oregon and Mexico plot for a war against our fair nation. The government is at a deadlock on the issue of further integration of Utah, Idaho, and Baja California when we can't yet begin to sow the issues in the first 2 integrated states."
+  SCA_gang_violence:0 "Rampant Gang Violence"
+  SCA_gang_violence_desc:0 "The Pacific States hold the city with the greatest amount of gang violence and bank robberies. Homicide is on the rise as our nations loses money to various gangs and criminals. Further more, corruption and bribery with police officers festers. And it causes injustice to become a key issue to the Pacifican government. Los Angeles has the worst case of all of it. If it isn't ended soon enough, our government would have to deal with massive political unrest."
+  SCA_sunset_economy:0 "Sunset Economy"
+  SCA_sunset_economy_desc:0 "With the Soviet Union falling apart, our nation now begins to see a boom in it's economy. Western nations are buying our goods now and it has been a successful change from the economic slog of the 1960s. Our government can invest more into fixing the issues ruining our nation and potentiality to integrate our allies further into the Pacific States."
+  SCA_nevadan_arizonian_nationalism:0 "Nevadan Arizonan Nationalism"
+  SCA_nevadan_arizonian_nationalism_desc:0 "Nevadans pride themselves on their identity. Nevadan saw a resurgence of Gunslingers, Horseback Riding, and Battle Born nationhood. Arizonans have always prefered collaboration with their fellow desert neighbors. California almost has little place to annex these two nations with such unique ideals. However our annexation has caused Nevadans and Arizonans calling for an end to the Pacific Federation and a return to the Western Treaty Organization without Californian domination. Nationalist Protests have become a norm and it risks the Federation's survival as Independence groups have influence in the Nevadan-Arizonan counties. If a crisis hits our nation, there is no telling what these groups will do to restore their former independence."
+  CAL_you_lost_your_faction:0 "The §triots§! have proven to the people of §ONevada§! and §OArizona§! that the Pacific States are §tnot the answer§!. Your fellow §yfaction members§! seem to §tagree, the Western Treaty Organisation is hereby defunct and disbanded§!."
 
-SCA_weak_federation:0 "Fragile Federation"
-SCA_weak_federation_desc:0 "The Pacific States are far beyond united as of yet. Our Union with Arizona and Nevada was created during wartime with an unfair deal for both. And the the supposed imbalanced priority of the Pacific States being exclusively focused on California. We are a bastion of democracy on the West Coast and an unstable one. Tenisons are rampant as Oregon and Mexico plot for a war against our fair nation. The government is at a deadlock on the issue of further integration of Utah, Idaho, and Baja California when we can't yet begin to sow the issues in the first 2 integrated states."
-SCA_gang_violence:0 "Rampant Gang Violence"
-SCA_gang_violence_desc:0 "The Pacific States hold the city with the greatest amount of gang violence and bank robberies. Homicide is on the rise as our nations loses money to various gangs and criminals. Further more, corruption and bribery with police officers festers. And it causes injustice to become a key issue to the Pacifican government. Los Angeles has the worst case of all of it. If it isn't ended soon enough, our government would have to deal with massive political unrest."
-SCA_sunset_economy:0 "Sunset Economy"
-SCA_sunset_economy_desc:0 "With the Soviet Union falling apart, our nation now begins to see a boom in it's economy. Western nations are buying our goods now and it has been a successful change from the economic slog of the 1960s. Our government can invest more into fixing the issues ruining our nation and potentiality to integrate our allies further into the Pacific States."
-SCA_nevadan_arizonian_nationalism:0 "Nevadan Arizonan Nationalism"
-SCA_nevadan_arizonian_nationalism_desc:0 "Nevadans pride themselves on their identity. Nevadan saw a resurgence of Gunslingers, Horseback Riding, and Battle Born nationhood. Arizonans have always prefered collaboration with their fellow desert neighbors. California almost has little place to annex these two nations with such unique ideals. However our annexation has caused Nevadans and Arizonans calling for an end to the Pacific Federation and a return to the Western Treaty Organization without Californian domination. Nationalist Protests have become a norm and it risks the Federation's survival as Independence groups have influence in the Nevadan-Arizonan counties. If a crisis hits our nation, there is no telling what these groups will do to restore their former independence."
-CAL_you_lost_your_faction:0 "The §triots§! have proven to the people of §ONevada§! and §OArizona§! that the Pacific States are §tnot the answer§!. Your fellow §yfaction members§! seem to §tagree, the Western Treaty Organisation is hereby defunct and disbanded§!."
+ #Events
 
-california_events.1.t:0 "Riots Break Out In Los Angeles"
-california_events.1.d:0 "With the trial of the four Policemen who assaulting and beatened Rodney King over. A series of riots and protests have clamped down on Los Angeles with the nation on edge. Homes and businesses are being destroyed and similar incidents are occuring in many other cities. The Pacific States face a crisis greater than ever."
-california_events.1.a:0 "Oh God, What have we done?"
+  california_events.1.t:0 "Riots Break Out In Los Angeles"
+  california_events.1.d:0 "With the trial of the four Policemen who assaulting and beatened Rodney King over. A series of riots and protests have clamped down on Los Angeles with the nation on edge. Homes and businesses are being destroyed and similar incidents are occuring in many other cities. The Pacific States face a crisis greater than ever."
+  california_events.1.a:0 "Oh God, What have we done?"
 
 
-  
-california_events.2.t:0 "Chaos In Arizona And Nevada"
-california_events.2.d:0 "noooooooooo the trvd davvn noooooooo (why are you playing a country with no content)"
-california_events.2.a:0 "Hunter S Thompson bros keep winning"
+    
+  california_events.2.t:0 "Chaos In Arizona And Nevada"
+  california_events.2.d:0 "noooooooooo the trvd davvn noooooooo (why are you playing a country with no content)"
+  california_events.2.a:0 "Hunter S Thompson bros keep winning"
+
+
+
+  #STUFF FOR PUPPETS, CONSULT PEACE_ON_ACTIONS TO FIND OUT MORE
+  RCA_oscar_zeta_acosta:0 "Oscar Zeta Acosta"
+  LAA_provisional_authority:0 "Provisional Authority"

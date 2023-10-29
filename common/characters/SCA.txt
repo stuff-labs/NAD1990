@@ -1,4 +1,4 @@
-characters={
+characters={ #LOC KEYS FOR NAMES PEOPLE
 	SCA_jerry_brown={
 		name="Jerry Brown"
 		portraits={
@@ -22,6 +22,38 @@ characters={
 		}
 		country_leader={
 			ideology= clerical_fascism 
+			traits={ }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+
+
+	#CALIFORNIAN SPLIT - PUPPET LEADERS
+	RCA_oscar_zeta_acosta = {
+		name= RCA_oscar_zeta_acosta
+		portraits={
+			civilian={
+				large="gfx/leaders/Portrait_Placeholder.dds"
+			}
+		}
+		country_leader={
+			ideology= freak_power 
+			traits={ }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+
+	LAA_provisional_authority = {
+		name= LAA_provisional_authority
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/portrait_SCA_provisional_authority.dds"
+			}
+		}
+		country_leader={
+			ideology= provisional_government 
 			traits={ }
 			expire="2020.1.1.1"
 			id=-1

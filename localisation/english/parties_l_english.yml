@@ -95,7 +95,8 @@
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
  viking_monarch:0 "Viking Restorationist" 
  viking_monarch_desc:0 "The Vikings were what made us great, we shall reclaim our heritage through expansion and restoring our honor."
-
+ provisional_government:0 "Provisional Government"
+ provisional_government:0 "desk bros keep winning"
  ###Modded Ideologies###
  longism:0 "Populist"
  longism_noun:0 "Populism"
@@ -662,8 +663,8 @@
  
  RCA_communism_party:0 "CPC"
  RCA_communism_party_long:0 "Communist Party of California"
- RCA_progressivism_party:0 "EPIC"
- RCA_progressivism_party_long:0 "End Poverty In California"
+ RCA_progressivism_party:0 "Freak Power Party - EM"
+ RCA_progressivism_party_long:0 "Freak Power Party - El Movimiento"
  RCA_national_unityism_party:0 "IWW"
  RCA_national_unityism_party_long:0 "Industrial Workers Of The World"
  RCA_fascism_party:0 "Jefferson Legion"
@@ -1092,8 +1093,8 @@
  religous_autocrat_theocracy_P:0 "Autocratic Theocracy" 
  religous_autocrat_theocracy_P_desc:0 "" 
 
-    LAA_national_unityism_party:0 "Republican Party"
-    LAA_national_unityism_party_long:0 "Republican Party - Shaw"
+    LAA_national_unityism_party:0 "South Cali. Provisional Authority"
+    LAA_national_unityism_party_long:0 "South California Provisional Authority"
     LAA_liberalism_party:0 "Democratic Party"
     LAA_liberalism_party_long:0 "Democratic Party"
     LAA_communism_party:0 "LA People's Party"
