@@ -13,6 +13,18 @@
 	}
 
 	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = SNV
+			}
+			event_target:losing_country = {
+				original_tag = SCA
+			}
+		}
+		localization_key = NAD1990_NEVADA_DEFEAT_CALI_POPUP_DESC
+	}
+
+	text = {
 		localization_key = NAD1990_DEFAULT_PEACE_POPUP_DESC
 	}
 }
@@ -29,6 +41,18 @@ defined_text = {
 			}
 		}
 		localization_key = NAD1990_LOUISIANA_DEFEAT_TEXAS_PEACE_POPUP_FLAVOUR
+	}
+
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				original_tag = SNV
+			}
+			event_target:losing_country = {
+				original_tag = SCA
+			}
+		}
+		localization_key = NAD1990_NEVADA_DEFEAT_CALI_POPUP_FLAVOUR
 	}
 
 	text = {

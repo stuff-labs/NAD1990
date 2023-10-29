@@ -7,6 +7,9 @@
 
  NAD1990_DEFAULT_PEACE_POPUP_DESC: "[winning_country.GetNameWithFlag] has conquered [losing_country.GetNameWithFlag]."
  NAD1990_LOUISIANA_DEFEAT_TEXAS_PEACE_POPUP_DESC: "[winning_country.GetNameWithFlag] has given [losing_country.GetNameWithFlag] the ol' among us treatment."
+ NAD1990_NEVADA_DEFEAT_CALI_POPUP_DESC: "[winning_country.GetNameWithFlag] has finally lberated the pacific from the dominance of [losing_country.GetNameWithFlag]."
+
 
  NAD1990_DEFAULT_PEACE_POPUP_FLAVOUR: "War. War never changes."
  NAD1990_LOUISIANA_DEFEAT_TEXAS_PEACE_POPUP_FLAVOUR: "Another Red River War. Another Red River humiliation."
+ NAD1990_NEVADA_DEFEAT_CALI_POPUP_FLAVOUR: "Anything worth doing, is worth doing right."
