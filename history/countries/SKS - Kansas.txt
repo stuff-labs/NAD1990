@@ -29,6 +29,8 @@ set_technology = {
 
 set_convoys = 30
 
+recruit_character = SKS_joan_finney
+
 set_politics = {
 	ruling_party = liberalism
 	last_election = "1990.1.1"

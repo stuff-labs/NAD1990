@@ -3,7 +3,7 @@ characters={
 		name="George A. Sinner"
 		portraits={
 			civilian={
-				large="gfx/leaders/SMN/portrait_SND_george_sinner.dds"
+				large="gfx/leaders/SND/portrait_SND_george_sinner.dds"
 			}
 		}
 		country_leader={
