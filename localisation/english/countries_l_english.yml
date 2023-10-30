@@ -61,14 +61,14 @@
  SMA_communism_DEF:1 "The Commonwealth of Massachusetts"
  SMA_ADJ:0 "Massachusett"
  
- SNM_fascism:1 "New Mexico"
- SNM_fascism_DEF:1 "New Mexican"
+ SNM_fascism:1 "Autonomous State of New Mexico"
+ SNM_fascism_DEF:1 "the Autonomous Cartels of New Mexico"
  SNM_national_unityism:0 "New Mexico"
  SNM_national_unityism_DEF:0 "New Mexico"
  SNM_communism:1 "La República de Nuevo Mexico"
  SNM_communism_DEF:1 "La República de Nuevo Mexico"
- SNM:0 "New Mexico"
- SNM_DEF:0 "New Mexico"
+ SNM:0 "Republic of New Mexico"
+ SNM_DEF:0 "the Republic of New Mexico"
  SNM_ADJ:0 "New Mexican"
  
  STL_fascism:1 "True Louisiana"

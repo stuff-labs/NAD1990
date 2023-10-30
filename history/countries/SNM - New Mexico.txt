@@ -22,16 +22,22 @@ add_ideas = {
 	extensive_conscription
 	
 }
+recruit_character = SNM_bruce_king
+recruit_character = SNM_heisenberg
 
 set_politics = {
 	ruling_party = liberalism
-	last_election = "1936.1.1"
+	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 75
-	fascism = 1
-	communism = 1
-	national_unityism= 23
+	liberalism = 30
+	conservatism = 25
+	fascism = 15
+	progressivism = 5
+	socialism = 0
+	communism = 0
+	national_unityism= 0
+	despotic_autocracy = 25
 }

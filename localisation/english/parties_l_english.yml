@@ -985,7 +985,15 @@
  
  
  SNM_liberalism_party:0 "Democratic Party"
- SNM_liberalism_party_long:0 "Democratic Party"
+ SNM_liberalism_party_long:0 "Democratic Party of New Mexico"
+ SNM_conservatism_party:0 "Conservative Party"
+ SNM_conservatism_party_long:0 "Conservative Party of New Mexico"
+ SNM_fascism_party:0 "NMC"
+ SNM_fascism_party_long:0 "New Mexican Cartals"
+ SNM_progressivism_party:0 "Free Republic Party"
+ SNM_progressivism_party_long:0 "Free Republic Party of New Mexico"
+ SNM_despotic_autocracy_party:0 "FNUPNM"
+ SNM_despotic_autocracy_party_long:0 "Free National Unity Party of New Mexico"
  
  
 

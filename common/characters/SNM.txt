@@ -1,0 +1,30 @@
+characters={
+	SNM_bruce_king={
+		name="Bruce King"
+		portraits={
+			civilian={
+				large="gfx/leaders/SNM/portrait_SNM_bruce_king.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism_sub    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	SNM_heisenberg={
+		name="Walter White"
+		portraits={
+			civilian={
+				large="gfx/leaders/SNM/portrait_SNM_heisenberg.dds"
+			}
+		}
+		country_leader={
+			ideology=corporate_statism    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
