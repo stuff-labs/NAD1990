@@ -14,7 +14,7 @@ focus_tree = {
 
 	focus = {
 		id = STX_legacy_of_the_second_red_river_war_focus
-		icon = GFX_
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
 		#prerequisite = { focus =  }
 		x = 0
 		y = 0
@@ -50,7 +50,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_memories_of_the_civil_war
-		icon = GFX_
+		icon = GFX_STX_memories_of_the_civil_war
 		prerequisite = { focus = STX_legacy_of_the_second_red_river_war_focus }
 		x = -2
 		y = 1
@@ -86,7 +86,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_the_republics_mistakes
-		icon = GFX_
+		icon = GFX_STX_the_republics_mistakes
 		prerequisite = { focus = STX_legacy_of_the_second_red_river_war_focus }
 		x = 0
 		y = 1
@@ -122,7 +122,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_the_past_weaknesses
-		icon = GFX_
+		icon = GFX_STX_the_past_weaknesses
 		prerequisite = { focus = STX_legacy_of_the_second_red_river_war_focus }
 		x = 2
 		y = 1
@@ -158,7 +158,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_a_lone_star
-		icon = GFX_
+		icon = GFX_STX_a_lone_star
 		prerequisite = { focus = STX_the_republics_mistakes }
 		prerequisite = { focus = STX_memories_of_the_civil_war }
 		prerequisite = { focus = STX_the_past_weaknesses }
@@ -514,7 +514,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_the_oil_flows
-		icon = GFX_
+		icon = GFX_STX_the_oil_flows
 		prerequisite = { focus = STX_protect_new_mexican_oil }
 		prerequisite = { focus = STX_enter_businessmen_into_congress }
 		x = -1
@@ -847,7 +847,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_come_and_take_it
-		icon = GFX_
+		icon = GFX_STX_come_and_take_it
 		prerequisite = { focus = STX_loosen_gun_control }
 		x = 0
 		y = 2

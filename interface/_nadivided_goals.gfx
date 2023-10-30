@@ -3,4 +3,32 @@ spriteTypes = {
 		name = "GFX_STX_god_texas_and_paul"
 		texturefile = "gfx/interface/goals/STX_god_texas_and_paul.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_come_and_take_it"
+		texturefile = "gfx/interface/goals/STX_come_and_take_it.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_the_oil_flows"
+		texturefile = "gfx/interface/goals/STX_the_oil_flows.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_legacy_of_the_second_red_river_war_focus"
+		texturefile = "gfx/interface/goals/STX_legacy_of_the_second_red_river_war_focus.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_memories_of_the_civil_war"
+		texturefile = "gfx/interface/goals/STX_memories_of_the_civil_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_the_republics_mistakes"
+		texturefile = "gfx/interface/goals/STX_the_republics_mistakes.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_the_past_weaknesses"
+		texturefile = "gfx/interface/goals/STX_the_past_weaknesses.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_a_lone_star"
+		texturefile = "gfx/interface/goals/STX_a_lone_star.dds"
+	}
 }
