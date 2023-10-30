@@ -885,7 +885,7 @@ focus_tree = {
 	#YRVDISM
 	focus = {
 		id = STX_the_duty_of_every_texan
-		icon = GFX_
+		icon = GFX_STX_the_duty_of_every_texan
 		prerequisite = { focus = STX_a_lone_star }
 		x = 6
 		y = 2
@@ -925,7 +925,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_insert_propaganda_into_churches
-		icon = GFX_
+		icon = GFX_STX_insert_propaganda_into_churches
 		prerequisite = { focus = STX_the_duty_of_every_texan }
 		x = -2
 		y = 1
@@ -961,7 +961,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_bumping_up_the_security_budget
-		icon = GFX_
+		icon = GFX_STX_bumping_up_the_security_budget
 		prerequisite = { focus = STX_the_duty_of_every_texan }
 		x = 0
 		y = 1

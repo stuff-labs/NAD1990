@@ -31,4 +31,16 @@ spriteTypes = {
 		name = "GFX_STX_a_lone_star"
 		texturefile = "gfx/interface/goals/STX_a_lone_star.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_the_duty_of_every_texan"
+		texturefile = "gfx/interface/goals/STX_the_duty_of_every_texan.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_insert_propaganda_into_churches"
+		texturefile = "gfx/interface/goals/STX_insert_propaganda_into_churches.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_bumping_up_the_security_budget"
+		texturefile = "gfx/interface/goals/STX_bumping_up_the_security_budget.dds"
+	}
 }
