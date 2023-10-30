@@ -1,0 +1,16 @@
+characters={
+	SRI_provisional_junta={
+		name="National Security Junta"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/portrait_SRI_provisional_junta.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_military_dictatorship    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

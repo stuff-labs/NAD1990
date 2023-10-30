@@ -63,20 +63,25 @@ if = {
 }
 
 set_convoys = 25
+recruit_character = SRI_provisional_junta
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 43
-	fascism = 8
-	communism = 9
-	national_unityism= 3
-	progressivism = 37
+	liberalism = 5
+	conservatism = 5
+	progressivism = 0
+	fascism = 40
+	communism = 0
+	national_unityism= 25
+	despotic_autocracy = 25
+	socialism = 0
 }
+set_cosmetic_tag = SRI_junta_neweng
 
 ###############################
 
