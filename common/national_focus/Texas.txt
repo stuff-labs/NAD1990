@@ -1102,6 +1102,9 @@ focus_tree = {
 				remove_idea = STX_bumped_up_sec_budget
 				add_idea = STX_patriot_act
 			}
+			country_event = {
+				id = texas_events.18
+			}
 		}
 	}
 	focus = {
