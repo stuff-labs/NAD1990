@@ -276,7 +276,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 23
 		}
-		location = 1002
+		location = 6113
 		division_template = "Militia"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
@@ -286,7 +286,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 23
 		}
-		location = 1002
+		location = 6113
 		division_template = "Militia"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9

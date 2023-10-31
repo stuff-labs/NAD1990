@@ -997,7 +997,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_the_flag_flies_everywhere
-		icon = GFX_
+		icon = GFX_STX_the_flag_flies_everywhere
 		prerequisite = { focus = STX_the_duty_of_every_texan }
 		x = 2
 		y = 1
@@ -1031,7 +1031,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_the_true_citizen
-		icon = GFX_
+		icon = GFX_STX_the_true_citizen
 		prerequisite = { focus = STX_bumping_up_the_security_budget }
 		prerequisite = { focus = STX_insert_propaganda_into_churches }
 		x = -1
@@ -1068,7 +1068,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_the_patriot_act
-		icon = GFX_
+		icon = GFX_STX_the_patriot_act
 		prerequisite = { focus = STX_the_flag_flies_everywhere }
 		prerequisite = { focus = STX_bumping_up_the_security_budget }
 		x = -1
@@ -1109,7 +1109,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_we_wont_go_gently_into_the_night
-		icon = GFX_
+		icon = GFX_STX_we_wont_go_gently_into_the_night
 		prerequisite = { focus = STX_the_true_citizen }
 		prerequisite = { focus = STX_the_patriot_act }
 		x = -1

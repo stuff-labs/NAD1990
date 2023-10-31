@@ -43,4 +43,20 @@ spriteTypes = {
 		name = "GFX_STX_bumping_up_the_security_budget"
 		texturefile = "gfx/interface/goals/STX_bumping_up_the_security_budget.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_the_flag_flies_everywhere"
+		texturefile = "gfx/interface/goals/STX_the_flag_flies_everywhere.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_the_true_citizen"
+		texturefile = "gfx/interface/goals/STX_the_true_citizen.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_the_patriot_act"
+		texturefile = "gfx/interface/goals/STX_the_patriot_act.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_we_wont_go_gently_into_the_night"
+		texturefile = "gfx/interface/goals/STX_we_wont_go_gently_into_the_night.dds"
+	}
 }
