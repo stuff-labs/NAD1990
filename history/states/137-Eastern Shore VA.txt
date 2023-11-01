@@ -4,7 +4,7 @@ state={
 	name="STATE_137"
 
 	history={
-		owner = WDC
+		owner = SVA
 		buildings = {
 			infrastructure = 3
 			1782 = {
@@ -13,7 +13,7 @@ state={
 			}
 
 		}
-		add_core_of = WDC
+		add_core_of = SVA
 		1990.1.2 = {
 			owner = USA
 
