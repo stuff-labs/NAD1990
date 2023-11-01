@@ -4,6 +4,12 @@ spriteTypes = {
 	# Stuffed Commented out needs to be either fixed or added to the game .
 	
 #######################################gfx from base gmae #############################
+	##Nevada
+	spriteType = {
+		name = "GFX_idea_SNV_vegas_question"
+		texturefile = "gfx/interface/ideas/idea_SNV_vegas_question.dds"
+	}
+	
 	##tex
 	spriteType = {
 		name = "GFX_idea_STX_GRET_TEX_ARM"

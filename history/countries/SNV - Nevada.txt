@@ -26,6 +26,7 @@ set_convoys = 10
 
 add_ideas = {
 	extensive_conscription
+	SNV_the_vegas_question
 }
 
 
