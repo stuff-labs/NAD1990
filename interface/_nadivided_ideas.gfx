@@ -72,6 +72,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_SFL_aftermath_of_the_80s.dds"
 	}
 
+	####canada
+	spriteType = {
+		name = "GFX_idea_PON_michigan_troubles"
+		texturefile = "gfx/interface/ideas/idea_PON_michigan_troubles.dds"
+	}
 
 
 
