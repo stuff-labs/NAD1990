@@ -5,9 +5,9 @@ state={
 		1692 1693 1762 5347 5348 5429 5432 5433 5435 5437 
 	}
 	history = {
-		owner = WDC
+		owner = SVA
 		1990.1.2 = {
-			owner = USA
+			owner = SVA
 		}
 		add_core_of = WDC
 		buildings = {
