@@ -107,36 +107,6 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 6190
-		division_template = "Infantry Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 7
-		}
-		location = 4862
-		division_template = "Oklahoma State Guard"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 8
-		}
-		location = 1398
-		division_template = "Oklahoma State Guard"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
 			name_order = 7
 		}
 		location = 4862
@@ -187,102 +157,12 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 10
-		}
-		location = 1406
-		division_template = "Oklahoma State Guard"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 11
-		}
-		location = 4947
-		division_template = "Oklahoma State Guard"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
 			name_order = 12
 		}
 		location = 1441
 		division_template = "Oklahoma State Guard"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 13
-		}
-		location = 1441
-		division_template = "Oklahoma State Guard"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 14
-		}
-		location = 1392
-		division_template = "Oklahoma State Guard"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 15
-		}
-		location = 6185
-		division_template = "Oklahoma State Guard"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 16
-		}
-		location = 1682
-		division_template = "Oklahoma State Guard"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 15
-		}
-		location = 6185
-		division_template = "Oklahoma State Guard"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 16
-		}
-		location = 1682
-		division_template = "Oklahoma State Guard"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.6
-	}
-	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 17
-		}
-		location = 1682
-		division_template = "Farmers Militia"
-		start_experience_factor = 0.0
-		start_equipment_factor = 1.0
 	}
 	division = {
 		division_name = {
