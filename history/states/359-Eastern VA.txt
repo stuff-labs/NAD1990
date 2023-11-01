@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = WDC
+		owner = SVA
 		1990.1.2 = {
 			owner = USA
 		}
@@ -23,7 +23,7 @@ state={
 		victory_points = {
 			1695 8
 		}
-		add_core_of = WDC
+		add_core_of = SVA
 
 	}
 
