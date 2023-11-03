@@ -170,3 +170,16 @@ category_exile_forces = {
 		has_dlc = "Man the Guns"
 	}
 }
+
+
+SFL_haiti_war_timer_catagory = {
+	icon = generic_propaganda
+
+	allowed = {
+		tag = SFL
+	}
+
+	visible = {
+		has_country_flag = SFL_haiti_war_underway
+	}
+}
