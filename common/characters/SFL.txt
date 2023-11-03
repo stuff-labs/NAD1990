@@ -27,6 +27,21 @@ characters={
 			id=-1
 		}
 	}
+    #Cuba
+
+	SFL_vladimiro_cuba ={
+		name="Vladimiro Roca"
+		portraits={
+			civilian={
+				large="gfx/leaders/SFL/portrait_SFL_vladimiro_roca.dds"
+			}
+		}
+		country_leader={
+			ideology= social_democracy
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 
 
 	SFL_ron_desantis ={
