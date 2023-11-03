@@ -13,6 +13,22 @@ characters={
 			id=-1
 		}
 	}
+
+	SFL_provisional_government ={
+		name= SFL_provisional_government
+		portraits={
+			civilian={
+				large="gfx/leaders/Portrait_Placeholder.dds"
+			}
+		}
+		country_leader={
+			ideology= provisional_government 
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+
+
 	SFL_ron_desantis ={
 		name="Ron DeSantis"
 		portraits={

@@ -23,11 +23,7 @@ SFL_haiti_war_timer_catagory = {
 		timeout_effect = {
 			clr_country_flag = SFL_haiti_war_underway
 			white_peace = HAI
-			SVA = {
-				start_civil_war = {
-					ideology = conservatism
-				}
-			}
+			retire_ideology_leader = national_unityism
 		}
 		
 		remove_effect = {	
@@ -37,44 +33,6 @@ SFL_haiti_war_timer_catagory = {
 		
 		ai_will_do = {	
 			factor = 0
-		}
-	}
-
-	trvd_davvn = {
-
-		icon = generic_industry
-
-		available = {
-			has_stability < 1.0
-		}
-
-		visible = {
-			always = yes
-		}
-
-		fire_only_once = no
-
-		modifier = {
-			stability_weekly = 0.005
-			consumer_goods_factor = 0.05
-			industrial_capacity_factory = -0.1
-		}
-
-		days_remove = 180
-		days_re_enable = 540
-
-		cost = 100
-
-		complete_effect = {
-
-		}
-
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 1
-				has_stability < 0.6
-			}
 		}
 	}
 }

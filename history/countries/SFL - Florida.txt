@@ -95,7 +95,7 @@ add_ideas = {
 set_cosmetic_tag = FLOROCARIBBEAN
 recruit_character = SFL_vladimiro_roca
 recruit_character = SFL_ron_desantis
-
+recruit_character = SFL_provisional_government
 
 ### NAVAL ###
 if = {
