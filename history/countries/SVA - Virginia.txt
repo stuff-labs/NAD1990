@@ -5,18 +5,24 @@ oob = "SVA_1936"
 set_convoys = 53
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = despotic_autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	liberalism = 30
-	fascism = 15
-	communism = 15
-	national_unityism= 40
+	elections_allowed = no
 }
 
+set_popularities = {
+	fascism = 0
+	despotic_autocracy = 58
+	national_unityism = 14
+	conservatism = 14
+	liberalism = 14
+	progressivism = 0
+	socialism = 0
+	communism = 0
+}
+
+recruit_character = SVA_Pat_Robertson
 
 if = {
 	limit = { NOT = { has_dlc = "Man the Guns" } }

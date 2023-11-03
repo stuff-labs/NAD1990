@@ -119,7 +119,12 @@ defined_text = {
 		}
 		localization_key = corporatocracy
 	}
-	
+	text = {
+		trigger = {
+			has_country_leader_ideology = christian_nationalism
+		}
+		localization_key = christian_nationalism
+	}
 }
 defined_text = {
 	name = GetSubIdeologyAth

@@ -1,0 +1,17 @@
+characters = {
+
+	SVA_Pat_Robertson = {
+		name = SVA_Pat_Robertson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVA/Portrait_SVA_Pat_Robertson.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_nationalism
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+}

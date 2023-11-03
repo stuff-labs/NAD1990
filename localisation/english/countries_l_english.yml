@@ -520,17 +520,7 @@
  SNY_communism:1 "liberalism People's Republic of New York"
  SNY_communism_DEF:1 "the liberalism People's Republic of New York"
  SNY_ADJ:0 "New Yorker"
-  
- SVA_fascism:1 "Confederacy of Virginia"
- SVA_fascism_DEF:1 "Confederacy of Virginia"
- SVA_national_unityism:0 "Virginia"
- SVA_national_unityism_DEF:0 "the Commonwealth of Virginia"
- SVA_communism:1 "Virginia"
- SVA_communism_DEF:1 "Virginia"
- SVA:0 "Virginia"
- SVA_DEF:0 "Virginia"
- SVA_ADJ:0 "Virginian"
- 
+
  SWV_fascism:1 "West Virginia"
  SWV_fascism_DEF:1 "West Virginia"
  SWV_national_unityism:0 "West Virginia"
