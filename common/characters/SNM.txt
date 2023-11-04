@@ -27,4 +27,18 @@ characters={
 			id=-1
 		}
 	}
+	SNM_saul_goodman={
+		name="Saul Goodman"
+		portraits={
+			civilian={
+				large="gfx/leaders/SNM/portrait_SNM_saul_goodman.dds"
+			}
+		}
+		country_leader={
+			ideology=dominant_party_democracy    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 }

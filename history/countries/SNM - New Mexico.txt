@@ -24,6 +24,7 @@ add_ideas = {
 }
 recruit_character = SNM_bruce_king
 recruit_character = SNM_heisenberg
+recruit_character = SNM_saul_goodman
 
 set_politics = {
 	ruling_party = liberalism
