@@ -9,7 +9,7 @@ state={
 		1990.1.2 = {
 			owner = SVA
 		}
-		add_core_of = WDC
+		add_core_of = SVA
 		buildings = {
 			infrastructure = 1
 		}

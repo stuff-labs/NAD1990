@@ -14,4 +14,19 @@ characters = {
 			id = -1
 		}
 	}
+
+	SVA_Lyndon_Larouche = {
+		name = SVA_Lyndon_Larouche
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SVA/Portrait_SVA_lyndon_larouche.dds"
+			}
+		}
+		country_leader = {
+			ideology = laroucheism
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
 }

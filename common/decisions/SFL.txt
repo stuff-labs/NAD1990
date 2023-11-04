@@ -15,8 +15,11 @@ SFL_haiti_war_timer_catagory = {
 		
 		fire_only_once = yes		
 
-		activation = {		
-			country_exists = HAI
+		activation = {
+			AND = {
+				country_exists = HAI
+				has_country_flag = SFL_haiti_war_underway
+			}
 		}
 
 

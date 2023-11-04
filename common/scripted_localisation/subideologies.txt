@@ -90,6 +90,12 @@ defined_text = {
 		}
 		localization_key = corporate_statism
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = laroucheism
+		}
+		localization_key = laroucheism
+	}
 }
 defined_text = {
 	name = GetSubIdeologyDsp

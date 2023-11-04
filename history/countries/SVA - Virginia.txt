@@ -12,18 +12,18 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 0
-	despotic_autocracy = 58
+	fascism = 22
+	despotic_autocracy = 50
 	national_unityism = 14
 	conservatism = 14
-	liberalism = 14
+	liberalism = 0
 	progressivism = 0
 	socialism = 0
 	communism = 0
 }
 
 recruit_character = SVA_Pat_Robertson
-
+recruit_character = SVA_Lyndon_Larouche
 if = {
 	limit = { NOT = { has_dlc = "Man the Guns" } }
 	set_technology = {

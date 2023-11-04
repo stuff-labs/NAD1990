@@ -26,6 +26,10 @@ ideologies = {
 			corporate_statism = {
 				
 			}
+
+			laroucheism = {
+
+			}
 		}
 		
 		dynamic_faction_names = {
