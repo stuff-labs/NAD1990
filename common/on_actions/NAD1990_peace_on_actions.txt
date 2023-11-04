@@ -12,27 +12,6 @@ on_actions = {
 			}
 
 			set_global_flag = global_flag_peace_popup
-			#################FEEL FREE TO CHANGE IT BACK TO HOW IT WAS
-			if = { #band aid soloution so we don't have to manually give states back after a war, HOW IT SHOULD WORK, IF THEY DON'T HAVE THE FLAG, ANNEX THEM ENTIRELY, IF THEY HAVE THE FLAG, IGNORE ANNEXING THEM AND REFER TO THE SCRIPTED PEACE WE HAVE LAID OUT BELOW
-				limit = {
-					NOT = {
-						OR = {
-							FROM = {
-								has_country_flag = special_war_underway #there is probabaly a more efficent way to do this, i do not care
-							}
-							ROOT = {
-								has_country_flag = special_war_underway 
-							}
-						}
-					}
-				}
-				FROM = {
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
-					}
-				}
-			}
 
 			if = { #Nevadan-Cali war - nevadan victory
 				limit = {#LOC AND PEOPLE FOR THE 2 PUPPETS WILL BE IN THE MAIN CALIFORNIAN FILES
@@ -137,7 +116,7 @@ on_actions = {
 				}
 			}
 
-			if = { #3RRW - Texas Fail
+			else_if = { #3RRW - Texas Fail
 				limit = {
 					ROOT = {
 						original_tag = STX
@@ -157,8 +136,15 @@ on_actions = {
 						end_civil_wars = no
 					}
 				}
+			}
 
-				
+			else = {
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
 			}
 		}
 	}
