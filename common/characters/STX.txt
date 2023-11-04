@@ -27,4 +27,18 @@ characters={
 			id=-1
 		}
 	}
+	STX_anton_chigurh={
+		name="Anton Chigurh"
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/portrait_STX_anton_chigurh.dds"
+			}
+		}
+		country_leader={
+			ideology=personalist_dictatorship  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 }
