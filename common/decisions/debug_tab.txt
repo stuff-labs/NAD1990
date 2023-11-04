@@ -1,0 +1,43 @@
+debug_tab = {
+
+	
+	special_war_flag = {
+
+		icon = generic_industry
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			debug = yes
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = 0.005
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = -0.1
+		}
+
+		days_remove = 1
+		days_re_enable = 1
+
+		cost = 1
+
+		complete_effect = {
+			set_country_flag = special_war_underway
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.6
+			}
+		}
+	}
+
+}
+

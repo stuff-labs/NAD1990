@@ -6,6 +6,14 @@ propaganda_efforts = {
 	}
 }
 
+debug_tab = {
+	icon = generic_propaganda
+
+	visible = {
+
+	}
+}
+
 war_measures = {
 	icon = generic_propaganda
 

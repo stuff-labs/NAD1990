@@ -12,11 +12,25 @@ on_actions = {
 			}
 
 			set_global_flag = global_flag_peace_popup
-
-			FROM = {
-				annex_country = {
-					target = ROOT
-					transfer_troops = no
+			#################FEEL FREE TO CHANGE IT BACK TO HOW IT WAS
+			if = { #band aid soloution so we don't have to manually give states back after a war, HOW IT SHOULD WORK, IF THEY DON'T HAVE THE FLAG, ANNEX THEM ENTIRELY, IF THEY HAVE THE FLAG, IGNORE ANNEXING THEM AND REFER TO THE SCRIPTED PEACE WE HAVE LAID OUT BELOW
+				limit = {
+					NOT = {
+						OR = {
+							FROM = {
+								has_country_flag = special_war_underway #there is probabaly a more efficent way to do this, i do not care
+							}
+							ROOT = {
+								has_country_flag = special_war_underway 
+							}
+						}
+					}
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
 				}
 			}
 
@@ -121,6 +135,30 @@ on_actions = {
 						popularity = 0.20
         			}
 				}
+			}
+
+			if = { #3RRW - Texas Fail
+				limit = {
+					ROOT = {
+						original_tag = STX
+					}
+					FROM = {
+						OR = {
+							original_tag = SLA
+							original_tag = SOX
+						}
+					}
+				}
+				SCA = {
+					set_autonomy = {
+						target = STX
+						autonomy_state = autonomy_puppet
+						end_wars = no
+						end_civil_wars = no
+					}
+				}
+
+				
 			}
 		}
 	}
