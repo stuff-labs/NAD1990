@@ -1,11 +1,11 @@
 #ILOVERONPAUL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
 add_namespace = texas_events
-add_namespace = texas_flavour ##bri tish spelling
+add_namespace = texas_flavour ##bri tish spelling #stuff respond to this if you saw this
 country_event = {  #Legacy Of
     id = texas_events.1
     title = texas_events.1.t
     desc = texas_events.1.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_legacy_of_rrw
 
 	is_triggered_only = yes
 
@@ -24,7 +24,7 @@ country_event = {  #Civil War
     id = texas_events.2
     title = texas_events.2.t
     desc = texas_events.2.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_texan_civil_war
 
 	is_triggered_only = yes
 
@@ -43,7 +43,7 @@ country_event = {  #Republics Mistakes
     id = texas_events.3
     title = texas_events.3.t
     desc = texas_events.3.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_republics_mistakes
 
 	is_triggered_only = yes
 
@@ -62,7 +62,7 @@ country_event = {  #Past Weakness
     id = texas_events.4
     title = texas_events.4.t
     desc = texas_events.4.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_james_allred_is_bad
 
 	is_triggered_only = yes
 
@@ -81,7 +81,7 @@ country_event = {  #A Lone Star
     id = texas_events.5
     title = texas_events.5.t
     desc = texas_events.5.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_texas_flag_congress
 
 	is_triggered_only = yes
 
@@ -100,7 +100,7 @@ country_event = {  #Corpos Enter Congress
     id = texas_events.6
     title = texas_events.6.t
     desc = texas_events.6.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_texas_congress
 
 	is_triggered_only = yes
 
@@ -151,7 +151,7 @@ country_event = {  #Jones Introduction
     id = texas_events.8
     title = texas_events.8.t
     desc = texas_events.8.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_jim_jones_spiting_facts
 
 	is_triggered_only = yes
 
@@ -174,7 +174,7 @@ country_event = {  #David Introduction
     id = texas_events.9
     title = texas_events.9.t
     desc = texas_events.9.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_david_koresh_book
 
 	is_triggered_only = yes
 
@@ -193,7 +193,7 @@ country_event = {  #True Citizen Event - https://www.youtube.com/watch?v=UNLM0M4
     id = texas_events.11
     title = texas_events.11.t
     desc = texas_events.11.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_true_citizen_prop
 
 	is_triggered_only = yes
 
@@ -212,7 +212,7 @@ country_event = {  #GOD TEXAS AND PAUL
     id = texas_events.12
     title = texas_events.12.t
     desc = texas_events.12.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_god_texas_and_ron_paul
 
 	is_triggered_only = yes
 
@@ -231,7 +231,7 @@ country_event = {  #mfw oklahoma exists
     id = texas_events.13
     title = texas_events.13.t
     desc = texas_events.13.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_oklahoma_and_louisiana
 
 	is_triggered_only = yes
 
@@ -250,7 +250,7 @@ country_event = {  #mfw congress
     id = texas_events.14
     title = texas_events.14.t
     desc = texas_events.14.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_texas_congress
 
 	is_triggered_only = yes
 
@@ -269,7 +269,7 @@ country_event = {  #false flag manchuria moment
     id = texas_events.15
     title = texas_events.15.t
     desc = texas_events.15.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_the_oklahoma_trolling
 
 	is_triggered_only = yes
 
@@ -292,7 +292,7 @@ country_event = {  #angy ron paul
     id = texas_events.16
     title = texas_events.16.t
     desc = texas_events.16.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_texas_congress_two
 
 	is_triggered_only = yes
 
@@ -311,7 +311,7 @@ country_event = {  #the war starts
     id = texas_events.17
     title = texas_events.17.t
     desc = texas_events.17.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_red_river_war_starts
 
 	is_triggered_only = yes
 
@@ -332,7 +332,7 @@ country_event = {  #patriot act passess - https://youtu.be/c9qzU078Tdg?si=3cc-4b
     id = texas_events.18
     title = texas_events.18.t
     desc = texas_events.18.d
-    picture = GFX_report_event_la_riots_starts
+    picture = GFX_report_event_texas_congress
 
 	is_triggered_only = yes
 

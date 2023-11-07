@@ -13,6 +13,20 @@ characters={ #LOC KEYS FOR NAMES PEOPLE
 			id=-1
 		}
 	}
+	SCA_gloria_la_riva={
+		name="Gloria La Riva"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCA/portrait_SCA_gloria_la_riva.dds"
+			}
+		}
+		country_leader={
+			ideology= revolutionary_socialism 
+			traits={ }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 	SCA_henry_lamont_beach={
 		name="Henry Lamont Beach"
 		portraits={
@@ -27,6 +41,7 @@ characters={ #LOC KEYS FOR NAMES PEOPLE
 			id=-1
 		}
 	}
+
 
 
 	#CALIFORNIAN SPLIT - PUPPET LEADERS

@@ -110,7 +110,7 @@ set_popularities = {
 
 recruit_character = STX_ron_paul
 recruit_character = STX_jim_jones
-
+recruit_character = STX_anton_chigurh # keep him at the bottom of the recruit list
 
 ### NAVAL ###
 

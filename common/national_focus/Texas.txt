@@ -390,7 +390,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_enter_businessmen_into_congress
-		icon = GFX_
+		icon = GFX_STX_enter_businessmen_into_congress
 		prerequisite = { focus = STX_give_executives_cuts }
 		x = 0
 		y = 1
@@ -469,7 +469,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_protect_new_mexican_oil
-		icon = GFX_
+		icon = GFX_STX_protect_new_mexican_oil
 		prerequisite = { focus = STX_efficiency_before_wellbeing }
 		x = 0
 		y = 1
@@ -625,7 +625,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas {
+			add_ideas = {
 				STX_youth_organizations
 			}
 		}
@@ -808,7 +808,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_loosen_gun_control
-		icon = GFX_
+		icon = GFX_STX_loosen_gun_control
 		prerequisite = { focus = STX_expand_the_factories }
 		prerequisite = { focus = STX_increase_military_spending }
 		x = -1
@@ -840,7 +840,7 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 1300
+				amount = 2200
 				producer = STX
 			}
 		}
@@ -1225,7 +1225,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_mobilize_the_economy
-		icon = GFX_
+		icon = GFX_STX_mobilize_the_economy
 		prerequisite = { focus = STX_the_lost_lands }
 		x = -2
 		y = 1
@@ -1262,7 +1262,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_ready_the_troops
-		icon = GFX_
+		icon = GFX_STX_ready_the_troops
 		prerequisite = { focus = STX_the_lost_lands }
 		x = 0
 		y = 1
@@ -1300,7 +1300,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_push_congress
-		icon = GFX_
+		icon = GFX_STX_push_congress
 		prerequisite = { focus = STX_the_lost_lands }
 		x = 2
 		y = 1
@@ -1325,11 +1325,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			country_event = texas_events.14
+			#country_event = texas_events.14
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.14
+			}
 		}
 	}
 	focus = {
@@ -1361,14 +1363,14 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			country_event {
-				id = texas_events.15
-			}
+			#country_event = {
+			#	id = texas_events.15
+			#}
 		}
 
 		completion_reward = {
 			country_event = {
-				id = texas_events.3
+				id = texas_events.15
 			}
 		}
 	}

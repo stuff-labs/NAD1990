@@ -41,6 +41,70 @@ spriteTypes = {
 		name = "GFX_report_event_number_six_gas_station_attendent_is"
 		texturefile = "gfx/event_pictures/report_events/report_event_number_six_gas_station_attendent_is.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_legacy_of_rrw"
+		texturefile = "gfx/event_pictures/report_events/report_event_legacy_of_rrw.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_texan_civil_war"
+		texturefile = "gfx/event_pictures/report_events/report_event_texan_civil_war.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_republics_mistakes"
+		texturefile = "gfx/event_pictures/report_events/report_event_republics_mistakes.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_james_allred_is_bad"
+		texturefile = "gfx/event_pictures/report_events/report_event_james_allred_is_bad.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_texas_flag_congress"
+		texturefile = "gfx/event_pictures/report_events/report_event_texas_flag_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_texas_congress"
+		texturefile = "gfx/event_pictures/report_events/report_event_texas_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_jim_jones_spiting_facts"
+		texturefile = "gfx/event_pictures/report_events/report_event_jim_jones_spiting_facts.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_david_koresh_book"
+		texturefile = "gfx/event_pictures/report_events/report_event_david_koresh_book.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_true_citizen_prop"
+		texturefile = "gfx/event_pictures/report_events/report_event_true_citizen_prop.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_texas_protests"
+		texturefile = "gfx/event_pictures/report_events/report_event_texas_protests.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_texas_police_arrests"
+		texturefile = "gfx/event_pictures/report_events/report_event_texas_police_arrests.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_god_texas_and_ron_paul"
+		texturefile = "gfx/event_pictures/report_events/report_event_god_texas_and_ron_paul.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_oklahoma_and_louisiana"
+		texturefile = "gfx/event_pictures/report_events/report_event_oklahoma_and_louisiana.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_the_oklahoma_trolling"
+		texturefile = "gfx/event_pictures/report_events/report_event_the_oklahoma_trolling.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_texas_congress_two"
+		texturefile = "gfx/event_pictures/report_events/report_event_texas_congress_two.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_red_river_war_starts"
+		texturefile = "gfx/event_pictures/report_events/report_event_red_river_war_starts.dds"
+	}
 
 	#newsevents
 	spriteType = {
