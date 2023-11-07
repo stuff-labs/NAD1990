@@ -469,7 +469,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_protect_new_mexican_oil
-		icon = GFX_
+		icon = GFX_STX_protect_new_mexican_oil
 		prerequisite = { focus = STX_efficiency_before_wellbeing }
 		x = 0
 		y = 1
@@ -808,7 +808,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_loosen_gun_control
-		icon = GFX_
+		icon = GFX_STX_loosen_gun_control
 		prerequisite = { focus = STX_expand_the_factories }
 		prerequisite = { focus = STX_increase_military_spending }
 		x = -1
@@ -1225,7 +1225,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_mobilize_the_economy
-		icon = GFX_
+		icon = GFX_STX_mobilize_the_economy
 		prerequisite = { focus = STX_the_lost_lands }
 		x = -2
 		y = 1

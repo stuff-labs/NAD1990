@@ -71,4 +71,16 @@ spriteTypes = {
 		name = "GFX_STX_enter_businessmen_into_congress"
 		texturefile = "gfx/interface/goals/STX_enter_businessmen_into_congress.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_mobilize_the_economy"
+		texturefile = "gfx/interface/goals/STX_mobilize_the_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_loosen_gun_control"
+		texturefile = "gfx/interface/goals/STX_loosen_gun_control.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_protect_new_mexican_oil"
+		texturefile = "gfx/interface/goals/STX_protect_new_mexican_oil.dds"
+	}
 }
