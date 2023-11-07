@@ -83,8 +83,26 @@
 
  #loc beneath texas_events.1.d:0 doesn't work, hashed it out because it's like 3:59 and i want to read events and sleep
  texas_events.1.t:0 "The Great Loss"
- texas_events.1.d:0 "Texas fell into a war with both Louisiana and Oklahoma with the deranged Huey Long leading the charge against the Republic. susussussu amognsuussusussuussususussssusussuussuussus"
- texas_events.1.a:0 "societ y"
+ texas_events.1.d:0 "The Second Red River War was an absolute humiliation for the young Republic of Texas. Louisiana and Oklahoma’s combined military forces overpowered the relatively weak Texan Army. The Oklahomans pushed past the Texan Panhandle. Louisiana broke through the lines of the East and captured Houston. The Texan Rangers who recently were handed back their authority were also weakened, unable to aid the Army. The Warmongering Huey Long then declared victory over our nation in half a year. Texas was forced to cede Eastern Texas and the Panhandle. War Reparations also were imposed. Not only did Texas lose a chunk of its territory, but it had also deteriorated the political landscape of the Republic, radicals began to take advantage over the loss to advocate for their cause."
+ texas_events.1.a:0 "Where it all Began"
+
+ texas_events.2.t:0 "The Texan Civil War"
+ texas_events.2.d:0 "After the devastating loss, Texas faced another crisis within its electorate. Populist W. Lee O’ Daniels and President James Allred were at odds with each other during the election season. At a very close margin, James Allred won a third term. However public trust and support for Allred was at an all time low. Supporter of O’ Daniels protested and demanded Allred’s resignation. Allred attempted to calm the situation down however it was far too late, O’ Daniels and his supporters rebelled and declared the formation of the “Second Republic of Texas”. The massive rebellion cemented James Allred’s legacy of instability and failure. The Democratic Party of Texas collapsed and the Republican Party took over the reins of Texas. O’ Daniels rebels fought hard to establish a populist Texas however with the Texas Rangers empowered by the Republicans and strengthened, the Second Republic fell to the First Republic. However the Civil War devastated the countryside and Texan industry for years to come with slow recovery."
+ texas_events.2.a:0 "Never Again, Never...Again"
+
+ texas_events.3.t:0 "Mistakes of The Old Republic"
+ texas_events.3.d:0 "The original Texan Republic conceived in the 30s was a failure, not only due to its failure to win the Second Red River War, but it’s system of government inherited from the United States doomed it to failure. The former United States was a region of chaos, instability, and anarchy that no democratic nation has any room in. The Republic of Texas was unfortunate enough to be in the middle of it, first it faced conflict with Oklahoma, second it faced conflict with Louisiana and Oklahoma. Democracy failed Texas and it’s ruined its people. We paid its price and we wait now to retake what is righteously ours."
+ texas_events.3.a:0 "Spineless Politicans failed this Country"
+ 
+ texas_events.4.t:0 "The Past Weakness"
+ texas_events.4.d:0 "James Allred, a President whose legacy remains as the one who ruined Texas’ potential as a power on the North American continent. In the Second Red River War, he focused on defense instead of attack. He never planned any tactics that would have saved the nation from its loss. We recollected the war and we found out that a naval invasion of Louisiana would’ve distracted the Louisianans enough to abandoned their offensive in Eastern Texas. Not only that, but Allred refused to resign right when people began to call for his resignation. Allred attempted to amend the loss, attempted to save the Democratic Republic, and attempted reconciliation. But history has shown that cowardice like this brought us to the brink that the Republicans saved us from. We refuse to repeat the mistakes of the past and we honor the Legacy of the Republicans."
+ texas_events.4.a:0 "Allred was a Fool"
+
+ texas_events.5.t:0 "Our Lone Star"
+ texas_events.5.d:0 "The Republic of Texas now has forged itself into an independent nation, not bound by inherit democratic weaknesses. Under the glorious administration of Ron Paul, Texas has never seen better days. With massive expansion of the military and greater revenues from oil, Texas can now begin to prepare for another Red River War to retake its rightful land from the former Jeffersonians. Before we can begin to makes our move, Texas first must begin to expand its oil reserves and revenues to increase its capacity for war. Then it must expand its military further to be more able to win the Red River War. Lastly we must renew Texan nationalism and secure the political sphere from subversive elements that lurk in the shadows of the Lone Star. We cannot afford another failure for the sake of the Republic and the security of the Republican Party."
+ texas_events.5.a:0 "Glory To Ron Paul!"
+
+ 
 
  ###flavor events
  texas_flavour.1.t:0 "Reporting Period"
