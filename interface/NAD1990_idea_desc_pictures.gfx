@@ -1,0 +1,8 @@
+spriteTypes = {
+	#Idea Bling
+	spriteType = {
+		name = "GFX_vegas_question_picture"
+		textureFile = "gfx/interface/ideas/pictures/vegas.png"
+		legacy_lazy_load = no
+	}
+}
