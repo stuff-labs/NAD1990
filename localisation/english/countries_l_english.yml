@@ -1340,16 +1340,6 @@
  ELS_communism_DEF:0 "the Central American Socialist Republic"
  ELS_ADJ:0 "Salvadoran"
 
- NIC_fascism:0 "Nicaragua"
- NIC_fascism_DEF:0 "Nicaragua"
- NIC_liberalism:0 "Republic of Nicaragua"
- NIC_liberalism_DEF:0 "the Republic of Nicaragua"
- NIC:0 "Nicaragua"
- NIC_DEF:0 "Nicaragua"
- NIC_communism:0 "Free Nicaragua"
- NIC_communism_DEF:0 "The Republic Of Free Nicaragua"
- NIC_ADJ:0 "Nicaraguan"
-
  COS_fascism:0 "Costa Potente"
  COS_fascism_DEF:0 "Costa Potente"
  COS:0 "Costa Rica"

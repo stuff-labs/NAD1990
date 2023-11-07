@@ -1,0 +1,24 @@
+﻿l_english:
+
+ NIC: "Nicaragua"
+ NIC_DEF: "the Nicaragua"
+ NIC_ADJ: "Nicaraguan"
+
+ NIC_fascism_party: "Contras"
+ NIC_fascism_party_long: "Contras"
+ NIC_despotic_autocracy_party: "Contras"
+ NIC_despotic_autocracy_party_long: "Contras"
+ NIC_national_unityism_party: "Contras"
+ NIC_national_unityism_party_long: "Contras"
+ NIC_conservatism_party: "APC"
+ NIC_conservatism_party_long: "Alianza Popular Conservadora"
+ NIC_liberalism_party: "PLC"
+ NIC_liberalism_party_long: "Partido Liberal Constitucionalista"
+ NIC_progressivism_party: "Unorganised Dissidents"
+ NIC_progressivism_party_long: "Unorganised Dissidents"
+ NIC_socialism_party: "PSN"
+ NIC_socialism_party_long: "Partido Socialista Nicaragüense"
+ NIC_communism_party: "FSLN"
+ NIC_communism_party_long: "Frente Sandinista de Liberación Nacional"
+
+ NIC_Daniel_Ortega: "Daniel Ortega"
