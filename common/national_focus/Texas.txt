@@ -625,7 +625,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas {
+			add_ideas = {
 				STX_youth_organizations
 			}
 		}
@@ -840,7 +840,7 @@ focus_tree = {
 		completion_reward = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 1300
+				amount = 2200
 				producer = STX
 			}
 		}
@@ -1325,11 +1325,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			country_event = texas_events.14
+			#country_event = texas_events.14
 		}
 
 		completion_reward = {
-			
+			country_event = {
+				id = texas_events.14
+			}
 		}
 	}
 	focus = {
@@ -1361,14 +1363,14 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-			country_event {
-				id = texas_events.15
-			}
+			#country_event = {
+			#	id = texas_events.15
+			#}
 		}
 
 		completion_reward = {
 			country_event = {
-				id = texas_events.3
+				id = texas_events.15
 			}
 		}
 	}
