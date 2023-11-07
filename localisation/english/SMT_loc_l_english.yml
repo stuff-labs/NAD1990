@@ -1,0 +1,27 @@
+﻿l_english:
+
+ SMT_fascism: "White Republic of Montana"
+ SMT_fascism_DEF: "the White Republic of Montana"
+ SMT_fascism_ADJ: "Montanan"
+ SMT: "Republic of Montana"
+ SMT_DEF: "the Republic of Montana"
+ SMT_ADJ: "Montanan"
+
+ SMT_fascism_party: "NWWPP"
+ SMT_fascism_party_long: "North West White People's Party"
+ SMT_despotic_autocracy_party: "Unorganised Dissidents"
+ SMT_despotic_autocracy_party_long: "Unorganised Dissidents"
+ SMT_national_unityism_party: "Unorganised Dissidents"
+ SMT_national_unityism_party_long: "Unorganised Dissidents"
+ SMT_conservatism_party: "Unorganised Dissidents"
+ SMT_conservatism_party_long: "Unorganised Dissidents"
+ SMT_liberalism_party: "Unorganised Dissidents"
+ SMT_liberalism_party_long: "Unorganised Dissidents"
+ SMT_progressivism_party: "Unorganised Dissidents"
+ SMT_progressivism_party_long: "Unorganised Dissidents"
+ SMT_socialism_party: "Unorganised Dissidents"
+ SMT_socialism_party_long: "Unorganised Dissidents"
+ SMT_communism_party: "Unorganised Dissidents"
+ SMT_communism_party_long: "Unorganised Dissidents"
+
+ SMT_Harold_Covington: "Harold Covington"

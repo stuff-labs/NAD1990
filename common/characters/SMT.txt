@@ -1,16 +1,16 @@
-characters={
-	SMT_harold_covington={
-		name="Harold Covington"
-		portraits={
-			civilian={
-				large="gfx/leaders/SMT/portrait_SMT_harold_covington.dds"
+characters = {
+	SMT_Harold_Covington = {
+		name = SMT_Harold_Covington
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SMT/portrait_SMT_harold_covington.dds"
 			}
 		}
-		country_leader={
-			ideology=nazism   
-			traits={  }
-			expire="2020.1.1.1"
-			id=-1
+		country_leader = {
+			ideology = white_nationalism
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
 		}
 	}
 }

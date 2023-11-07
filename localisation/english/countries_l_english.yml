@@ -251,17 +251,6 @@
  SLV_DEF:1 "The Free Corps"
  SLV_ADJ:0 "Free Soldiers"
  
- 
- SMT_fascism:1 "State of Montana"
- SMT_fascism_DEF:1 "the Aryan State of Montana"
- SMT_national_unityism:0 "Montana"
- SMT_national_unityism_DEF:0 "Montana"
- SMT_communism:1 "liberalism Republic of Montana"
- SMT_communism_DEF:1 "the liberalism Republic of Montana"
- SMT:0 "Republic of Montana"
- SMT_DEF:0 "Republic of Montana"
- SMT_ADJ:0 "Montanan"
- 
  SMD_fascism:1 "Maryland Marine State"
  SMD_fascism_DEF:1 "the Maryland Marine State"
  SMD_national_unityism:0 "Maryland"
