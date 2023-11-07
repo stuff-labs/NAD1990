@@ -59,4 +59,12 @@ spriteTypes = {
 		name = "GFX_STX_we_wont_go_gently_into_the_night"
 		texturefile = "gfx/interface/goals/STX_we_wont_go_gently_into_the_night.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_ready_the_troops"
+		texturefile = "gfx/interface/goals/STX_ready_the_troops.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_push_congress"
+		texturefile = "gfx/interface/goals/STX_push_congress.dds"
+	}
 }
