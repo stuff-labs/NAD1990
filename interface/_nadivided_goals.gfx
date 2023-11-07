@@ -67,4 +67,8 @@ spriteTypes = {
 		name = "GFX_STX_push_congress"
 		texturefile = "gfx/interface/goals/STX_push_congress.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_enter_businessmen_into_congress"
+		texturefile = "gfx/interface/goals/STX_enter_businessmen_into_congress.dds"
+	}
 }

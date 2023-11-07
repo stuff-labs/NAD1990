@@ -390,7 +390,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_enter_businessmen_into_congress
-		icon = GFX_
+		icon = GFX_STX_enter_businessmen_into_congress
 		prerequisite = { focus = STX_give_executives_cuts }
 		x = 0
 		y = 1
