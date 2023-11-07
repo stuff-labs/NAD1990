@@ -158,6 +158,7 @@ set_popularities = {
 #Leaders
 recruit_character = SCA_jerry_brown
 recruit_character = SCA_henry_lamont_beach
+recruit_character = SCA_gloria_la_riva
 add_ideas = {
 	SCA_weak_federation
 	SCA_gang_violence

@@ -20,20 +20,21 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = progressivism
+	ruling_party = conservatism
 	last_election = "1987.5.16"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 6
-	conservatism = 42
+	liberalism = 5
+	conservatism = 50
 	fascism = 0
 	communism = 2
-	socialism = 15
+	socialism = 5
 	national_unityism = 0
-	despotic_autocracy = 2
-	progressivism = 33
+	despotic_autocracy = 3
+	progressivism = 35
 }
+recruit_character = BER_margaret_thatcher
 recruit_character = BER_jeremy_corbyn
 

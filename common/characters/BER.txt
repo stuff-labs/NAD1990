@@ -1,4 +1,18 @@
 characters={
+	BER_margaret_thatcher={
+		name="Margaret Thatcher"
+		portraits={
+			civilian={
+				large="gfx/leaders/BER/portrait_BER_margaret_thatcher.dds"
+			}
+		}
+		country_leader={
+			ideology= conservatism_sub 
+			traits={ }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 	BER_jeremy_corbyn={
 		name="Jeremy Corbyn"
 		portraits={
