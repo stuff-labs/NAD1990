@@ -562,7 +562,7 @@ focus_tree = {
 	#ARMY
 	focus = {
 		id = STX_the_great_texan_army_focus
-		icon = GFX_
+		icon = GFX_STX_the_great_texan_army_focus
 		prerequisite = { focus = STX_a_lone_star }
 		x = 0
 		y = 2
@@ -1336,7 +1336,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_the_oklahoma_incident
-		icon = GFX_
+		icon = GFX_STX_the_oklahoma_incident
 		prerequisite = { focus = STX_push_congress }
 		prerequisite = { focus = STX_ready_the_troops }
 		prerequisite = { focus = STX_mobilize_the_economy }

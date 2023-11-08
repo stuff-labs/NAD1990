@@ -83,4 +83,12 @@ spriteTypes = {
 		name = "GFX_STX_protect_new_mexican_oil"
 		texturefile = "gfx/interface/goals/STX_protect_new_mexican_oil.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_the_oklahoma_incident"
+		texturefile = "gfx/interface/goals/STX_the_oklahoma_incident.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_the_great_texan_army_focus"
+		texturefile = "gfx/interface/goals/STX_the_great_texan_army_focus.dds"
+	}
 }

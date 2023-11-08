@@ -5,4 +5,24 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideas/pictures/vegas.png"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_SCA_weak_federation_picture"
+		textureFile = "gfx/interface/ideas/pictures/SCA_weak_federation_pic.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SCA_sunset_economy_picture"
+		textureFile = "gfx/interface/ideas/pictures/SCA_sunset_economy_pic.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SCA_nevada_arizona_nationalism_picture"
+		textureFile = "gfx/interface/ideas/pictures/SCA_nevada_arizona_nationalism_pic.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SCA_gang_violence_picture"
+		textureFile = "gfx/interface/ideas/pictures/SCA_gang_violence_pic.dds"
+		legacy_lazy_load = no
+	}
 }
