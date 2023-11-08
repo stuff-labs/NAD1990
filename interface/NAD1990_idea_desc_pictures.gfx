@@ -1,5 +1,6 @@
 spriteTypes = {
 	#Idea Bling
+	### in loc \n\n\n\n\n£GFX_SCA_weak_federation_picture\n\n\n\n\n
 	spriteType = {
 		name = "GFX_vegas_question_picture"
 		textureFile = "gfx/interface/ideas/pictures/vegas.png"
@@ -23,6 +24,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SCA_gang_violence_picture"
 		textureFile = "gfx/interface/ideas/pictures/SCA_gang_violence_pic.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_STX_half_mass_texas_flag_rrw_loss"
+		textureFile = "gfx/interface/ideas/pictures/STX_half_mass_texas_flag_rrw_loss.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_STX_the_great_and_epic_texan_army"
+		textureFile = "gfx/interface/ideas/pictures/STX_the_great_and_epic_texan_army.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_STX_me_when_the_star_is_shattered"
+		textureFile = "gfx/interface/ideas/pictures/STX_me_when_the_star_is_shattered.dds"
 		legacy_lazy_load = no
 	}
 }
