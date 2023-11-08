@@ -41,4 +41,67 @@ characters={
 			id=-1
 		}
 	}
+
+	STX_Lew_Rockwell = {
+		name = "STX_Lew_Rockwell"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/STX/idea_advisor_STX_Lew_Rockwell.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = STX_Lew_Rockwell_Advisor
+			cost = -1
+			removal_cost = 9999
+			allowed  = {
+				original_tag  = STX
+			}
+			traits  = {
+				
+			}
+		}
+	}
+
+	STX_James_W_Kinnear = {
+		name = "STX_James_W_Kinnear"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/STX/idea_advisor_STX_James_W_Kinnear.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = STX_James_W_Kinnear_Advisor
+			cost = -1
+			removal_cost = 9999
+			allowed  = {
+				original_tag  = STX
+			}
+			traits  = {
+				
+			}
+		}
+	}
+
+	STX_William_S_Sessions = {
+		name = "STX_William_S_Sessions"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/advisors/STX/idea_advisor_STX_William_S_Sessions.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = STX_William_S_Sessions_Advisor
+			cost = -1
+			removal_cost = 9999
+			allowed  = {
+				original_tag  = STX
+			}
+			traits  = {
+				
+			}
+		}
+	}
 }

@@ -112,6 +112,16 @@ recruit_character = STX_ron_paul
 recruit_character = STX_jim_jones
 recruit_character = STX_anton_chigurh # keep him at the bottom of the recruit list
 
+recruit_character = STX_Lew_Rockwell
+recruit_character = STX_James_W_Kinnear
+recruit_character = STX_William_S_Sessions
+
+add_ideas = {
+	STX_Lew_Rockwell_Advisor
+	STX_James_W_Kinnear_Advisor
+	STX_William_S_Sessions_Advisor
+}
+
 ### NAVAL ###
 
 	create_equipment_variant = {

@@ -22,6 +22,13 @@
  STX_corporate_party_name:0 "Republican Party - CIG's"
  STX_corporate_party_name_long:0 "Republican Party - Corporate Interest Groups"
 
+ STX_Lew_Rockwell: "Lew Rockwell"
+ STX_Lew_Rockwell_Advisor_desc: "§YHead of Government\nDespotism§!\n--------------\n§LI among us, therefore I am.§!"
+ STX_James_W_Kinnear: "James W. Kinnear"
+ STX_James_W_Kinnear_Advisor_desc: "§YEconomic Minister\nDespotism§!\n--------------\n§LI among us, therefore I am.§!"
+ STX_William_S_Sessions: "William S. Sessions"
+ STX_William_S_Sessions_Advisor_desc: "§YSecurity Minister\nDespotism§!\n--------------\n§LI among us, therefore I am.§!"
+
  ###Ideas
  STX_bumped_up_sec_budget:0 "Bumped Up Security Budget"
  STX_the_shattered_lone_star:0 "The Shattered Lone Star"
