@@ -1,0 +1,24 @@
+﻿l_english:
+
+ COL: "Republic of Colombia"
+ COL_DEF: "the Republic of Colombia"
+ COL_ADJ: "Colombian"
+
+ COL_fascism_party: "Medellín Cartel"
+ COL_fascism_party_long: "Medellín Cartel"
+ COL_despotic_autocracy_party: "PLC"
+ COL_despotic_autocracy_party_long: "Partido Liberal Colombiano"
+ COL_national_unityism_party: "Unorganised Dissidents"
+ COL_national_unityism_party_long: "Unorganised Dissidents"
+ COL_conservatism_party: "PCC"
+ COL_conservatism_party_long: "Partido Conservador Colombiano"
+ COL_liberalism_party: "PLC"
+ COL_liberalism_party_long: "Partido Liberal Colombiano"
+ COL_progressivism_party: "Unorganised Dissidents"
+ COL_progressivism_party_long: "Unorganised Dissidents"
+ COL_socialism_party: "Unorganised Dissidents"
+ COL_socialism_party_long: "Unorganised Dissidents"
+ COL_communism_party: "Unorganised Dissidents"
+ COL_communism_party_long: "Unorganised Dissidents"
+
+ COL_Pablo_Escobar: "Pablo Escobar"
