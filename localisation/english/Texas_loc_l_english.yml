@@ -21,7 +21,7 @@
 
  STX_corporate_party_name:0 "Republican Party - CIG's"
  STX_corporate_party_name_long:0 "Republican Party - Corporate Interest Groups"
-
+ #Advisors
  STX_Lew_Rockwell: "Lew Rockwell"
  STX_Lew_Rockwell_Advisor_desc: "§YHead of Government\nDespotism§!\n--------------\n§LI among us, therefore I am.§!"
  STX_James_W_Kinnear: "James W. Kinnear"
@@ -78,12 +78,15 @@
  STX_the_oklahoma_incident:0 "A Little Stagecraft In Oklahoma"
  STX_the_third_red_river_war:0 "The Third §RRed River War§!"
 
-
+ #Descs
+ POLITICS_RON_PAUL_DESC: "Texas is broken.\n\nEver since the collapse of the union in the 30’s, the lone star state has been in a freefall towards the abyss. First: The Second Red River War, where Oklahoma and Louisiana tore nearly a million Texans from their rightful home. Then after that: The Civil War, where the republic tore itself apart, only for the rotten structure that was the first republic to survive. And to add insult to injury: Allred, the president who caused that great loss in the 30’s, refused to resign, serving as one great insult to every true Texan.\n\nBut in 1976: Came Ron Paul, the man who saved Texas.\n\nOriginally part of the Air National Guard, Paul eventually got into politics in 1968, disgusted by the state of Texas. Ever since, he has reshaped the Republican Party to his vision; one of a Great Texan state, united, respected, and strong - a redemption from the humiliation of the second Red River War.\n\nRon Paul can be called delusional by many. A Texan nationalist born in Pennsylvania. A libertarian in charge of a police state. A self proclaimed moderate who uses cults to spread his message. He is a man completely detached from his country; a nation of the poor, needy, homeless, and starving. A nation that wants nothing to do with him anymore. With rearmament ramping up, and tensions rising, it seems his constructed reality will finally face the ultimate test.\n\nWill it be vindicated?\n\nOr will it be shattered by the cold hard call of reality?"
 
  #Trvd tooltips
  STX_the_third_red_river_war_tooltip:0 "§OLet Justice Be Done§!\n\n§RThough The Heavens May Fall§!"
  STX_war_start_tooltip:0 "8 Years Of §OPreperation§!\n\n8 Years Of §RSacrifice§!\n\nIt'll All Be Worth It\n\n§RIt Has To Be§!"
  STX_seven_months_reminder_tooltip:0 "\nAgain, our general staff predict that we will be able to sustain the war effort for §Y7 Months§!, a §Ymission§! will be added to the §Ydecision§! tab to keep track."
+
+
 
 
  ###events
