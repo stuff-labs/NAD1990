@@ -32,11 +32,25 @@ characters={
 		name="Anton Chigurh"
 		portraits={
 			civilian={
-				large="gfx/leaders/STX/portrait_STX_anton_chigurh.dds"
+				large="gfx/leaders/STX/STX_anton_chigurh.dds"
 			}
 		}
 		country_leader={
 			ideology=personalist_dictatorship  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	STX_john_dallas={
+		name="John Dallas"
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/STX_john_dallas.dds"
+			}
+		}
+		country_leader={
+			ideology= corporate_statism  
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1

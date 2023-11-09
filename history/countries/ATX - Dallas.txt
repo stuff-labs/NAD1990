@@ -1,7 +1,7 @@
 capital = 165
 
 #oob = "ATX_1936"
-
+recruit_character = STX_john_dallas
 set_research_slots = 2
 set_technology = {
 	infantry_weapons = 1
@@ -19,16 +19,17 @@ set_technology = {
 set_convoys = 30
 
 set_politics = {
-	ruling_party = despotic_autocracy 
+	ruling_party = national_unityism 
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 50
+	liberalism = 20
+	conservatism = 20
 	fascism = 0
 	communism = 0
-	national_unityism = 0
-	despotic_autocracy = 50
+	national_unityism = 30
+	despotic_autocracy = 30
 }
 ###Huey's brother is sent here to apease him from starting crap in LA
