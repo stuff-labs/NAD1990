@@ -78,7 +78,8 @@ ideologies = {
 			}
 			corporatocracy = {
 			}
-
+			american_ultranationlism = {
+			}
 			christian_nationalism = {
 				
 			}
