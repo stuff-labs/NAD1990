@@ -1,0 +1,17 @@
+characters = {
+
+	COL_Pablo_Escobar = {
+		name = COL_Pablo_Escobar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/COL/Portrait_COL_Pablo_Escobar.dds"
+			}
+		}
+		country_leader = {
+			ideology = personalist_dictatorship
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+}
