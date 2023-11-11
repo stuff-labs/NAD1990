@@ -109,7 +109,11 @@ set_popularities = {
 }
 
 recruit_character = STX_ron_paul
-recruit_character = STX_jim_jones
+#recruit_character = STX_jim_jones
+recruit_character = STX_ross_perot
+recruit_character = STX_unorg_diss_socialists
+recruit_character = STX_unorg_diss_communists
+recruit_character = STX_unorg_diss_fascists
 recruit_character = STX_anton_chigurh # keep him at the bottom of the recruit list
 
 recruit_character = STX_Lew_Rockwell
