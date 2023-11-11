@@ -1,0 +1,16 @@
+characters={
+	SRO_bob_avakian = {
+		name="Bob Avakian"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRO/portrait_SRO_bob_avakian.dds"
+			}
+		}
+		country_leader={
+			ideology= leninism   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

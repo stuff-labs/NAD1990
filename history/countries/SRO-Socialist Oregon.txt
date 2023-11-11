@@ -75,13 +75,17 @@ set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 0
-	fascism = 0
-	communism = 75
-	national_unityism= 25
+	liberalism = 5
+	conservatism = 5
+	fascism = 2
+	communism = 48
+	socialism = 15
+	despotic_autocracy = 15
+	national_unityism = 0
+	progressivism = 10
 }
 
 add_ideas = {
