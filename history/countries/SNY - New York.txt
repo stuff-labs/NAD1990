@@ -98,18 +98,23 @@ if = {
 
 set_convoys = 30
 
+recruit_character = SNY_george_h_w_bush
+
 set_politics = {
-	ruling_party = liberalism
-	last_election = "1936.1.1"
+	ruling_party = conservatism
+	last_election = "1988.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 50
-	progressivism = 45
+	liberalism = 44
+	conservatism = 48
 	fascism = 0
-	communism = 5
-	national_unityism= 0
+	progressivism = 4
+	socialism = 0
+	communism = 0
+	national_unityism= 2
+	despotic_autocracy = 2
 }
 
 add_ideas = {

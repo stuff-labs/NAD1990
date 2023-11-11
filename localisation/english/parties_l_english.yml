@@ -893,6 +893,16 @@
 
  SNY_communism_party:0 "YCP"
  SNY_communism_party_long:0 "Yankee Communist Party"
+ SNY_liberalism_party:0 "UPNY"
+ SNY_liberalism_party_long:0 "Union Party of New York"
+ SNY_conservatism_party:0 "RNPNY"
+ SNY_conservatism_party_long:0 "Republician National Party of New York"
+ SNY_national_unityism_party:0 "UPNY"
+ SNY_national_unityism_party_long:0 "United Party of New York"
+ SNY_progressivism_party:0 "NPUNY"
+ SNY_progressivism_party_long:0 "National Progress Union of New York"
+ SNY_despotic_autocracy_party:0 "UGNY"
+ SNY_despotic_autocracy_party_long:0 "Unitary Guard of New York"
 
  SMD_national_unityism_party:0 "Democratic Party"
  SMD_national_unityism_party_long:0 "Democratic Party"

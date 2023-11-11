@@ -1,0 +1,16 @@
+characters={
+	SNY_george_h_w_bush = {
+		name="George H. W. Bush"
+		portraits={
+			civilian={
+				large="gfx/leaders/SNY/portrait_SNY_george_h_w_bush.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_sub    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

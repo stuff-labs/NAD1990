@@ -27,8 +27,8 @@ AAO = {
 	color_ui = rgb { 47 168 25 }
 }
 SNM = {
-	color = rgb { 126 162 34 }
-	color_ui = rgb { 126 162 34 }
+	color = rgb { 165 152 77 }
+	color_ui = rgb { 165 152 77 }
 }
 STX = {
 	color = rgb { 127 22 10 }

@@ -2,6 +2,8 @@
 
  SCA_liberalism_party:0 "Democratic Party"
  SCA_liberalism_party_long:0 "Democratic Party"
+ SCA_conservatism_party:0 "Republican Party"
+ SCA_conservatism_party_long:0 "Republican Party"
  SCA_communism_party:0 "CPC"
  SCA_communism_party_long:0 "Communist Party of California"
  SCA_fascism_party:0 "Posse Comitatus"
