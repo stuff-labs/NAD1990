@@ -128,7 +128,7 @@ on_actions = {
 						}
 					}
 				}
-				STX = {
+				ATX = {
 					transfer_state = 621
 					add_state_core = 621
 				}
@@ -139,16 +139,22 @@ on_actions = {
 						end_wars = no
 						end_civil_wars = no
 					}
-					ATX = {
-						set_popularities = {
-							liberalism = 20
-							conservatism = 20
-							fascism = 0
-							communism = 0
-							national_unityism = 30
-							despotic_autocracy = 30
-						}
+				}
+				ATX = {
+					set_popularities = {
+						liberalism = 20
+						conservatism = 20
+						fascism = 0
+						communism = 0
+						national_unityism = 30
+						despotic_autocracy = 30
 					}
+				}
+				SLA = {
+					white_peace = STX
+				}
+				SOK = {
+					white_peace = STX
 				}
 			}
 
