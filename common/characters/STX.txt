@@ -42,6 +42,48 @@ characters={
 			id=-1
 		}
 	}
+	STX_jim_mattox={
+		name="Jim Mattox"
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/portrait_STX_jim_mattox.dds"
+			}
+		}
+		country_leader={
+			ideology=dominant_party_democracy  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	STX_mark_white={
+		name="Mark White"
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/portrait_STX_mark_white.dds"
+			}
+		}
+		country_leader={
+			ideology= liberalism_sub  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	STX_ralph_nader={
+		name="Ralph Nader"
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/portrait_STX_ralph_nader.dds"
+			}
+		}
+		country_leader={
+			ideology= environmentalism  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 	STX_unorg_diss_socialists={
 		name="Unorganized Dissidents"
 		portraits={
