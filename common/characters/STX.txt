@@ -217,4 +217,138 @@ characters={
 			}
 		}
 	}
+	###generals
+	STX_leonard_donald_holder_jr={
+		name="Leonard Donald Holder Jr"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_STX_leonard_donald_holder_jr.dds"
+			}
+			army={
+				large="gfx/leaders/STX/portrait_STX_leonard_donald_holder_jr.dds"
+			}
+		}
+		corps_commander={
+			traits={
+			infantry_officer
+			career_officer
+			}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	STX_michael_c_wehr={
+		name="Michael C. Wehr"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_STX_michael_c_wehr.dds"
+			}
+			army={
+				large="gfx/leaders/STX/portrait_STX_michael_c_wehr.dds"
+			}
+		}
+		corps_commander={
+			traits={
+			career_officer
+			}
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	STX_gary_l_thomas={
+		name="Gary L Thomas"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_STX_gary_l_thomas.dds"
+			}
+			army={
+				large="gfx/leaders/STX/portrait_STX_gary_l_thomas.dds"
+			}
+		}
+		corps_commander={
+			traits={
+			career_officer
+			}
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	STX_tommy_r_franks={
+		name="Tommy R. Franks"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_STX_tommy_r_franks.dds"
+			}
+			army={
+				large="gfx/leaders/STX/portrait_STX_tommy_r_franks.dds"
+			}
+		}
+		corps_commander={
+			traits={
+			
+			}
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	STX_michael_l_oates={
+		name="Michael L. Oates"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_STX_michael_l_oates.dds"
+			}
+			army={
+				large="gfx/leaders/STX/portrait_STX_michael_l_oates.dds"
+			}
+		}
+		corps_commander={
+			traits={
+			
+			}
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	STX_ronald_r_blanck={
+		name="Ronald R. Blanck"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_STX_ronald_r_blanck.dds"
+			}
+			army={
+				large="gfx/leaders/STX/portrait_STX_ronald_r_blanck.dds"
+			}
+		}
+		corps_commander={
+			traits={
+			
+			}
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
 }
