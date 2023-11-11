@@ -128,12 +128,26 @@ on_actions = {
 						}
 					}
 				}
-				SCA = {
+				STX = {
+					transfer_state = 621
+					add_state_core = 621
+				}
+				SLA = {
 					set_autonomy = {
-						target = STX
+						target = ATX
 						autonomy_state = autonomy_puppet
 						end_wars = no
 						end_civil_wars = no
+					}
+					ATX = {
+						set_popularities = {
+							liberalism = 20
+							conservatism = 20
+							fascism = 0
+							communism = 0
+							national_unityism = 30
+							despotic_autocracy = 30
+						}
 					}
 				}
 			}
