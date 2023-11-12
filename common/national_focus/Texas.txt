@@ -722,7 +722,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_increase_military_spending
-		icon = GFX_
+		icon = GFX_STX_increase_military_spending
 		prerequisite = { focus = STX_youth_organizations }
 		prerequisite = { focus = STX_shift_the_general_staff }
 		x = 1
@@ -766,7 +766,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_expand_the_factories
-		icon = GFX_
+		icon = GFX_STX_expand_the_factories
 		prerequisite = { focus = STX_expand_the_forts }
 		prerequisite = { focus = STX_shift_the_general_staff }
 		x = -1
@@ -1182,7 +1182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_the_lost_lands
-		icon = GFX_
+		icon = GFX_STX_the_lost_lands
 		prerequisite = { focus = STX_the_oil_flows }
 		prerequisite = { focus = STX_come_and_take_it }
 		prerequisite = { focus = STX_god_texas_and_paul }

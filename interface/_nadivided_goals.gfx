@@ -91,4 +91,16 @@ spriteTypes = {
 		name = "GFX_STX_the_great_texan_army_focus"
 		texturefile = "gfx/interface/goals/STX_the_great_texan_army_focus.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_the_lost_lands"
+		texturefile = "gfx/interface/goals/STX_the_lost_lands.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_expand_the_factories"
+		texturefile = "gfx/interface/goals/STX_expand_the_factories.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_increase_military_spending"
+		texturefile = "gfx/interface/goals/STX_increase_military_spending.dds"
+	}
 }
