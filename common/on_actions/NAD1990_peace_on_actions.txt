@@ -132,6 +132,10 @@ on_actions = {
 					transfer_state = 621
 					add_state_core = 621
 				}
+				SOK = {
+					transfer_state = 225
+					transfer_state = 213
+				}
 				SLA = {
 					set_autonomy = {
 						target = ATX
