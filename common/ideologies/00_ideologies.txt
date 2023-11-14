@@ -4,7 +4,7 @@ ideologies = {
 	
 		types = {
 		
-			white_nationalism = {
+			nazism = {
 			}
 			
 			fascism_ideology = {
