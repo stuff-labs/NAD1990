@@ -191,3 +191,23 @@ SFL_haiti_war_timer_catagory = {
 		has_country_flag = SFL_haiti_war_underway
 	}
 }
+
+STX_red_river_war_timer = {
+	icon = generic_propaganda
+	priority = 1000
+	desc = STX_red_river_war_timer_desc
+	
+	allowed = {
+		tag = STX
+	}
+
+	visible = {
+		AND = {
+			has_country_flag = STX_red_river_war_underway
+			OR = {
+				has_war_with = SOK
+				has_war_with = SLA
+			}
+		}
+	}
+}

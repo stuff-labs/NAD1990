@@ -149,6 +149,12 @@
 
 
 
+# Red River War timers
+ STX_red_river_war_timer:0 "Among Us 2 Release Date"
+ STX_red_river_war_timer_desc:0 "Among Us"
+ red_river_war_timer_mission:0 "§RAmong Us 2 Releases§!"
+ denounce_among_us_devs:0 "Denounce Among Us 2 Devs"
+
 
 # COUNTRY TAGS - DALLAS PUPPET
  ATX:0 "D.C.O.Z"

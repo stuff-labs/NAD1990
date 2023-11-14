@@ -324,7 +324,15 @@ country_event = {  #the war starts
             factor = 10
         }
         custom_effect_tooltip = STX_war_start_tooltip
-        custom_effect_tooltip = STX_seven_months_reminder_tooltip
+        declare_war_on = {
+            target = SLA
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = SOK
+            type = annex_everything
+        }
+        set_country_flag = STX_red_river_war_underway
     }
 }
 

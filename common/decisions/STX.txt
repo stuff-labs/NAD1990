@@ -1,0 +1,68 @@
+STX_red_river_war_timer = {
+    red_river_war_timer_mission = {		
+		icon = GFX_decision_icon_default		
+		days_mission_timeout = 213 
+		days_remove = 0
+		is_good = no
+        priority = 100		
+		
+		available = {
+			always = no
+		}
+		
+		fire_only_once = yes		
+
+		activation = {
+			has_country_flag = STX_red_river_war_underway
+		}
+
+
+		timeout_effect = {
+			STX = {
+                retire_ideology_leader = despotic_autocracy
+            }
+		}
+		
+		remove_effect = {	
+			clr_country_flag = SFL_haiti_war_underway
+		}
+		
+		
+		ai_will_do = {	
+			factor = 0
+		}
+	}
+
+    denounce_among_us_devs = {
+
+		icon = generic_industry
+
+		available = {
+		}
+
+		visible = {
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		cost = 100
+
+		complete_effect = {
+            add_days_mission_timeout   = {
+                mission = red_river_war_timer_mission
+                days = 50
+            }
+		}
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.6
+			}
+		}
+	}
+}
