@@ -1,0 +1,27 @@
+﻿l_english:
+
+ SAL_communism: "People's Republic of Alabama"
+ SAL_communism_DEF: "the People's Republic of Alabama"
+ SAL_communism_ADJ: "Alabaman"
+ SAL: "Republic of Alabama"
+ SAL_DEF: "the Republic of Alabama"
+ SAL_ADJ: "Alabaman"
+
+ SAL_fascism_party: "Unorganised Dissidents"
+ SAL_fascism_party_long: "Unorganised Dissidents"
+ SAL_despotic_autocracy_party: "Unorganised Dissidents"
+ SAL_despotic_autocracy_party_long: "Unorganised Dissidents"
+ SAL_national_unityism_party: "IDPA"
+ SAL_national_unityism_party_long: "Independent Democratic Party of Alabama"
+ SAL_conservatism_party: "Unorganised Dissidents"
+ SAL_conservatism_party_long: "Unorganised Dissidents"
+ SAL_liberalism_party: "Unorganised Dissidents"
+ SAL_liberalism_party_long: "Unorganised Dissidents"
+ SAL_progressivism_party: "Unorganised Dissidents"
+ SAL_progressivism_party_long: "Unorganised Dissidents"
+ SAL_socialism_party: "Unorganised Dissidents"
+ SAL_socialism_party_long: "Unorganised Dissidents"
+ SAL_communism_party: "CPUSA"
+ SAL_communism_party_long: "CPUSA"
+
+ SAL_Fob_James: "Fob James"

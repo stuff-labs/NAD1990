@@ -1,4 +1,11 @@
 leader_traits = {
+	trait_herman_talmadge = {
+		random = no
+		political_power_gain = 0.20
+		stability_factor = -0.05
+		fascism_drift = 0.01
+		despotic_autocracy_drift = 0.01
+	}
     dislikes_ny = {
 		random = no
 		ai_strategy = {

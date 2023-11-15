@@ -1,0 +1,25 @@
+﻿l_english:
+
+ SGA: "Republic of Georgia"
+ SGA_DEF: "the Republic of Georgia"
+ SGA_ADJ: "Goober"
+
+ SGA_fascism_party: "TDP"
+ SGA_fascism_party_long: "True Democrat Party"
+ SGA_despotic_autocracy_party: "JDP"
+ SGA_despotic_autocracy_party_long: "Jeffersonaian Democrat Party"
+ SGA_national_unityism_party: "UCG"
+ SGA_national_unityism_party_long: "Unity Coalition of Georgia"
+ SGA_conservatism_party: "NFP"
+ SGA_conservatism_party_long: "National Freedom Party"
+ SGA_liberalism_party: "Democratic Party"
+ SGA_liberalism_party_long: "Democratic Party"
+ SGA_progressivism_party: "Democratic Party"
+ SGA_progressivism_party_long: "Democratic Party"
+ SGA_socialism_party: "Unorganised Dissidents"
+ SGA_socialism_party_long: "Unorganised Dissidents"
+ SGA_communism_party: "Georgia Workers' Party"
+ SGA_communism_party_long: "Georgia Workers' Party"
+
+ SGA_Herman_Talmadge: "Herman Talmadge"
+ trait_herman_talmadge: "Eugene’s Shadow"

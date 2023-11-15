@@ -1,14 +1,14 @@
 characters = {
-	SGA_herman_talmadge = {
-		name = "Herman Talmadge"
+	SGA_Herman_Talmadge = {
+		name = SGA_Herman_Talmadge
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/SGA/portrait_SGA_herman_talmadge.dds"
 			}
 		}
 		country_leader = {
-			ideology = dominant_party_democracy
-			traits = {  }
+			ideology = political_machine
+			traits = { trait_herman_talmadge }
 			expire = "2020.1.1.1"
 			id = -1
 		}

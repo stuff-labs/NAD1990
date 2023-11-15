@@ -1,0 +1,16 @@
+characters = {
+	SAL_Fob_James = {
+		name = SAL_Fob_James
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SAL/Portrait_SAL_Fob_James.dds"
+			}
+		}
+		country_leader = {
+			ideology = political_machine
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+}

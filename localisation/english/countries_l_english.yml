@@ -602,33 +602,7 @@
  SIO:0 "Republic of Iowa"
  SIO_DEF:0 "the Republic of Iowa"
  SIO_ADJ:0 "Iowan"
- 
- SGA_fascism:1 "Confederacy of Georgia"
- SGA_fascism_DEF:1 "Confederacy of Georgia"
- SGA_national_unityism:0 "Republic of Georgia"
- SGA_national_unityism_DEF:0 "the Republic of Georgia"
- SGA_communism:1 "Socialist Republic of Georgia"
- SGA_communism_DEF:1 "the Socialist Republic of Georgia"
- SGA_longism:1 "Georgia"
- SGA_longism_DEF:1 "Georgia"
- SGA:0 "Republic of Georgia"
- SGA_DEF:0 "the Republic of Georgia"
- SGA_ADJ:0 "Georgian"
 
- SAL_fascism:1 "Confederacy of Alabama"
- SAL_fascism_DEF:1 "Confederacy of Alabama"
- SAL_longism:1 "Alabama"
- SAL_longism:0 "Alabama"
- SAL_national_unityism:0 "Alabama"
- SAL_national_unityism_DEF:0 "Alabama"
- SAL_communism:1 "Alabama"
- SAL_communism_DEF:1 "Alabama"
- SAL:0 "Alabama"
- SAL_DEF:0 "Alabama"
- SAL_ADJ:0 "Alabamian"
- 
- 
- 
  FNS_fascism:1 "Free Negro State"
  FNS_fascism_DEF:1 "Free Negro State"
  FNS_longism:1 "Free Negro State"

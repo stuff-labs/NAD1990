@@ -70,18 +70,22 @@ set_convoys = 30
 
 set_politics = {
 	ruling_party = national_unityism
-	last_election = "1936.1.1"
+	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 23
-	fascism = 1
-	communism = 1
-	national_unityism= 75
+	fascism = 0
+	despotic_autocracy = 0
+	national_unityism = 48
+	conservatism = 13
+	liberalism = 11
+	progressivism = 4
+	socialism = 15
+	communism = 9
 }
 
-
+recruit_character = SAL_Fob_James
 
 
 if = {

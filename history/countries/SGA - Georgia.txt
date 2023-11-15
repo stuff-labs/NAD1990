@@ -68,7 +68,7 @@ if = {
 
 set_convoys = 30
 
-recruit_character = SGA_herman_talmadge
+recruit_character = SGA_Herman_Talmadge
 
 set_politics = {
 	ruling_party = national_unityism
