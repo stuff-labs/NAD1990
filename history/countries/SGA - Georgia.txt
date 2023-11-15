@@ -68,18 +68,23 @@ if = {
 
 set_convoys = 30
 
+recruit_character = SGA_herman_talmadge
 
 set_politics = {
-	ruling_party = liberalism
-	last_election = "1936.1.1"
+	ruling_party = national_unityism
+	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 48
-	fascism = 21
-	communism = 1
-	national_unityism= 30
+	liberalism = 10
+	conservatism = 17
+	fascism = 5
+	progressivism = 0
+	socialism = 0
+	communism = 0
+	national_unityism= 45
+	despotic_autocracy = 23
 }
 
 

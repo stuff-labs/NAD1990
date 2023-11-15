@@ -1,0 +1,16 @@
+characters = {
+	SGA_herman_talmadge = {
+		name = "Herman Talmadge"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SGA/portrait_SGA_herman_talmadge.dds"
+			}
+		}
+		country_leader = {
+			ideology = dominant_party_democracy
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+}

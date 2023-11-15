@@ -318,12 +318,14 @@
  SGA_despotic_autocracy_party_long:0 "Jeffersonaian Democrat Party"
  SGA_progressivism_party:0 "Democrat Party"
  SGA_progressivism_party_long:0 "Democratic Party"
- SGA_liberalism_party:0 "Democrat Party"
- SGA_liberalism_party_long:0 "Democratic Party"
+ SGA_liberalism_party:0 "Democratic Party"
+ SGA_liberalism_party_long:0 "NFP"
+ SGA_conservatism_party:0 "National Freedom Party"
+ SGA_conservatism_party_long:0 "Democratic Party"
  SGA_communism_party:0 "Georgia Workers Party" #not what you think it is
  SGA_communism_party_long:0 "Georgia Workers Party"
- SGA_national_unityism_party:0 "Democrat Party"
- SGA_national_unityism_party_long:0 "Democratic Party"
+ SGA_national_unityism_party:0 "UCG"
+ SGA_national_unityism_party_long:0 "Unity Coalition of Georgia"
 
  SAR_communism_party:0 "STFU" #not what you think it is
  SAR_communism_party_long:0 "Southern Tenant Farmers Union"

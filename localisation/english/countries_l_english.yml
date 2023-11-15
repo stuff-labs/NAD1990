@@ -605,8 +605,8 @@
  
  SGA_fascism:1 "Confederacy of Georgia"
  SGA_fascism_DEF:1 "Confederacy of Georgia"
- SGA_national_unityism:0 "Georgia"
- SGA_national_unityism_DEF:0 "Georgia"
+ SGA_national_unityism:0 "Republic of Georgia"
+ SGA_national_unityism_DEF:0 "the Republic of Georgia"
  SGA_communism:1 "Socialist Republic of Georgia"
  SGA_communism_DEF:1 "the Socialist Republic of Georgia"
  SGA_longism:1 "Georgia"
