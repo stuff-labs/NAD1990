@@ -352,7 +352,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_give_executives_cuts
-		icon = GFX_
+		icon = GFX_STX_give_executives_cuts
 		prerequisite = { focus = STX_fund_r_and_d }
 		prerequisite = { focus = STX_expand_the_reserves }
 		x = 1
@@ -596,7 +596,7 @@ focus_tree = {
 	}
 	focus = {
 		id = STX_youth_organizations
-		icon = GFX_
+		icon = GFX_STX_youth_organizations
 		prerequisite = { focus = STX_the_great_texan_army_focus }
 		x = -2
 		y = 1

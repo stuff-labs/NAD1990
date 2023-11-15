@@ -103,4 +103,12 @@ spriteTypes = {
 		name = "GFX_STX_increase_military_spending"
 		texturefile = "gfx/interface/goals/STX_increase_military_spending.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_give_executives_cuts"
+		texturefile = "gfx/interface/goals/STX_give_executives_cuts.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_youth_organizations"
+		texturefile = "gfx/interface/goals/STX_youth_organizations.dds"
+	}
 }
