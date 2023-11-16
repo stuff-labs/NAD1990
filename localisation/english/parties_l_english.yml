@@ -426,15 +426,6 @@
  STX_longism_party:0 "Christian Party"
  STX_longism_party_long:0 "Christian Party of Texas"
 
- SMS_liberalism_party:0 "Democrat Party"
- SMS_liberalism_party_long:0 "Democratic Party"
- SMS_fascism_party:0 "KKK" # Totally not rascist.
- SMS_fascism_party_long:0 "Ku Klux Klan"
- SMS_national_unityism_party:0 "Democrat Party"
- SMS_national_unityism_party_long:0 "Democratic Party"
- SMS_despotic_autocracy_party:0 "JDP"
- SMS_despotic_autocracy_party_long:0 "Jeffersonian Democrat Party"
-
  SNC_liberalism_party:0 "Democrat Party"
  SNC_liberalism_party_long:0 "Democratic Party"
  SNC_national_unityism_party:0 "CC"

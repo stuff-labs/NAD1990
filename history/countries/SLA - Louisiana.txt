@@ -94,6 +94,26 @@ set_popularities = {
 
 recruit_character = SLA_russle_long
 
+
+
+
+SLA = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = SMS
+			autonomy_state = autonomy_puppet
+		}
+	}
+	else = {
+		puppet = SMS
+	}
+}
+
+
+
 ### NAVAL ###
 
 	create_equipment_variant = {

@@ -649,19 +649,6 @@
  TDW_DEF:0 "The Republic of Tidewater"
  TDW_ADJ:0 "Negro"
  
- 
-
- 
- SMS_fascism:1 "Mississippian Confederacy"
- SMS_fascism_DEF:1 "Mississippian Confederacy"
- SMS_national_unityism:0 "Mississippi"
- SMS_national_unityism_DEF:0 "Mississippi"
- SMS_communism:1 "Mississippi Soviet Republic"
- SMS_communism_DEF:1 "The Mississippi Soviet Republic"
- SMS:0 "Mississippi"
- SMS_DEF:0 "Mississippi"
- SMS_ADJ:0 "Mississippian"
- 
  SPA_fascism:1 "Pennsylvanian Bund"
  SPA_fascism_DEF:1 "The Pennsylvania Bund"
  SPA_national_unityism:0 "Pennsylvania"

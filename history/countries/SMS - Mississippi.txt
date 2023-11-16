@@ -60,24 +60,28 @@ if = {
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 	}
-	set_naval_oob = "SMS_1936_naval_mtg"
+	#set_naval_oob = "SMS_1936_naval_mtg"
 }
 
 set_convoys = 30
 
+recruit_character = SMS_william_f_winter
 
 set_politics = {
-	ruling_party = despotic_autocracy
-	last_election = "1936.1.1"
+	ruling_party = national_unityism
+	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 23
-	fascism = 26
-	communism = 1
-	national_unityism= 25
-	despotic_autocracy = 25
+	liberalism = 25
+	conservatism = 20
+	fascism = 5
+	progressivism = 5
+	socialism = 0
+	communism = 0
+	national_unityism =  35
+	despotic_autocracy = 10
 }
 
 

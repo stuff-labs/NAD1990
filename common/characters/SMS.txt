@@ -1,0 +1,16 @@
+characters={
+	SMS_william_f_winter = {
+		name="William F. Winter"
+		portraits={
+			civilian={
+				large="gfx/leaders/SMS/portrait_SMS_william_f_winter.dds"
+			}
+		}
+		country_leader={
+			ideology= dominant_party_democracy   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
