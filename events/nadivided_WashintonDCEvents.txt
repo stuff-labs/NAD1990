@@ -24,11 +24,11 @@ country_event = {
 		}
 		add_popularity = {
             ideology = national_unityism
-            popularity = 0.15
+            popularity = 0.20
         }
 		add_popularity = {
             ideology = despotic_autocracy
-            popularity = -0.15
+            popularity = -0.20
         }
 		add_popularity = {
             ideology = liberalism
@@ -103,6 +103,7 @@ country_event = {
             popularity = 0.15
         }  
 		recruit_character = WDC_joe_biden_liberal
+        promote_character = WDC_joe_biden_liberal
 		set_global_flag = joe_biden_brings_democracy
     }
 }
