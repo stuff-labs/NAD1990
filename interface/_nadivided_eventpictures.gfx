@@ -138,9 +138,15 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_newsevent_joe_biden_takes_over"
+		texturefile = "gfx/event_pictures/news_events/newsevent_joe_biden_takes_over.dds"
+	}
+
+	spriteType = {
 		name = "GFX_newsevent_north_hollywood"
 		texturefile = "gfx/event_pictures/news_events/newsevent_north_hollywood.dds"
 	}
+	
 	
 }#END
 

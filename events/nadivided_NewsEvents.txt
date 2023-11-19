@@ -271,6 +271,21 @@ news_event = { # cali election - wholsum
 	}
 }
 
+news_event = { # joe biden takes joever dc
+	id = usastates_news_new.14
+	title = usastates_news_new.14.t
+	desc = usastates_news_new.14.d
+	picture = GFX_newsevent_joe_biden_takes_over
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.14.a
+	}
+}
+
 ###flavor
 news_event = { #noth hollywood shooting
 	id = usastates_news_flavor.1

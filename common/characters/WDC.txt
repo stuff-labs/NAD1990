@@ -13,4 +13,32 @@ characters={
 			id=-1
 		}
 	}
+	WDC_joe_biden_oilgarch={
+		name="Joe Biden"
+		portraits={
+			civilian={
+				large="gfx/leaders/WDC/portrait_WDC_joe_biden.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchism     
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	WDC_joe_biden_liberal={
+		name="Joe Biden"
+		portraits={
+			civilian={
+				large="gfx/leaders/WDC/portrait_WDC_joe_biden.dds"
+			}
+		}
+		country_leader={
+			ideology= liberalism_sub     
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 }

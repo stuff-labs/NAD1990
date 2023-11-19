@@ -141,6 +141,8 @@ set_popularities = {
 	despotic_autocracy = 55
 }
 recruit_character = WDC_colin_powell
+recruit_character = WDC_joe_biden_oilgarch
+
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

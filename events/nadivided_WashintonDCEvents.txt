@@ -1,0 +1,108 @@
+add_namespace = atlantica_events
+
+country_event = { 
+    id = atlantica_events.1
+    title = atlantica_events.1.t
+    desc = atlantica_events.1.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+		tag = WDC
+		date > 1993.7.12
+	}
+
+	fire_only_once = yes
+
+
+    option = {
+        name = atlantica_events.1.a
+		ai_chance = {
+            factor = 10
+        }
+		set_politics = {
+			ruling_party = national_unityism
+		}
+		add_popularity = {
+            ideology = national_unityism
+            popularity = 0.15
+        }
+		add_popularity = {
+            ideology = despotic_autocracy
+            popularity = -0.15
+        }
+		add_popularity = {
+            ideology = liberalism
+            popularity = 0.10
+        }
+		country_event = { 
+			id = usastates_news_new.14
+		} 
+		set_global_flag = joe_biden_is_real
+    }
+}
+country_event = { 
+    id = atlantica_events.2
+    title = atlantica_events.2.t
+    desc = atlantica_events.2.d
+    picture = GFX_report_event_la_riots_starts
+	trigger = {
+		tag = WDC
+		has_global_flag = joe_biden_is_real
+        date > 1998.5.7
+        
+	}
+
+	fire_only_once = yes
+
+
+    option = {
+        name = atlantica_events.2.a
+		ai_chance = {
+            factor = 10
+        }
+		add_popularity = {
+            ideology = national_unityism
+            popularity = 0.20
+        }
+		add_popularity = {
+            ideology = despotic_autocracy
+            popularity = 0.10
+        }
+		add_popularity = {
+            ideology = liberalism
+            popularity = -0.10
+        } 
+		set_global_flag = joe_biden_becomes_putin
+    }
+	option = {
+        name = atlantica_events.2.b
+		ai_chance = {
+            factor = 10
+        }
+		set_politics = {
+			ruling_party = liberalism
+		}
+		add_popularity = {
+            ideology = national_unityism
+            popularity = -0.10
+        }
+		add_popularity = {
+            ideology = despotic_autocracy
+            popularity = -0.15
+        }
+		add_popularity = {
+            ideology = liberalism
+            popularity = 0.15
+        } 
+		add_popularity = {
+            ideology = conservatism
+            popularity = 0.15
+        } 
+		add_popularity = {
+            ideology = progressivism
+            popularity = 0.15
+        }  
+		recruit_character = WDC_joe_biden_liberal
+		set_global_flag = joe_biden_brings_democracy
+    }
+}

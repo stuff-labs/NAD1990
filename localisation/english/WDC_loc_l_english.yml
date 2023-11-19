@@ -1,0 +1,27 @@
+﻿l_english:
+
+ WDC_liberalism_party:0 "Democratic Party"
+ WDC_liberalism_party_long:0 "Democratic Party of Atlantica"
+ WDC_communism_party:0 "CPA"
+ WDC_communism_party_long:0 "Communist Party of Atlantica"
+ WDC_socialism_party:0 "Free Workers Movement"
+ WDC_socialism_party_long:0 "Free Workers Movement of Atlantica"
+ WDC_national_unityism_party:0 "NUPA"
+ WDC_national_unityism_party_long:0 "National Unity Party of Atlantica"
+ WDC_despotic_autocracy_party:0 "Provisional Junta"
+ WDC_despotic_autocracy_party_long:0 "Provisional Government of Atlantica"
+ WDC_conservatism_party:0 "Republican Party"
+ WDC_conservatism_party_long:0 "Republican Party of Atlantica"
+ WDC_fascism_party:0 "Atlantica First Movement"
+ WDC_fascism_party_long:0 "Atlantica First"
+ WDC_progressivism_party:0 "SPA"
+ WDC_progressivism_party_long:0 "Social Party of Atlantica"
+
+ atlantica_events.1.t:0 "Military Cedes Control"
+ atlantica_events.1.d:0 "The military junta has decided to end the military's hold over Atlantica and hand over the reins to a civilian government."
+ atlantica_events.1.a:0 "Biden will take the reins"
+ 
+ atlantica_events.2.t:0 "Final Decision"
+ atlantica_events.2.d:0 "Joe Biden, Joe Biden, wake up"
+ atlantica_events.2.a:0 "Maintain The Path, no matter the cost"
+ atlantica_events.2.b:0 "We shall free those who yearn to breathe free!"
