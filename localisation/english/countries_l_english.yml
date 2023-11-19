@@ -71,25 +71,6 @@
  SNM_DEF:0 "the Republic of New Mexico"
  SNM_ADJ:0 "New Mexican"
  
- STL_fascism:1 "True Louisiana"
- STL_fascism_DEF:1 "True Lousiana"
- STL_national_unityism:0 "Louisiana"
- STL_national_unityism_DEF:0 "Louisiana"
- STL_communism:1 "Socalist Republic of Louisiana"
- STL_communism_DEF:1 "the Socialistic Republic of Louisiana"
- STL_liberalism:0 "Republic of Lousiana"
- STL_liberalism_DEF:0 "the Republic of Louisiana"
- STL_progressivism:1 "Republic of Louisiana"
- STL_progressivism_DEF:1 "the Republic of Louisiana"
- STL_longism:1 "Louisiana"
- STL_longism_DEF:1 "the True Republic of Louisiana"
- STL_liberalism_ADJ:0 "Louisian"
- STL_fascism_ADJ:0 "Louisian"
- STL_national_unityism_ADJ:0 "Louisian"
- STL_communism_ADJ:0 "Louisian"
- STL_progressivism_ADJ:0 "Louisian"
- STL_longism_ADJ:0 "Louisian"
- 
  
  SAC_fascism:1 "Cajun Free State"
  SAC_fascism_DEF:1 "Cajun Free State"
@@ -109,6 +90,10 @@
  SAC_communism_ADJ:0 "Cajun"
  SAC_progressivism_ADJ:0 "Cajun"
  SAC_longism_ADJ:0 "Cajun"
+
+ STL:0 "trvd louisiana"
+ STL_DEF:0 "so fvckkig trvd"
+ STL_ADJ:0 "Louisianan"
  
  
  STX_fascism:1 "Confederacy of Texas"
@@ -145,17 +130,6 @@
  MTX_DEF:0 "The Second Republic of Texas"
  MTX_ADJ:0 "Texan"
  
- SLA_fascism:1 "Cajun Confederacy"
- SLA_fascism_DEF:1 "Cajun Confederacy"
- SLA_national_unityism:0 "Louisiana"
- SLA_national_unityism_DEF:0 "Louisiana"
- SLA_communism:1 "The Cajun Republic"
- SLA_communism_DEF:1 "The Cajun Republic"
- SLA:0 "Louisiana"
- SLA_DEF:0 "Louisiana"
- SLA_longism:1 "Louisiana"
- SLA_longism_DEF:1 "Louisiana"
- SLA_ANJ:0 "Louisianan"
  
  SAZ_fascism:1 "Arizona"
  SAZ_fascism_DEF:1 "Arizona"

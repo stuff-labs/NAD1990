@@ -366,17 +366,6 @@
  SOK_national_unityism:0 "DUPO"
  SOK_national_unityism_long:0 "Democratic Union Party of Oklahoma"
  
-
- SLA_despotic_autocracy_party:0 "JDP"
- SLA_despotic_autocracy_party_long:0 "Jeffersonaian Democrat Party"  
- SLA_fascism_party:0 "CCP"
- SLA_liberalism_party:0 "Democratic Party"
- SLA_liberalism_party_long:0 "Democratic Party of Louisiana"
- SLA_conservatism_party:0 "Republican Party"
- SLA_conservatism_party_long:0 "Republican Party of Louisiana"
- SLA_despotic_autocracy_party:0 "NGoL"
- SLA_despotic_autocracy_party_long:0 "National Guard of Louisiana"
- 
  
  ORL_national_unityism_party:0 "Democratic Party"
  ORL_national_unityism_party_long:0 "Democratic Party"
@@ -384,13 +373,6 @@
  ORL_liberalism_party_long:0 "People's Democratic Party"
  ORL_communism_party:0 "Louisiana People's Party"
  ORL_communism_party_long:0 "Louisiana People's Party"
- 
- SLA_fascism_party_long:0 "Christian Crusader Party" 
- SLA_liberalism_party:0 "Democratic Party"
- 
- SLA_communism_party:0 "Louisiana Peoples Party" 
- SLA_national_unityism_party:0 "JDP"  
- SLA_national_unityism_party_long:0 "Jeffersonian Democrat Party"
  
  SMN_roosevelt_progressivism_party:0 "FLP"
  SMN_roosevelt_progressivism_party_long:0 "Farmer Labor Party"

@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		SLA_epoch_of_the_long_family = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SLA_epoch_of_the_long_family
+			modifier = {
+				political_power_gain = -0.25
+				party_popularity_stability_factor = -0.15
+				drift_defence_factor = -0.25
+				national_unityism_drift = -0.03
+			}
+		}
+	}
+}
