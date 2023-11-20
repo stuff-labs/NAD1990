@@ -126,7 +126,7 @@ if = {
 set_convoys = 100
 
 set_politics = {
-	ruling_party = despotic_autocracy
+	ruling_party = national_unityism
 	last_election = "1936.1.1"
 	elections_allowed = no
 }
@@ -137,8 +137,8 @@ set_popularities = {
 	fascism = 0
 	communism = 3
 	socialism = 3
-	national_unityism = 6
-	despotic_autocracy = 55
+	national_unityism = 35
+	despotic_autocracy = 26
 }
 recruit_character = WDC_colin_powell
 recruit_character = WDC_joe_biden_oilgarch

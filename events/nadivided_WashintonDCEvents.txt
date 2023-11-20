@@ -19,17 +19,6 @@ country_event = {
 		ai_chance = {
             factor = 10
         }
-		set_politics = {
-			ruling_party = national_unityism
-		}
-		add_popularity = {
-            ideology = national_unityism
-            popularity = 0.20
-        }
-		add_popularity = {
-            ideology = despotic_autocracy
-            popularity = -0.20
-        }
 		add_popularity = {
             ideology = liberalism
             popularity = 0.10
@@ -37,6 +26,7 @@ country_event = {
 		country_event = { 
 			id = usastates_news_new.14
 		} 
+        promote_character = WDC_joe_biden_oilgarch
 		set_global_flag = joe_biden_is_real
     }
 }
@@ -62,7 +52,7 @@ country_event = {
         }
 		add_popularity = {
             ideology = national_unityism
-            popularity = 0.20
+            popularity = 0.15
         }
 		add_popularity = {
             ideology = despotic_autocracy
@@ -96,11 +86,11 @@ country_event = {
         } 
 		add_popularity = {
             ideology = conservatism
-            popularity = 0.15
+            popularity = 0.10
         } 
 		add_popularity = {
             ideology = progressivism
-            popularity = 0.15
+            popularity = 0.10
         }  
 		recruit_character = WDC_joe_biden_liberal
         promote_character = WDC_joe_biden_liberal
