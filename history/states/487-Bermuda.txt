@@ -5,6 +5,12 @@ state={
 	provinces={
 		1268 5494 5495 5496 
 	}
+	resources={
+		tungsten=16.000
+		chromium=32.000
+		steel=90.000
+		aluminum=32.000
+	}
 	history = {
 		owner = BER
 		add_core_of = BER
