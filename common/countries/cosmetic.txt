@@ -743,6 +743,21 @@ Western_Canadian_Canada = {
 	color = rgb { 65 68 102 }
 	color_ui = rgb { 65 68 102 }
 }
+
+WDC_the_united_states_is_back_fr_this_time = {
+	color = rgb { 92 121 142 }
+	color_ui = rgb { 92 121 142 }
+}
+
+
+
+
+
+
+
+
+
+
 SMN_union_of_sup = {
 	color = rgb { 72 89 65 }
 	color_ui = rgb { 72 89 65 }

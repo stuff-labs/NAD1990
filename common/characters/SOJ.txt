@@ -27,4 +27,18 @@ characters={
 			id=-1
 		}
 	}
+	SOJ_deng={
+		name="Deng Xiaoping"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOJ/portrait_SOJ_deng.dds"
+			}
+		}
+		country_leader={
+			ideology=communism_with_american_characteristics  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 }

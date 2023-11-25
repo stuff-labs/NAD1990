@@ -727,6 +727,8 @@
  SOJ_conservatism_party_long:0 "United Russia"
  SOJ_liberalism_party:0 "Liberal Democratic Party"
  SOJ_liberalism_party_long:0 "Liberal Democratic Party of Russia"
+ SOJ_debug_moment_party:0 "CPC"
+ SOJ_debug_moment_party_long:0 "Communist Party of China"
  
  SAK_trotsky_party:0 "International Left Opposition"
  SAK_trotsky_party_long:0 "International Left Opposition"

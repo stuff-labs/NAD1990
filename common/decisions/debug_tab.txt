@@ -39,5 +39,61 @@ debug_tab = {
 		}
 	}
 
+	epic_fallout_reference = {
+
+		icon = generic_industry
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			debug = yes
+		}
+
+		fire_only_once = no
+
+
+		days_remove = 1
+
+		cost = 1
+
+
+		remove_effect = {
+			SOJ = {
+				recruit_character = SOJ_deng
+				promote_character = SOJ_deng
+				set_cosmetic_tag = SOJ_communist_china
+				add_popularity = {
+					ideology = communism
+					popularity = 0.25
+				}
+				set_politics = {
+					ruling_party = communism
+				}
+				declare_war_on = {
+					target = WDC
+					type = annex_everything
+				}
+			}
+			WDC = {
+				set_cosmetic_tag = WDC_the_united_states_is_back_fr_this_time
+			}
+		}
+
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+}
+set_party_name = { 
+	ideology = communism 
+	long_name = SOJ_debug_moment_party_long 
+	name = SOJ_debug_moment_party
 }
 
