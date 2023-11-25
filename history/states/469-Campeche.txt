@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = COZ
-		add_core_of = COZ
+		owner = MEX
+		add_core_of = MEX
 			
 		1990.1.2 = {
 			owner = MEX

@@ -7,11 +7,11 @@ state={
 	manpower=45000
 	buildings_max_level_factor=1.000
 	history={
-		owner = COZ
+		owner = MEX
 		1990.1.2 = {
 			owner = USA
 		}
-		add_core_of = COZ
+		add_core_of = MEX
 		
 		buildings = {
 			infrastructure = 2

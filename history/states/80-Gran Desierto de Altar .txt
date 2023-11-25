@@ -9,8 +9,8 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	history = {
-		owner = BAJ
-		add_core_of = BAJ
+		owner = MEX
+		add_core_of = MEX
 		1990.1.2 = {
 			owner = MEX
 		}

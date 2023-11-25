@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = BAJ
+		owner = MEX
 		buildings = {
 			infrastructure = 2
 			598 = {
@@ -16,7 +16,7 @@ state={
 			}
 
 		}
-		add_core_of = BAJ
+		add_core_of = MEX
 #		add_core_of = SDL
 		1990.1.2 = {
 			owner = MEX

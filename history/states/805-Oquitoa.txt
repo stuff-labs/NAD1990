@@ -5,8 +5,8 @@ state={
 		934 1044 1048 4595 4597 4686 
 	}
 	history = {
-		owner = BAJ
-		add_core_of = BAJ
+		owner = MEX
+		add_core_of = MEX
 		1990.1.2 = {
 			owner = MEX
 		}

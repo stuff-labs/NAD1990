@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = BAJ
+		owner = MEX
 		1990.1.2 = {
 			owner = MEX
 
@@ -16,7 +16,7 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = BAJ
+		add_core_of = MEX
 		victory_points = {
 			5821 20 
 		}
