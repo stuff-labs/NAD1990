@@ -60,24 +60,27 @@ debug_tab = {
 
 
 		remove_effect = {
-			SOJ = {
-				recruit_character = SOJ_deng
-				promote_character = SOJ_deng
-				set_cosmetic_tag = SOJ_communist_china
-				add_popularity = {
-					ideology = communism
-					popularity = 0.25
+			custom_effect_tooltip = WDC_debug_momento
+			hidden_effect = {
+				SOJ = {
+					recruit_character = SOJ_deng
+					promote_character = SOJ_deng
+					set_cosmetic_tag = SOJ_communist_china
+					add_popularity = {
+						ideology = communism
+						popularity = 0.25
+					}
+					set_politics = {
+						ruling_party = communism
+					}
+					declare_war_on = {
+						target = WDC
+						type = annex_everything
+					}
 				}
-				set_politics = {
-					ruling_party = communism
+				WDC = {
+					set_cosmetic_tag = WDC_the_united_states_is_back_fr_this_time
 				}
-				declare_war_on = {
-					target = WDC
-					type = annex_everything
-				}
-			}
-			WDC = {
-				set_cosmetic_tag = WDC_the_united_states_is_back_fr_this_time
 			}
 		}
 
