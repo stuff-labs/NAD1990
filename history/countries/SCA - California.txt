@@ -175,7 +175,7 @@ SCA = {
 	create_faction = SCA_pacifit_treaty_organization
 	add_to_faction = SUT
 	add_to_faction = SID
-	add_to_faction = BAJ
+	#add_to_faction = BAJ
 	add_to_faction = SHI
 }
 
