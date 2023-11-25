@@ -940,6 +940,12 @@ leader_traits = {
 		political_power_gain = 0.10
 		consumer_goods_factor = -0.08
 	}
+	sanders_legacy = {
+		random = no
+		production_factory_efficiency_gain_factor = 0.05
+		political_power_gain = 0.10
+		consumer_goods_factor = -0.10
+	}
 
 
 
@@ -951,18 +957,4 @@ leader_traits = {
 		drift_defence_factor = 0.2
 	}
 
-
-
-	ZOG_peoples_king = {
-		random = no 
-		justify_war_goal_time = -0.3
-	}
-	#####HAIDA LEADER
-	boat_builder = {
-		random = no
-		experience_gain_navy = 0.05
-		naval_hit_chance = 0.03
-		production_speed_dockyard_factor = 0.05
-		industrial_capacity_dockyard = 0.05
-	}
 }

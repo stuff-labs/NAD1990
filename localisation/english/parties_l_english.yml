@@ -824,14 +824,14 @@
  NAV_national_unityism_party:0 "Tribal Council"
  NAV_national_unityism_party:0 "Tribal Council"
  
- SKY_national_unityism_party:0 "Monarcho-Reformist"
- SKY_national_unityism_party_long:0 "Monarcho-Reformist Movement"
- SKY_liberalism_party:0 "Commonwealth Party"
- SKY_liberalism_party_long:0 "Kentucky Commonwealth Party"
- SKY_fascism_party:0 "Free Republic Party"
- SKY_fascism_party_long:0 "Kentucky Free Republic Party"
- SKY_despotic_autocracy_party:0 "The Colonel's Party"
- SKY_despotic_autocracy_party_long:0 "Colonel's Party"
+ SKY_national_unityism_party:0 "TCP"
+ SKY_national_unityism_party_long:0 "The Colonel's Party"
+ SKY_liberalism_party:0 "DFP"
+ SKY_liberalism_party_long:0 "Democratic Federal Party"
+ SKY_conservatism_party:0 "SCP"
+ SKY_conservatism_party_long:0 "Second Commonwealth Party"
+ SKY_despotic_autocracy_party:0 "KNPA"
+ SKY_despotic_autocracy_party_long:0 "Kentucky National Patriotic Army"
 
 
  SUT_national_unityism_party:0 "Mormon Churh"

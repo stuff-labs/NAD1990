@@ -22,15 +22,21 @@ set_technology = {
 
 set_convoys = 30
 
+recruit_character = SKY_john_y_brown_jr
+
 set_politics = {
 	ruling_party = liberalism
-	last_election = "1936.1.1"
+	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	liberalism = 45
-	fascism = 10
-	national_unityism= 25
+	conservatism = 25
+	progressivism = 0
+	fascism = 0
+	communism = 0
+	socialism = 0
+	national_unityism = 10
 	despotic_autocracy = 20
 }

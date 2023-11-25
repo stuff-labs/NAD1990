@@ -1,0 +1,16 @@
+characters={
+	SKY_john_y_brown_jr = {
+		name="John Y. Brown Jr."
+		portraits={
+			civilian={
+				large="gfx/leaders/SKY/portrait_SKY_john_y_brown_jr.dds"
+			}
+		}
+		country_leader={
+			ideology= liberalism_sub   
+			traits={ sanders_legacy }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
