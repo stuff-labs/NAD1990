@@ -700,6 +700,14 @@
  SMA_despotic_autocracy_party:0 "People's Democrats"
  SMA_despotic_autocracy_party_long:0 "People's Democratic Party"
 
+
+ SCT_liberalism_party:0 "A Connecticut Party"
+ SCT_liberalism_party_long:0 "A Connecticut Party"
+ SCT_conservatism_party:0 "Republican Party"
+ SCT_conservatism_party_long:0 "Republican Party"
+ SCT_progressivism_party:0 "UCP"
+ SCT_progressivism_party_long:0 "Union of Connecticut Progressi"
+
  SRI_liberalism_party:0 "SLUNE"
  SRI_liberalism_party_long:0 "Second Liberty Union of New England"
  SRI_conservatism_party:0 "NEFLB"

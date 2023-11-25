@@ -68,15 +68,21 @@ if = {
 
 set_convoys = 30
 
+recruit_character = SCT_lowell_weicker
+
 set_politics = {
-	ruling_party = national_unityism
-	last_election = "1936.1.1"
+	ruling_party = liberalism
+	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 23
-	fascism = 1
-	communism = 1
-	national_unityism= 75
+	liberalism = 60
+	conservatism = 35
+	fascism = 0
+	progressivism = 5
+	socialism = 0
+	communism = 0
+	national_unityism= 0
+	despotic_autocracy = 0
 }

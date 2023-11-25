@@ -183,8 +183,8 @@ SRI = {
 	color_ui = rgb { 53 133 126 }
 }
 SCT = {
-	color = rgb { 222 62 84 }
-	color_ui = rgb { 222 62 84 }
+	color = rgb { 132 98 98 }
+	color_ui = rgb { 132 98 98 }
 }
 SME = {
 	color = rgb { 79 6 15 }

@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = SRI
+		owner = SCT
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -16,7 +16,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = SRI
+		add_core_of = SCT
 		1990.1.2 = {
 			owner = USA
 		}

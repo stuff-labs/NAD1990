@@ -117,6 +117,21 @@ set_popularities = {
 	despotic_autocracy = 2
 }
 
+SNY = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = SCT
+			autonomy_state = autonomy_puppet
+		}
+	}
+	else = {
+		puppet = SCT
+	}
+}
+
 add_ideas = {
 	#SNY_self_proclaimed_bastion_of_democracy
 	#SNY_political_deadlock

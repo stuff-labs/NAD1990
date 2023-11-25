@@ -663,8 +663,8 @@
  SCT_national_unityism_DEF:0 "Connecticut"
  SCT_communism:1 "Republic of Connecticut"
  SCT_communism_DEF:1 "the Republic of Connecticut"
- SCT:0 "Republic of Connecticut"
- SCT_DEF:0 "the Republic of Connecticut"
+ SCT:0 "State of Connecticut"
+ SCT_DEF:0 "the State of Connecticut"
  SCT_ADJ:0 "Connecticuter"
  
  SVT_fascism:1 "Vermont"

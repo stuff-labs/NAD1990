@@ -1,0 +1,16 @@
+characters={
+	SCT_lowell_weicker={
+		name="Lowell Weicker"
+		portraits={
+			civilian={
+				large="gfx/leaders/SCT/portrait_SCT_lowell_weicker.dds"
+			}
+		}
+		country_leader={
+			ideology= liberalism_sub 
+			traits={ }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
