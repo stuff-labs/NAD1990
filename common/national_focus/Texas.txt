@@ -1531,7 +1531,7 @@ focus_tree = { #2 Texas War
 		completion_reward = {
 		}
 	}
-
+	#mfw industry exists
 	focus = {
 		id = STX_rely_on_our_foundations
 		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
@@ -1540,6 +1540,75 @@ focus_tree = { #2 Texas War
 		x = -2
 		y = 1
 		relative_position_id = STX_the_issue_of_weaponry
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_subsidise_everything
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_rely_on_our_foundations }
+		x = -1
+		y = 1
+		relative_position_id = STX_rely_on_our_foundations
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_optimise_their_shifts
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_subsidise_everything }
+
+		x = 0
+		y = 1
+		relative_position_id = STX_subsidise_everything
 
 		cost = 1
 
@@ -1606,8 +1675,145 @@ focus_tree = { #2 Texas War
 		id = STX_a_deal_with_the_brits
 		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
 		prerequisite = { focus = STX_time_comes_first }
-		x = 2
+		x = 1
 		y = 1
+		relative_position_id = STX_time_comes_first
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_white_snow_for_lead #Cartel Gaming
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_a_deal_with_the_brits }
+		x = 0
+		y = 1
+		relative_position_id = STX_a_deal_with_the_brits
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_necessary_confiscations
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_time_comes_first }
+		x = -1
+		y = 1
+		relative_position_id = STX_time_comes_first
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_repurpose_police_weapons
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_necessary_confiscations }
+		x = 0
+		y = 1
+		relative_position_id = STX_necessary_confiscations
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_dig_up_the_stockpiles
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_repurpose_police_weapons }
+		prerequisite = { focus = STX_white_snow_for_lead }
+		x = 0
+		y = 3
 		relative_position_id = STX_time_comes_first
 
 		cost = 1
