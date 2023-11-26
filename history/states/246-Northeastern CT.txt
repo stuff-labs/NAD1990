@@ -12,6 +12,7 @@ state={
 
 		}
 		add_core_of = SRI
+		add_core_of = SCT
 		1990.1.2 = {
 			owner = USA
 		}

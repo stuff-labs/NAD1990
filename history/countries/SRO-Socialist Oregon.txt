@@ -70,6 +70,7 @@ if = {
 
 set_convoys = 50
 
+recruit_character = SRO_bob_avakian 
 
 set_politics = {
 	ruling_party = communism
