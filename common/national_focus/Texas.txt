@@ -1635,6 +1635,109 @@ focus_tree = { #2 Texas War
 		completion_reward = {
 		}
 	}
+
+	focus = {
+		id = STX_more_sloppy_weaponry
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_rely_on_our_foundations }
+		x = 1
+		y = 1
+		relative_position_id = STX_rely_on_our_foundations
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_true_texan_mercs
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_more_sloppy_weaponry }
+		x = 0
+		y = 1
+		relative_position_id = STX_more_sloppy_weaponry
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_calling_for_guns_and_manpower
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_true_texan_mercs }
+		prerequisite = { focus = STX_optimise_their_shifts }
+		x = -1
+		y = 1
+		relative_position_id = STX_true_texan_mercs
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
 	#Guns Guns Branch
 	focus = {
 		id = STX_time_comes_first
