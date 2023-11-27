@@ -1,0 +1,25 @@
+﻿l_english:
+
+ MEX: "United Mexican States"
+ MEX_DEF: "the United Mexican States"
+ MEX_ADJ: "Mexican"
+
+ MEX_fascism_party: "Unorganised Dissidents"
+ MEX_fascism_party_long: "Unorganised Dissidents"
+ MEX_despotic_autocracy_party: "Unorganised Dissidents"
+ MEX_despotic_autocracy_party_long: "Unorganised Dissidents"
+ MEX_national_unityism_party: "PRI"
+ MEX_national_unityism_party_long: "Partido Revolucionario Institucional"
+ MEX_conservatism_party: "PAN"
+ MEX_conservatism_party_long: "Partido Acción Nacional"
+ MEX_liberalism_party: "Unorganised Dissidents"
+ MEX_liberalism_party_long: "Unorganised Dissidents"
+ MEX_progressivism_party: "PRD"
+ MEX_progressivism_party_long: "Partido de la Revolución Democrática"
+ MEX_socialism_party: "EZLN"
+ MEX_socialism_party_long: "Ejército Zapatista de Liberación Nacional"
+ MEX_communism_party: "EZLN"
+ MEX_communism_party_long: "Ejército Zapatista de Liberación Nacional"
+
+ MEX_Carlos_Salinas_De_Gortari: "Carlos Salinas de Gortari"
+ MEX_Ernesto_Zedillo: "Ernesto Zedillo"

@@ -1,16 +1,31 @@
-characters={
-	MEX_carlos_salinas_de_gortari={
-		name="Carlos Salinas de Gortari"
-		portraits={
-			civilian={
-				large="gfx/leaders/MEX/portrait_MEX_carlos_salinas_de_gortari.dds"
+characters = {
+	MEX_Carlos_Salinas_De_Gortari = {
+		name = MEX_Carlos_Salinas_De_Gortari
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_MEX_Carlos_Salinas_De_Gortari.dds"
 			}
 		}
-		country_leader={
-			ideology=political_machine    
-			traits={  }
-			expire="2020.1.1.1"
-			id=-1
+		country_leader = {
+			ideology = political_machine    
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+
+	MEX_Ernesto_Zedillo = {
+		name = MEX_Ernesto_Zedillo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_MEX_Ernesto_Zedillo.dds"
+			}
+		}
+		country_leader = {
+			ideology = political_machine    
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
 		}
 	}
 }
