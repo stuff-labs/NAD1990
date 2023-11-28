@@ -70,30 +70,28 @@ if = {
 set_convoys = 30
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = liberalism
 	last_election = "1988.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 37
-	conservatism = 40
+	liberalism = 48
+	conservatism = 22
 	fascism = 0
-	communism = 2
-	socialism = 3
-	national_unityism = 3
+	communism = 0
+	socialism = 0
+	national_unityism = 21
 	despotic_autocracy = 0
-	progressivism = 15
+	progressivism = 9
 }
 
-recruit_character = PON_brian_mulroney
+recruit_character = PON_John_Turner
 
 add_ideas = {
 	developed_economic_capacity
-	PON_michigan_troubles
 	PON_quebec_compromise
 	PON_teetering_bankruptcy
-	
 }
 
 

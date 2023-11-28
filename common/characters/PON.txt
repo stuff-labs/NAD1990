@@ -1,16 +1,17 @@
-characters={
-	PON_brian_mulroney={
-		name="Brian Mulroney"
-		portraits={
-			civilian={
-				large="gfx/leaders/PON/portrait_PON_brian_mulroney.dds"
+characters ={
+
+	PON_John_Turner = {
+		name = PON_John_Turner
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PON/Portrait_PON_John_Turner.dds"
 			}
 		}
-		country_leader={
-			ideology=conservatism_sub   
-			traits={  }
-			expire="2020.1.1.1"
-			id=-1
+		country_leader = {
+			ideology = classical_liberalism
+			traits = { }
+			expire = "2020.1.1.1"
+			id = -1
 		}
 	}
 }

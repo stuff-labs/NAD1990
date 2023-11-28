@@ -253,7 +253,7 @@ ideologies = {
 			liberalism_sub = {
 			}
 
-
+			classical_liberalism = { }
 		}
 		
 		dynamic_faction_names = {

@@ -218,9 +218,12 @@ defined_text = {
 			has_country_leader_ideology = liberalism_sub
 		}
 		localization_key = liberalism_sub
-		
 	}
-	
+
+	text = {
+		trigger = { has_country_leader_ideology = classical_liberalism }
+		localization_key = classical_liberalism
+	}
 }
 defined_text = {
 	name = GetSubIdeologyPrg

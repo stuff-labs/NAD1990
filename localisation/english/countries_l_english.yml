@@ -273,16 +273,6 @@
  LAB_DEF:0 "the Republic of Labrador"
  LAB_ADJ:0 "Labradorians"
  
- PON_fascism:1 "Unity Government of Canada"
- PON_fascism_DEF:1 "the Unity Government of Canada"
- PON_national_unityism:0 "Canadian Federation"
- PON_national_unityism_DEF:0 "the Canadian Federation"
- PON_communism:1 "Socialist Republic of Canada"
- PON_communism_DEF:1 "the Socialist Republic of Canada"
- PON:0 "Canadian Federation"
- PON_DEF:0 "the Canadian Federation"
- PON_ADJ:0 "Canadian"
- 
  SHI_fascism:1 "Fascist Hawai'i"
  SHI_fascism_DEF:1 "Falangist Hawai'i"
  SHI_longism:0 "Hawaiian Kingdom"

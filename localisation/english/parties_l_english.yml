@@ -78,6 +78,8 @@
  corporate_statism_desc: ""
  christian_nationalism: "Christian Nationalism"
  corporate_statism_desc: ""
+ classical_liberalism: "Classical Liberalism"
+ classical_liberalism_desc: "Classical liberalism is when liberals money."
  national_unityism:0 "Non-Aligned"
  national_unityism_noun:0 "Non-Aligned"
  national_unityism_desc:0 "Authoritarian Regime"
@@ -870,25 +872,6 @@
  SNM_progressivism_party_long:0 "Free Republic Party of New Mexico"
  SNM_despotic_autocracy_party:0 "FNUPNM"
  SNM_despotic_autocracy_party_long:0 "Free National Unity Party of New Mexico"
- 
- 
-
-
-
- PON_fascism_party:0 "Fascist Union"
- PON_fascism_party_long:0 "Ontario Union Of Fascists"
- PON_national_unityism_party:0 "Progressive Conservatives - Far Right" 
- PON_national_unityism_party_long:0 "Progressive Conservative Party of Canada - Far Right" 
- PON_liberalism_party:0 "Liberal Party"
- PON_liberalism_party_long:0 "Liberal Party of Canada"
- PON_conservatism_party:0 "Progressive Conservatives"
- PON_conservatism_party_long:0 "Progressive Conservative Party of Canada"
- PON_socialism_party:0 "NDP - Far Left"
- PON_socialism_party_long:0 "New Democratic Party - Far Left"
- PON_communism_party:0 "CPC"
- PON_communism_party_long:0 "Communist Party of Canada"
- PON_progressivism_party:0 "NDP"
- PON_progressivism_party_long:0 "New Democratic Party"
  
  BAJ_longism_party:0 "Zapatistas"
  BAJ_longism_party_long:0 "Ejército Libertador del Nord"  
