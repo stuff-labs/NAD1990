@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = PON
+		owner = SMI
 		buildings = {
 			infrastructure = 1
 			dockyard = 1

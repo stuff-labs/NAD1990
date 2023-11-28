@@ -3,14 +3,13 @@ state={
 	name="STATE_505"
 	
 	history={
-		owner = PON
+		owner = SMN
 		buildings = {
 			infrastructure = 1
 			3445 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = PON
 		add_core_of = SMI
 		add_core_of = SUP
 		add_core_of = SMN

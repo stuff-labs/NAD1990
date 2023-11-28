@@ -5,7 +5,7 @@ state = {
 		2390 2401 7866 7867 7869 7871 7874 7879 
 	}
     history = {
-        owner = PON
+        owner = SMI
 		1990.1.2 = {
 			owner = USA
 		}

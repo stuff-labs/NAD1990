@@ -4,7 +4,7 @@ state={
 	name="STATE_744"
 
 	history={
-		owner = PON
+		owner = SMI
 		1990.1.2 = {
 			owner = USA
 		}
