@@ -146,6 +146,26 @@ spriteTypes = {
 		name = "GFX_newsevent_north_hollywood"
 		texturefile = "gfx/event_pictures/news_events/newsevent_north_hollywood.dds"
 	}
+
+	spriteType = {
+		name = "GFX_newsevent_zapista_rebellion"
+		texturefile = "gfx/event_pictures/news_events/newsevent_zapista_rebellion.dds"
+	}
+
+	spriteType = {
+		name = "GFX_newsevent_assassination_of_luis_donaldo_colosio"
+		texturefile = "gfx/event_pictures/news_events/newsevent_assassination_of_luis_donaldo_colosio.dds"
+	}
+
+	spriteType = {
+		name = "GFX_newsevent_inauguration_of_ernesto_zedillo"
+		texturefile = "gfx/event_pictures/news_events/newsevent_inauguration_of_ernesto_zedillo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_newsevent_peso_crisis"
+		texturefile = "gfx/event_pictures/news_events/newsevent_peso_crisis.dds"
+	}
 	
 	
 }#END

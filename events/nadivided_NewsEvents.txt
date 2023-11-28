@@ -1,5 +1,6 @@
 ﻿add_namespace = usastates_news_new
 add_namespace = usastates_news_flavor
+
 news_event = { #florida_haiti_war
 	id = usastates_news_new.1
 	title = usastates_news_new.1.t
@@ -286,7 +287,70 @@ news_event = { # joe biden takes joever dc
 	}
 }
 
-###flavor
+news_event = { # Zapista Rebellion
+	id = usastates_news_new.15
+	title = usastates_news_new.15.t
+	desc = usastates_news_new.15.d
+	picture = GFX_newsevent_zapista_rebellion
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.15.a
+	}
+}
+
+news_event = { # Assassination of Luis Donaldo Colosio
+	id = usastates_news_new.16
+	title = usastates_news_new.16.t
+	desc = usastates_news_new.16.d
+	picture = GFX_newsevent_assassination_of_luis_donaldo_colosio
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.16.a
+	}
+}
+
+news_event = { # Inauguration of Ernesto Zedillo
+	id = usastates_news_new.17
+	title = usastates_news_new.17.t
+	desc = usastates_news_new.17.d
+	picture = GFX_newsevent_inauguration_of_ernesto_zedillo
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.17.a
+	}
+}
+
+news_event = { # Peso Crisis
+	id = usastates_news_new.18
+	title = usastates_news_new.18.t
+	desc = usastates_news_new.18.d
+	picture = GFX_newsevent_peso_crisis
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.18.a
+	}
+}
+
+###########################
+### FLAVOUR STARTS HERE ###
+###########################
+
 news_event = { #noth hollywood shooting
 	id = usastates_news_flavor.1
 	title = usastates_news_flavor.1.t

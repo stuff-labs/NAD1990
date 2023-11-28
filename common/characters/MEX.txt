@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = political_machine    
+			ideology = political_machine
 			traits = { }
 			expire = "2020.1.1.1"
 			id = -1
@@ -21,8 +21,17 @@ characters = {
 				large = "gfx/leaders/MEX/Portrait_MEX_Ernesto_Zedillo.dds"
 			}
 		}
+	}
+
+	MEX_Subcomandante_Marcos = {
+		name = MEX_Subcomandante_Marcos
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_MEX_Subcomandante_Marcos.dds"
+			}
+		}
 		country_leader = {
-			ideology = political_machine    
+			ideology = revolutionary_socialism
 			traits = { }
 			expire = "2020.1.1.1"
 			id = -1

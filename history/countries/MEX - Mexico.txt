@@ -78,6 +78,7 @@ set_popularities = {
 
 recruit_character = MEX_Carlos_Salinas_De_Gortari
 recruit_character = MEX_Ernesto_Zedillo
+recruit_character = MEX_Subcomandante_Marcos
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

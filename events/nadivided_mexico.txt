@@ -1,0 +1,112 @@
+add_namespace = MEX_events
+
+country_event = {
+    id = MEX_events.1
+    title = MEX_events.1.t
+    desc = MEX_events.1.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+		tag = MEX
+		date > 1993.12.1
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	fire_only_once = yes
+
+    option = {
+        name = MEX_events.1.a
+		ai_chance = {
+            factor = 10
+        }
+        565 = {
+        	set_demilitarized_zone = yes
+        }
+        464 = {
+        	set_demilitarized_zone = yes
+        }
+		news_event = { id = usastates_news_new.15 }
+    }
+}
+
+country_event = {
+    id = MEX_events.2
+    title = MEX_events.2.t
+    desc = MEX_events.2.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+		tag = MEX
+		date > 1994.3.22
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	fire_only_once = yes
+
+    option = {
+        name = MEX_events.2.a
+		ai_chance = {
+            factor = 10
+        }
+		news_event = { id = usastates_news_new.16 }
+    }
+}
+
+country_event = {
+    id = MEX_events.3
+    title = MEX_events.3.t
+    desc = MEX_events.3.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+		tag = MEX
+		date > 1994.11.30
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	fire_only_once = yes
+
+    option = {
+        name = MEX_events.3.a
+		ai_chance = {
+            factor = 10
+        }
+		retire_character = MEX_Carlos_Salinas_De_Gortari
+		add_country_leader_role = {
+		    character = MEX_Ernesto_Zedillo
+		    promote_leader = yes
+		    country_leader = {
+		        ideology = political_machine
+		        expire = "2020.1.1.1"
+		    }
+		}
+		news_event = { id = usastates_news_new.17 }
+    }
+}
+
+country_event = {
+    id = MEX_events.4
+    title = MEX_events.4.t
+    desc = MEX_events.4.d
+    picture = GFX_report_event_la_riots_starts
+
+	trigger = {
+		tag = MEX
+		date > 1994.12.21
+	}
+
+	mean_time_to_happen = { days = 0 }
+
+	fire_only_once = yes
+
+    option = {
+        name = MEX_events.4.a
+		ai_chance = {
+            factor = 10
+        }
+		news_event = { id = usastates_news_new.18 }
+    }
+}
