@@ -38,17 +38,24 @@ add_ideas = {
 
 set_convoys = 50
 
+recruit_character = SMI_william_henry_clay_ford_jr
+
+
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = despotic_autocracy
 	last_election = "1934.11.6"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 40
-	fascism = 5
-	communism = 14
-	national_unityism= 41
+	fascism = 18
+	despotic_autocracy = 49
+	national_unityism = 13
+	conservatism = 2
+	liberalism = 2
+	progressivism = 4
+	socialism = 7
+	communism = 5
 }
 
 ### MTG STUFF ###

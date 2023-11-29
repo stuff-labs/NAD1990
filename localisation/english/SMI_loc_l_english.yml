@@ -1,0 +1,22 @@
+﻿l_english:
+
+ SMI:0 "Republic of Michigan"
+ SMI_DEF:0 "The Republic of Michigan"
+ SMI_ADJ:0 "Michigander"
+
+ SMI_national_unityism_party:0 "CCI - Civilian"
+ SMI_national_unityism_party_long:0 "Council of Corporate Interests - Civilian Faction"
+ SMI_liberalism_party:0 "Unorganised Dissidents"
+ SMI_liberalism_party_long:0 "Unorganised Dissidents"
+ SMI_conservatism_party:0 "Unorganised Dissidents"
+ SMI_conservatism_party_long:0 "Unorganised Dissidents"
+ SMI_communism_party:0 "SPUM"
+ SMI_communism_party_long:0 "Second Proletarian Union of Michigan"
+ SMI_socialism_party:0 "UFMA"
+ SMI_socialism_party_long:0 "United Federation of Michigan Anarchists"
+ SMI_progressivism_party:0 "Unorganised Dissidents"
+ SMI_progressivism_party_long:0 "Unorganised Dissidents"
+ SMI_despotic_autocracy_party:0 "CCI - Business"
+ SMI_despotic_autocracy_party_long:0 "Council of Corporate Interests - Business Faction"
+ SMI_fascism_party:0 "CCI - Statist"
+ SMI_fascism_party_long:0 "Council of Corporate Interests - Statist Faction"

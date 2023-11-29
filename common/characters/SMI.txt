@@ -1,0 +1,16 @@
+characters={
+	SMI_william_henry_clay_ford_jr={
+		name="William Clay Ford Jr."
+		portraits={
+			civilian={
+				large="gfx/leaders/SMI/portrait_SMI_william_henry_clay_ford_jr.dds"
+			}
+		}
+		country_leader={
+			ideology=corporatocracy     
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
