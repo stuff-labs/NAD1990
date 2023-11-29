@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+
+		SMI_rusted_away = {
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			picture = HAI_militarized_economy
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = 0.2
+			}
+		}
+
+		SMI_the_michigan_troubles = {
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			picture = SMI_the_michigan_troubles
+			modifier = {
+				socialism_drift = 0.01
+				communism_drift = 0.01
+				stability_factor = -0.15
+				political_power_gain = -0.15
+			}
+		}
+	}
+}
