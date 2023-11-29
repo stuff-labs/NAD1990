@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology= hueyism   
-			traits={  }
+			traits={ progressive_sympathies }
 			expire="2020.1.1.1"
 			id=-1
 		}
