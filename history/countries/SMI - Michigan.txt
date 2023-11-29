@@ -38,7 +38,7 @@ add_ideas = {
 
 set_convoys = 50
 
-recruit_character = SMI_william_henry_clay_ford_jr
+recruit_character = SMI_William_Henry_Clay_Ford_Jr
 
 
 set_politics = {
@@ -48,9 +48,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 18
-	despotic_autocracy = 49
-	national_unityism = 13
+	fascism = 0
+	despotic_autocracy = 58
+	national_unityism = 22
 	conservatism = 2
 	liberalism = 2
 	progressivism = 4

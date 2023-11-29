@@ -1,16 +1,17 @@
 characters={
-	SMI_william_henry_clay_ford_jr={
-		name="William Clay Ford Jr."
-		portraits={
-			civilian={
-				large="gfx/leaders/SMI/portrait_SMI_william_henry_clay_ford_jr.dds"
+
+	SMI_William_Henry_Clay_Ford_Jr = {
+		name = SMI_William_Henry_Clay_Ford_Jr
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SMI/Portrait_SMI_William_Henry_Clay_Ford_Jr.dds"
 			}
 		}
-		country_leader={
-			ideology=corporatocracy     
-			traits={  }
-			expire="2020.1.1.1"
-			id=-1
+		country_leader = {
+			ideology = corporatocracy
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
 		}
 	}
 }
