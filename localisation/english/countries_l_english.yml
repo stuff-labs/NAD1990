@@ -428,16 +428,6 @@
  SMN_DEF:0 "The Republic of Minnesota"
  SMN_ADJ:0 "Minnesotan"
  
- SOH_fascism:1 "Ohian Empire"
- SOH_fascism_DEF:1 "Ohio"
- SOH_national_unityism:0 "Ohio"
- SOH_national_unityism_DEF:0 "Ohio"
- SOH_communism:1 "The Ohio Soviet"
- SOH_communism_DEF:1 "the Soviet of Ohio"
- SOH:0 "Republic of Ohio"
- SOH_DEF:0 "the Republic of Ohio"
- SOH_ADJ:0 "Ohioan"
- 
  SNY_fascism:1 "The Empire State"
  SNY_fascism_DEF:1 "The Empire State"
  SNY:1 "Republic of New York"

@@ -1,0 +1,16 @@
+characters={
+	SOH_anthony_j_celebrezze_Jr= {
+		name="Anthony J. Celebrezze Jr."
+		portraits={
+			civilian={
+				large="gfx/leaders/SOH/portrait_SOH_anthony_j_celebrezze_Jr.dds"
+			}
+		}
+		country_leader={
+			ideology= political_machine    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

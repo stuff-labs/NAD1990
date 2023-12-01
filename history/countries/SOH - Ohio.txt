@@ -28,18 +28,23 @@ set_convoys = 30
 set_war_support = 0.35
 set_stability = 0.73
 
+recruit_character = SOH_anthony_j_celebrezze_Jr
 
 set_politics = {
 	ruling_party = national_unityism
-	last_election = "1936.1.1"
+	last_election = "1990.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 29
-	fascism = 2
-	communism = 1
-	national_unityism= 68
+	liberalism = 23
+	conservatism = 11
+	fascism = 0
+	progressivism = 3
+	socialism = 2
+	communism = 0
+	national_unityism= 48
+	despotic_autocracy = 13
 }
 
 
