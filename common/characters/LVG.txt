@@ -1,0 +1,16 @@
+characters={
+	LVG_robert_house={
+		name="Preston Manning"
+		portraits={
+			civilian={
+				large="gfx/leaders/LVG/portrait_LVG_robert_house.dds"
+			}
+		}
+		country_leader={
+			ideology=personalist_dictatorship    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

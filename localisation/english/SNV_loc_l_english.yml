@@ -11,6 +11,8 @@
  SNV_communism_party_long:0 "Freak Power Party - Left Extremists"
  SNV_socialism_party:0 "Freak Power Party - Socialists"
  SNV_socialism_party_long:0 "Freak Power Party - Socialists"
+ LVG_despotic_autocracy_party:0 "NVIP"
+ LVG_despotic_autocracy_party_long:0 "New Vegas Independent Party"
 
 
  SNV_democratic_party:0 "Democratic Party"
@@ -30,6 +32,8 @@
  SNV_progressivism:1 "Free Republic Of Nevada"
  SNV_progressivism_DEF:0 "The Gonzo Free Republic Of Nevada"
  SNV_longism_DEF:0 "Populist Nevada"
+ LVG_despotic_autocracy:0 "New Vegas"
+ LVG_despotic_autocracy_DEF:0 "New Vegas"
 
  #Epic People
  SNV_hunter_s_thompson:0 "Hunter S. Thompson"
