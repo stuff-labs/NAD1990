@@ -197,6 +197,7 @@ ideologies = {
 			}
 			social_credit = {
 			}
+			centrism_conservatism = { }
 
 	
 		}
@@ -254,6 +255,8 @@ ideologies = {
 			}
 
 			classical_liberalism = { }
+
+			centrism_liberal = { }
 		}
 		
 		dynamic_faction_names = {

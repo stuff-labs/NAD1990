@@ -208,6 +208,10 @@ defined_text = {
 		localization_key = social_credit
 		
 	}
+	text = {
+		trigger = { has_country_leader_ideology = centrism_conservatism }
+		localization_key = centrism_conservatism
+	}
 	
 }
 defined_text = {
@@ -223,6 +227,11 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = classical_liberalism }
 		localization_key = classical_liberalism
+	}
+
+	text = {
+		trigger = { has_country_leader_ideology = centrism_liberal }
+		localization_key = centrism_liberal
 	}
 }
 defined_text = {
