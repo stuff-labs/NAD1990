@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism  
+			ideology=libertarian_despotism  
 			desc = "POLITICS_RON_PAUL_DESC"
 			traits={ texan_saviour }
 			expire="2020.1.1.1"

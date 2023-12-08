@@ -1,13 +1,13 @@
 characters={
-	SOH_anthony_j_celebrezze_Jr= {
-		name="Anthony J. Celebrezze Jr."
+	SOH_arthur_laffer= {
+		name="Arthur Laffer"
 		portraits={
 			civilian={
-				large="gfx/leaders/SOH/portrait_SOH_anthony_j_celebrezze_Jr.dds"
+				large="gfx/leaders/SOH/portrait_SOH_arthur_laffer.dds"
 			}
 		}
 		country_leader={
-			ideology= political_machine    
+			ideology= libertarianism    
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1

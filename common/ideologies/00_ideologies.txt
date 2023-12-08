@@ -83,6 +83,7 @@ ideologies = {
 			christian_nationalism = {
 				
 			}
+			libertarian_despotism = { }
 		}
 
 		dynamic_faction_names = {
@@ -198,6 +199,8 @@ ideologies = {
 			social_credit = {
 			}
 			centrism_conservatism = { }
+
+			libertarianism = { }
 
 	
 		}
