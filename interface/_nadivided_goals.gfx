@@ -111,4 +111,8 @@ spriteTypes = {
 		name = "GFX_STX_youth_organizations"
 		texturefile = "gfx/interface/goals/STX_youth_organizations.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_expand_the_forts"
+		texturefile = "gfx/interface/goals/STX_expand_the_forts.dds"
+	}
 }

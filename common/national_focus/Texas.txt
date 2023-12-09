@@ -669,7 +669,7 @@ focus_tree = { #1 Texas Main
 	}
 	focus = {
 		id = STX_expand_the_forts
-		icon = GFX_
+		icon = GFX_STX_expand_the_forts
 		prerequisite = { focus = STX_the_great_texan_army_focus }
 		x = 2
 		y = 1
