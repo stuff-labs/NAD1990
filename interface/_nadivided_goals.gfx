@@ -115,4 +115,32 @@ spriteTypes = {
 		name = "GFX_STX_expand_the_forts"
 		texturefile = "gfx/interface/goals/STX_expand_the_forts.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_the_booming_oil_industry"
+		texturefile = "gfx/interface/goals/STX_the_booming_oil_industry.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_fund_r_and_d"
+		texturefile = "gfx/interface/goals/STX_fund_r_and_d.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_expand_the_reserves"
+		texturefile = "gfx/interface/goals/STX_expand_the_reserves.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_appeal_to_the_west"
+		texturefile = "gfx/interface/goals/STX_appeal_to_the_west.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_efficiency_before_wellbeing"
+		texturefile = "gfx/interface/goals/STX_efficiency_before_wellbeing.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_shift_the_general_staff"
+		texturefile = "gfx/interface/goals/STX_shift_the_general_staff.dds"
+	}
+	SpriteType = {
+		name = "GFX_STX_the_third_red_river_war"
+		texturefile = "gfx/interface/goals/STX_the_third_red_river_war.dds"
+	}
 }

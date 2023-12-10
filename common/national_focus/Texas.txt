@@ -197,7 +197,7 @@ focus_tree = { #1 Texas Main
 	#ECONOMY
 	focus = {
 		id = STX_the_booming_oil_industry
-		icon = GFX_
+		icon = GFX_STX_the_booming_oil_industry
 		prerequisite = { focus = STX_a_lone_star }
 		x = -6
 		y = 2
@@ -239,7 +239,7 @@ focus_tree = { #1 Texas Main
 	}
 	focus = {
 		id = STX_fund_r_and_d
-		icon = GFX_
+		icon = GFX_STX_fund_r_and_d
 		prerequisite = { focus = STX_the_booming_oil_industry }
 		x = -2
 		y = 1
@@ -279,7 +279,7 @@ focus_tree = { #1 Texas Main
 	}
 	focus = {
 		id = STX_expand_the_reserves
-		icon = GFX_
+		icon = GFX_STX_expand_the_reserves
 		prerequisite = { focus = STX_the_booming_oil_industry }
 		x = 0
 		y = 1
@@ -317,7 +317,7 @@ focus_tree = { #1 Texas Main
 	}
 	focus = {
 		id = STX_appeal_to_the_west
-		icon = GFX_
+		icon = GFX_STX_appeal_to_the_west
 		prerequisite = { focus = STX_the_booming_oil_industry }
 		x = 2
 		y = 1
@@ -427,7 +427,7 @@ focus_tree = { #1 Texas Main
 	}
 	focus = {
 		id = STX_efficiency_before_wellbeing
-		icon = GFX_
+		icon = GFX_STX_efficiency_before_wellbeing
 		prerequisite = { focus = STX_appeal_to_the_west }
 		prerequisite = { focus = STX_expand_the_reserves }
 		x = -1
@@ -633,7 +633,7 @@ focus_tree = { #1 Texas Main
 	}
 	focus = {
 		id = STX_shift_the_general_staff
-		icon = GFX_
+		icon = GFX_STX_shift_the_general_staff
 		prerequisite = { focus = STX_the_great_texan_army_focus }
 		x = 0
 		y = 1
@@ -1377,7 +1377,7 @@ focus_tree = { #1 Texas Main
 	}
 	focus = {
 		id = STX_the_third_red_river_war
-		icon = GFX_
+		icon = GFX_STX_the_third_red_river_war
 		prerequisite = { focus = STX_the_oklahoma_incident }
 		x = 0
 		y = 2
