@@ -5,7 +5,7 @@ state={
 		steel=20.000
 	}
 	history={
-		owner = SWA
+		owner = SSW
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -16,7 +16,7 @@ state={
 				naval_base = 10
 			}
 		}
-		add_core_of = SWA
+		add_core_of = SSW
 		#temp to test faster
 		victory_points = {
 			2866 40 

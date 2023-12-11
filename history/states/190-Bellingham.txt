@@ -5,13 +5,13 @@ state={
 		chromium=25.000
 	}
 	history={
-		owner = SWA
+		owner = SSW
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 1
 		}
-		add_core_of = SWA
+		add_core_of = SSW
 		1990.1.2 = {
 			owner = USA
 		}

@@ -6,14 +6,14 @@ state={
 		tungsten=2.000
 	}
 	history={
-		owner = SWA
+		owner = SSW
 		1990.1.2 = {
 			owner = USA
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SWA
+		add_core_of = SSW
 		add_core_of = LIN
 		add_core_of = YAK
 		victory_points = {

@@ -7,14 +7,14 @@ state={
 	}
 
 	history={
-		owner = SWA
+		owner = SSW
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 2
 			arms_factory = 2
 		}
-		add_core_of = SWA
+		add_core_of = SSW
 		add_core_of = LIN
 		1990.1.2 = {
 			owner = USA

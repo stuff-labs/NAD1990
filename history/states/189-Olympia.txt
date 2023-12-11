@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SWA
+		owner = SSW
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -34,7 +34,7 @@ state={
 		victory_points = {
 			2719 3 
 		}
-		add_core_of = SWA
+		add_core_of = SSW
 		1990.1.2 = {
 			owner = USA
 		}
