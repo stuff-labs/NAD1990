@@ -23,6 +23,30 @@ spriteTypes = {
 		name = "GFX_idea_STX_texas_epic_fail_map"
 		texturefile = "gfx/interface/ideas/idea_STX_texas_epic_fail_map.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_STX_youth_organizations"
+		texturefile = "gfx/interface/ideas/idea_STX_youth_organizations.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_STX_lone_star_oil"
+		texturefile = "gfx/interface/ideas/idea_STX_lone_star_oil.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_STX_regulations_relaxed"
+		texturefile = "gfx/interface/ideas/idea_STX_regulations_relaxed.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_STX_trade_with_the_west"
+		texturefile = "gfx/interface/ideas/idea_STX_trade_with_the_west.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_STX_bumped_up_sec_budget"
+		texturefile = "gfx/interface/ideas/idea_STX_bumped_up_sec_budget.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_STX_we_will_not_go_gently"
+		texturefile = "gfx/interface/ideas/idea_STX_we_will_not_go_gently.dds"
+	}
 
 	#cali
 	spriteType = {

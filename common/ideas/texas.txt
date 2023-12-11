@@ -134,7 +134,7 @@ ideas = {
             }
         }
         STX_youth_organizations = {
-            picture = STX_texas_epic_fail_map
+            picture = STX_youth_organizations
             allowed = {
                 tag = STX
             }
@@ -147,7 +147,7 @@ ideas = {
             }
         }
         STX_lone_star_oil = {
-            picture = STX_texas_epic_fail_map
+            picture = STX_lone_star_oil
             allowed = {
                 tag = STX
             }
@@ -176,7 +176,7 @@ ideas = {
             }
         }
         STX_regulations_relaxed = {
-            picture = STX_texas_epic_fail_map
+            picture = STX_regulations_relaxed
             allowed = {
                 tag = STX
             }
@@ -190,7 +190,7 @@ ideas = {
             }
         }
         STX_trade_with_the_west = {
-            picture = STX_texas_epic_fail_map
+            picture = STX_trade_with_the_west
             allowed = {
                 tag = STX
             }
@@ -212,7 +212,7 @@ ideas = {
             }
         }
         STX_bumped_up_sec_budget = {
-            picture = STX_texas_epic_fail_map
+            picture = STX_bumped_up_sec_budget
             allowed = {
                 tag = STX
             }
@@ -226,7 +226,7 @@ ideas = {
             }
         }
         STX_patriot_act = { # https://youtu.be/c9qzU078Tdg?si=3cc-4bTxnV6BXiun
-            picture = STX_texas_epic_fail_map
+            picture = STX_bumped_up_sec_budget
             allowed = {
                 tag = STX
             }
@@ -245,7 +245,7 @@ ideas = {
             }
         }
         STX_we_will_not_go_gently = { 
-            picture = STX_texas_epic_fail_map
+            picture = STX_we_will_not_go_gently
             allowed = {
                 tag = STX
             }
@@ -258,7 +258,7 @@ ideas = {
             }
         }
         STX_troop_surge = { 
-            picture = STX_texas_epic_fail_map
+            picture = STX_GRET_TEX_ARM
             allowed = {
                 tag = STX
             }
