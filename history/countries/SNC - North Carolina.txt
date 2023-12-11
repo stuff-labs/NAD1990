@@ -72,18 +72,23 @@ if = {
 
 set_convoys = 30
 
+recruit_character = SNC_jim_hunt
+
 set_politics = {
 	ruling_party = liberalism
-	last_election = "1936.1.1"
+	last_election = "1988.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 53
-	fascism = 23
+	liberalism = 46
+	conservatism = 35
+	fascism = 1
+	progressivism = 9
+	socialism = 1
 	communism = 1
-	national_unityism= 1
-	despotic_autocracy = 22
+	national_unityism= 6
+	despotic_autocracy = 1
 }
 set_cosmetic_tag = CAROLINA
 

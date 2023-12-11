@@ -1,0 +1,16 @@
+characters={
+	SNC_jim_hunt={
+		name="Jim Hunt"
+		portraits={
+			civilian={
+				large="gfx/leaders/SNC/portrait_SNC_jim_hunt.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism_sub    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
