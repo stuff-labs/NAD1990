@@ -65,15 +65,24 @@ if = {
 	}
 }
 set_convoys = 50
+
+recruit_character = SSW_marion_kinney
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	communism = 70
-	national_unityism= 30
+	fascism = 3
+	despotic_autocracy = 5
+	national_unityism = 4
+	conservatism = 3
+	liberalism = 5
+	progressivism = 15
+	socialism = 23
+	communism = 42
 	
 }
 ####

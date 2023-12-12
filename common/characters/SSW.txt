@@ -1,0 +1,17 @@
+characters={
+	SSW_marion_kinney={
+		name="Marion Kinney"
+		portraits={
+			civilian={
+				large="gfx/leaders/SSW/portrait_SSW_marion_kinney.dds"
+			}
+		}
+		country_leader={
+			ideology=communism_with_american_characteristics   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
+	
