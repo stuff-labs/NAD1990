@@ -113,6 +113,16 @@ spriteTypes = {
 		name = "GFX_idea_SMI_the_michigan_troubles"
 		texturefile = "gfx/interface/ideas/idea_SMI_the_michigan_troubles.dds"
 	}
+	
+	#####canada
+	spriteType = {
+		name = "GFX_idea_CAN_quebec_compromise"
+		texturefile = "gfx/interface/ideas/idea_CAN_quebec_compromise.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CAN_teetering_bankruptcy"
+		texturefile = "gfx/interface/ideas/idea_CAN_teetering_bankruptcy.dds"
+	}
 
 
 
