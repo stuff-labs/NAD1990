@@ -160,6 +160,10 @@ on_actions = {
 				SOK = {
 					white_peace = STX
 				}
+				STX = {
+					load_focus_tree = texas_fail_tree
+					complete_national_focus = STX_loss
+				}
 			}
 
 			else = {

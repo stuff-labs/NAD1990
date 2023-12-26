@@ -1,5 +1,7 @@
 #Welcome to texas, where wokeist ideology (like not sending mexican kids to the oil plants for 17 hours a day) goes to die
-#content: #1 - Texas Main #2 - Texas War
+#content: #1 - Texas Main 
+#2 - Texas War
+#3 - EPIC FAIL
 focus_tree = { #1 Texas Main
 	id = texas_focus
 	
@@ -1944,4 +1946,49 @@ focus_tree = { #2 Texas War
 		completion_reward = {
 		}
 	}
+}
+
+focus_tree = { #3 EPIC FAIL
+	id = texas_fail_tree
+	
+	country = {
+		factor = 0
+	}
+	continuous_focus_position = { x = 1 y = 3300 }
+
+	focus = {
+		id = STX_loss #exists to be bypassed
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		#prerequisite = { focus =  }
+		x = 5
+		y = 0
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	
 }
