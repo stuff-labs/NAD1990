@@ -1989,6 +1989,300 @@ focus_tree = { #3 EPIC FAIL
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = STX_failure_at_every_cost 
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_loss }
+		x = 4
+		y = 1
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.19 #ron paul calls an emergency meeting event
+			}
+		}
+	}
+	focus = {
+		id = STX_without_end_and_worthless
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_loss }
+		x = 6
+		y = 1
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.20 #citizen witnesses the reaction to the texan fail
+			}
+		}
+	}
+	focus = {
+		id = STX_good_men_the_last_wave_by
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_without_end_and_worthless }
+		prerequisite = { focus = STX_failure_at_every_cost }
+		x = -1
+		y = 1
+		relative_position_id = STX_without_end_and_worthless
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.21 #mass desertion
+			}
+		}
+	}
+	focus = {
+		id = STX_crying_how_bright
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_good_men_the_last_wave_by }
+		x = 0
+		y = 1
+		relative_position_id = STX_good_men_the_last_wave_by
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.22 #soldiers occupy city blocks
+			}
+		}
+	}
+	focus = {
+		id = STX_their_frail_deeds_might_have_danced
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_crying_how_bright }
+		x = -1
+		y = 1
+		relative_position_id = STX_crying_how_bright
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.22 #soldiers occupy city blocks
+			}
+		}
+	}
+	focus = {
+		id = STX_in_a_green_bay
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_crying_how_bright }
+		x = 1
+		y = 1
+		relative_position_id = STX_crying_how_bright
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.23 #unexploded ordnance in east texan bays
+			}
+		}
+	}
+	focus = {
+		id = STX_rage_rage
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_their_frail_deeds_might_have_danced }
+		prerequisite = { focus = STX_in_a_green_bay }
+		x = 1
+		y = 1
+		relative_position_id = STX_their_frail_deeds_might_have_danced
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.24 #rw style mass riots event
+			}
+			country_event = {
+				id = texas_events.25 #pov event of the chaos in the riots
+				days = 2
+			}
+		}
+	}
+	focus = {
+		id = STX_against_the_dying_of_light
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_rage_rage }
+		x = 0
+		y = 1
+		relative_position_id = STX_rage_rage
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.26 #ron pauls address (event opens up damage control tree)
+			}
+		}
+	}
 
 	
 }

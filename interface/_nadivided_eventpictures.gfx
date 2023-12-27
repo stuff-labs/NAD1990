@@ -7,6 +7,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_events/so_joever.dds"
 	}
 	spriteType = {
+		name = "GFX_placeholder_things"
+		texturefile = "gfx/event_pictures/report_events/placeholder_things.dds"
+	}
+	spriteType = {
 		name = "GFX_newsevent_testing_newseventsandshit"
 		texturefile = "gfx/event_pictures/news_events/newsevent_testing_newseventsandshit.dds"
 	}

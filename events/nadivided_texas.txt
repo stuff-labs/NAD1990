@@ -356,6 +356,166 @@ country_event = {  #patriot act passess - https://youtu.be/c9qzU078Tdg?si=3cc-4b
     }
 }
 
+country_event = {  #emergency meeting about how everything is going to fall apart
+    id = texas_events.19
+    title = texas_events.19.t
+    desc = texas_events.19.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.19.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
+country_event = {  #citizen witnesses the reaction to the texan fail
+    id = texas_events.20
+    title = texas_events.20.t
+    desc = texas_events.20.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.20.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
+country_event = {  #soldiers deserting on mass
+    id = texas_events.21
+    title = texas_events.21.t
+    desc = texas_events.21.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.21.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
+country_event = {  #soldiers occupy city blocks
+    id = texas_events.22
+    title = texas_events.22.t
+    desc = texas_events.22.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.22.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
+country_event = {  #unexploded ordnance in east texan bays
+    id = texas_events.23
+    title = texas_events.23.t
+    desc = texas_events.23.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.23.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
+country_event = {  #rw style mass riots event
+    id = texas_events.24
+    title = texas_events.24.t
+    desc = texas_events.24.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.24.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
+country_event = {  #pov event of the chaos in the riots
+    id = texas_events.25
+    title = texas_events.25.t
+    desc = texas_events.25.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.25.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
+country_event = {  #ron paul addresses the public
+    id = texas_events.26
+    title = texas_events.26.t
+    desc = texas_events.26.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.26.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
 
 
 #tex flavour
