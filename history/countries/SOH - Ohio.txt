@@ -47,6 +47,12 @@ set_popularities = {
 	despotic_autocracy = 10
 }
 
+add_ideas = {
+	SOH_the_laffer_curve_failing
+	SOH_legacy_of_the_ohio_gang
+	SOH_rusting_away
+	SOH_indiana_problem
+}
 
 
 

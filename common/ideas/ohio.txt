@@ -1,0 +1,49 @@
+ideas = {
+	country = {
+
+		SOH_the_laffer_curve_failing = {
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			picture = HAI_militarized_economy
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.10
+				production_factory_max_efficiency_factor = -0.15
+				industrial_capacity_factory = -0.1
+			}
+		}
+
+		SOH_legacy_of_the_ohio_gang = {
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			picture = SMI_the_michigan_troubles
+			modifier = {
+				fascism_drift = 0.01
+				despotic_autocracy_drift = 0.01
+				stability_factor = -0.06
+				political_power_gain = -0.05
+			}
+		}
+
+		SOH_rusting_away = {
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			picture = SMI_the_michigan_troubles
+			modifier = {
+				local_resources_factor = -0.15
+				consumer_goods_factor = 0.25
+				monthly_population = -0.05
+			}
+		}
+
+		SOH_indiana_problem = {
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			picture = SMI_the_michigan_troubles
+			modifier = {
+				stability_factor = -0.20
+				political_power_gain = -0.10
+				conscription_factor = -0.15
+			}
+		}
+	}
+}
