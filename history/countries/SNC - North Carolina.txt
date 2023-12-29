@@ -91,6 +91,15 @@ set_popularities = {
 	despotic_autocracy = 1
 }
 set_cosmetic_tag = CAROLINA
+set_rule = {
+	can_puppet = no
+	can_join_factions = yes
+	can_create_factions = yes
+}
+SNC = {
+	create_faction = SNC_southern_defense_council
+	add_to_faction = SKY
+}
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
