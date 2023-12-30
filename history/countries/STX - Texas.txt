@@ -110,6 +110,7 @@ set_popularities = {
 
 recruit_character = STX_ron_paul
 #recruit_character = STX_jim_jones
+recruit_character = STX_texan_congress
 recruit_character = STX_ross_perot
 recruit_character = STX_jim_mattox
 recruit_character = STX_mark_white

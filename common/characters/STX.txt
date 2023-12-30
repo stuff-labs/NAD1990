@@ -42,6 +42,20 @@ characters={
 			id=-1
 		}
 	}
+	STX_texan_congress = {
+		name = STX_texan_congress
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/portrait_STX_congress.dds"
+			}
+		}
+		country_leader={
+			ideology = despotism  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 	STX_jim_mattox={
 		name="Jim Mattox"
 		portraits={

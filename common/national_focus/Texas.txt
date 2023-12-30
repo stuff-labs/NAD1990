@@ -1992,7 +1992,6 @@ focus_tree = { #3 EPIC FAIL
 	focus = {
 		id = STX_failure_at_every_cost 
 		icon = GFX_STX_placeholder
-		prerequisite = { focus = STX_loss }
 		x = 4
 		y = 1
 		#relative_position_id = 
@@ -2028,7 +2027,6 @@ focus_tree = { #3 EPIC FAIL
 	focus = {
 		id = STX_without_end_and_worthless
 		icon = GFX_STX_placeholder
-		prerequisite = { focus = STX_loss }
 		x = 6
 		y = 1
 		#relative_position_id = 
@@ -2285,4 +2283,220 @@ focus_tree = { #3 EPIC FAIL
 	}
 
 	
+}
+
+
+focus_tree = { #4 Paul Bait
+	id = texas_bait_tree
+	
+	country = {
+		factor = 0
+	}
+	continuous_focus_position = { x = 1 y = 3300 }
+
+	focus = {
+		id = STX_emergency_measures #exists to be bypassed
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		#prerequisite = { focus =  }
+		x = 5
+		y = 0
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_deploy_the_guard 
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_emergency_measures }
+		x = 5
+		y = 1
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_a_meeting_of_upmost_importance 
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_emergency_measures }
+		x = 3
+		y = 1
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_slowing_the_crash 
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_emergency_measures }
+		x = 7
+		y = 1
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_perhaps_we_have_failed 
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_a_meeting_of_upmost_importance }
+		prerequisite = { focus = STX_deploy_the_guard }
+		prerequisite = { focus = STX_slowing_the_crash }
+		x = 5
+		y = 3
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_perhaps_reform_is_the_answer 
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_perhaps_we_have_failed }
+		x = 5
+		y = 4
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
 }

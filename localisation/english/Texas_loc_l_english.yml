@@ -29,6 +29,10 @@
  STX_William_S_Sessions: "William S. Sessions"
  STX_William_S_Sessions_Advisor_desc: "§YSecurity Minister\nDespotism§!\n--------------\n§LI among us, therefore I am.§!"
 
+ ###Leaders 
+ STX_texan_congress: "Texan Congress"
+
+
  ###Ideas
  STX_bumped_up_sec_budget:0 "Bumped Up Security Budget"
  STX_the_shattered_lone_star:0 "The Shattered Lone Star"
