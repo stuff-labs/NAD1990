@@ -35,16 +35,16 @@ STX = {
 	color_ui = rgb { 127 22 10 }
 }
 HTX = {
-	color = rgb { 127 127 127 }
-	color_ui = rgb { 127 127 127 }
+	color = rgb { 76 92 104 }
+	color_ui = rgb { 76 92 104 }
 }
 ATX = {
 	color = rgb { 127 0 0 }
 	color_ui = rgb { 127 0 0 }
 }
 BTX = {
-	color = rgb { 76 53 86 }
-	color_ui = rgb { 76 53 86 }
+	color = rgb { 114 41 41 }
+	color_ui = rgb { 114 41 41 }
 }
 SLA = {
 	color = rgb { 5 73 123 }
@@ -613,8 +613,8 @@ TXR = {
 	color_ui = rgb { 24 33 102 }
 }
 MTX = {
-	color = rgb { 24 33 102 }
-	color_ui = rgb { 24 33 102 }
+	color = rgb { 42 42 71 }
+	color_ui = rgb { 42 42 71 }
 }
 
 ##########################

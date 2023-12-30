@@ -1,0 +1,27 @@
+capital = 79
+
+#oob = "MTX_1990"
+
+set_research_slots = 2
+
+set_convoys = 100
+
+set_politics = {
+	ruling_party = despotic_autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	liberalism = 0
+	conservatism = 0
+	fascism = 0
+	progressivism = 0
+	socialism = 0
+	communism = 0
+	national_unityism= 0
+	despotic_autocracy = 75
+	fascism = 25
+}
+
+recruit_character = MTX_david_koresh

@@ -84,6 +84,8 @@ ideologies = {
 				
 			}
 			libertarian_despotism = { }
+			
+			fundamentalism = { }
 		}
 
 		dynamic_faction_names = {
@@ -386,6 +388,10 @@ ideologies = {
 			}
 
 			revolutionary_socialism = {
+
+			}
+
+			christian_socialism = {
 
 			}
 

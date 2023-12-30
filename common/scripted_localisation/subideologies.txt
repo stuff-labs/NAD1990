@@ -137,6 +137,12 @@ defined_text = {
 		}
 		localization_key = libertarian_despotism
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = fundamentalism
+		}
+		localization_key = fundamentalism
+	}
 }
 defined_text = {
 	name = GetSubIdeologyAth
@@ -319,6 +325,14 @@ defined_text = {
 			has_country_leader_ideology = revolutionary_socialism
 		}
 		localization_key = revolutionary_socialism
+		
+	}
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = christian_socialism
+		}
+		localization_key = christian_socialism
 		
 	}
 	

@@ -18,13 +18,20 @@ set_convoys = 10
 
 
 set_politics = {
-	ruling_party = despotic_autocracy 
+	ruling_party = socialism 
 	last_election = "1934.5.16"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 25
-	despotic_autocracy  = 75
+	liberalism = 0
+	conservatism = 0
+	fascism = 0
+	progressivism = 22
+	socialism = 40
+	communism = 38
+	national_unityism= 0
+	despotic_autocracy = 0
 }
 
+recruit_character = BTX_jim_jones
