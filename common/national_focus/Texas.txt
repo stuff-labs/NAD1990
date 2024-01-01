@@ -809,7 +809,7 @@ focus_tree = { #1 Texas Main
 			}
 		}
 	}
-	focus = {
+	focus = { ###https://youtu.be/ORt_k7LjGDg?si=id3LXKtlH1DS2Foq ron paul explaining this to congress
 		id = STX_loosen_gun_control
 		icon = GFX_STX_loosen_gun_control
 		prerequisite = { focus = STX_expand_the_factories }
