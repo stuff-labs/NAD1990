@@ -227,7 +227,7 @@ SCA_MEC_01 =
 
 SCA_GAR_01 = 
 {
-	name = "Californian Minutemen"
+	name = "Californian National Guard"
 
 	for_countries = { SCA }
 
@@ -238,52 +238,42 @@ SCA_GAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { YUG_INF_01 }
 
-	fallback_name = "%d. Minutemen Division"
+	fallback_name = "%d. National Guard Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		10 = { "%d. 'Apple Valley' Minutemen Div." }
-		01 = { "%d. 'Antioch' Minutemen Div." }
-		02 = { "%d. 'Barstow' Minutemen Div." }
-		45 = { "%d. 'Calabasas' Minutemen Div." }
-		11 = { "%d. 'Fontana' Minutemen Div." }
-		28 = { "%d. 'Sacremento' Minutemen Div." }
-		15 = { "%d. 'Gridley' Minutemen Div." }
-		17 = { "%d. 'Monte Sereno' Minutemen Div." }
-		25 = { "%d. 'Riverside' Minutemen Div." }
-		27 = { "%d. 'Adelanto' Minutemen Div." }
-		30 = { "%d. 'Alameda' Minutemen Div." }
-		31 = { "%d. 'Pomona' Minutemen Div." }
-		32 = { "%d. 'San Deigo' Minutemen Div." }
-		33 = { "%d. 'Long Beach' Minutemen Div." }
-		34 = { "%d. 'Redding' Minutemen Div." }
-		38 = { "%d. 'San Jose' Minutemen Division" }
-		40 = { "%d. 'Santa Barbara' Minutemen Division" }
-		42 = { "%d. 'Santa Cruz' Minutemen Division" }
-		44 = { "%d. 'Sonora' Minutemen Division" }
-		46 = { "%d. 'Victorville' Minutemen Division" }
-		47 = { "%d. 'Pacifica' Minutemen Division" }
-		49 = { "%d. 'Oakland' Minutemen Division" }
-		50 = { "%d. 'Lakeport' Minutemen Division" }
-		51 = { "%d. Minutemen Division" }
-		52 = { "%d. Minutemen Division" }
-		53 = { "%d. Minutemen Division" }
-		54 = { "%d. Minutemen Division" }
-		55 = { "%d. Minutemen Division" }
-		56 = { "%d. Minutemen Division" }
-		57 = { "%d. Minutemen Division" }
-		58 = { "%d. Minutemen Division" }
-		59 = { "%d. Minutemen Division" }
-		60 = { "%d. Minutemen Division" }
+		01 = { "%d. 'Apple Valley' Guard Division" }
+		02 = { "%d. 'Antioch' Guard Division" }
+		03 = { "%d. 'Barstow' Guard Division" }
+		04 = { "%d. 'Calabasas' Guard Division" }
+		05 = { "%d. 'Fontana' Guard Division" }
+		06 = { "%d. 'Sacramento' Guard Division" }
+		07 = { "%d. 'Gridley' Guard Division" }
+		08 = { "%d. 'Monte Sereno' Guard Division" }
+		09 = { "%d. 'Riverside' Guard Division" }
+		10 = { "%d. 'Adelanto' Guard Division" }
+		11 = { "%d. 'Alameda' Guard Division" }
+		12 = { "%d. 'Pomona' Guard Division" }
+		13 = { "%d. 'San Diego' Guard Division" }
+		14 = { "%d. 'Long Beach' Guard Division" }
+		15 = { "%d. 'Redding' Guard Division" }
+		16 = { "%d. 'San Jose' Guard Division" }
+		17 = { "%d. 'Santa Barbara' Guard Division" }
+		18 = { "%d. 'Santa Cruz' Guard Division" }
+		19 = { "%d. 'Sonora' Guard Division" }
+		20 = { "%d. 'Victorville' Guard Division" }
+		21 = { "%d. 'Pacifica' Guard Division" }
+		22 = { "%d. 'Oakland' Guard Division" }
+		23 = { "%d. 'Lakeport' Guard Division" }
 
 	}
 }
 
 SCA_MAR_01 = 
 {
-	name = "Marine Raiders"
+	name = "National Marine"
 
 	for_countries = { SCA }
 
@@ -300,16 +290,16 @@ SCA_MAR_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%d. Raiders Division" }
-		2 = { "%d. Raiders Division" }
-		3 = { "%d. Raiders Division" }
-		4 = { "%d. Raiders Division" }
-		5 = { "%d. Raiders Division" }
-		6 = { "%d. Raiders Division" }
-		7 = { "%d. Raiders Division" }
-		8 = { "%d. Raiders Division" }
-		9 = { "%d. Raiders Division" }
-		10 = { "%d. Raiders Division" }
+		1 = { "%d. National Marine Division" }
+		2 = { "%d. National Marine Division" }
+		3 = { "%d. National Marine Division" }
+		4 = { "%d. National Marine Division" }
+		5 = { "%d. National Marine Division" }
+		6 = { "%d. National Marine Division" }
+		7 = { "%d. National Marine Division" }
+		8 = { "%d. National Marine Division" }
+		9 = { "%d. National Marine Division" }
+		10 = { "%d. National Marine Division" }
 
 	}
 }
@@ -333,26 +323,26 @@ SCA_MTN_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { " 'Californian' Rangers Division" }
-		2 = { " 'Big Bear' Rangers Division" }
-		3 = { " 'Steel' Rangers Division" }
-		4 = { " 'Gold Rush' Rangers Division" }
-		5 = { " 'Locomotors' Rangers Division" }
-		6 = { " 'Holdfast' Rangers Division" }
-		7 = { " 'Overwatch' Rangers Division" }
-		8 = { " 'Bark skin' Rangers Division" }
-		9 = { " 'Coyote' Rangers Division" }
-		10 = { " 'Amador' Rangers Division" }
-		11 = { " 'Rams' Rangers Division" }
-		12 = { "%d.  Rangers Division" }
-		13 = { "%d.  Rangers Division" }
-		14 = { "%d.  Rangers Division" }
-		15 = { "%d.  Rangers Division" }
-		16 = { "%d.  Rangers Division" }
-		17 = { "%d.  Rangers Division" }
-		18 = { "%d.  Rangers Division" }
-		19 = { "%d.  Rangers Division" }
-		20 = { "%d.  Rangers Division" }
+		1 = { " 'Merriam' Ranger Division" }
+		2 = { " 'Big Bear' Ranger Division" }
+		3 = { " 'Maxson' Ranger Division" }
+		4 = { " 'Gold Rush' Ranger Division" }
+		5 = { " 'Locomotors' Ranger Division" }
+		6 = { " 'Holdfast' Ranger Division" }
+		7 = { " '49er' Ranger Division" }
+		8 = { " 'Bark Scorpion' Ranger Division" }
+		9 = { " 'Coyote' Ranger Division" }
+		10 = { " 'Amador' Ranger Division" }
+		11 = { " 'Rams' Ranger Division" }
+		12 = { " 'Grey' Ranger Division" }
+		13 = { " 'Arroyo' Ranger Division" }
+		14 = { " 'John Sparks' Ranger Division" }
+		15 = { " 'San Joaquin' Ranger Division" }
+		16 = { " 'Bison' Ranger Division" }
+		17 = { " 'Pine' Ranger Division" }
+		18 = { " 'Redwood' Ranger Division" }
+		19 = { " 'Golden State' Ranger Division" }
+		20 = { " 'New Californian' Ranger Division" }
 
 	}
 }

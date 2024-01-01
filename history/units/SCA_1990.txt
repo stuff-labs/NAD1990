@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "California Minutemen"
+	name = "Californian National Guard"
 
 	division_names_group = SCA_GAR_01
 
@@ -38,7 +38,7 @@ division_template = {
 	priority = 2 
 }
 division_template = {
-	name = "Marine Raiders" 
+	name = "National Marine" 
 
 	division_names_group = SCA_MAR_01
 
@@ -70,7 +70,7 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 2
 		}
 		location = 1397
 		division_template = "California Rangers"
@@ -90,70 +90,70 @@ units = {
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 3
 		}
 		location = 1875
-		division_template = "California Minutemen"
+		division_template = "California Rangers"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 4
 		}
 		location = 1791
-		division_template = "California Minutemen"
+		division_template = "California Rangers"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 5
 		}
 		location = 1397
-		division_template = "California Minutemen"
+		division_template = "California Rangers"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 6
 		}
 		location = 1275
-		division_template = "California Minutemen"
+		division_template = "California Rangers"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 7
 		}
 		location = 1875
-		division_template = "California Minutemen"
+		division_template = "California Rangers"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 8
 		}
 		location = 1275
-		division_template = "California Minutemen"
+		division_template = "California Rangers"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
 	division = {
 		division_name = {
 			is_name_ordered = yes
-			name_order = 1
+			name_order = 9
 		}
 		location = 1875
-		division_template = "California Minutemen"
+		division_template = "California Rangers"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
@@ -166,7 +166,7 @@ instant_effect = {
 			type = infantry_equipment_0
 			creator = "SCA"
 		}
-		requested_factories = 1
+		requested_factories = 3
 		progress = 0.28
 		efficiency = 100
 	}
