@@ -24,14 +24,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 0
+	liberalism = 6
 	conservatism = 0
 	fascism = 0
 	progressivism = 22
-	socialism = 40
-	communism = 38
+	socialism = 38
+	communism = 32
 	national_unityism= 0
-	despotic_autocracy = 0
+	despotic_autocracy = 2
 }
 
 recruit_character = BTX_jim_jones
