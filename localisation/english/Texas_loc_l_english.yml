@@ -24,8 +24,8 @@
  ####jones tex
  BTX_fascism_party:0 "Unorganized Radicals"
  BTX_fascism_party_long:0 "Unorganized Radicals"
- BTX_communism_party:0 "Unorganized Dissidents"
- BTX_communism_party_long:0 "Unorganized Dissidents"
+ BTX_communism_party:0 "PNRM"
+ BTX_communism_party_long:0 "Peoples National Resistance Movement"
  BTX_despotic_autocracy_party:0 "Unorganized Dissidents" 
  BTX_despotic_autocracy_party_long:0 "Unorganized Dissidents" 
  BTX_national_unityism_party:0 "Unorganized Dissidents" 
@@ -36,8 +36,8 @@
  BTX_progressivism_party_long:0 "Progressive Front of Texas"
  BTX_liberalism_party:0 "TLPT"
  BTX_liberalism_party_long:0 "True Liberal Party of Texas"
- BTX_socialism_party:0 "PTotDoC"
- BTX_socialism_party_long:0 "Peoples Temple of the Disciples of Christ"
+ BTX_socialism_party:0 "PNRM - Jonesists"
+ BTX_socialism_party_long:0 "Peoples National Resistance Movement - Jonesists"
 
  ####free tex
  HTX_fascism_party:0 "Unorganized Radicals"
@@ -62,7 +62,7 @@
  MTX_fascism_party_long:0 "Unorganized Radicals"
  MTX_communism_party:0 "Unorganized Dissidents"
  MTX_communism_party_long:0 "Unorganized Dissidents"
- MTX_despotic_autocracy_party:0 "GAoBDS-dA" 
+ MTX_despotic_autocracy_party:0 "GABDSA" 
  MTX_despotic_autocracy_party_long:0 "General Association of Branch Davidian Seventh-day Adventists" 
  MTX_national_unityism_party:0 "Unorganized Dissidents" 
  MTX_national_unityism_party_long:0 "Unorganized Dissidents"
