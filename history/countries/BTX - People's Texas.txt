@@ -2,6 +2,7 @@ capital = 79
 
 #oob = "BTX_1936"
 
+recruit_character = BTX_jim_jones
 set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
@@ -30,8 +31,7 @@ set_popularities = {
 	progressivism = 22
 	socialism = 38
 	communism = 32
-	national_unityism= 0
+	national_unityism = 0
 	despotic_autocracy = 2
 }
 
-recruit_character = BTX_jim_jones

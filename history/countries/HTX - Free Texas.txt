@@ -1,7 +1,7 @@
 capital = 42
 
 #oob = "HTX_1936"
-
+recruit_character = HTX_jim_mattox
 set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
@@ -33,5 +33,3 @@ set_popularities = {
 	national_unityism= 46
 	despotic_autocracy = 2
 }
-
-recruit_character = HTX_jim_mattox
