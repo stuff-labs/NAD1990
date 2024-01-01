@@ -83,7 +83,7 @@ units = {
 			name_order = 1
 		}
 		location = 1275
-		division_template = "Marine Raiders"
+		division_template = "National Marine"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 	}
