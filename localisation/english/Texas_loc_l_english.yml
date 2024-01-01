@@ -18,6 +18,8 @@
  STX_socialism_party_long:0 "Unorganized Dissidents"
  STX_longism_party:0 "Christian Party"
  STX_longism_party_long:0 "Christian Party of Texas"
+ STX_corporate_party_name:0 "Republican Party - CIG's"
+ STX_corporate_party_name_long:0 "Republican Party - Corporate Interest Groups"
 
  ####jones tex
  BTX_fascism_party:0 "Unorganized Radicals"
