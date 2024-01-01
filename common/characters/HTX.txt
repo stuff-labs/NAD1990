@@ -1,0 +1,16 @@
+characters={
+	HTX_jim_mattox = {
+		name="Jim Mattox"
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/portrait_STX_jim_mattox.dds"
+			}
+		}
+		country_leader={
+			ideology = provisional_government  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

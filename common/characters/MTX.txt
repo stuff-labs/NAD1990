@@ -1,0 +1,16 @@
+characters={
+	MTX_david_koresh = {
+		name="David Koresh"
+		portraits={
+			civilian={
+				large="gfx/leaders/MTX/portrait_MTX_david_koresh.dds"
+			}
+		}
+		country_leader={
+			ideology = fundamentalism  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

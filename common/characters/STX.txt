@@ -169,54 +169,6 @@ characters={
 		}
 	}
 
-	####davidic texas
-	MTX_david_koresh = {
-		name="David Koresh"
-		portraits={
-			civilian={
-				large="gfx/leaders/MTX/portrait_MTX_david_koresh.dds"
-			}
-		}
-		country_leader={
-			ideology = fundamentalism  
-			traits={  }
-			expire="2020.1.1.1"
-			id=-1
-		}
-	}
-
-	##free texas
-	HTX_jim_mattox = {
-		name="Jim Mattox"
-		portraits={
-			civilian={
-				large="gfx/leaders/STX/portrait_STX_jim_mattox.dds"
-			}
-		}
-		country_leader={
-			ideology = provisional_government  
-			traits={  }
-			expire="2020.1.1.1"
-			id=-1
-		}
-	}
-
-	##peoples texas
-	BTX_jim_jones = {
-		name="Jim Jones"
-		portraits={
-			civilian={
-				large="gfx/leaders/STX/portrait_STX_jim_jones.dds"
-			}
-		}
-		country_leader={
-			ideology = christian_socialism  
-			traits={  }
-			expire="2020.1.1.1"
-			id=-1
-		}
-	}
-
 	STX_Lew_Rockwell = {
 		name = "STX_Lew_Rockwell"
 		portraits = {

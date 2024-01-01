@@ -1,0 +1,16 @@
+characters={
+	BTX_jim_jones = {
+		name="Jim Jones"
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/portrait_STX_jim_jones.dds"
+			}
+		}
+		country_leader={
+			ideology = christian_socialism  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}
