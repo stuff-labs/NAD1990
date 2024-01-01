@@ -167,3 +167,15 @@
  ATX:0 "D.C.O.Z"
  ATX_DEF:0 "The Dallas City Occupation Zone"
  ATX_ADJ:0 "Texan"
+
+ BTX:0 "Texan Liberation Army"
+ BTX_DEF:0 "the Texan Liberation Army"
+ BTX_ADJ:0 "Texan"
+
+ HTX:0 "Free Texas"
+ HTX_DEF:0 "the Free Texan Government"
+ HTX_ADJ:0 "Texan"
+
+ MTX:0 "Branch Davidians"
+ MTX_DEF:0 "the Branch Davidians"
+ MTX_ADJ:0 "Davidian"
