@@ -2,6 +2,7 @@
 #content: #1 - Texas Main 
 #2 - Texas War
 #3 - EPIC FAIL
+#4 - Bait
 focus_tree = { #1 Texas Main
 	id = texas_focus
 	
@@ -2295,7 +2296,7 @@ focus_tree = { #4 Paul Bait
 	continuous_focus_position = { x = 1 y = 3300 }
 
 	focus = {
-		id = STX_emergency_measures #exists to be bypassed
+		id = STX_emergency_measures 
 		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
 		#prerequisite = { focus =  }
 		x = 5
@@ -2325,6 +2326,12 @@ focus_tree = { #4 Paul Bait
 		}
 
 		completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = texas_events.27
+					days = 20
+				}
+			}
 		}
 	}
 

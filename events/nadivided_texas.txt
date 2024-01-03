@@ -512,6 +512,7 @@ country_event = {  #ron paul addresses the public
 		ai_chance = {
             factor = 10
         }
+        load_focus_tree = texas_bait_tree
 
     }
 }
@@ -533,6 +534,78 @@ country_event = {  #Paul gets impeached
             factor = 10
         }
         retire_character = STX_ron_paul
+
+    }
+}
+
+country_event = {  #Post impeachment - congressmen discuss sucessor
+    id = texas_events.28 
+    title = texas_events.28.t
+    desc = texas_events.28.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.28.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
+country_event = {  #Post impeachment - reform option explored
+    id = texas_events.29
+    title = texas_events.29.t
+    desc = texas_events.29.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.29.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
+country_event = {  #Post impeachment - you pick next guy
+    id = texas_events.30
+    title = texas_events.30.t
+    desc = texas_events.30.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = { #Trvd Davvn
+        name = texas_events.30.a
+		ai_chance = {
+            factor = 10
+        }
+        STX_Lew_Rockwell = {
+            promote_character = yes
+        }
+        retire_character = STX_texan_congress
+
+    }
+
+    option = { #Perot
+        name = texas_events.30.b
+		ai_chance = {
+            factor = 10
+        }
 
     }
 }

@@ -118,7 +118,6 @@ recruit_character = STX_ralph_nader
 recruit_character = STX_unorg_diss_socialists
 recruit_character = STX_unorg_diss_communists
 recruit_character = STX_unorg_diss_fascists
-recruit_character = STX_anton_chigurh # keep him at the bottom of the recruit list
 
 recruit_character = STX_leonard_donald_holder_jr
 recruit_character = STX_michael_c_wehr
@@ -130,6 +129,8 @@ recruit_character = STX_ronald_r_blanck
 recruit_character = STX_Lew_Rockwell
 recruit_character = STX_James_W_Kinnear
 recruit_character = STX_William_S_Sessions
+
+recruit_character = STX_anton_chigurh # keep him at the bottom of the recruit list
 
 add_ideas = {
 	STX_Lew_Rockwell_Advisor
