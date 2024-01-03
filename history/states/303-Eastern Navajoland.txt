@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SCA
+		owner = SAZ
 		1990.1.2 = {
 			owner = USA
 		}		
@@ -15,7 +15,6 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = SCA
 		add_claim_by = SNM
 		add_core_of = SAZ
 		

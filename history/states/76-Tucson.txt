@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = SCA
+		owner = SAZ
 		buildings = {
 			infrastructure = 1
 			arms_factory = 2
@@ -20,7 +20,6 @@ state={
 		victory_points = {
 			830 3
 		}
-		add_core_of = SCA
 		add_core_of = SAZ
 		1990.1.2 = {
 			owner = USA

@@ -146,24 +146,24 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 30
-	conservatism = 20
-	fascism = 5
-	progressivism = 15
-	socialism = 10
-	communism = 5
-	national_unityism= 5
-	despotic_autocracy = 10
+	liberalism = 35
+	conservatism = 32
+	fascism = 0
+	progressivism = 10
+	socialism = 5
+	communism = 0
+	national_unityism= 16
+	despotic_autocracy = 2
 }
 #Leaders
 recruit_character = SCA_jerry_brown
 recruit_character = SCA_henry_lamont_beach
 recruit_character = SCA_gloria_la_riva
 add_ideas = {
-	SCA_weak_federation
+	#SCA_weak_federation
 	SCA_gang_violence
-	SCA_sunset_economy
-	SCA_nevadan_arizonian_nationalism
+	#SCA_sunset_economy
+	#SCA_nevadan_arizonian_nationalism
 	developed_economic_capacity
 }
 set_rule = {
@@ -177,6 +177,37 @@ SCA = {
 	add_to_faction = SID
 	#add_to_faction = BAJ
 	add_to_faction = SHI
+}
+
+
+SLA = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = SNV
+			autonomy_state = autonomy_puppet
+		}
+	}
+	else = {
+		puppet = SNV
+	}
+}
+
+SLA = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = SAZ
+			autonomy_state = autonomy_puppet
+		}
+	}
+	else = {
+		puppet = SAZ
+	}
 }
 
 

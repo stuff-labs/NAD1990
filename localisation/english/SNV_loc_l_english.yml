@@ -3,14 +3,14 @@
 
  SNV_progressivism_party:0 "Freak Power Party"
  SNV_progressivism_party_long:0 "Freak Power Party"
- SNV_liberalism_party:0 "Freak Power Party - Establishment Dems"
- SNV_liberalism_party_long:0 "Freak Power Party - Establishment Democrats"
+ SNV_liberalism_party:0 "Democratic Party"
+ SNV_liberalism_party_long:0 "Democratic Party Of Nevada"
  SNV_national_unityism_party:0 "Vegas Oligarchs"
  SNV_national_unityism_party_long:0 "Vegas Oligarchs"
- SNV_communism_party:0 "Freak Power Party - Left Extremists"
- SNV_communism_party_long:0 "Freak Power Party - Left Extremists"
- SNV_socialism_party:0 "Freak Power Party - Socialists"
- SNV_socialism_party_long:0 "Freak Power Party - Socialists"
+ SNV_communism_party:0 "Unorganised Dissidents"
+ SNV_communism_party_long:0 "Unorganised Dissidents"
+ SNV_socialism_party:0 "Unorganised Dissidents"
+ SNV_socialism_party_long:0 "Unorganised Dissidents"
  LVG_despotic_autocracy_party:0 "NVIP"
  LVG_despotic_autocracy_party_long:0 "New Vegas Independent Party"
 
@@ -21,19 +21,22 @@
  #COUNTRY NAMES
  SNV_fascism:1 "Unitary Nevada"
  SNV_fascism_DEF:1 "Unitary Nevada"
- SNV_national_unityism:0 "Nevadan State"
- SNV_national_unityism_DEF:0 "The Nevadan State"
+ #SNV_national_unityism:0 "Nevadan State"
+ #SNV_national_unityism_DEF:0 "The Nevadan State"
  SNV_communism:1 "Free Republic Of Nevada"
  SNV_communism_DEF:1 "The Gonzo Free Republic Of Nevada"
- SNV_liberalism:0 "Republic of Nevada"
- SNV_liberalism_DEF:0 "The Republic of Nevada"
+ #SNV_liberalism:0 "Republic of Nevada"
+ #SNV_liberalism_DEF:0 "The Republic of Nevada"
+ SNV:0 "Republic of Nevada"
+ SNV_DEF:0 "the Republic of Nevada"
  SNV_ADJ:0 "Nevadan"
  SNV_longism:0 "Populist Nevada"
- SNV_progressivism:1 "Free Republic Of Nevada"
- SNV_progressivism_DEF:0 "The Gonzo Free Republic Of Nevada"
+ #SNV_progressivism:1 "Free Republic Of Nevada"
+ #SNV_progressivism_DEF:0 "The Gonzo Free Republic Of Nevada"
  SNV_longism_DEF:0 "Populist Nevada"
  LVG_despotic_autocracy:0 "New Vegas"
  LVG_despotic_autocracy_DEF:0 "New Vegas"
+ 
 
  #Epic People
  SNV_hunter_s_thompson:0 "Hunter S. Thompson"
@@ -42,7 +45,7 @@
 
 
  #Ideas
- SNV_the_vegas_question:0 "The Vegas Question"
+ SNV_the_vegas_question:0 "The Harvests of Vegas"
  SNV_the_vegas_question_desc:0 " \n\n£GFX_vegas_question_picture\n\n\n\n\n Ever since the ban on gambling was revoked in 1931, Vegas, despite the collapse of the union, has remained the gambling and tourist hotspot of North America for 59 years strong. For Vegas didn't just sell a luxury getaway or the high of a lucky winning streak, it offered the vision of the big winner somehow emerging from the last minute predawn chaos of a stale vegas casino, and the promise that any nobody could be a somebody.\n\nThat truth hasn't changed one bit since Nevadan independence, and despite the chaos, Vegas still thrives, doing wonders for the Nevadan economy.\n\nThe past 59 years have also seen the rise of various powerful and rich casino bossess, who with the help of various backroom dealings and ties to what's left of the mob, have solidified their near absolute control over the city. Exploiting the chaos and Nevada's preoccupation with California, these bossess have been able to sidestep any prexisting pacific era regulations on their industry, and aren't ready to follow any new ones any time soon. "
 
  #Misc

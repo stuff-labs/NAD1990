@@ -7,12 +7,11 @@ state={
 	}
 
 	history={
-		owner = SCA
+		owner = SNV
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SCA
 		add_core_of = SNV
 		1990.1.2 = {
 			owner = USA

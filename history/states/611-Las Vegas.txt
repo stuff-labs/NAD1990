@@ -5,11 +5,10 @@ state={
 		3086 3119 7533 3009 3160
 	}
 	history = {
-		owner = SCA
+		owner = SNV
 		1990.1.2 = {
 			owner = USA
 		}
-		add_core_of = SCA
 		add_core_of = SNV
 		victory_points = {
 			3086 5
