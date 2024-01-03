@@ -610,6 +610,26 @@ country_event = {  #Post impeachment - you pick next guy
     }
 }
 
+country_event = {  ######citizens help deserters
+    id = texas_events.31
+    title = texas_events.31.t
+    desc = texas_events.31.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.31.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
 #tex flavour
 country_event = {  #bad gdp growth rate
     id = texas_flavour.1

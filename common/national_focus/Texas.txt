@@ -2165,7 +2165,7 @@ focus_tree = { #3 EPIC FAIL
 
 		completion_reward = {
 			country_event = {
-				id = texas_events.28 #citizens help deserters
+				id = texas_events.21 #citizens help deserters
 			}
 		}
 	}
