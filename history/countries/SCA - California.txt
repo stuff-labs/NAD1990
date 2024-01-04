@@ -177,6 +177,8 @@ SCA = {
 	add_to_faction = SID
 	#add_to_faction = BAJ
 	add_to_faction = SHI
+	add_to_faction = SNV
+	add_to_faction = SAZ
 }
 
 
