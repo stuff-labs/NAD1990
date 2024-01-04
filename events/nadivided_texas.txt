@@ -630,6 +630,193 @@ country_event = {  ######citizens help deserters
     }
 }
 
+country_event = {  ######Rockwell Suspends Congress
+    id = texas_events.32
+    title = texas_events.32.t
+    desc = texas_events.32.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.32.a
+		ai_chance = {
+            factor = 10
+        }
+        set_party_name = {
+		    ideology = despotic_autocracy
+		    name = STX_junta_party
+		    long_name = STX_junta_party_long
+		}
+        hidden_effect = {
+            set_party_name = {
+                ideology = national_unityism
+                name = STX_party_suspended
+                long_name = STX_party_suspended_long
+            }
+            set_party_name = {
+                ideology = conservatism
+                name = STX_party_suspended
+                long_name = STX_party_suspended_long
+            }
+            set_party_name = {
+                ideology = liberalism
+                name = STX_party_suspended
+                long_name = STX_party_suspended_long
+            }
+            set_party_name = {
+                ideology = progressivism
+                name = STX_party_suspended
+                long_name = STX_party_suspended_long
+            }
+            set_party_name = {
+                ideology = socialism
+                name = STX_dissidents_renamed
+                long_name = STX_dissidents_renamed_long
+            }
+            set_party_name = {
+                ideology = communism
+                name = STX_dissidents_renamed
+                long_name = STX_dissidents_renamed_long
+            }
+            set_party_name = {
+                ideology = fascism
+                name = STX_trvd_mvney_rename
+                long_name = STX_trvd_mvney_rename_long #I do not care that this is a big block of code it's cool
+            }
+        }
+        add_popularity = {
+            ideology = despotic_autocracy
+            popularity = 0.15
+        }
+
+    }
+}
+
+country_event = {  ######ATF Move into waco
+    id = texas_events.33
+    title = texas_events.33.t
+    desc = texas_events.33.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.33.a
+		ai_chance = {
+            factor = 10
+        }
+        country_event = {
+            id = texas_events.34
+        }
+        country_event = {
+            id = texas_events.35
+            days = 10
+        }
+
+    }
+}
+
+country_event = {  ######Police Attempt To Arrest Jones at his compound
+    id = texas_events.34
+    title = texas_events.34.t
+    desc = texas_events.34.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.34.a
+		ai_chance = {
+            factor = 10
+        }
+        country_event = {
+            id = texas_events.36
+            days = 7
+        }
+
+    }
+}
+
+country_event = {  ######ATF attempt to start the siege, surprised when local populace are angry at them, they are attacked on all sides, koresh wins! (the kids inside don't all burn to death)
+    id = texas_events.35
+    title = texas_events.35.t
+    desc = texas_events.35.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.35.a
+		ai_chance = {
+            factor = 10
+        }
+        224 = {
+            set_demilitarized_zone = yes
+        }
+
+    }
+}
+
+country_event = {  #####Jones Starts His Revolt
+    id = texas_events.36
+    title = texas_events.36.t
+    desc = texas_events.36.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.36.a
+		ai_chance = {
+            factor = 10
+        }
+        79 = {
+            set_demilitarized_zone = yes
+        }
+        country_event = {
+            id = texas_events.37
+            days = 3
+        }
+
+    }
+}
+
+country_event = {  #####Rockwell_coping.mov https://youtu.be/cIFtz7bPuUk?si=Y_k7xaAqYBb0ypIU&t=8
+    id = texas_events.37
+    title = texas_events.37.t
+    desc = texas_events.37.d
+    picture = GFX_placeholder_things
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.37.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
 #tex flavour
 country_event = {  #bad gdp growth rate
     id = texas_flavour.1

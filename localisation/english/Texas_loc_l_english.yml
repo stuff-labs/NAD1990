@@ -21,6 +21,16 @@
  STX_corporate_party_name:0 "Libertarian Party - CIG's"
  STX_corporate_party_name_long:0 "Libertarian Party - Corporate Interest Groups"
 
+
+ #Rockwell Post Congress Dismantlement Party Names
+ STX_junta_party:0 "E.S.C.R.T"
+ STX_junta_party_long:0 "Emergency Security Committee of the Republic Of Texas"
+ STX_party_suspended:0 "§R[Suspended]§!"
+ STX_party_suspended_long:0 "§R[Due To The Present State Of Emergency Within The Republic Of Texas, Congress Has Been Suspended Until The Situation Improves]§!"
+ STX_dissidents_renamed:0 "§ROrganizing Dissidents§!"
+ STX_dissidents_renamed_long:0 "§ROrganizing Dissidents§!"
+ STX_trvd_mvney_rename:0 "Kinnear's Clique"
+ STX_trvd_mvney_rename_long:0 "Kinnear's Clique"
  ####jones tex
  BTX_fascism_party:0 "Unorganized Radicals"
  BTX_fascism_party_long:0 "Unorganized Radicals"

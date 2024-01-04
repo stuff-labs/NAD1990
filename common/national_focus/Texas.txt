@@ -3,6 +3,7 @@
 #2 - Texas War
 #3 - EPIC FAIL
 #4 - Bait
+#5 - Rockwell Pre Civil War Tree
 focus_tree = { #1 Texas Main
 	id = texas_focus
 	
@@ -2504,6 +2505,232 @@ focus_tree = { #4 Paul Bait
 		}
 
 		completion_reward = {
+		}
+	}
+}
+
+focus_tree = { #5 Rockwell Pre Civil War
+	id = texas_bait_tree
+	
+	country = {
+		factor = 0
+		modifier = {		
+			add = 10
+			tag = SCA
+		}
+	}
+	continuous_focus_position = { x = 1 y = 3300 }
+
+	focus = {
+		id = STX_all_in_with_rockwell 
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		#prerequisite = { focus =  }
+		x = 5
+		y = 0
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_future_plans_but_present_concerns 
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_all_in_with_rockwell }
+		x = 5
+		y = 1
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_subdue_congress #Rockwell Suspends Congress, Will End Up Causing Mattox To Revolt
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_future_plans_but_present_concerns }
+		x = 5
+		y = 2
+		#relative_position_id = 
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.32
+			}
+		}
+	}
+
+	focus = {
+		id = STX_cut_off_the_cults #Cause of Jones and Koresh Breaking off
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_future_plans_but_present_concerns }
+		x = 3
+		y = 2
+		#relative_position_id = 
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.33
+			}
+		}
+	}
+
+	focus = {
+		id = STX_utilise_the_patriot_act #Police can now jojorwell the rioters
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_future_plans_but_present_concerns }
+		x = 7
+		y = 2
+		#relative_position_id = 
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = STX_subdue_congress #Rockwell Suspends Congress, Will End Up Causing Mattox To Revolt
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_future_plans_but_present_concerns }
+		x = 5
+		y = 2
+		#relative_position_id = 
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			country_event = {
+				id = texas_events.32
+			}
 		}
 	}
 }
