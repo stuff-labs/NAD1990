@@ -182,7 +182,7 @@ SCA = {
 }
 
 
-SLA = {
+SCA = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
@@ -197,7 +197,7 @@ SLA = {
 	}
 }
 
-SLA = {
+SCA = {
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
