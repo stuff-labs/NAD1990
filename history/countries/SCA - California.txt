@@ -137,7 +137,7 @@ if = {
 
 set_convoys = 100
 
-set_cosmetic_tag = PAZIFIK
+###set_cosmetic_tag = PAZIFIK
 
 set_politics = {
 	ruling_party = liberalism
@@ -160,10 +160,10 @@ recruit_character = SCA_jerry_brown
 recruit_character = SCA_henry_lamont_beach
 recruit_character = SCA_gloria_la_riva
 add_ideas = {
-	#SCA_weak_federation
+	SCA_teetering_left_coalition
 	SCA_gang_violence
-	#SCA_sunset_economy
-	#SCA_nevadan_arizonian_nationalism
+	SCA_reaganist_roots
+	SCA_republican_legacy
 	developed_economic_capacity
 }
 set_rule = {

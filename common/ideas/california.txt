@@ -61,5 +61,51 @@ ideas = {
 				conscription_factor = -0.1
 			}
 		}
+		SCA_republican_legacy = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SCA_republican_legacy
+			modifier = {
+				stability_factor = -0.20
+				war_support_factor = -0.15
+				drift_defence_factor = -0.25
+				liberalism_drift = -0.01
+				conservatism_drift = 0.01
+				national_unityism_drift = 0.01 
+				political_power_gain = -0.15
+			}
+		}
+		SCA_reaganist_roots = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SCA_reaganist_roots
+			modifier = {
+				political_power_factor = -0.05
+                consumer_goods_factor = 0.10
+                consumer_goods_expected_value = 0.1
+			}
+		}
+		SCA_teetering_left_coalition = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SCA_teetering_left_coalition
+			modifier = {
+				progressivism_drift = 0.01
+				socialism_drift = 0.01
+				liberalism_drift = -0.01
+			}
+		}
 	}
 }

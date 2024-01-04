@@ -30,6 +30,10 @@
   SCA_nevadan_arizonian_nationalism_desc:0 "Nevadans pride themselves on their identity. Nevadan saw a resurgence of Gunslingers, Horseback Riding, and Battle Born nationhood. Arizonans have always prefered collaboration with their fellow desert neighbors. California almost has little place to annex these two nations with such unique ideals. However our annexation has caused Nevadans and Arizonans calling for an end to the Pacific Federation and a return to the Western Treaty Organization without Californian domination. Nationalist Protests have become a norm and it risks the Federation's survival as Independence groups have influence in the Nevadan-Arizonan counties. If a crisis hits our nation, there is no telling what these groups will do to restore their former independence. \n\n\n\n\n£GFX_SCA_nevada_arizona_nationalism_picture\n\n\n\n\n"
   CAL_you_lost_your_faction:0 "The §triots§! have proven to the people of §ONevada§! and §OArizona§! that the Pacific States are §tnot the answer§!. Your fellow §yfaction members§! seem to §tagree, the Western Treaty Organisation is hereby defunct and disbanded§!."
 
+  SCA_teetering_left_coalition:0 "The Left Coalition"
+  SCA_reaganist_roots:0 "Reaganist Roots"
+  SCA_republican_legacy:0 "The Republican Legacy"
+
  #Events
 
   california_events.1.t:0 "Riots Break Out In Los Angeles"

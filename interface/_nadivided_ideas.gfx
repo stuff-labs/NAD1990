@@ -65,6 +65,18 @@ spriteTypes = {
 		name = "GFX_idea_SCA_nevadan_arizonian_nationalism"
 		texturefile = "gfx/interface/ideas/idea_SCA_nevadan_arizonian_nationalism.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SCA_reaganist_roots"
+		texturefile = "gfx/interface/ideas/idea_SCA_reaganist_roots.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SCA_teetering_left_coalition"
+		texturefile = "gfx/interface/ideas/idea_SCA_teetering_left_coalition.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SCA_republican_legacy"
+		texturefile = "gfx/interface/ideas/idea_SCA_republican_legacy.dds"
+	}
 
 	##haiti
 	spriteType = {
