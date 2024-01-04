@@ -139,6 +139,36 @@ set_convoys = 100
 
 ###set_cosmetic_tag = PAZIFIK
 
+SCA = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = SNV
+			autonomy_state = autonomy_puppet
+		}
+	}
+	else = {
+		puppet = SNV
+	}
+}
+
+SCA = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = SAZ
+			autonomy_state = autonomy_puppet
+		}
+	}
+	else = {
+		puppet = SAZ
+	}
+}
+
 set_politics = {
 	ruling_party = liberalism
 	last_election = "1990.1.1"
@@ -179,37 +209,6 @@ SCA = {
 	add_to_faction = SHI
 	add_to_faction = SNV
 	add_to_faction = SAZ
-}
-
-
-SCA = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = SNV
-			autonomy_state = autonomy_puppet
-		}
-	}
-	else = {
-		puppet = SNV
-	}
-}
-
-SCA = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = SAZ
-			autonomy_state = autonomy_puppet
-		}
-	}
-	else = {
-		puppet = SAZ
-	}
 }
 
 
