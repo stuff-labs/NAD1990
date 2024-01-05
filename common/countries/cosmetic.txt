@@ -762,3 +762,8 @@ SMN_union_of_sup = {
 	color = rgb { 72 89 65 }
 	color_ui = rgb { 72 89 65 }
 }
+
+MTX_davidic_kingdom = {
+	color = rgb { 0 0 25 }
+	color_ui = rgb { 0 0 25 }
+}
