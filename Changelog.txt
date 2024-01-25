@@ -1,0 +1,16 @@
+### Update Notes for NAD update 1.5.1 ( Steel Wars 2.0 ) ### 
+
+
+#  • New Unit Voices for most nations
+
+#  • Political Decisions fixed (finally) 
+
+#  • The Michigan AI should Kill itself less in its communist civil war ( by proxy the civil war is about 10-15% easier )
+
+#  • Louisiana Civil war nations now have generic trees as well
+
+#  • Chicago Events and Tree Fixed
+
+#  • Many Bug Fixes
+
+#  • more that i forgot about,
