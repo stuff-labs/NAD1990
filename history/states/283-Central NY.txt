@@ -4,14 +4,14 @@ state={
 	name="STATE_283"
 
 	history={
-		owner = SNY
+		owner = SMA
 		1990.1.2 = {
 			owner = USA
 		}	
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SNY
+		add_core_of = SMA
 	}
 
 	provinces={

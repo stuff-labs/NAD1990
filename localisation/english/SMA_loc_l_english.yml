@@ -1,0 +1,22 @@
+﻿l_english:
+
+ SMA:0 "Union State of New England"
+ SMA_DEF:0 "the Union State of New England and New York"
+ SMA_ADJ:0 "New Englander"
+
+ SMA_liberalism_party:0 "Liberty Union"
+ SMA_liberalism_party_long:0 "Liberty Union of New England"
+ SMA_liberalism_1_party:0 "Liberty Union"
+ SMA_liberalism_1_party_long:0 "Liberty Union of New England"
+ SMA_liberalism_2_party:0 "Liberty Union"
+ SMA_liberalism_2_party_long:0 "Liberty Union of New England"
+ SMA_conservatism_party:0 "Republican Unity Party"
+ SMA_conservatism_party_long:0 "Republican Unity Party"
+ SMA_progressivism_party:0 "SDNE"
+ SMA_progressivism_party_long:0 "Social Democrats of New England"
+ SMA_fascism_party:0 "Unorganised Dissidents"
+ SMA_fascism_party_long:0 "Unorganised Dissidents"
+ SMA_communism_party:0 "Unorganised Dissidents"
+ SMA_communism_party_long:0 "Unorganised Dissidents"
+ SMA_despotic_autocracy_party:0 "Unorganised Dissidents"
+ SMA_despotic_autocracy_party_long:0 "Unorganised Dissidents"

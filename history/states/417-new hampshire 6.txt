@@ -3,14 +3,14 @@ state={
 	name="STATE_417"
 	
 	history={
-		owner = SRI
+		owner = SMA
 		1990.1.2 = {
 			owner = USA
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SRI
+		add_core_of = SMA
 	}
 	
 	provinces={

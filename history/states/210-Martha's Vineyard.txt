@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = SRI
+		owner = SMA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -15,8 +15,8 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = SRI
-		add_core_of = SNY
+		add_core_of = SMA
+		add_core_of = SMA
 		1990.1.2 = {
 			owner = USA
 		}

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SRI
+		owner = SMA
 		buildings = {
 			infrastructure = 3	
 			industrial_complex = 1				
@@ -24,7 +24,7 @@ state={
 		victory_points = {
 			5700 3 
 		}
-		add_core_of = SRI
+		add_core_of = SMA
 		1990.1.2 = {
 			owner = USA
 		}

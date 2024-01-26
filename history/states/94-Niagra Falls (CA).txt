@@ -12,7 +12,7 @@ state={
 
 		}
 		add_core_of = PON
-		add_claim_by = SNY
+		add_claim_by = SMA
 		1990.1.2 = {
 			owner = CAN
 

@@ -1,5 +1,12 @@
 ideologies = {
 	
+	fascism_1 = {
+		types = { fascism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 72 59 50 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	fascism = {
 	
 		types = {
@@ -64,7 +71,21 @@ ideologies = {
 
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
+	fascism_2 = {
+		types = { fascism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 47 37 30 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	
+	despotic_autocracy_1 = {
+		types = { despotic_autocracy_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 85 85 85 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	despotic_autocracy = {
 	
 		types = {
@@ -96,7 +117,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 76 76 76 }
+		color = { 62 62 62 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -126,7 +147,21 @@ ideologies = {
 
 		ai_neutral = yes # 
 	}
+	despotic_autocracy_2 = {
+		types = { despotic_autocracy_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 48 48 48 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 
+	national_unityism_1 = {
+		types = { national_unityism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 162 162 162 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	national_unityism = {
 	
 		types = {
@@ -161,7 +196,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 112 112 112 }
+		color = { 132 132 132 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -191,7 +226,22 @@ ideologies = {
 
 		ai_neutral = yes # 
 	}
+	national_unityism_2 = {
+		types = { national_unityism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 116 116 116 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
 
+	conservatism_1 = {
+		types = { conservatism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 84 89 103 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	conservatism = {
 	
 		types = {
@@ -251,7 +301,21 @@ ideologies = {
 		}
 		ai_neutral = yes # uses the democratic AI behaviour
 	}
+	conservatism_2 = {
+		types = { conservatism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 50 57 90 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 
+	liberalism_1 = {
+		types = { liberalism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 102 131 152 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	liberalism = {
 	
 		types = {
@@ -308,7 +372,21 @@ ideologies = {
 		}
 		ai_neutral = yes # uses the democratic AI behaviour
 	}
+	liberalism_2 = {
+		types = { liberalism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 51 82 104 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 
+	progressivism_1 = {
+		types = { progressivism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 116 146 116 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	progressivism = {
 
 		types = {
@@ -378,7 +456,21 @@ ideologies = {
 		}
 		ai_neutral = yes # uses the democratic AI behaviour
 	}
+	progressivism_2 = {
+		types = { progressivism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 87 110 87 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 
+	socialism_1 = {
+		types = { socialism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 137 80 80 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	socialism = {
 
 		types = {
@@ -436,7 +528,21 @@ ideologies = {
 		}
 		ai_neutral = yes # uses the democratic AI behaviour
 	}
+	socialism_2 = {
+		types = { socialism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 100 36 36 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 
+	communism_1 = {
+		types = { communism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 92 43 43 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 	communism = {
 		
 		types = {
@@ -507,6 +613,13 @@ ideologies = {
 			
 		}
 
+	}
+	communism_2 = {
+		types = { communism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 60 13 13 }
+		ai_neutral = yes
+		can_be_boosted = no
 	}
 }
 

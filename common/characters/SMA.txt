@@ -1,0 +1,72 @@
+characters={
+	SMA_george_h_w_bush = {
+		name="George H. W. Bush"
+		portraits={
+			civilian={
+				large="gfx/leaders/SMA/portrait_SMA_george_h_w_bush.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_sub    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	SMA_ted_kennedy = {
+		name="Ted Kennedy"
+		portraits={
+			civilian={
+				large="gfx/leaders/SMA/portrait_SMA_ted_kennedy.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_sub    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	SMA_robert_f_kennedy_jr = {
+		name="Robert F. Kennedy Jr."
+		portraits={
+			civilian={
+				large="gfx/leaders/SMA/portrait_SMA_robert_f_kennedy_jr.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_2_subtype    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	SMA_michael_dukakis = {
+		name="Michael Dukakis"
+		portraits={
+			civilian={
+				large="gfx/leaders/SMA/portrait_SMA_michael_dukakis.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_1_subtype    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	SMA_bernie_sanders = {
+		name="Bernie Sanders"
+		portraits={
+			civilian={
+				large="gfx/leaders/SMA/portrait_SMA_bernie_sanders.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy    
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

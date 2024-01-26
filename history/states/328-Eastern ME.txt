@@ -4,7 +4,7 @@ state={
 	name="STATE_328"
 
 	history={
-		owner = SRI
+		owner = SMA
 		1990.1.2 = {
 			owner = USA
 		}
@@ -17,7 +17,7 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = SRI
+		add_core_of = SMA
 
 	}
 

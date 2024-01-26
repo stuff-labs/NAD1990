@@ -6,7 +6,7 @@
 	}
 	
 	history={
-		owner = SRI
+		owner = SMA
 		1990.1.2 = {
 			owner = USA
 		}		 
@@ -15,7 +15,7 @@
 			industrial_complex = 1
 			dockyard = 1
 		}
-		add_core_of = SRI
+		add_core_of = SMA
 	}
 	
 	provinces={

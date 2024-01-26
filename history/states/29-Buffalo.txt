@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = SNY
+		owner = SMA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -23,7 +23,7 @@ state={
 		victory_points = {
 			2414 30 
 		}
-		add_core_of = SNY
+		add_core_of = SMA
 		1990.1.2 = {
 			owner = USA
 

@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = SRI
+		owner = SMA
 		1990.1.2 = {
 			owner = USA
 		}
@@ -22,7 +22,7 @@ state={
 			}
 
 		}
-		add_core_of = SRI
+		add_core_of = SMA
 		victory_points = {
 			2495 10
 		}

@@ -75,18 +75,30 @@ if = {
 
 set_convoys = 30
 
+recruit_character = SMA_george_h_w_bush
+recruit_character = SMA_ted_kennedy
+recruit_character = SMA_robert_f_kennedy_jr
+recruit_character = SMA_michael_dukakis
+recruit_character = SMA_bernie_sanders
+
+
 set_politics = {
-	ruling_party = despotic_autocracy
-	last_election = "1936.1.1"
+	ruling_party = conservatism
+	last_election = "1986.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	despotic_autocracy = 35
-	liberalism = 30
-	fascism = 2
-	communism = 4
-	national_unityism= 29
+	liberalism_1 = 10
+	liberalism = 26
+	liberalism_2 = 4
+	conservatism = 34
+	fascism = 0
+	progressivism = 20
+	socialism = 0
+	communism = 0
+	national_unityism= 3
+	despotic_autocracy = 3
 }
 
 

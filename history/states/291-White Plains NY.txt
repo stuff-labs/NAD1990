@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SNY
+		owner = SMA
 		1990.1.2 = {
 			owner = USA
 
@@ -23,7 +23,7 @@ state={
 			}
 
 		}
-		add_core_of = SNY
+		add_core_of = SMA
 		victory_points = {
 			3432 20 
 		}

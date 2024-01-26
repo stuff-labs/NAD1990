@@ -12,8 +12,8 @@ state={
 			owner = USA
 
 		}
-		owner = SNY
-		add_core_of = SNY
+		owner = SMA
+		add_core_of = SMA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
