@@ -2698,11 +2698,13 @@ focus_tree = { #5 Rockwell Pre Civil War
 	}
 
 	focus = {
-		id = STX_subdue_congress #Rockwell Suspends Congress, Will End Up Causing Mattox To Revolt
+		id = STX_calm #nothing goes wrong i promise
 		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
 		prerequisite = { focus = STX_future_plans_but_present_concerns }
+		prerequisite = { focus = STX_cut_off_the_cults }
+		prerequisite = { focus = STX_utilise_the_patriot_act }
 		x = 5
-		y = 2
+		y = 3
 		#relative_position_id = 
 
 		cost = 3
@@ -2728,9 +2730,229 @@ focus_tree = { #5 Rockwell Pre Civil War
 		}
 
 		completion_reward = {
-			country_event = {
-				id = texas_events.32
-			}
+			
+		}
+	}
+
+	focus = {
+		id = STX_to_break_the_final_shackles #bbbb
+		icon = GFX_STX_legacy_of_the_second_red_river_war_focus
+		prerequisite = { focus = STX_calm }
+		x = 5
+		y = 4
+		#relative_position_id = 
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+}
+
+focus_tree = { #civil war
+	id = texas_civil_war_tree
+	
+	country = {
+		factor = 0
+		modifier = {		
+			add = 10
+			tag = SNM
+		}
+	}
+	continuous_focus_position = { x = 1 y = 3300 }
+
+	focus = {
+		id = STX_a_moment_in_time
+		icon = GFX_STX_placeholder
+		#prerequisite = { focus =  }
+		x = 5
+		y = 0
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = STX_god_texas_holder #junta 
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_a_moment_in_time }
+		x = 2
+		y = 1
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = STX_freedom_and_justice #free texas
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_a_moment_in_time }
+		x = 4
+		y = 1
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = STX_in_jones_we_trust #jones' texas
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_a_moment_in_time }
+		x = 6
+		y = 1
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = STX_the_lord_cometh #koresh's texas
+		icon = GFX_STX_placeholder
+		prerequisite = { focus = STX_a_moment_in_time }
+		x = 8
+		y = 1
+		#relative_position_id = 
+
+		cost = 1
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			
 		}
 	}
 }
