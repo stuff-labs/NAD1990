@@ -16,7 +16,7 @@ ideas = {
             }
         }
         SMO_kansas_city_tensions = {
-            picture = STX_GRET_TEX_ARM
+            picture = SMO_kansas_city_tensions
             allowed = {
                 tag = SMO
             }

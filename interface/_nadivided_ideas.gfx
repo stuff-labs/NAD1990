@@ -143,6 +143,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_SMO_the_tips_program.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_SMO_kansas_city_tensions"
+		texturefile = "gfx/interface/ideas/idea_SMO_kansas_city_tensions.dds"
+	}
+
 
 
 
