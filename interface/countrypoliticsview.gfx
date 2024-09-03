@@ -36,6 +36,10 @@ spriteTypes = {
 		name = "GFX_ideology_american_ultranationlism"
 		texturefile = "gfx/interface/ideologies/despotic_autocracy_american_ultranationalism.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_libertarian_despotism"
+		texturefile = "gfx/interface/ideologies/despotism_libertarianism_subtype.dds"
+	}
 
 	#Not Modded#
 

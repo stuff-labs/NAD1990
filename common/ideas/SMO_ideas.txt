@@ -1,7 +1,7 @@
 ideas = {
     country = {
         SMO_tips_hotline = { # https://www.youtube.com/watch?v=7xbJ-Dg7FR4
-            picture = STX_GRET_TEX_ARM
+            picture = SMO_tips_hotline
             allowed = {
                 tag = SMO
             }

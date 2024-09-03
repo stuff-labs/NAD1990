@@ -136,6 +136,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_CAN_teetering_bankruptcy.dds"
 	}
 
+	### Missouri
+
+	spriteType = {
+		name = "GFX_idea_SMO_tips_hotline"
+		texturefile = "gfx/interface/ideas/idea_SMO_the_tips_program.dds"
+	}
+
 
 
 
