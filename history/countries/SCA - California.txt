@@ -154,6 +154,25 @@ SCA = {
 	}
 }
 
+SNV = {
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1990.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		liberalism = 26
+		conservatism = 38
+		fascism = 0
+		progressivism = 20
+		socialism = 3
+		communism = 0
+		national_unityism= 11
+		despotic_autocracy = 2
+	}
+}
+
 SCA = {
 	if = {
 		limit = {
@@ -191,25 +210,29 @@ SAZ = {
 
 
 set_politics = {
-	ruling_party = liberalism
-	last_election = "1990.1.1"
+	ruling_party = national_unityism
+	last_election = "1996.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 35
-	conservatism = 32
+	liberalism = 15
+	liberalism_2 = 10
+	conservatism = 17
 	fascism = 0
-	progressivism = 10
-	socialism = 5
+	progressivism = 5
+	socialism = 8
 	communism = 0
-	national_unityism= 16
-	despotic_autocracy = 2
+	national_unityism = 40
+	despotic_autocracy = 5
 }
 #Leaders
+recruit_character = SCA_ronald_reagan
 recruit_character = SCA_jerry_brown
-recruit_character = SCA_henry_lamont_beach
+#recruit_character = SCA_henry_lamont_beach #6 feet under
 recruit_character = SCA_gloria_la_riva
+recruit_character = SCA_Unorganised_Dissidents
+
 add_ideas = {
 	SCA_teetering_left_coalition
 	SCA_gang_violence

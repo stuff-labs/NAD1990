@@ -2,36 +2,38 @@
 
  SCA_liberalism_party:0 "TCDP"
  SCA_liberalism_party_long:0 "True Californian Democratic Party"
- SCA_conservatism_party:0 "Republican Party"
- SCA_conservatism_party_long:0 "Republican Party of California"
+ SCA_liberalism_2_party:0 "TCDP"
+ SCA_liberalism_2_party_long:0 "True Californian Democratic Party"
+ SCA_conservatism_party:0 "Republican Party - Moderates"
+ SCA_conservatism_party_long:0 "Republican Party of California - Moderates"
  SCA_communism_party:0 "CPC"
  SCA_communism_party_long:0 "Communist Party of California"
  SCA_fascism_party:0 "Unorganised Radicals"
  SCA_fascism_party_long:0 "Unorganised Radicals"
- SCA_fascism_party_nadivided_short:0 "The Walt Disney Company"
- SCA_fascism_party_nadivided_long:0 "The Walt Disney Company"
- SCA_national_unityism_party:0 "Republican Party - Hardliners"
- SCA_national_unityism_party_long:0 "Republican Party of California - Hardliners"
+ SCA_national_unityism_party:0 "Republican Party - Reaganites"
+ SCA_national_unityism_party_long:0 "Republican Party of California - Reaganites"
  SCA_progressivism_party:0 "PaFP"
  SCA_progressivism_party_long:0 "Peace and Freedom Party"
  SCA_socialism_party:0 "PaFP - Radical"
  SCA_socialism_party_long:0 "Peace and Freedom Party - Radical Faction"
- SCA_despotic_autocracy_party:0 "NOPC"
- SCA_despotic_autocracy_party_long:0 "National Order Party of California"
+ SCA_despotic_autocracy_party:0 "Republican Party - Despots"
+ SCA_despotic_autocracy_party_long:0 "Republican Party - Despots"
 
  #IDEAS
   SCA_weak_federation:0 "Fragile Federation"
-  SCA_weak_federation_desc:0 "The Pacific States are far beyond united as of yet. Our Union with Arizona and Nevada was created during wartime with an unfair deal for both. And the the supposed imbalanced priority of the Pacific States being exclusively focused on California. We are a bastion of democracy on the West Coast and an unstable one. Tenisons are rampant as Oregon and Mexico plot for a war against our fair nation. The government is at a deadlock on the issue of further integration of Utah, Idaho, and Baja California when we can't yet begin to sow the issues in the first 2 integrated states. \n\n\n\n\n£GFX_SCA_weak_federation_picture\n\n\n\n\n"
+  SCA_weak_federation_desc:0 "The Pacific Treaty are far beyond united as of yet. Our Union with Arizona and Nevada was created during wartime with an unfair deal for both. And the the supposed imbalanced priority of the Pacific Treaty being exclusively focused on California. We are a great bastion of democracy on the West Coast and an unstable one. \n\n\n\n\n£GFX_SCA_weak_federation_picture\n\n\n\n\n"
   SCA_gang_violence:0 "Rampant Gang Violence"
   SCA_gang_violence_desc:0 "The Pacific States hold the city with the greatest amount of gang violence and bank robberies. Homicide is on the rise as our nations loses money to various gangs and criminals. Further more, corruption and bribery with police officers festers. And it causes injustice to become a key issue to the Pacifican government. Los Angeles has the worst case of all of it. If it isn't ended soon enough, our government would have to deal with massive political unrest. \n\n\n\n\n£GFX_SCA_gang_violence_picture\n\n\n\n\n"
   SCA_sunset_economy:0 "Sunset Economy"
   SCA_sunset_economy_desc:0 "With the Soviet Union falling apart, our nation now begins to see a boom in it's economy. Western nations are buying our goods now and it has been a successful change from the economic slog of the 1960s. Our government can invest more into fixing the issues ruining our nation and potentiality to integrate our allies further into the Pacific States. \n\n\n\n\n£GFX_SCA_sunset_economy_picture\n\n\n\n\n"
   SCA_nevadan_arizonian_nationalism:0 "Nevadan Arizonan Nationalism"
   SCA_nevadan_arizonian_nationalism_desc:0 "Nevadans pride themselves on their identity. Nevadan saw a resurgence of Gunslingers, Horseback Riding, and Battle Born nationhood. Arizonans have always prefered collaboration with their fellow desert neighbors. California almost has little place to annex these two nations with such unique ideals. However our annexation has caused Nevadans and Arizonans calling for an end to the Pacific Federation and a return to the Western Treaty Organization without Californian domination. Nationalist Protests have become a norm and it risks the Federation's survival as Independence groups have influence in the Nevadan-Arizonan counties. If a crisis hits our nation, there is no telling what these groups will do to restore their former independence. \n\n\n\n\n£GFX_SCA_nevada_arizona_nationalism_picture\n\n\n\n\n"
+
+ #these descs need to be rewritten - atlan
   CAL_you_lost_your_faction:0 "The §triots§! have proven to the people of §ONevada§! and §OArizona§! that the Pacific States are §tnot the answer§!. Your fellow §yfaction members§! seem to §tagree, the Western Treaty Organisation is hereby defunct and disbanded§!."
 
   SCA_teetering_left_coalition:0 "The Left Coalition"
-  SCA_reaganist_roots:0 "Reaganist Roots"
+  SCA_reaganist_roots:0 "Reaganite Roots"
   SCA_republican_legacy:0 "The Republican Legacy"
 
  #Events
@@ -46,6 +48,7 @@
   california_events.2.d:0 "noooooooooo the trvd davvn noooooooo (why are you playing a country with no content)"
   california_events.2.a:0 "Hunter S Thompson bros keep winning"
 
+  SCA_Unorganised_Dissidents: "Unorganised Dissidents"
 
 
   #STUFF FOR PUPPETS, CONSULT PEACE_ON_ACTIONS TO FIND OUT MORE

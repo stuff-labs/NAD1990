@@ -29,6 +29,21 @@ characters = {
 		}
 	}
 
+	SNV_paul_laxalt = {
+		name = SNV_paul_laxalt
+		portraits={
+			civilian={
+				large="gfx/leaders/SNV/portrait_SNV_paul_laxalt.dds"
+			}
+		}
+		country_leader={
+			ideology = conservatism_sub   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+
 	SNV_vegas_oligarchs = {
 		name = SNV_vegas_oligarchs
 		portraits={

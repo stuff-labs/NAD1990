@@ -27,18 +27,24 @@ set_convoys = 10
 add_ideas = {
 	extensive_conscription
 	SNV_the_vegas_question
+	SNV_increasing_republican_influence
+	SNV_nevadan_attitude
 }
 
 
 set_politics = {
-	ruling_party = liberalism
-	last_election = "1988.1.1"
+	ruling_party = conservatism
+	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	progressivism = 42
-	socialism = 10
-	communism = 3
-	liberalism = 45
+	liberalism = 26
+	conservatism = 38
+	fascism = 0
+	progressivism = 20
+	socialism = 3
+	communism = 0
+	national_unityism= 11
+	despotic_autocracy = 2
 }

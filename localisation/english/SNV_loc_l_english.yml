@@ -42,11 +42,15 @@
  SNV_hunter_s_thompson:0 "Hunter S. Thompson"
  SNV_bob_miller:0 "Bob Miller"
  SNV_vegas_oligarchs:0 "Vegas Oligarchs"
-
+ SNV_paul_laxalt:0 "Paul Laxalt"
 
  #Ideas
  SNV_the_vegas_question:0 "The Harvests of Vegas"
  SNV_the_vegas_question_desc:0 " \n\n£GFX_vegas_question_picture\n\n\n\n\n Ever since the ban on gambling was revoked in 1931, Vegas, despite the collapse of the union, has remained the gambling and tourist hotspot of North America for 59 years strong. For Vegas didn't just sell a luxury getaway or the high of a lucky winning streak, it offered the vision of the big winner somehow emerging from the last minute predawn chaos of a stale vegas casino, and the promise that any nobody could be a somebody.\n\nThat truth hasn't changed one bit since Nevadan independence, and despite the chaos, Vegas still thrives, doing wonders for the Nevadan economy.\n\nThe past 59 years have also seen the rise of various powerful and rich casino bossess, who with the help of various backroom dealings and ties to what's left of the mob, have solidified their near absolute control over the city. Exploiting the chaos and Nevada's preoccupation with California, these bossess have been able to sidestep any prexisting pacific era regulations on their industry, and aren't ready to follow any new ones any time soon. "
+
+ SNV_nevadan_attitude:0 "Nevadan Attitude - Apathetic"
+ 
+ SNV_increasing_republican_influence:0 "Increasing Republican Influence"
 
  #Misc
  ARIZONA_NEVADA_FACTION_NAME:0 "Second Pacific Treaty"

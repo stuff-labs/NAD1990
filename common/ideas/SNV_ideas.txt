@@ -16,5 +16,31 @@ ideas = {
                 monthly_population = 0.03
             }
         }
+        SNV_nevadan_attitude = { 
+            picture = HAI_militarized_economy
+            allowed = {
+                tag = SNV
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                #stuff add things here
+            }
+        }
+        SNV_increasing_republican_influence = { 
+            picture = HAI_militarized_economy
+            allowed = {
+                tag = SNV
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                #stuff add things here
+            }
+        }
     }#END
 }
