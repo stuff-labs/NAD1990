@@ -104,6 +104,8 @@ ideologies = {
 			christian_nationalism = {
 				
 			}
+			civilian_dictatorship = {
+			}
 			libertarian_despotism = { }
 			
 			fundamentalism = { }
