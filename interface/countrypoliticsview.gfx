@@ -9,6 +9,61 @@ spriteTypes = {
 	#Modded#
 
 	spriteType = {
+		name = "GFX_ideology_national_unityism_group"
+		texturefile = "gfx/interface/ideologies/national_unityism_group.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_ideology_despotic_autocracy_group"
+		texturefile = "gfx/interface/ideologies/despotic_autocracy_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_socialism_group"
+		texturefile = "gfx/interface/ideologies/socialism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_group"
+		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_personalist_dictatorship" #made by giray <3
+		texturefile = "gfx/interface/ideologies/despotic_personalist_dictatorship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_dominant_party_democracy"
+		texturefile = "gfx/interface/ideologies/national_unityism_dominant_party_democracy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/socialism_anarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_unknown"
+		texturefile = "gfx/interface/ideologies/unknown.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
 		name = "GFX_ideology_progressivism_group"
 		texturefile = "gfx/interface/ideologies/progressivism_group.dds"
 	}
@@ -18,7 +73,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_hueyism"
-		texturefile = "gfx/interface/ideologies/hueyism.dds"
+		texturefile = "gfx/interface/ideologies/national_unityism_hueyism.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_political_machine"
+		texturefile = "gfx/interface/ideologies/national_unityism_political_machine.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_nazism"
@@ -39,6 +98,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_libertarian_despotism"
 		texturefile = "gfx/interface/ideologies/despotism_libertarianism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_freak_power"
+		texturefile = "gfx/interface/ideologies/progressivism_freak_power.dds"
 	}
 
 	#Not Modded#
@@ -486,61 +549,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_icon_occupied_territories"
 		texturefile = "gfx/interface/icon_occupied_territories.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_national_unityism_group"
-		texturefile = "gfx/interface/ideologies/national_unityism_group.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_ideology_despotic_autocracy_group"
-		texturefile = "gfx/interface/ideologies/despotic_autocracy_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_communism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_socialism_group"
-		texturefile = "gfx/interface/ideologies/socialism_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_fascism_group"
-		texturefile = "gfx/interface/ideologies/fascism_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_liberalism_group"
-		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_conservatism_group"
-		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_personalist_dictatorship" #made by giray <3
-		texturefile = "gfx/interface/ideologies/personalist_dictatorship.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_dominant_party_democracy"
-		texturefile = "gfx/interface/ideologies/dominant_party_democracy.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_anarchism"
-		texturefile = "gfx/interface/ideologies/anarchism.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_unknown"
-		texturefile = "gfx/interface/ideologies/unknown.dds"
-		legacy_lazy_load = no
 	}
 	
 	spriteType = {
