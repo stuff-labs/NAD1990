@@ -52,42 +52,42 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				cv_fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
+				#fighter_equipment = {
+				#	instant = yes
+				#	build_cost_ic = -0.10
+				#}
+				#cv_fighter_equipment = {
+				#	instant = yes
+				#	build_cost_ic = -0.10
+				#}
 				jet_fighter_equipment = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
-				cv_CAS_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				CAS_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				nav_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				cv_nav_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
+				#cv_CAS_equipment = {
+				#	instant = yes
+				#	build_cost_ic = -0.10
+				#}
+				#CAS_equipment = {
+				#	instant = yes
+				#	build_cost_ic = -0.10
+				#}
+				#nav_bomber_equipment = {
+				#	instant = yes
+				#	build_cost_ic = -0.10
+				#}
+				#cv_nav_bomber_equipment = {
+				#	instant = yes
+				#	build_cost_ic = -0.10
+				#}
 				rocket_interceptor_equipment = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
-				tac_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
+				#tac_bomber_equipment = {
+				#	instant = yes
+				#	build_cost_ic = -0.10
+				#}
 				jet_tac_bomber_equipment = {
 					instant = yes
 					build_cost_ic = -0.10
@@ -96,14 +96,14 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
-				heavy_fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				strat_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
+				#heavy_fighter_equipment = {
+				#	instant = yes
+				#	build_cost_ic = -0.10
+				#}
+				#strat_bomber_equipment = {
+				#	instant = yes
+				#	build_cost_ic = -0.10
+				#}
 				transport_plane_equipment = {
 					instant = yes
 					build_cost_ic = -0.10
@@ -309,7 +309,8 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = liberalism
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -327,7 +328,8 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = national_unityism
+				has_government = despotic_autocracy
 			}
 
 			removal_cost = -1
@@ -426,7 +428,8 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = liberalism
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -445,7 +448,8 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = national_unityism
+				has_government = despotic_autocracy
 			}
 
 			removal_cost = -1
@@ -506,9 +510,10 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = democratic
+					has_government = liberalism
+					has_government = conservatism
 					has_government = progressivism
-					has_government = longism
+					has_government = national_unityism
 				}
 			}
 			
@@ -676,7 +681,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = national_unityism
 			}
 
 			cancel = {
@@ -1212,17 +1217,6 @@ ideas = {
 			picture = generic_tank_manufacturer_1
 			
 			allowed = {
- 				NOT = {
-					or = {
-						tag = SCA 
-						tag = SMI
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
 				NOT = {
 					has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
 				}
@@ -1248,14 +1242,6 @@ ideas = {
 			picture = generic_naval_manufacturer_1
 
 			allowed = {
- 				NOT = {
-					tag = SCA
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
 				NOT = {
 					has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
 				}
@@ -1282,17 +1268,6 @@ ideas = {
 
 			allowed = {
 				NOT = {
-					or = {
-						tag = SOH
-						tag = SCA
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
-				NOT = {
 					has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
 				}
 			}
@@ -1312,14 +1287,6 @@ ideas = {
 			picture = generic_air_manufacturer_3
 
 			allowed = {
-				NOT = {
-					tag = SCA
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
 				NOT = {
 					has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
 				}
@@ -1341,17 +1308,6 @@ ideas = {
 			
 			allowed = {
 				NOT = {
-					or = {
-						tag = SCA 
-						tag = SMI
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
-				NOT = {
 					has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
 				}
 			}
@@ -1371,17 +1327,6 @@ ideas = {
 			picture = generic_naval_manufacturer_2
 
 			allowed = {
-				NOT = {
-					or = {
-						tag = SCA 
-						tag = SMI
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
 				NOT = {
 					has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
 				}
@@ -1406,14 +1351,6 @@ ideas = {
 			picture = generic_industrial_concern_1
 
 			allowed = {
- 				NOT = {
-					tag = SCA
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
 				NOT = {
 					has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
 				}
@@ -1434,17 +1371,6 @@ ideas = {
 			picture = generic_electronics_concern_1
 
 			allowed = {
- 				NOT = {
-					or = {
-						tag = SCA
-						tag = SMI
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
 				NOT = {
 					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
 				}
@@ -1470,18 +1396,6 @@ ideas = {
 			picture = generic_motorized_equipment_manufacturer_3
 
 			allowed = {
- 				NOT = {
-					or = {
-						tag = SCA
-						tag = SMI
-						tag = SOH
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
 				NOT = {
 					has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
 				}
@@ -1502,14 +1416,6 @@ ideas = {
 			picture = generic_infantry_equipment_manufacturer_2
 
 			allowed = {
- 				NOT = {
-					tag = SCA
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
 				NOT = {
 					has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
 				}
@@ -1530,17 +1436,6 @@ ideas = {
 			picture = generic_artillery_manufacturer_2
 
 			allowed = {
-				NOT = {
-					or = {
-						tag = SOH
-						tag = SCA
-					}
-				}
-				NOT = {
-					OR = {
-						has_completed_focus = SPA_embrace_anarchy
-					}
-				}
 				NOT = {
 					has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
 				}
