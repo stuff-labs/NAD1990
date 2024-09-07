@@ -1,13 +1,27 @@
 characters={
-	SMS_william_f_winter = {
-		name="William F. Winter"
+	#SMS_william_f_winter = {
+	#	name="William F. Winter"
+	#	portraits={
+	#		civilian={
+	#			large ="gfx/leaders/SMS/portrait_SMS_william_f_winter.dds"
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology = dominant_party_democracy   
+	#		traits={  }
+	#		expire="2020.1.1.1"
+	#		id=-1
+	#	}
+	#}
+	SMS_huey_newton = {
+		name ="Huey Newton"
 		portraits={
 			civilian={
-				large="gfx/leaders/SMS/portrait_SMS_william_f_winter.dds"
+				large ="gfx/leaders/SMS/portrait_SMS_huey_newton.dds"
 			}
 		}
 		country_leader={
-			ideology= dominant_party_democracy   
+			ideology = marxism_leninism   
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1

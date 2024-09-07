@@ -576,6 +576,9 @@ ideologies = {
 			
 			black_belt_communism = {
 			}
+
+			marxism_leninism = {
+			}
 		}
 		
 		dynamic_faction_names = {
