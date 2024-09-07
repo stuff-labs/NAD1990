@@ -1,0 +1,22 @@
+﻿l_english:
+
+ SUT:1 "Republic of Utah"
+ SUT_DEF:1 "The Republic of Utah"
+ SUT_national_unityism:0 "Utah"
+ SUT_national_unityism_DEF:0 "Utah"
+ SUT_communism:1 "Christian Communes of Utah"
+ SUT_communism_DEF:1 "The Christian Communes of Utah"
+ SUT_ADJ:0 "Utahan"
+
+ SUT_national_unityism_party:0 "Unorganised Dissidents"
+ SUT_national_unityism_party_long:0 "Unorganised Dissidents"
+ SUT_fascism_party:0 "Unorganised Dissidents"
+ SUT_fascism_party_long:0 "Unorganised Dissidents"
+ SUT_despotic_autocracy_party:0 "Unorganised Dissidents"
+ SUT_despotic_autocracy_party_long:0 "Unorganised Dissidents"
+ SUT_liberalism_party:0 "Democratic Party"
+ SUT_liberalism_party_long:0 "Democratic Party of Utah"
+ SUT_conservatism_party:0 "Republican Party"
+ SUT_conservatism_party_long:0 "Republican Party of Utah"
+ SUT_progressivism_party:0 "SDPU"
+ SUT_progressivism_party_long:0 "Social Democratic Party of Utah"

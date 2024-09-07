@@ -97,20 +97,20 @@ add_ideas =  {
 	limited_conscription
 }
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = conservatism
 	last_election = "1988.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	liberalism = 42
-	conservatism = 38
-	fascism = 5
-	progressivism = 5
+	conservatism = 45
+	fascism = 0
+	progressivism = 0
 	socialism = 0
 	communism = 0
-	national_unityism= 0
-	despotic_autocracy = 10
+	national_unityism = 10
+	despotic_autocracy = 3
 }
-recruit_character = SUT_douglas_wayne_owens
+recruit_character = SUT_mitt_romney
 

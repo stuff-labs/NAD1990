@@ -456,18 +456,6 @@
  SOK_DEF:0 "The Republic of Oklahoma"
  SOK_ADJ:0 "Oklahoman"
  
- SUT_fascism:1 "Theostratocracy of Utah"
- SUT_fascism_DEF:1 "The Theostratocracy of Utah"
- SUT:1 "Republic of Utah"
- SUT_DEF:1 "The Republic of Utah"
- SUT_national_unityism:0 "Utah"
- SUT_national_unityism_DEF:0 "Utah"
- SUT_communism:1 "Christian Communes of Utah"
- SUT_communism_DEF:1 "The Christian Communes of Utah"
- SUT_longism:0 "Theodemocracy of Utah"
- SUT_longism_DEF:0 "The Theodemocracy of Utah"
- SUT_ADJ:0 "Utahn"
- 
  STN_fascism:1 "Tennessee"
  STN_fascism_DEF:1 "Tennessee"
  STN_national_unityism:0 "Tennessee"

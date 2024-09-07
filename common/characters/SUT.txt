@@ -1,13 +1,13 @@
-characters={
-	SUT_douglas_wayne_owens={
-		name="Douglas Wayne Owens"
+characters = {
+	SUT_mitt_romney = {
+		name="Mitt Romney"
 		portraits={
-			civilian={
-				large="gfx/leaders/SUT/portrait_SUT_douglas_wayne_owens.dds"
+			civilian = {
+				large = "gfx/leaders/SUT/portrait_SUT_mitt_romney.dds"
 			}
 		}
 		country_leader={
-			ideology=liberalism_sub
+			ideology = centrism_conservatism
 			expire="2020.1.1.1"
 			id=-1
 		}
