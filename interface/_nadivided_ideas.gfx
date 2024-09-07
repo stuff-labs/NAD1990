@@ -128,12 +128,12 @@ spriteTypes = {
 	
 	#####canada
 	spriteType = {
-		name = "GFX_idea_CAN_quebec_compromise"
-		texturefile = "gfx/interface/ideas/idea_CAN_quebec_compromise.dds"
+		name = "GFX_idea_PON_quebec_compromise"
+		texturefile = "gfx/interface/ideas/idea_PON_quebec_compromise.dds"
 	}
 	spriteType = {
-		name = "GFX_idea_CAN_teetering_bankruptcy"
-		texturefile = "gfx/interface/ideas/idea_CAN_teetering_bankruptcy.dds"
+		name = "GFX_idea_PON_teetering_bankruptcy"
+		texturefile = "gfx/interface/ideas/idea_PON_teetering_bankruptcy.dds"
 	}
 
 	### Missouri
@@ -147,6 +147,9 @@ spriteTypes = {
 		name = "GFX_idea_SMO_kansas_city_tensions"
 		texturefile = "gfx/interface/ideas/idea_SMO_kansas_city_tensions.dds"
 	}
+
+
+
 
 
 

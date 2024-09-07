@@ -7,7 +7,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = SCA_weak_federation
+			picture = PON_teetering_bankruptcy
 			modifier = {
 				production_speed_buildings_factor = -0.15
 				global_building_slots_factor = -0.1
