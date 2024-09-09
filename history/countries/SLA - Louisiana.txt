@@ -73,6 +73,8 @@ if = {
 add_ideas = {
 	limited_conscription
 	SLA_epoch_of_the_long_family
+	SLA_jeffersonian_league_torn_apart
+	SLA_texan_paramilitary_troubles
 }
 
 

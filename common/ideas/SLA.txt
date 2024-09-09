@@ -12,8 +12,88 @@ ideas = {
 				political_power_gain = -0.25
 				party_popularity_stability_factor = -0.15
 				drift_defence_factor = -0.25
-				national_unityism_drift = -0.03
+				national_unityism_drift = -0.01
 			}
+		}
+		SLA_texan_paramilitary_troubles = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SLA_texan_paramilitary_troubles
+			modifier = {
+				conscription = -0.05
+				enemy_partisan_effect = 0.15
+				training_time_factor = 0.05
+				planning_speed = -0.10
+			}
+		}
+		SLA_jeffersonian_league_torn_apart = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SLA_jeffersonian_league_torn_apart
+			modifier = {
+				custom_effect_tooltip = SLA_jeffersonian_league_torn_apart_tooltip
+			}
+			custom_effect_tooltip = SLA_jeffersonian_league_torn_apart_tooltip
+		}
+		SLA_jeffersonian_league_reunited = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SLA_jeffersonian_league_reunited
+			modifier = {
+				custom_effect_tooltip = SLA_jeffersonian_league_reunited_tooltip
+			}
+			custom_effect_tooltip = SLA_jeffersonian_league_reunited_tooltip
+		}
+		SLA_jeffersonian_league_reunited = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SLA_jeffersonian_league_reunited
+			modifier = {
+				custom_effect_tooltip = SLA_jeffersonian_league_reunited_tooltip
+			}
+			custom_effect_tooltip = SLA_jeffersonian_league_reunited_tooltip
+		}
+		SLA_jeffersonian_league_gone_in_the_wind = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SLA_jeffersonian_league_gone_in_the_wind
+			modifier = {
+				custom_effect_tooltip = SLA_jeffersonian_league_gone_in_the_wind_tooltip
+			}
+			custom_effect_tooltip = SLA_jeffersonian_league_gone_in_the_wind_tooltip
+		}
+		SLA_jeffersonian_league_last_stand = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SLA_jeffersonian_league_last_stand
+			modifier = {
+				custom_effect_tooltip = SLA_jeffersonian_league_last_stand_tooltip
+			}
+			custom_effect_tooltip = SLA_jeffersonian_league_last_stand_tooltip
 		}
 	}
 }

@@ -101,6 +101,26 @@ spriteTypes = {
 		name = "GFX_idea_SLA_epoch_of_the_long_family"
 		texturefile = "gfx/interface/ideas/idea_SLA_epoch_of_the_long_family.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SLA_texan_paramilitary_troubles"
+		texturefile = "gfx/interface/ideas/idea_SLA_texan_paramilitary_troubles.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SLA_jeffersonian_league_torn_apart"
+		texturefile = "gfx/interface/ideas/idea_SLA_jeffersonian_league_torn_apart.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SLA_jeffersonian_league_reunited"
+		texturefile = "gfx/interface/ideas/idea_SLA_jeffersonian_league_reunited.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SLA_jeffersonian_league_gone_in_the_wind"
+		texturefile = "gfx/interface/ideas/idea_SLA_jeffersonian_league_gone_in_the_wind.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SLA_jeffersonian_league_last_stand"
+		texturefile = "gfx/interface/ideas/idea_SLA_jeffersonian_league_last_stand.dds"
+	}
 
 	##florida
 	spriteType = {
