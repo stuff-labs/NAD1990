@@ -1,7 +1,7 @@
 ideas = {
     country = {
         PAB_fruits_of_social_credit = { #I LOVE SOCIAL CREDIT
-            picture = STX_GRET_TEX_ARM
+            picture = PAB_fruits_of_social_credit
             allowed = {
                 tag = PAB
             }

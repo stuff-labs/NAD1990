@@ -96,6 +96,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_HAI_anti_american_paranoia.dds"
 	}
 
+	####alberta/western canada
+	spriteType = {
+		name = "GFX_idea_PAB_fruits_of_social_credit"
+		texturefile = "gfx/interface/ideas/idea_PAB_fruits_of_social_credit.dds"
+	}
 	####louisiana
 	spriteType = {
 		name = "GFX_idea_SLA_epoch_of_the_long_family"
