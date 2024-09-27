@@ -147,4 +147,8 @@ spriteTypes = {
 		name = "GFX_STX_the_third_red_river_war"
 		texturefile = "gfx/interface/goals/STX_the_third_red_river_war.dds"
 	}
+	SpriteType = {
+		name = "GFX_STX_crack_down_on_loose_screws"
+		texturefile = "gfx/interface/goals/STX_crack_down_on_loose_screws.dds"
+	}
 }

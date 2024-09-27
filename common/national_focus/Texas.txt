@@ -1186,14 +1186,51 @@ focus_tree = { #1 Texas Main
 		}
 	}
 	focus = {
-		id = STX_the_lost_lands
-		icon = GFX_STX_the_lost_lands
+		id = STX_crack_down_on_loose_screws
+		icon = GFX_STX_crack_down_on_loose_screws
 		prerequisite = { focus = STX_the_oil_flows }
 		prerequisite = { focus = STX_come_and_take_it }
 		prerequisite = { focus = STX_god_texas_and_paul }
 		x = 0
 		y = 2
 		relative_position_id = STX_come_and_take_it
+
+		cost = 3
+
+		ai_will_do = {
+		factor = 40
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			#ron paul has dj screw arrested for promoting drug use, impacts houston state modifier 
+			country_event = {
+				id = texas_events.38
+			}
+		}
+	}
+	focus = {
+		id = STX_the_lost_lands
+		icon = GFX_STX_the_lost_lands
+		prerequisite = { focus = STX_crack_down_on_loose_screws }
+		x = 0
+		y = 2
+		relative_position_id = STX_crack_down_on_loose_screws
 
 		cost = 3
 
