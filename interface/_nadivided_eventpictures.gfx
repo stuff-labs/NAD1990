@@ -78,6 +78,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_events/report_event_david_koresh_book.dds"
 	}
 	spriteType = {
+		name = "GFX_report_event_dj_screw_arrested"
+		texturefile = "gfx/event_pictures/report_events/report_event_dj_screw_arrested.dds"
+	}
+	spriteType = {
 		name = "GFX_report_event_true_citizen_prop"
 		texturefile = "gfx/event_pictures/report_events/report_event_true_citizen_prop.dds"
 	}

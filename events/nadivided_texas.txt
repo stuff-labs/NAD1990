@@ -820,6 +820,26 @@ country_event = {  #####Rockwell_coping.mov https://youtu.be/cIFtz7bPuUk?si=Y_k7
     }
 }
 
+country_event = {  #####dj screw arrested
+    id = texas_events.38
+    title = texas_events.37.t
+    desc = texas_events.37.d
+    picture = GFX_report_event_dj_screw_arrested
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+
+    option = {
+        name = texas_events.37.a
+		ai_chance = {
+            factor = 10
+        }
+
+    }
+}
+
 #tex flavour
 country_event = {  #bad gdp growth rate
     id = texas_flavour.1
