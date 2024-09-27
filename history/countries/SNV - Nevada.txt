@@ -3,6 +3,7 @@ capital = 143
 oob = "SNV_1936"
 
 starting_train_buffer = 2
+recruit_character = SNV_paul_laxalt
 recruit_character = SNV_hunter_s_thompson
 recruit_character = SNV_bob_miller
 recruit_character = SNV_vegas_oligarchs
@@ -39,12 +40,12 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 26
-	conservatism = 38
+	liberalism = 20
+	conservatism = 30
 	fascism = 0
-	progressivism = 20
+	progressivism = 14
 	socialism = 3
 	communism = 0
-	national_unityism= 11
-	despotic_autocracy = 2
+	national_unityism= 23
+	despotic_autocracy = 10
 }

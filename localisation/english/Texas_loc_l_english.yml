@@ -166,7 +166,15 @@
  STX_seven_months_reminder_tooltip:0 "\nAgain, our general staff predict that we will be able to sustain the war effort for §Y7 Months§!, a §Ymission§! will be added to the §Ydecision§! tab to keep track."
 
 
-
+ #The Desk
+ STX_desk_of_the_president:0 "The Desk Of §8President [STX.GetLeader]§!"
+ STX_desk_of_the_president_desc:0 "Throughout their history, the Texan Libertarian Party has frequently claimed to be fundamentally opposed to the 'Tyranny Of Big Government'.  Ironically, however, their tenure has overseen a colossal expansion of presidential powers - leaving the Texan executive branch one of the most powerful in North America.\n\n§8President [STX.GetLeader]§! can utilise the power of their office in many ways, from wide reaching §GEconomic§! inititives to fufiling §gPersonal§! desires - and everything inbetween.\n\nOver time, the president will unlock more decisions as situations arise and the political scene continues to adjust."
+ STX_desk_decisions_unlocked:0 "§HNew £decision_icon_small Decisions can be taken from the§! §8President's Desk§!"
+ STX_the_desk_unlocked:0 "§HThe§! £decision_icon_small §8President's Desk§! §Hhas been unlocked.§!"
+ STX_political_catagory:0 "§1Political Actions§!"
+ STX_economic_catagory:0 "§GEconomic Actions§!"
+ STX_millitary_catagory:0 "§8Millitary Actions§!"
+ STX_personal_catagory:0 "§gPersonal Actions§!"
 
  ###events
 

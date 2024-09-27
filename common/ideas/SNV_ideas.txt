@@ -10,10 +10,15 @@ ideas = {
             }
             removal_cost = -1
             modifier = {
+                custom_modifier_tooltip = SNV_the_vegas_question_effect
                 political_power_factor = -0.05
-                consumer_goods_factor = -0.05
-                consumer_goods_expected_value = -0.1
-                monthly_population = 0.03
+                consumer_goods_factor = 0.40
+                production_speed_buildings_factor = -0.6 
+            }
+            targeted_modifier = {
+                tag = SCA	
+                cic_to_overlord_factor = 0.2
+                consumer_goods_factor = -0.25
             }
         }
         SNV_nevadan_attitude = { 

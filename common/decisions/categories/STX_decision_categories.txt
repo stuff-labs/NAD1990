@@ -1,0 +1,15 @@
+
+STX_desk_of_the_president = {
+	icon = generic_propaganda
+	priority = 1001
+	desc = STX_desk_of_the_president_desc
+	visible_when_empty = yes
+	
+	allowed = {
+		tag = STX
+	}
+
+	visible = {
+		has_country_flag = STX_president_desk_active
+	}
+}

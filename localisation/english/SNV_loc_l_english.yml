@@ -1,20 +1,24 @@
 ﻿l_english:
   #party names
 
- SNV_progressivism_party:0 "Freak Power Party"
- SNV_progressivism_party_long:0 "Freak Power Party"
- SNV_liberalism_party:0 "Democratic Party"
- SNV_liberalism_party_long:0 "Democratic Party Of Nevada"
- SNV_national_unityism_party:0 "Vegas Oligarchs"
- SNV_national_unityism_party_long:0 "Vegas Oligarchs"
+ SNV_progressivism_party:0 "Various Disorganised Parties"
+ SNV_progressivism_party_long:0 "Various Disorganised Parties"
+ SNV_liberalism_party:0 "TNDP"
+ SNV_liberalism_party_long:0 "True Nevada Democratic Party"
+ SNV_national_unityism_party:0 "Republican Party - 'Mainlanders'"
+ SNV_national_unityism_party_long:0 "Republican Party of California - 'Mainlanders'"
+ SNV_conservatism_party:0 "Republican Party - Moderates"
+ SNV_conservatism_party_long:0 "Republican Party of Nevada - Moderates"
  SNV_communism_party:0 "Unorganised Dissidents"
  SNV_communism_party_long:0 "Unorganised Dissidents"
- SNV_socialism_party:0 "Unorganised Dissidents"
- SNV_socialism_party_long:0 "Unorganised Dissidents"
- LVG_despotic_autocracy_party:0 "NVIP"
- LVG_despotic_autocracy_party_long:0 "New Vegas Independent Party"
+ SNV_socialism_party:0 "Various Disorganised Parties"
+ SNV_socialism_party_long:0 "Various Disorganised Parties"
+ SNV_despotic_autocracy_party:0 "LVPL"
+ SNV_despotic_autocracy_party_long:0 "Las Vegas Prosperity Lobby"
 
 
+ SNV_freak_power:0 "Freak Power Party"
+ SNV_freak_power_long:0 "Freak Power Party of Nevada"
  SNV_democratic_party:0 "Democratic Party"
  SNV_democratic_party:0 "Democratic Party Of Nevada"
 
@@ -45,12 +49,14 @@
  SNV_paul_laxalt:0 "Paul Laxalt"
 
  #Ideas
- SNV_the_vegas_question:0 "The Harvests of Vegas"
- SNV_the_vegas_question_desc:0 " \n\n£GFX_vegas_question_picture\n\n\n\n\n Ever since the ban on gambling was revoked in 1931, Vegas, despite the collapse of the union, has remained the gambling and tourist hotspot of North America for 59 years strong. For Vegas didn't just sell a luxury getaway or the high of a lucky winning streak, it offered the vision of the big winner somehow emerging from the last minute predawn chaos of a stale vegas casino, and the promise that any nobody could be a somebody.\n\nThat truth hasn't changed one bit since Nevadan independence, and despite the chaos, Vegas still thrives, doing wonders for the Nevadan economy.\n\nThe past 59 years have also seen the rise of various powerful and rich casino bossess, who with the help of various backroom dealings and ties to what's left of the mob, have solidified their near absolute control over the city. Exploiting the chaos and Nevada's preoccupation with California, these bossess have been able to sidestep any prexisting pacific era regulations on their industry, and aren't ready to follow any new ones any time soon. "
+ SNV_the_vegas_question:0 "The Vegas Quagmire"
+ SNV_the_vegas_question_desc:0 "When the union collapsed, many thought that the tourist city of Las Vegas would quickly fall into irrelevance and squalor. 59 years later, those doubters are still being proved wrong. While suffering an initial period of turbulence in the immediate years after the collapse, the city quickly experienced a miraculous recovery - largely due to the influx of Californian investment and customers.\n\nIn 1990, Las Vegas serves as a beacon of an America being rebuilt, with the city servicing millions of national and international tourists a year.\n\nHowever, underneath the facade, is a deeply divided state. The Republican government of California has taken extensive efforts to shackle the wellbeing of Nevada to the city, with tourism making up nearly 75% of the state's GDP. Northern cities such as Reno are often left severely neglected, often being transformed into little more than auxiliaries for the leviathan down south.\n\nNevada is now Vegas, and Vegas is now Nevada. And that's just how California wants it to be. "
+ SNV_the_vegas_question_effect:0 "Nevada's economy is heavily reliant on Californian tourism. §RA sudden disruption to this could have severe consequences.§!"
 
  SNV_nevadan_attitude:0 "Nevadan Attitude - Apathetic"
+ SNV_nevadan_attitude_desc:0 "Throughout the years, California's increasing influence over Nevada has led to the two states becoming ever more intertwined. First militarily, then diplomatically, and finally - economically. Nevada's recession into a client state to an increasingly despotic master is a fact that is known to almost everyone within the state.\n\nAnd they care very little. Californian investment has created relative prosperity for most, and their nation reaps the rewards of one of the world's most successful tourist traps. But most importantly - they see themselves as free and stable in all the ways their masters to the west are not.\n\nAnd while the dissidents taking refuge in Reno and Vegas will continue to denounce the 'despotic' government in Sacramento - The average Nevadan will care little, as they see their political independence as a right no sane Californian President will dare intrude upon."
  
- SNV_increasing_republican_influence:0 "Increasing Republican Influence"
+ SNV_increasing_republican_influence:0 "The 'Mainlanders'"
 
  #Misc
  ARIZONA_NEVADA_FACTION_NAME:0 "Second Pacific Treaty"
