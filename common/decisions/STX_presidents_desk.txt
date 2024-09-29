@@ -56,7 +56,7 @@ STX_desk_of_the_president = {
 			
 		}
 
-		fire_only_once = no
+		fire_only_once = yes
 
 
 		days_remove = 1
@@ -70,6 +70,45 @@ STX_desk_of_the_president = {
 
 		complete_effect = {
 			
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	STX_reassure_canada = { 
+		icon = generic_industry
+
+		available = {
+			NOT = {
+				has_country_flag = STX_president_desking
+			}
+		}
+
+		visible = {
+			AND = {
+				has_completed_focus = STX_appeal_to_the_west
+				STX_ron_paul = {
+					is_country_leader = yes
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+
+		days_remove = 100
+
+		cost = 100
+		
+
+		remove_effect = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = STX_president_desking
 		}
 
 		ai_will_do = {
@@ -89,7 +128,7 @@ STX_desk_of_the_president = {
 			
 		}
 
-		fire_only_once = no
+		fire_only_once = yes
 
 
 		days_remove = 1
@@ -103,6 +142,175 @@ STX_desk_of_the_president = {
 
 		complete_effect = {
 			
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	STX_force_through_rural_development = { 
+		icon = generic_industry
+
+		available = {
+			NOT = {
+				has_country_flag = STX_president_desking
+			}
+		}
+
+		visible = {
+			STX_ron_paul = {
+				is_country_leader = yes
+			}
+		}
+
+		fire_only_once = yes
+
+
+		days_remove = 100
+
+		cost = 100
+
+
+		remove_effect = {
+			212  = {
+				add_extra_state_shared_building_slots = 2
+				set_building_level = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			78  = {
+				add_extra_state_shared_building_slots = 2
+				set_building_level = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			161  = {
+				add_extra_state_shared_building_slots = 2
+			}
+			221  = {
+				add_extra_state_shared_building_slots = 2
+			}
+			clr_country_flag = STX_president_desking
+		}
+
+		complete_effect = {
+			set_country_flag = STX_president_desking
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	STX_milcon = { 
+		icon = generic_industry
+
+		available = {
+			NOT = {
+				has_country_flag = STX_president_desking
+			}
+		}
+
+		visible = {
+			AND = {
+				has_completed_focus = STX_expand_the_factories
+				STX_ron_paul = {
+					is_country_leader = yes
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+
+		days_remove = 100
+
+		cost = 100
+
+
+		remove_effect = {
+			161  = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			221  = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+				}
+			}
+			162 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+				}
+			}
+			164 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+				}
+			}
+			clr_country_flag = STX_president_desking
+		}
+
+		complete_effect = {
+			set_country_flag = STX_president_desking
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	STX_corporate_construction_assistance = { 
+		icon = generic_industry
+
+		available = {
+			NOT = {
+				has_country_flag = STX_president_desking
+			}
+		}
+
+		visible = {
+			AND = {
+				has_completed_focus = STX_efficiency_before_wellbeing
+				STX_ron_paul = {
+					is_country_leader = yes
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+
+		days_remove = 100
+
+		cost = 100
+
+
+		remove_effect = {
+			clr_country_flag = STX_president_desking
+		}
+
+		modifier = {
+			production_speed_buildings_factor  = 0.25
+			political_power_factor = -0.1
+		}
+
+		complete_effect = {
+			set_country_flag = STX_president_desking
 		}
 
 		ai_will_do = {
@@ -122,7 +330,7 @@ STX_desk_of_the_president = {
 			
 		}
 
-		fire_only_once = no
+		fire_only_once = yes
 
 
 		days_remove = 1
@@ -143,6 +351,196 @@ STX_desk_of_the_president = {
 		}
 	}
 
+	STX_foundation_of_an_air_force = { 
+		icon = generic_industry
+
+		available = {
+			NOT = {
+				has_country_flag = STX_president_desking
+			}
+		}
+
+		visible = {
+			AND = {
+				has_completed_focus = STX_shift_the_general_staff
+				STX_ron_paul = {
+					is_country_leader = yes
+				}
+				NOT = {
+					has_completed_focus = STX_the_third_red_river_war
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+
+		days_remove = 100
+
+		cost = 100
+
+
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = 500
+				producer = STX
+			}
+			add_equipment_to_stockpile = {
+				type = CAS_equipment_1
+				amount = 500
+				producer = STX
+			}
+			add_equipment_to_stockpile = {
+				type = tac_bomber_equipment_0
+				amount = 500
+				producer = STX
+			}
+			clr_country_flag = STX_president_desking
+		}
+
+		complete_effect = {
+			set_country_flag = STX_president_desking
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	STX_talk_with_millitary_research = { 
+		icon = generic_industry
+
+		available = {
+			NOT = {
+				has_country_flag = STX_president_desking
+			}
+		}
+
+		visible = {
+			AND = {
+				has_completed_focus = STX_fund_r_and_d
+				STX_ron_paul = {
+					is_country_leader = yes
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+
+		days_remove = 100
+
+		cost = 100
+
+
+		remove_effect = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = STX_president_desking
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	STX_trans_atlantic_arms_exchanges = { 
+		icon = generic_industry
+
+		available = {
+			NOT = {
+				has_country_flag = STX_president_desking
+			}
+		}
+
+		visible = {
+			AND = {
+				has_completed_focus = STX_appeal_to_the_west
+				STX_ron_paul = {
+					is_country_leader = yes
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+
+		days_remove = 100
+
+		cost = 100
+
+
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = jet_fighter_equipment
+				amount = 500
+				producer = BER 
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 1500
+				producer = STX 
+			}
+			clr_country_flag = STX_president_desking
+			
+		}
+
+		complete_effect = {
+			set_country_flag = STX_president_desking
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	STX_mexican_weapons_backchannels = { 
+		icon = generic_industry
+
+		available = {
+			NOT = {
+				has_country_flag = STX_president_desking
+			}
+		}
+
+		visible = {
+			AND = {
+				has_completed_focus = STX_appeal_to_the_west
+				STX_ron_paul = {
+					is_country_leader = yes
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+
+		days_remove = 100
+
+		cost = 100
+
+
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 1500
+				producer = MEX 
+			}
+			clr_country_flag = STX_president_desking
+		}
+
+		complete_effect = {
+			set_country_flag = STX_president_desking
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
 	STX_personal_catagory = { #Personal Catagory
 
 		icon = generic_industry
@@ -155,7 +553,7 @@ STX_desk_of_the_president = {
 			
 		}
 
-		fire_only_once = no
+		fire_only_once = yes
 
 
 		days_remove = 1
@@ -169,6 +567,87 @@ STX_desk_of_the_president = {
 
 		complete_effect = {
 			
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	#Personal - Paul
+
+	STX_loosen_driving_restrictions = { 
+
+		icon = generic_industry
+
+		available = {
+			NOT = {
+				has_country_flag = STX_president_desking
+			}
+		}
+
+
+		visible = {
+			STX_ron_paul = {
+				is_country_leader = yes
+			}
+		}
+
+		fire_only_once = yes
+
+
+		days_remove = 20
+
+		cost = 50
+
+
+		remove_effect = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = STX_president_desking
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+	STX_converse_with_the_texan_elite = { 
+
+		icon = generic_industry
+
+		available = {
+			NOT = {
+				has_country_flag = STX_president_desking
+			}
+		}
+
+
+		visible = {
+			AND = {
+				has_completed_focus = STX_enter_businessmen_into_congress
+				STX_ron_paul = {
+					is_country_leader = yes
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+
+		days_remove = 20
+
+		cost = 50
+
+
+		remove_effect = {
+			
+		}
+
+		complete_effect = {
+			set_country_flag = STX_president_desking
 		}
 
 		ai_will_do = {

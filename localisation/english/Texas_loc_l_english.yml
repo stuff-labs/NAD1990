@@ -139,7 +139,7 @@
  STX_the_patriot_act:0 "...Has Nothing To Fear"
  STX_we_wont_go_gently_into_the_night:0 "For We Won't Go Gently Into The Night"
  STX_crack_down_on_loose_screws:0 "Crack Downs On Loose Screws"
- STX_crack_down_on_loose_screws_desc:0 "Throughout Ron Paul tenure, Houston has always been a thorn on the side of the Libertarian Party. Now with a recent rise of a new drug known as "Lean", the City of Houston is now overrun with revolutionary strife and a drug epidemic. Adding onto the fire is the spreading of anti government messages through the medium of "Hip-Hop". It is now high time for the Party to officially go on the offensive against such blatant rebellion. Their unofficial leader, Robert Earl Davis Jr., better known in Houston as "DJ Screw", will have a warrant out for his arrest for promoting drug usage and seditious acts against the government."
+ STX_crack_down_on_loose_screws_desc:0 "Throughout Ron Pauls tenure, Houston has always been a thorn on the side of the Libertarian Party. Now with a recent rise of a new drug known as "Lean", the City of Houston is now overrun with revolutionary strife and a drug epidemic. Adding onto the fire is the spreading of anti government messages through the medium of "Hip-Hop". It is now high time for the Party to officially go on the offensive against such blatant rebellion. Their unofficial leader, Robert Earl Davis Jr., better known in Houston as "DJ Screw", will have a warrant out for his arrest for promoting drug usage and seditious acts against the government."
  STX_the_lost_lands:0 "The Lost Lands"
  STX_mobilize_the_economy:0 "Mobilize The Economy"
  STX_ready_the_troops:0 "Ready The Troops"
@@ -173,10 +173,25 @@
  STX_desk_of_the_president_desc:0 "Throughout their history, the Texan Libertarian Party has frequently claimed to be fundamentally opposed to the 'Tyranny Of Big Government'.  Ironically, however, their tenure has overseen a colossal expansion of presidential powers - leaving the Texan executive branch one of the most powerful in North America.\n\n§8President [STX.GetLeader]§! can utilise the power of their office in many ways, from wide reaching §GEconomic§! inititives to fufiling §gPersonal§! desires - and everything inbetween.\n\nOver time, the president will unlock more decisions as situations arise and the political scene continues to adjust."
  STX_desk_decisions_unlocked:0 "§HNew £decision_icon_small Decisions can be taken from the§! §8President's Desk§!"
  STX_the_desk_unlocked:0 "§HThe§! £decision_icon_small §8President's Desk§! §Hhas been unlocked.§!"
+ STX_president_desking:0 " §8President [STX.GetLeader]§! is handling a decision."
+ #Political
  STX_political_catagory:0 "§1Political Actions§!"
+ STX_reassure_canada:0 "§1Ease Canadian Worries§!"
+ #Economic 
  STX_economic_catagory:0 "§GEconomic Actions§!"
+ STX_force_through_rural_development:0 "§GForce Through Rural Development Programs§!"
+ STX_milcon:0 "§GThe TEX-MILL-MAN Plan§!"
+ STX_corporate_construction_assistance:0 "§GAccelerate Infastructure Projects§!"
+ #Millitary
  STX_millitary_catagory:0 "§8Millitary Actions§!"
+ STX_foundation_of_an_air_force:0 "§8Emergency Air-Force Measures§!"
+ STX_talk_with_millitary_research:0 "§8Talk With Millitary Scientists§!"
+ STX_trans_atlantic_arms_exchanges:0 "§8Trans-Atlantic Arms Exchanges§!"
+ STX_mexican_weapons_backchannels:0 "§8Utilise Mexican Backchannels§!" 
+ #Personal
  STX_personal_catagory:0 "§gPersonal Actions§!"
+ STX_loosen_driving_restrictions:0 "§gReview Driving License Requirements§!"
+ STX_converse_with_the_texan_elite:0 "§gMingle With Corporate Figures§!"
 
  ###events
 

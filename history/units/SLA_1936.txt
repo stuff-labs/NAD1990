@@ -235,6 +235,7 @@ instant_effect = {
 		progress = 0.28
 		efficiency = 100
 	}
+	add_manpower = 30000
 }
 
 # ### Air Wings

@@ -279,6 +279,7 @@ focus_tree = { #1 Texas Main
 					days = 40
 				}
 			}
+			custom_effect_tooltip = STX_desk_decisions_unlocked
 		}
 	}
 	focus = {
@@ -353,6 +354,7 @@ focus_tree = { #1 Texas Main
 			add_ideas = {
 				STX_trade_with_the_west
 			}
+			custom_effect_tooltip = STX_desk_decisions_unlocked
 		}
 	}
 	focus = {
@@ -420,13 +422,14 @@ focus_tree = { #1 Texas Main
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
+			
 		}
 
 		completion_reward = {
 			country_event = {
 				id = texas_events.6
 			}
+			custom_effect_tooltip = STX_desk_decisions_unlocked
 		}
 	}
 	focus = {
@@ -470,6 +473,7 @@ focus_tree = { #1 Texas Main
 					days = 19
 				}
 			}
+			custom_effect_tooltip = STX_desk_decisions_unlocked
 		}
 	}
 	focus = {
@@ -669,6 +673,7 @@ focus_tree = { #1 Texas Main
     			remove_idea = STX_the_great_texan_army
     			add_idea = STX_the_great_texan_army_first_buff
 			}
+			custom_effect_tooltip = STX_desk_decisions_unlocked
 		}
 	}
 	focus = {
@@ -809,6 +814,7 @@ focus_tree = { #1 Texas Main
     				instant_build = yes
 				}
 			}
+			custom_effect_tooltip = STX_desk_decisions_unlocked
 		}
 	}
 	focus = { ###https://youtu.be/ORt_k7LjGDg?si=id3LXKtlH1DS2Foq ron paul explaining this to congress

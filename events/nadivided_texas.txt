@@ -91,7 +91,6 @@ country_event = {  #A Lone Star
     option = {
         name = texas_events.5.a
         set_country_flag = STX_president_desk_active
-        custom_effect_tooltip = STX_desk_decisions_unlocked
         custom_effect_tooltip = STX_the_desk_unlocked
 		ai_chance = {
             factor = 10

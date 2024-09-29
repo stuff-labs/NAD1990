@@ -1478,7 +1478,7 @@
 
  BER:0 "United Kingdom"
  BER_DEF:0 "the United Kingdom"
- BEF_ADJ:0 "British"
+ BER_ADJ:0 "British"
 
  AOH_fascism:1 "American Haiti"
  AOH_fascism_DEF:1 "The Colony of American Haiti"
