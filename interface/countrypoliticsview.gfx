@@ -80,6 +80,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/national_unityism_political_machine.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_pacific_conservatism_base"
+		texturefile = "gfx/interface/ideologies/national_unityism_pacific_conservatism.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_nazism"
 		texturefile = "gfx/interface/ideologies/fascism_nazism.dds"
 	}

@@ -118,6 +118,7 @@ recruit_character = STX_ralph_nader
 recruit_character = STX_unorg_diss_socialists
 recruit_character = STX_unorg_diss_communists
 recruit_character = STX_unorg_diss_fascists
+recruit_character = STX_corporate_cliques
 
 recruit_character = STX_leonard_donald_holder_jr
 recruit_character = STX_michael_c_wehr

@@ -49,7 +49,7 @@ characters={ #LOC KEYS FOR NAMES PEOPLE
 			}
 		}
 		country_leader={
-			ideology= political_machine  
+			ideology= pacific_conservatism_base  
 			traits={ }
 			expire="2020.1.1.1"
 			id=-1

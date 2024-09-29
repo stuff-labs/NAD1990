@@ -123,6 +123,9 @@ country_event = {  #Corpos Enter Congress
             ideology = fascism
             popularity = 0.03
         }
+        hidden_effect = {
+            retire_character = STX_unorg_diss_fascists
+        }
     }
 }
 

@@ -140,6 +140,20 @@ characters={
 			id=-1
 		}
 	}
+	STX_corporate_cliques = {
+		name = STX_corporate_cliques
+		portraits={
+			civilian={
+				large="gfx/leaders/STX/portrait_STX_congress.dds"
+			}
+		}
+		country_leader={
+			ideology = corporate_statism  
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
 	STX_anton_chigurh={
 		name="Anton Chigurh"
 		portraits={

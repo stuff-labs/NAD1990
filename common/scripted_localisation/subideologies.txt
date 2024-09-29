@@ -197,6 +197,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			has_country_leader_ideology = pacific_conservatism_base
+		}
+		localization_key = pacific_conservatism_base
+	}
+	text = {
+		trigger = {
 			has_country_leader_ideology = hueyism
 		}
 		localization_key = hueyism
@@ -218,6 +224,13 @@ defined_text = {
 			has_country_leader_ideology = social_credit
 		}
 		localization_key = social_credit
+		
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = pacific_conservatism_arnold_subtype
+		}
+		localization_key = pacific_conservatism_arnold_subtype
 		
 	}
 	text = {

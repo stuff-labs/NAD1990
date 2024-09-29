@@ -187,6 +187,10 @@ ideologies = {
 			hueyism = {
 				
 			}
+
+			pacific_conservatism_base = {
+				
+			}
 			
 		}
 
@@ -251,6 +255,8 @@ ideologies = {
 			conservatism_sub = {
 			}
 			social_credit = {
+			}
+			pacific_conservatism_arnold_subtype = {
 			}
 			centrism_conservatism = { }
 
