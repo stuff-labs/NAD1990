@@ -968,6 +968,7 @@ focus_tree = { #1 Texas Main
 			country_event = {
 				id = texas_events.7
 			}
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -1116,6 +1117,7 @@ focus_tree = { #1 Texas Main
 			country_event = {
 				id = texas_events.18
 			}
+			add_political_power = 200
 		}
 	}
 	focus = {
@@ -1189,6 +1191,7 @@ focus_tree = { #1 Texas Main
 			country_event = {
 				id = texas_events.12
 			}
+			add_political_power = 100
 		}
 	}
 	focus = {

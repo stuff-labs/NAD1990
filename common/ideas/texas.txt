@@ -223,6 +223,7 @@ ideas = {
             modifier = {
                 encryption_factor = 0.05
                 drift_defence_factor = 0.1
+                political_power_factor = 0.05
             }
         }
         STX_patriot_act = { # https://youtu.be/c9qzU078Tdg?si=3cc-4bTxnV6BXiun
@@ -237,6 +238,7 @@ ideas = {
             modifier = {
                 encryption_factor = 0.15
                 drift_defence_factor = 0.2
+                political_power_factor = 0.15
                 communism_drift = -0.03
                 conservatism_drift = -0.03
                 liberalism_drift = -0.03

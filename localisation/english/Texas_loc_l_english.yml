@@ -46,8 +46,8 @@
  BTX_progressivism_party_long:0 "Progressive Front of Texas"
  BTX_liberalism_party:0 "TLPT"
  BTX_liberalism_party_long:0 "True Liberal Party of Texas"
- BTX_socialism_party:0 "PNRM - Jonesists"
- BTX_socialism_party_long:0 "Peoples National Resistance Movement - Jonesists"
+ BTX_socialism_party:0 "PNRM"
+ BTX_socialism_party_long:0 "Peoples National Resistance Movement"
 
  ####free tex
  HTX_fascism_party:0 "Unorganized Radicals"
@@ -86,9 +86,9 @@
  MTX_socialism_party_long:0 "Unorganized Dissidents"
  #Advisors
  STX_Lew_Rockwell: "Lew Rockwell"
- STX_Lew_Rockwell_Advisor_desc: "§YHead of Government\nDespotism§!\n--------------\n§LI among us, therefore I am.§!"
+ STX_Lew_Rockwell_Advisor_desc: "§YHead of Government\nLibertarian Despotism§!\n--------------\n§LI among us, therefore I am.§!"
  STX_James_W_Kinnear: "James W. Kinnear"
- STX_James_W_Kinnear_Advisor_desc: "§YEconomic Minister\nDespotism§!\n--------------\n§LI among us, therefore I am.§!"
+ STX_James_W_Kinnear_Advisor_desc: "§YEconomic Minister\nCorporate Statism§!\n--------------\n§LI among us, therefore I am.§!"
  STX_William_S_Sessions: "William S. Sessions"
  STX_William_S_Sessions_Advisor_desc: "§YSecurity Minister\nDespotism§!\n--------------\n§LI among us, therefore I am.§!"
 
@@ -99,6 +99,7 @@
 
  ###Ideas
  STX_bumped_up_sec_budget:0 "Bumped Up Security Budget"
+ STX_patriot_act:0 "The Patriot Act"
  STX_the_shattered_lone_star:0 "The Shattered Lone Star"
  STX_the_shattered_lone_star_desc:0 "Protest, Riots, and Political Unrest has defined the Texan political sphere for decades now. Our people are growing tired of our nationalist policies, our scathing rhetoric, and the little change that happens in Texas. Congress is at a deadlock with disagreements and massive incidents plaguing it. The government would be at it's knees if any mass protest or great disaster occurs. \n\n\n\n\n£GFX_STX_me_when_the_star_is_shattered\n\n\n\n\n"
  STX_legacy_of_the_second_red_river_war:0 "Legacy of The Second Red River War"
