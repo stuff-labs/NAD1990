@@ -10,19 +10,26 @@ state={
 		owner = SMT
 		buildings = {
 			infrastructure = 2
-
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
 		}
 		add_core_of = SMT
-		1990.1.2 = {
-			owner = USA
+		victory_points = {
+			5788 10
 		}
-		#add_claim_by = PCA
+		victory_points = {
+			7452 1
+		}
+		victory_points = {
+			2700 3
+		}
 	}
 
 	provinces={
-		2629 5027 5765 5766 5767 
+		2700 7452 2722 5801 5792 7454 5803 2629 5765 5788 5786 7458
 	}
-	manpower=50250
+	manpower=112139
 	buildings_max_level_factor=1.000
 	state_category=rural
 
