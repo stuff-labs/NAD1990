@@ -85,7 +85,7 @@ add_ideas = {
 		
 # 		communism = 1
 		
-# 		national_unityismnityismnityism = 23
+# 		paternalismnityismnityism = 23
 # 	}
 	
 # 	ruling_party = liberalism

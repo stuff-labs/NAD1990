@@ -5,16 +5,16 @@
  SNV_progressivism_party_long:0 "Various Disorganised Parties"
  SNV_liberalism_party:0 "TNDP"
  SNV_liberalism_party_long:0 "True Nevada Democratic Party"
- SNV_national_unityism_party:0 "Republican Party - 'Mainlanders'"
- SNV_national_unityism_party_long:0 "Republican Party of California - 'Mainlanders'"
- SNV_conservatism_party:0 "Republican Party - Moderates"
- SNV_conservatism_party_long:0 "Republican Party of Nevada - Moderates"
+ SNV_paternalism_party:0 "Republican Party - 'Mainlanders'"
+ SNV_paternalism_party_long:0 "Republican Party of California - 'Mainlanders'"
+ SNV_conservatism_party: "Republican Party - Moderates"
+ SNV_conservatism_party_long: "Republican Party of Nevada - Moderates"
  SNV_communism_party:0 "Unorganised Dissidents"
  SNV_communism_party_long:0 "Unorganised Dissidents"
  SNV_socialism_party:0 "Various Disorganised Parties"
  SNV_socialism_party_long:0 "Various Disorganised Parties"
- SNV_despotic_autocracy_party:0 "LVPL"
- SNV_despotic_autocracy_party_long:0 "Las Vegas Prosperity Lobby"
+ SNV_despotism_party:0 "LVPL"
+ SNV_despotism_party_long:0 "Las Vegas Prosperity Lobby"
 
 
  SNV_freak_power:0 "Freak Power Party"
@@ -25,8 +25,8 @@
  #COUNTRY NAMES
  SNV_fascism:1 "Unitary Nevada"
  SNV_fascism_DEF:1 "Unitary Nevada"
- #SNV_national_unityism:0 "Nevadan State"
- #SNV_national_unityism_DEF:0 "The Nevadan State"
+ #SNV_paternalism:0 "Nevadan State"
+ #SNV_paternalism_DEF:0 "The Nevadan State"
  SNV_communism:1 "Free Republic Of Nevada"
  SNV_communism_DEF:1 "The Gonzo Free Republic Of Nevada"
  #SNV_liberalism:0 "Republic of Nevada"
@@ -38,8 +38,8 @@
  #SNV_progressivism:1 "Free Republic Of Nevada"
  #SNV_progressivism_DEF:0 "The Gonzo Free Republic Of Nevada"
  SNV_longism_DEF:0 "Populist Nevada"
- LVG_despotic_autocracy:0 "New Vegas"
- LVG_despotic_autocracy_DEF:0 "New Vegas"
+ LVG_despotism:0 "New Vegas"
+ LVG_despotism_DEF:0 "New Vegas"
  
 
  #Epic People

@@ -10,14 +10,14 @@
  SCA_communism_party_long:0 "Communist Party of California"
  SCA_fascism_party:0 "Unorganised Radicals"
  SCA_fascism_party_long:0 "Unorganised Radicals"
- SCA_national_unityism_party:0 "Republican Party - Reaganites"
- SCA_national_unityism_party_long:0 "Republican Party of California - Reaganites"
+ SCA_paternalism_party:0 "Republican Party - Reaganites"
+ SCA_paternalism_party_long:0 "Republican Party of California - Reaganites"
  SCA_progressivism_party:0 "PaFP"
  SCA_progressivism_party_long:0 "Peace and Freedom Party"
  SCA_socialism_party:0 "PaFP - Radical"
  SCA_socialism_party_long:0 "Peace and Freedom Party - Radical Faction"
- SCA_despotic_autocracy_party:0 "Republican Party - Despots"
- SCA_despotic_autocracy_party_long:0 "Republican Party - Despots"
+ SCA_despotism_party:0 "Republican Party - Despots"
+ SCA_despotism_party_long:0 "Republican Party - Despots"
 
  #IDEAS
   SCA_weak_federation:0 "Fragile Federation"
