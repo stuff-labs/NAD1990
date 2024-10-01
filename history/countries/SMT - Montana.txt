@@ -16,23 +16,22 @@ set_technology = {
 	interwar_antiair = 1
 }
 
+recruit_character = SMT_Bo_Gritz
 
-set_convoys = 10
-
-recruit_character = SMT_harold_covington
 set_politics = {
-	ruling_party = fascism
+	ruling_party = despotic_autocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 0
-	conservatism = 15
-	progressivism = 0
-	fascism = 60
-	communism = 5
+	fascism = 18
+	despotic_autocracy = 38
+	national_unityism = 18
+	national_unityism_2 = 12
+	conservatism = 4
+	liberalism = 6
+	progressivism = 4
 	socialism = 0
-	national_unityism = 0
-	despotic_autocracy = 20
+	communism = 0
 }
