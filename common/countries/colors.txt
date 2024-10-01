@@ -111,8 +111,8 @@ SMI = {
 	color_ui = rgb { 109 187 207 }
 }
 SMS = {
-	color = rgb { 138 78 69 }
-	color_ui = rgb { 138 78 69 }
+	color = rgb { 171 84 84 }
+	color_ui = rgb { 171 84 84 }
 }
 SCO = {
 	color = rgb { 100 114 102 }

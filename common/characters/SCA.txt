@@ -7,7 +7,7 @@ characters={ #LOC KEYS FOR NAMES PEOPLE
 			}
 		}
 		country_leader={
-			ideology= liberalism_sub 
+			ideology= liberalism_subtype 
 			traits={ }
 			expire="2020.1.1.1"
 			id=-1
@@ -21,7 +21,7 @@ characters={ #LOC KEYS FOR NAMES PEOPLE
 			}
 		}
 		country_leader={
-			ideology= revolutionary_socialism 
+			ideology= socialism_subtype 
 			traits={ }
 			expire="2020.1.1.1"
 			id=-1
@@ -35,7 +35,7 @@ characters={ #LOC KEYS FOR NAMES PEOPLE
 			}
 		}
 		country_leader={
-			ideology= clerical_fascism 
+			ideology= fascism_subtype 
 			traits={ }
 			expire="2020.1.1.1"
 			id=-1
@@ -49,7 +49,7 @@ characters={ #LOC KEYS FOR NAMES PEOPLE
 			}
 		}
 		country_leader={
-			ideology= pacific_conservatism_base  
+			ideology= paternalism_pacific_conservatism_base_subtype  
 			traits={ }
 			expire="2020.1.1.1"
 			id=-1
@@ -69,25 +69,25 @@ characters={ #LOC KEYS FOR NAMES PEOPLE
 			id = -1
 		}
 		country_leader = {
-			ideology = progressivism_ideology
+			ideology = progressivism_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = nazism
+			ideology = fascism_nazism_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = despotism
+			ideology = despotism_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = marxism
+			ideology = communism_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1

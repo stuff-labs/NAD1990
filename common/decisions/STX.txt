@@ -19,7 +19,7 @@ STX_red_river_war_timer = {
 
 		timeout_effect = {
 			STX = {
-                retire_ideology_leader = despotic_autocracy
+                retire_ideology_leader = despotism
             }
 		}
 		

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism_sub    
+			ideology=liberalism_subtype    
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=corporate_statism    
+			ideology=fascism_corporate_statism_subtype    
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1
@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=dominant_party_democracy    
+			ideology=paternalism_dominant_party_democracy_subtype    
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1

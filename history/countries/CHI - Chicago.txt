@@ -25,7 +25,7 @@ set_popularities = {
 	progressivism = 10
 	communism = 35
 	fascism = 15
-	national_unityism = 30
+	paternalism = 30
 }
 
 add_ideas = {

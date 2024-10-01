@@ -77,7 +77,7 @@ set_popularities = {
 	progressivism = 38
 	fascism = 0
 	communism = 4
-	national_unityism= 0
+	paternalism= 0
 	socialism = 2
 }
 recruit_character = PBC_bill_vander_zalm

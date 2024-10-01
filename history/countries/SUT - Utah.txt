@@ -109,8 +109,8 @@ set_popularities = {
 	progressivism = 0
 	socialism = 0
 	communism = 0
-	national_unityism = 10
-	despotic_autocracy = 3
+	paternalism = 10
+	despotism = 3
 }
 recruit_character = SUT_mitt_romney
 

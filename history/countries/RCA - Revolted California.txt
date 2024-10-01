@@ -85,7 +85,7 @@ set_politics = {
 }
 set_popularities = {	
 	communism = 50
-	national_unityism= 10
+	paternalism= 10
 	progressivism = 40
 }
 	

@@ -58,7 +58,7 @@ set_war_support = 0.7
 set_convoys = 200
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -67,7 +67,7 @@ set_popularities = {
 	liberalism = 9
 	fascism = 29
 	communism = 9
-	national_unityism= 53
+	paternalism= 53
 }
 
 

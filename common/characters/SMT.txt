@@ -1,13 +1,13 @@
 characters = {
-	SMT_Harold_Covington = {
-		name = SMT_Harold_Covington
+	SMT_Bo_Gritz = {
+		name = SMT_Bo_Gritz
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SMT/portrait_SMT_harold_covington.dds"
+				large = "gfx/leaders/SMT/Portrait_SMT_Bo_Gritz.dds"
 			}
 		}
 		country_leader = {
-			ideology = nazism
+			ideology = despotism_christian_nationalism_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1

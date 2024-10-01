@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascist_military_dictatorship    
+			ideology=fascism_subtype    
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1

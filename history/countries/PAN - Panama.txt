@@ -17,7 +17,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = despotic_autocracy
+	ruling_party = despotism
 	last_election = "1932.6.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -28,8 +28,8 @@ set_popularities = {
 	fascism = 0
 	communism = 4
 	socialism = 4
-	national_unityism = 0
-	despotic_autocracy = 82
+	paternalism = 0
+	despotism = 82
 	progressivism = 0
 }
 

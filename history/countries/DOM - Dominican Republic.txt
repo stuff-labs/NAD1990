@@ -72,7 +72,7 @@ add_ideas = {
 set_convoys = 100
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1990.5.16"
 	election_frequency = 48
 	elections_allowed = yes
@@ -84,8 +84,8 @@ set_popularities = {
 	fascism = 0
 	communism = 5
 	socialism = 0
-	national_unityism = 55
-	despotic_autocracy = 0
+	paternalism = 55
+	despotism = 0
 }
 recruit_character = DOM_joaquín_balaguer
 

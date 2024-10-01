@@ -9,11 +9,7 @@ state={
 	}
 
 	history={
-		owner = SMT
-		1990.1.2 = {
-			owner = USA
-
-		}
+		owner = SCO
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -21,17 +17,14 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = SMT
+		add_core_of = SCO
 		victory_points = {
 			2361 5
-		}
-		victory_points = {
-			4895 2
 		}
 	}
 
 	provinces={
-		2348 2361 2411 2440 2487 2521 2525 2536 4888 4889 4891 4894 4895 4896 4897 7442 7446 7450 7451 7661 8333 8336 
+		2348 2361 2411 4888 4889 4891 7442 7446 8333 8336 
 	}
 	manpower=120000
 	buildings_max_level_factor=1.000

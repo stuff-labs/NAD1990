@@ -51,15 +51,15 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = despotic_autocracy
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	fascism = 26
-	despotic_autocracy = 28
-	national_unityism = 26
+	despotism = 28
+	paternalism = 26
 	conservatism = 3
 	liberalism = 4
 	progressivism = 4

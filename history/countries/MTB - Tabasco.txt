@@ -31,7 +31,7 @@ set_popularities = {
 	liberalism = 0
 	fascism = 0
 	communism = 30
-	national_unityism= 70
+	paternalism= 70
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }

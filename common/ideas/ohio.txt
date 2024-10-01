@@ -18,7 +18,7 @@ ideas = {
 			picture = SMI_the_michigan_troubles
 			modifier = {
 				fascism_drift = 0.01
-				despotic_autocracy_drift = 0.01
+				despotism_drift = 0.01
 				stability_factor = -0.06
 				political_power_gain = -0.05
 			}

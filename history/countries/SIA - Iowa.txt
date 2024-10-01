@@ -22,15 +22,15 @@ add_ideas = {
 set_convoys = 30
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	fascism = 0
-	despotic_autocracy = 0
-	national_unityism = 44
+	despotism = 0
+	paternalism = 44
 	conservatism = 20
 	liberalism = 36
 	progressivism = 0

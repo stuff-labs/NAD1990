@@ -22,7 +22,7 @@ set_convoys = 30
 
 recruit_character = SOK_military_reconstruction_authority
 set_politics = {
-	ruling_party = despotic_autocracy
+	ruling_party = despotism
 	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -33,8 +33,8 @@ set_popularities = {
 	fascism = 25
 	communism = 0
 	socialism = 0
-	national_unityism = 15
-	despotic_autocracy = 35
+	paternalism = 15
+	despotism = 35
 	progressivism = 0
 }
 add_ideas = {

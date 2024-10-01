@@ -17,7 +17,7 @@ bookmarks = {
 		}
 		"WDC"={
 			history = "OTHER_GATHERING_STORM_DESC"
-			ideology = despotic_autocracy
+			ideology = despotism
 			focuses = {
 			}
 			ideas = {
@@ -33,7 +33,7 @@ bookmarks = {
 		}
 		"STX"={
 			history = "STX_GATHERING_STORM_DESC"
-			ideology = despotic_autocracy
+			ideology = despotism
 			focuses = {
 			}
 			ideas = {
@@ -49,7 +49,7 @@ bookmarks = {
 		}
 		"SFL"={
 			history = "SIL_GATHERING_STORM_DESC"
-			ideology = national_unityism
+			ideology = paternalism
 			focuses = {
 			}
 			ideas = {

@@ -85,9 +85,9 @@ set_popularities = {
 	liberalism = 40
 	fascism = 5
 	communism = 20
-	national_unityism= 5
+	paternalism= 5
 	progressivism = 25
-	despotic_autocracy = 5
+	despotism = 5
 	
 }
 

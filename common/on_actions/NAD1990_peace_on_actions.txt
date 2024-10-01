@@ -99,10 +99,10 @@ on_actions = {
 
 				LAA = {
 					set_politics = {
-						ruling_party = national_unityism
+						ruling_party = paternalism
 					}
 					add_popularity = {
-						ideology = national_unityism 
+						ideology = paternalism 
 						popularity = 0.35
         			}
 					add_popularity = {
@@ -150,8 +150,8 @@ on_actions = {
 						conservatism = 20
 						fascism = 0
 						communism = 0
-						national_unityism = 30
-						despotic_autocracy = 30
+						paternalism = 30
+						despotism = 30
 					}
 				}
 				SLA = {

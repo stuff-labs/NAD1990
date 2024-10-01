@@ -188,7 +188,7 @@ set_popularities = {
 	liberalism = 47
 	fascism = 17
 	communism = 9
-	national_unityism = 27
+	paternalism = 27
 }
 
 if = {

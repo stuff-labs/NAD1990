@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = christian_socialism  
+			ideology = socialism_christian_socialism_subtype  
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1

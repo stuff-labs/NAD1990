@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = political_machine
+			ideology = paternalism_political_machine_subtype
 			traits = { trait_herman_talmadge }
 			expire = "2020.1.1.1"
 			id = -1

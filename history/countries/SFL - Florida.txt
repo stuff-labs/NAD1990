@@ -71,7 +71,7 @@ set_convoys = 100
 
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1986.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -83,8 +83,8 @@ set_popularities = {
 	fascism = 0
 	communism = 2
 	socialism = 6
-	national_unityism = 42
-	despotic_autocracy = 0
+	paternalism = 42
+	despotism = 0
 }
 add_ideas = {
 	SFL_humiliated_army

@@ -136,7 +136,7 @@ set_popularities = {
 	liberalism = 0
 	fascism = 100
 	communism = 0
-	national_unityismnl_uismnityism = 0
+	paternalism = 0
 }
 ### VARIANTS ###
 	# 1936 Start #

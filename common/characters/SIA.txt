@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = dominant_party_democracy
+			ideology = paternalism_dominant_party_democracy_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1

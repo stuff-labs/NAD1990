@@ -172,11 +172,11 @@ country_event = { #Tvd davn
             popularity = 0.35
         }
         add_popularity = {
-            ideology = despotic_autocracy 
+            ideology = despotism 
             popularity = 0.2
         }
         add_popularity = {
-            ideology = national_unityism 
+            ideology = paternalism 
             popularity = 0.15
         }
         country_event = { 

@@ -168,8 +168,8 @@ SNV = {
 		progressivism = 20
 		socialism = 3
 		communism = 0
-		national_unityism= 11
-		despotic_autocracy = 2
+		paternalism= 11
+		despotism = 2
 	}
 }
 
@@ -202,15 +202,15 @@ SAZ = {
 		progressivism = 25
 		socialism = 0
 		communism = 0
-		national_unityism= 0
-		despotic_autocracy = 0
+		paternalism= 0
+		despotism = 0
 	}
 }
 
 
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1986.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -223,8 +223,8 @@ set_popularities = {
 	progressivism = 5
 	socialism = 8
 	communism = 0
-	national_unityism = 40
-	despotic_autocracy = 5
+	paternalism = 40
+	despotism = 5
 }
 #Leaders
 recruit_character = SCA_ronald_reagan

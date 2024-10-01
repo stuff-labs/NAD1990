@@ -59,7 +59,7 @@ if = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1988.8.8"
 	election_frequency = 72
 	elections_allowed = yes
@@ -67,8 +67,8 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	despotic_autocracy = 0
-	national_unityism = 52
+	despotism = 0
+	paternalism = 52
 	conservatism = 20
 	liberalism = 0
 	progressivism = 12

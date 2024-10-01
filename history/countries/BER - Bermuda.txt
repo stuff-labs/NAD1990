@@ -31,8 +31,8 @@ set_popularities = {
 	fascism = 0
 	communism = 2
 	socialism = 5
-	national_unityism = 0
-	despotic_autocracy = 3
+	paternalism = 0
+	despotism = 3
 	progressivism = 35
 }
 recruit_character = BER_margaret_thatcher

@@ -42,7 +42,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = national_unityism 
+	ruling_party = paternalism 
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -52,7 +52,7 @@ set_popularities = {
 	progressivism = 6
 	fascism = 3
 	communism = 0
-	national_unityism = 71
+	paternalism = 71
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

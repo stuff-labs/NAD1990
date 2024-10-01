@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= hueyism   
+			ideology= paternalism_hueyism_subtype   
 			traits={ progressive_sympathies }
 			expire="2020.1.1.1"
 			id=-1

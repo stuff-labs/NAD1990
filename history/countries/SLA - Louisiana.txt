@@ -81,7 +81,7 @@ add_ideas = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -91,8 +91,8 @@ set_popularities = {
 	conservatism = 15
 	fascism = 5
 	communism = 0
-	national_unityism = 50
-	despotic_autocracy = 15
+	paternalism = 50
+	despotism = 15
 }
 
 recruit_character = SLA_russle_long

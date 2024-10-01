@@ -8,7 +8,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = corporatocracy
+			ideology = despotism_corporatocracy_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
