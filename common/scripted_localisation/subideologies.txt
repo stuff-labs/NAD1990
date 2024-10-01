@@ -179,6 +179,12 @@ defined_text = {
 		}
 		localization_key = paternalism_pacific_conservatism_base_subtype
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = paternalism_right_wing_populism_subtype
+		}
+		localization_key = paternalism_right_wing_populism_subtype
+	}
 }
 defined_text = {
 	name = GetSubIdeologyCon

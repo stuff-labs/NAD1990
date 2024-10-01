@@ -89,6 +89,7 @@ ideologies = {
 			paternalism_provisional_government_subtype = { can_be_randomly_selected = no }
 			paternalism_hueyism_subtype = { can_be_randomly_selected = no }
 			paternalism_pacific_conservatism_base_subtype = { can_be_randomly_selected = no }
+			paternalism_right_wing_populism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 132 132 132 }

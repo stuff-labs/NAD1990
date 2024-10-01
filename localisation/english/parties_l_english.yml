@@ -131,6 +131,8 @@
  paternalism_hueyism_subtype_desc: ""
  paternalism_pacific_conservatism_base_subtype: "Pacific Conservatism"
  paternalism_pacific_conservatism_base_subtype_desc: "To be a pacific conervative is to be trvd and sigma. And have your ideology always have this little blurb up here\n\nHowever, this blurb down here can be different."
+ paternalism_right_wing_populism_subtype: "Right-wing Populism"
+ paternalism_right_wing_populism_subtype_desc: ""
 
  conservatism_subtype: "Conservatism"
  conservatism_subtype_desc: ""
