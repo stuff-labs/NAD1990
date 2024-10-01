@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= centrism_liberal   
+			ideology= liberalism_centrist_liberal_subtype   
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1

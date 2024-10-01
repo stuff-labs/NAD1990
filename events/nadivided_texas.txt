@@ -652,13 +652,13 @@ country_event = {  ######Rockwell Suspends Congress
             factor = 10
         }
         set_party_name = {
-		    ideology = despotic_autocracy
+		    ideology = despotism
 		    name = STX_junta_party
 		    long_name = STX_junta_party_long
 		}
         hidden_effect = {
             set_party_name = {
-                ideology = national_unityism
+                ideology = paternalism
                 name = STX_party_suspended
                 long_name = STX_party_suspended_long
             }
@@ -694,7 +694,7 @@ country_event = {  ######Rockwell Suspends Congress
             }
         }
         add_popularity = {
-            ideology = despotic_autocracy
+            ideology = despotism
             popularity = 0.15
         }
 

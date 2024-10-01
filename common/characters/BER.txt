@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= conservatism_sub 
+			ideology= conservatism_subtype 
 			traits={ }
 			expire="2020.1.1.1"
 			id=-1
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= democratic_socialism 
+			ideology= progressivism_democratic_socialism_subtype 
 			traits={ }
 			expire="2020.1.1.1"
 			id=-1

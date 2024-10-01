@@ -80,8 +80,8 @@ set_popularities = {
 	progressivism = 7
 	socialism = 13
 	communism = 66
-	national_unityism =  9
-	despotic_autocracy = 0
+	paternalism =  9
+	despotism = 0
 }
 
 

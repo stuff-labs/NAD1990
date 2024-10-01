@@ -7,7 +7,7 @@ set_research_slots = 2
 set_convoys = 100
 
 set_politics = {
-	ruling_party = despotic_autocracy
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -18,7 +18,7 @@ set_popularities = {
 	conservatism = 0
 	fascism = 25
 	communism = 0
-	national_unityism = 0
-	despotic_autocracy = 75
+	paternalism = 0
+	despotism = 75
 }
 

@@ -77,8 +77,8 @@ set_popularities = {
 	progressivism = 0
 	fascism = 40
 	communism = 0
-	national_unityism= 25
-	despotic_autocracy = 25
+	paternalism= 25
+	despotism = 25
 	socialism = 0
 }
 set_cosmetic_tag = SRI_junta_neweng

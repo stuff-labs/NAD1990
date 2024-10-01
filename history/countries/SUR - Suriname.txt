@@ -53,7 +53,7 @@ set_popularities = {
 	liberalism = 75
 	fascism = 1
 	communism = 1
-	national_unityism= 23
+	paternalism= 23
 }
 
 # #create_country_leader = {

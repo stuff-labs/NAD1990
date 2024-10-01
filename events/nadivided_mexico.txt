@@ -79,7 +79,7 @@ country_event = {
 		    character = MEX_Ernesto_Zedillo
 		    promote_leader = yes
 		    country_leader = {
-		        ideology = political_machine
+		        ideology = paternalism_political_machine_subtype
 		        expire = "2020.1.1.1"
 		    }
 		}

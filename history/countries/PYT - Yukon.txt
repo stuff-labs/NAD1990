@@ -17,7 +17,7 @@ add_ideas = {
 set_convoys = 30
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -26,7 +26,7 @@ set_popularities = {
 	liberalism = 23
 	fascism = 31
 	communism = 11
-	national_unityism= 35
+	paternalism= 35
 }
 
 

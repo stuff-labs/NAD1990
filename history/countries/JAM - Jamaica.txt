@@ -80,7 +80,7 @@ set_popularities = {
 	liberalism = 15
 	fascism = 51
 	communism = 11
-	national_unityism= 23
+	paternalism= 23
 }
 
 ###NAVAL###

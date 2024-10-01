@@ -22,14 +22,14 @@ add_ideas = {
 set_convoys = 30
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
 	fascism = 40
-	national_unityism= 60
+	paternalism= 60
 }
 
 if = {

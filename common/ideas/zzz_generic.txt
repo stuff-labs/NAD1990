@@ -328,8 +328,8 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_unityism
-				has_government = despotic_autocracy
+				has_government = paternalism
+				has_government = despotism
 			}
 
 			removal_cost = -1
@@ -448,8 +448,8 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_unityism
-				has_government = despotic_autocracy
+				has_government = paternalism
+				has_government = despotism
 			}
 
 			removal_cost = -1
@@ -513,7 +513,7 @@ ideas = {
 					has_government = liberalism
 					has_government = conservatism
 					has_government = progressivism
-					has_government = national_unityism
+					has_government = paternalism
 				}
 			}
 			
@@ -681,7 +681,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = national_unityism
+				has_government = paternalism
 			}
 
 			cancel = {

@@ -23,7 +23,7 @@ add_ideas = {
 set_convoys = 30
 
 set_politics = {
-	ruling_party = despotic_autocracy
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -31,7 +31,7 @@ set_politics = {
 set_popularities = {
 	fascism = 30
 	progressivism = 20
-	despotic_autocracy = 50
+	despotism = 50
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }

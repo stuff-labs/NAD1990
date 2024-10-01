@@ -24,8 +24,8 @@ set_politics = {
 }
 set_popularities = {
 	fascism = 2
-	despotic_autocracy = 11
-	national_unityism = 2
+	despotism = 11
+	paternalism = 2
 	conservatism = 14
 	liberalism = 13
 	progressivism = 0

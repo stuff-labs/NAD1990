@@ -38,6 +38,6 @@ set_popularities = {
 	liberalism = 11
 	fascism = 77
 	communism = 7
-	national_unityism= 5
+	paternalism= 5
 }
 

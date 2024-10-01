@@ -37,6 +37,6 @@ set_popularities = {
 	fascism = 0
 	communism = 0
 	socialism = 0
-	national_unityism = 10
-	despotic_autocracy = 20
+	paternalism = 10
+	despotism = 20
 }

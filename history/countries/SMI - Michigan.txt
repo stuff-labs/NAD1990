@@ -44,15 +44,15 @@ recruit_character = SMI_William_Henry_Clay_Ford_Jr
 
 
 set_politics = {
-	ruling_party = despotic_autocracy
+	ruling_party = despotism
 	last_election = "1934.11.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	fascism = 0
-	despotic_autocracy = 58
-	national_unityism = 22
+	despotism = 58
+	paternalism = 22
 	conservatism = 2
 	liberalism = 2
 	progressivism = 4

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= communism_with_american_characteristics 
+			ideology= communism_new_communism_subtype 
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1

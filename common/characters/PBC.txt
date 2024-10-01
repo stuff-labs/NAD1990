@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_credit
+			ideology=conservatism_social_credit_subtype
 			traits={  }
 			expire="2020.1.1.1"
 			id=-1

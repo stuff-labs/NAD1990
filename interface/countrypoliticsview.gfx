@@ -1,114 +1,99 @@
 spriteTypes = {
 
-	#spriteType = {
-	#	name = "GFX_ideology_unknown"
-	#	texturefile = "gfx/interface/ideologies/unknown.dds"
-	#	legacy_lazy_load = no #not needed
-	#}
-
-	#Modded#
-
-	spriteType = {
-		name = "GFX_ideology_national_unityism_group"
-		texturefile = "gfx/interface/ideologies/national_unityism_group.dds"
-	}	
-
-	spriteType = {
-		name = "GFX_ideology_despotic_autocracy_group"
-		texturefile = "gfx/interface/ideologies/despotic_autocracy_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_communism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ideology_socialism_group"
-		texturefile = "gfx/interface/ideologies/socialism_group.dds"
-	}
-	
 	spriteType = {
 		name = "GFX_ideology_fascism_group"
 		texturefile = "gfx/interface/ideologies/fascism_group.dds"
 	}
-	
+
 	spriteType = {
-		name = "GFX_ideology_liberalism_group"
-		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+		name = "GFX_ideology_fascism_nazism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_nazism_subtype.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_despotism_personalist_dictatorship_subtype" #made by giray <3
+		texturefile = "gfx/interface/ideologies/despotism_personalist_dictatorship_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_despotism_libertarian_despotism_subtype"
+		texturefile = "gfx/interface/ideologies/despotism_libertarian_despotism_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_despotism_corporatocracy_subtype"
+		texturefile = "gfx/interface/ideologies/despotism_corporatocracy_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_paternalism_group"
+		texturefile = "gfx/interface/ideologies/paternalism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_paternalism_political_machine_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_political_machine_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_paternalism_dominant_party_democracy_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_dominant_party_democracy_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_paternalism_hueyism_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_hueyism_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_paternalism_pacific_conservatism_base_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_pacific_conservatism_base_subtype.dds"
+	}
+
 	spriteType = {
 		name = "GFX_ideology_conservatism_group"
 		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_personalist_dictatorship" #made by giray <3
-		texturefile = "gfx/interface/ideologies/despotic_personalist_dictatorship.dds"
+		name = "GFX_ideology_conservatism_social_credit_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_social_credit_subtype.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_dominant_party_democracy"
-		texturefile = "gfx/interface/ideologies/national_unityism_dominant_party_democracy.dds"
+		name = "GFX_ideology_conservatism_pacific_conservatism_arnold_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_pacific_conservatism_arnold_subtype.dds"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_anarchism"
-		texturefile = "gfx/interface/ideologies/socialism_anarchism.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_unknown"
-		texturefile = "gfx/interface/ideologies/unknown.dds"
-		legacy_lazy_load = no
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
 	}
 
 	spriteType = {
 		name = "GFX_ideology_progressivism_group"
 		texturefile = "gfx/interface/ideologies/progressivism_group.dds"
 	}
+
 	spriteType = {
-		name = "GFX_ideology_roosevelt_progressivism"
-		texturefile = "gfx/interface/ideologies/roosevelt_progressivism.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_hueyism"
-		texturefile = "gfx/interface/ideologies/national_unityism_hueyism.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_political_machine"
-		texturefile = "gfx/interface/ideologies/national_unityism_political_machine.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_pacific_conservatism_base"
-		texturefile = "gfx/interface/ideologies/national_unityism_pacific_conservatism.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_nazism"
-		texturefile = "gfx/interface/ideologies/fascism_nazism.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_corporatocracy"
-		texturefile = "gfx/interface/ideologies/despotic_autocracy_corporatocracy.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_social_credit"
-		texturefile = "gfx/interface/ideologies/conservatism_social_credit.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_american_ultranationlism"
-		texturefile = "gfx/interface/ideologies/despotic_autocracy_american_ultranationalism.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_libertarian_despotism"
-		texturefile = "gfx/interface/ideologies/despotism_libertarianism_subtype.dds"
-	}
-	spriteType = {
-		name = "GFX_ideology_freak_power"
-		texturefile = "gfx/interface/ideologies/progressivism_freak_power.dds"
+		name = "GFX_ideology_progressivism_freak_power_subtype"
+		texturefile = "gfx/interface/ideologies/progressivism_freak_power_subtype.dds"
 	}
 
-	#Not Modded#
+	spriteType = {
+		name = "GFX_ideology_socialism_group"
+		texturefile = "gfx/interface/ideologies/socialism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}
 
 	#Government in Exile
 

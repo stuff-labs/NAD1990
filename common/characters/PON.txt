@@ -8,7 +8,7 @@ characters ={
 			}
 		}
 		country_leader = {
-			ideology = classical_liberalism
+			ideology = liberalism_classical_liberalism_subtype
 			traits = { }
 			expire = "2020.1.1.1"
 			id = -1

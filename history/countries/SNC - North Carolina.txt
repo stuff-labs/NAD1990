@@ -87,8 +87,8 @@ set_popularities = {
 	progressivism = 9
 	socialism = 1
 	communism = 1
-	national_unityism= 6
-	despotic_autocracy = 1
+	paternalism= 6
+	despotism = 1
 }
 set_cosmetic_tag = CAROLINA
 set_rule = {

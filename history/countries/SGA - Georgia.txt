@@ -71,7 +71,7 @@ set_convoys = 30
 recruit_character = SGA_Herman_Talmadge
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -83,8 +83,8 @@ set_popularities = {
 	progressivism = 0
 	socialism = 0
 	communism = 0
-	national_unityism= 45
-	despotic_autocracy = 23
+	paternalism= 45
+	despotism = 23
 }
 
 

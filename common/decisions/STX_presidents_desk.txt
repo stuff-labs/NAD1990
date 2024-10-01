@@ -29,7 +29,7 @@ STX_desk_of_the_president = {
 
 		timeout_effect = {
 			STX = {
-                retire_ideology_leader = despotic_autocracy
+                retire_ideology_leader = despotism
             }
 		}
 		

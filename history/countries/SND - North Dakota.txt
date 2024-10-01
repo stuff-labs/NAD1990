@@ -34,8 +34,8 @@ set_popularities = {
 	progressivism = 20
 	socialism = 10
 	communism = 0
-	national_unityism= 0
-	despotic_autocracy = 0
+	paternalism= 0
+	despotism = 0
 }
 
 set_cosmetic_tag = 	DAKOTA

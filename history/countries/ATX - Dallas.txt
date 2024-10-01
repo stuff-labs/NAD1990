@@ -19,7 +19,7 @@ set_technology = {
 set_convoys = 30
 
 set_politics = {
-	ruling_party = national_unityism 
+	ruling_party = paternalism 
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -29,7 +29,7 @@ set_popularities = {
 	conservatism = 20
 	fascism = 0
 	communism = 0
-	national_unityism = 30
-	despotic_autocracy = 30
+	paternalism = 30
+	despotism = 30
 }
 ###Huey's brother is sent here to apease him from starting crap in LA

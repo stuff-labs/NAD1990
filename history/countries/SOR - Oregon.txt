@@ -69,8 +69,8 @@ set_popularities = {
 	liberalism = 30
 	fascism = 20
 	communism = 0
-	national_unityism= 30
-	despotic_autocracy = 10
+	paternalism= 30
+	despotism = 10
 	progressivism = 10
 }
 add_ideas = {

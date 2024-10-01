@@ -39,5 +39,5 @@ set_politics = {
 }
 set_popularities = {
 	fascism = 50
-	despotic_autocracy = 50
+	despotism = 50
 }

@@ -75,7 +75,7 @@ ideas = {
 				drift_defence_factor = -0.25
 				liberalism_drift = -0.01
 				conservatism_drift = 0.01
-				national_unityism_drift = 0.01 
+				paternalism_drift = 0.01 
 				political_power_gain = -0.15
 			}
 		}

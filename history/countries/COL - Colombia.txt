@@ -18,15 +18,15 @@ add_ideas = {
 	agrarian_economy
 }
 set_politics = {
-	ruling_party = despotic_autocracy
+	ruling_party = despotism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	fascism = 4
-	despotic_autocracy = 42
-	national_unityism = 0
+	despotism = 42
+	paternalism = 0
 	conservatism = 27
 	liberalism = 27
 	progressivism = 0

@@ -35,8 +35,8 @@ set_popularities = {
 	fascism = 0
 	communism = 1
 	socialism = 0
-	national_unityism = 2
-	despotic_autocracy = 0
+	paternalism = 2
+	despotism = 0
 	progressivism = 26
 }
 recruit_character = PAB_preston_manning

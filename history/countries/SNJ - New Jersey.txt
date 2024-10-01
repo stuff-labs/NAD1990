@@ -113,7 +113,7 @@ set_rule = {
 set_convoys = 130
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1931.11.3"
 	election_frequency = 48
 	elections_allowed = no
@@ -128,7 +128,7 @@ set_popularities = {
 	liberalism = 23
 	fascism = 15
 	communism = 7
-	national_unityism= 55
+	paternalism= 55
 }
 
 #create_faction = "American Federal Enclave" #Disband After Election

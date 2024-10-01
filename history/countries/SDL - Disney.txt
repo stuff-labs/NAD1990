@@ -71,7 +71,7 @@ if = {
 set_convoys = 35
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -80,6 +80,6 @@ set_popularities = {
 	liberalism = 29
 	fascism = 35
 	communism = 12
-	national_unityism= 24
+	paternalism= 24
 }
 

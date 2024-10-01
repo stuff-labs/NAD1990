@@ -20,9 +20,9 @@ country_event = {
         }
 		retire_character = NYC_Fred_Trump
 		set_party_name = {
-		    ideology = despotic_autocracy
-		    name = NYC_despotic_autocracy_party_interim_council
-		    long_name = NYC_despotic_autocracy_party_interim_council_long
+		    ideology = despotism
+		    name = NYC_despotism_party_interim_council
+		    long_name = NYC_despotism_party_interim_council_long
 		}
 		add_country_leader_role = {
 		    character = NYC_New_York_City_Legislative_Council
@@ -52,9 +52,9 @@ country_event = {
         }
 		retire_character = NYC_New_York_City_Legislative_Council
 		set_party_name = {
-		    ideology = despotic_autocracy
-		    name = NYC_despotic_autocracy_party_trump_organisation
-		    long_name = NYC_despotic_autocracy_party_trump_organisation_long
+		    ideology = despotism
+		    name = NYC_despotism_party_trump_organisation
+		    long_name = NYC_despotism_party_trump_organisation_long
 		}
 		add_country_leader_role = {
 		    character = NYC_Donald_Trump
@@ -74,9 +74,9 @@ country_event = {
         }
 		retire_character = NYC_New_York_City_Legislative_Council
 		set_party_name = {
-		    ideology = despotic_autocracy
-		    name = NYC_despotic_autocracy_party_trump_organisation
-		    long_name = NYC_despotic_autocracy_party_trump_organisation_long
+		    ideology = despotism
+		    name = NYC_despotism_party_trump_organisation
+		    long_name = NYC_despotism_party_trump_organisation_long
 		}
 		add_country_leader_role = {
 		    character = NYC_Donald_Trump
@@ -99,9 +99,9 @@ country_event = {
         }
 		retire_character = NYC_New_York_City_Legislative_Council
 		set_party_name = {
-		    ideology = despotic_autocracy
-		    name = NYC_despotic_autocracy_party_trump_organisation
-		    long_name = NYC_despotic_autocracy_party_trump_organisation_long
+		    ideology = despotism
+		    name = NYC_despotism_party_trump_organisation
+		    long_name = NYC_despotism_party_trump_organisation_long
 		}
 		add_country_leader_role = {
 		    character = NYC_Donald_Trump
@@ -112,7 +112,7 @@ country_event = {
 		    }
 		}
 		set_politics = {
-			ruling_party = national_unityism
+			ruling_party = paternalism
 		}
 		news_event = { days = 1 id = usastates_news_new.9 }
     }

@@ -113,8 +113,8 @@ set_popularities = {
 	progressivism = 4
 	socialism = 0
 	communism = 0
-	national_unityism= 2
-	despotic_autocracy = 2
+	paternalism= 2
+	despotism = 2
 }
 
 SNY = {

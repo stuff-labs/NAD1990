@@ -16,7 +16,7 @@ set_technology = {
 set_convoys = 100
 
 set_politics = {
-	ruling_party = national_unityism
+	ruling_party = paternalism
 	last_election = "1934.5.16"
 	election_frequency = 48
 	elections_allowed = no
@@ -24,7 +24,7 @@ set_politics = {
 set_popularities = {
 	liberalism = 48
 	communism = 2
-    national_unityism = 40
+    paternalism = 40
     fascism = 10
 }
 

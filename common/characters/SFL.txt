@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= oligarchism 
+			ideology= paternalism_oligarchy_subtype 
 			traits={ floridan_puppet progressive_sympathies }
 			expire="2020.1.1.1"
 			id=-1
@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= provisional_government 
+			ideology= paternalism_provisional_government_subtype 
 			expire="2020.1.1.1"
 			id=-1
 		}
@@ -37,7 +37,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= social_democracy
+			ideology= progressivism_social_democracy_subtype
 			expire="2020.1.1.1"
 			id=-1
 		}
