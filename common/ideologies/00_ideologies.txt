@@ -13,6 +13,7 @@ ideologies = {
 			fascism_nazism_subtype = { can_be_randomly_selected = no }
 			fascism_corporate_statism_subtype = { can_be_randomly_selected = no }
 			fascism_laroucheism_subtype = { can_be_randomly_selected = no }
+			fascism_sovereigntism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 58 45 36 }
@@ -156,6 +157,7 @@ ideologies = {
 			liberalism_subtype = {}
 			liberalism_classical_liberalism_subtype = { can_be_randomly_selected = no }
 			liberalism_centrist_liberal_subtype = { can_be_randomly_selected = no }
+			liberalism_populist_liberal_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 77 112 137 }
@@ -191,6 +193,7 @@ ideologies = {
 			progressivism_social_democracy_subtype = { can_be_randomly_selected = no }
 			progressivism_democratic_socialism_subtype = { can_be_randomly_selected = no }
 			progressivism_freak_power_subtype = { can_be_randomly_selected = no }
+			progressivism_left_wing_populism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 104 132 104 }

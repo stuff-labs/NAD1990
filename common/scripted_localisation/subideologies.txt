@@ -76,6 +76,12 @@ defined_text = {
 		}
 		localization_key = fascism_laroucheism_subtype
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = fascism_sovereigntism_subtype
+		}
+		localization_key = fascism_sovereigntism_subtype
+	}
 }
 defined_text = {
 	name = GetSubIdeologyDsp
@@ -229,6 +235,12 @@ defined_text = {
 		}
 		localization_key = liberalism_centrist_liberal_subtype
 	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = liberalism_populist_liberal_subtype
+		}
+		localization_key = liberalism_populist_liberal_subtype
+	}
 }
 defined_text = {
 	name = GetSubIdeologyPrg
@@ -261,6 +273,12 @@ defined_text = {
 			has_country_leader_ideology = progressivism_freak_power_subtype
 		}
 		localization_key = progressivism_freak_power_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = progressivism_left_wing_populism_subtype
+		}
+		localization_key = progressivism_left_wing_populism_subtype
 	}
 }
 defined_text = {

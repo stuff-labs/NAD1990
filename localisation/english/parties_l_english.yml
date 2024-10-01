@@ -97,6 +97,8 @@
  fascism_corporate_statism_subtype_desc: ""
  fascism_laroucheism_subtype: "LaRoucheism"
  fascism_laroucheism_subtype_desc: ""
+ fascism_sovereigntism_subtype: "Sovereigntism"
+ fascism_sovereigntism_subtype_desc: ""
 
  despotism_subtype: "Despotism"
  despotism_subtype_desc: ""
@@ -147,6 +149,8 @@
  liberalism_classical_liberalism_subtype_desc: ""
  liberalism_centrist_liberal_subtype: "Centrist Liberalism"
  liberalism_centrist_liberal_subtype_desc: ""
+ liberalism_populist_liberal_subtype: "Populist Liberalism"
+ liberalism_populist_liberal_subtype_desc: ""
 
  progressivism_subtype: "Progressivism"
  progressivism_subtype_desc: ""
@@ -158,6 +162,8 @@
  progressivism_democratic_socialism_subtype_desc: ""
  progressivism_freak_power_subtype: "Freak Power"
  progressivism_freak_power_subtype_desc: ""
+ progressivism_left_wing_populism_subtype: "Left-wing Populism"
+ progressivism_left_wing_populism_subtype_desc: ""
 
  socialism_subtype: "Socialism"
  socialism_subtype_desc: ""
