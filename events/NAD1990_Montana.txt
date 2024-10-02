@@ -1,0 +1,54 @@
+add_namespace = SMT_events
+
+country_event = {
+    id = SMT_events.1
+    title = SMT_events.1.t
+    desc = SMT_events.1.d
+
+	is_triggered_only = yes
+
+    option = {
+        name = SMT_events.3.a
+		ai_chance = {
+            factor = 10
+        }
+		set_politics = {
+			ruling_party = fascism
+			last_election = "1940.1.20"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			fascism = 38
+			despotism = 18
+			paternalism = 18
+			paternalism_2 = 12
+			conservatism = 4
+			liberalism = 6
+			progressivism = 4
+			socialism = 0
+			communism = 0
+		}
+		set_party_name = {
+			ideology = fascism
+			long_name = SMT_despotism_party_long
+			name = SMT_despotism_party
+		}
+		add_country_leader_role = {
+		    character = SMT_Bo_Gritz
+		    promote_leader = yes
+		    country_leader = {
+		        ideology = fascism_sovereigntism_subtype
+		        expire = "2020.1.1.1"
+		    }
+		}
+		add_country_leader_role = {
+		    character = SMT_Charlie_Duke
+		    promote_leader = yes
+		    country_leader = {
+		        ideology = despotism_christian_nationalism_subtype
+		        expire = "2020.1.1.1"
+		    }
+		}
+    }
+}

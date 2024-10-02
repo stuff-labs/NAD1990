@@ -17,6 +17,13 @@ set_technology = {
 }
 
 recruit_character = SMT_Bo_Gritz
+recruit_character = SMT_John_Trochmann
+recruit_character = SMT_Charlie_Duke
+recruit_character = SMT_Conrad_Burns
+recruit_character = SMT_Max_Baucus
+recruit_character = SMT_Mike_Fellows
+recruit_character = SMT_Brian_Schweitzer
+recruit_character = SMT_Bob_Kelleher
 
 set_politics = {
 	ruling_party = despotism

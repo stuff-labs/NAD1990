@@ -5,6 +5,7 @@ tags={
 	"National Focuses"
 	"Gameplay"
 }
+replace_path="events"
 replace_path="common/abilities"
 replace_path="common/achievements.txt"
 replace_path="common/ai_equipment"

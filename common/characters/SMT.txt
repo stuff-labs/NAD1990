@@ -2,12 +2,88 @@ characters = {
 	SMT_Bo_Gritz = {
 		name = SMT_Bo_Gritz
 		portraits = {
-			civilian = {
-				large = "gfx/leaders/SMT/Portrait_SMT_Bo_Gritz.dds"
-			}
+			civilian = { large = "gfx/leaders/SMT/Portrait_SMT_Bo_Gritz.dds" }
 		}
 		country_leader = {
 			ideology = despotism_christian_nationalism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SMT_John_Trochmann = {
+		name = SMT_John_Trochmann
+		portraits = {
+			civilian = { large = "gfx/leaders/Portrait_Placeholder.dds" }
+		}
+		country_leader = {
+			ideology = fascism_sovereigntism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SMT_Charlie_Duke = {
+		name = SMT_Charlie_Duke
+		portraits = {
+			civilian = { large = "gfx/leaders/Portrait_Placeholder.dds" }
+		}
+	}
+	SMT_Conrad_Burns = {
+		name = SMT_Conrad_Burns
+		portraits = {
+			civilian = { large = "gfx/leaders/SMT/Portrait_SMT_Conrad_Burns.dds" }
+		}
+		country_leader = {
+			ideology = paternalism_right_wing_populism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SMT_Max_Baucus = {
+		name = SMT_Max_Baucus
+		portraits = {
+			civilian = { large = "gfx/leaders/Portrait_Placeholder.dds" }
+		}
+		country_leader = {
+			ideology = paternalism_2_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SMT_Mike_Fellows = {
+		name = SMT_Mike_Fellows
+		portraits = {
+			civilian = { large = "gfx/leaders/Portrait_Placeholder.dds" }
+		}
+		country_leader = {
+			ideology = conservatism_libertarianism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SMT_Brian_Schweitzer = {
+		name = SMT_Brian_Schweitzer
+		portraits = {
+			civilian = { large = "gfx/leaders/Portrait_Placeholder.dds" }
+		}
+		country_leader = {
+			ideology = liberalism_populist_liberal_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SMT_Bob_Kelleher = {
+		name = SMT_Bob_Kelleher
+		portraits = {
+			civilian = { large = "gfx/leaders/Portrait_Placeholder.dds" }
+		}
+		country_leader = {
+			ideology = progressivism_left_wing_populism_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1

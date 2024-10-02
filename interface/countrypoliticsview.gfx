@@ -11,6 +11,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_fascism_sovereigntism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_sovereigntism_subtype.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_despotism_group"
 		texturefile = "gfx/interface/ideologies/despotism_group.dds"
 	}
