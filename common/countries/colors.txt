@@ -66,6 +66,10 @@ SMT = {
 	color = rgb { 75 94 77 } #226 144 86
 	color_ui = rgb { 226 164 122 }
 }
+SBV = {
+	color = rgb { 75 94 77 }
+	color_ui = rgb { 226 164 122 }
+}
 BAJ = {
 	color = rgb { 85 95 195 } #was breaking game in past, testing now
 	color_ui = rgb { 85 95 195 }

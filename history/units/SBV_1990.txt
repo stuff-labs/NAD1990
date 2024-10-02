@@ -1,0 +1,86 @@
+﻿division_template = {
+	name = "Militia Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Motorized Division"
+		location = 5779
+		division_template = "Motorized Division"
+	}
+	division = {
+		name = "Motorized Division"
+		location = 5779
+		division_template = "Motorized Division"
+	}
+	division = {
+		name = "Motorized Division"
+		location = 5779
+		division_template = "Motorized Division"
+	}
+	division = {
+		name = "Motorized Division"
+		location = 5779
+		division_template = "Motorized Division"
+	}
+	division = {
+		name = "Motorized Division"
+		location = 5779
+		division_template = "Motorized Division"
+	}
+	division = {
+		name = "Motorized Division"
+		location = 5779
+		division_template = "Motorized Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5779
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5779
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5779
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5779
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5779
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5779
+		division_template = "Militia Division"
+	}
+}

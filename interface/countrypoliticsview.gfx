@@ -11,6 +11,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_ideology_fascism_laroucheism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_laroucheism_subtype.dds"
+	}
+
+	spriteType = {
 		name = "GFX_ideology_fascism_sovereigntism_subtype"
 		texturefile = "gfx/interface/ideologies/fascism_sovereigntism_subtype.dds"
 	}
@@ -93,6 +98,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_socialism_group"
 		texturefile = "gfx/interface/ideologies/socialism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_socialism_christian_socialism_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_christian_socialism_subtype.dds"
 	}
 
 	spriteType = {

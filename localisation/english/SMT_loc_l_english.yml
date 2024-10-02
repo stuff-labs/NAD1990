@@ -4,6 +4,10 @@
  SMT_DEF: "the Free Republic of Montana"
  SMT_ADJ: "Montanan"
 
+ SBV: "Republic of Montana"
+ SBV_DEF: "the Republic of Montana"
+ SBV_ADJ: "Montanan"
+
  SMT_fascism_party: "Sovereign Citizens"
  SMT_fascism_party_long: "Sovereign Citizens"
  SMT_despotism_party: "Populist Party"
@@ -23,11 +27,16 @@
  SMT_communism_party: "Unorganised Dissidents"
  SMT_communism_party_long: "Unorganised Dissidents"
 
+ SBV_despotism_party: "Montana Republican Party"
+ SBV_despotism_party_long: "Montana Republican Party"
+ SBV_paternalism_party: "Montana Republican Party"
+ SBV_paternalism_party_long: "Montana Republican Party"
+
  SMT_Bo_Gritz: "Bo Gritz"
  SMT_John_Trochmann: "John Trochmann"
  SMT_Charlie_Duke: "Charlie Duke"
  SMT_Conrad_Burns: "Conrad Burns"
  SMT_Max_Baucus: "Max Baucus"
  SMT_Mike_Fellows: "Mike Fellows"
- SMT_Brian_Schweitzer: "Brian Schwitzer"
+ SMT_Brian_Schweitzer: "Brian Schweitzer"
  SMT_Bob_Kelleher: "Bob Kelleher"

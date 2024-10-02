@@ -1,0 +1,74 @@
+﻿division_template = {
+	name = "Militia Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Militia Division"
+		location = 5802
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 7455
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 7452
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 2700
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5788
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5791
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5030
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5772
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 5782
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 6509
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 2525
+		division_template = "Militia Division"
+	}
+	division = {
+		name = "Militia Division"
+		location = 7661
+		division_template = "Militia Division"
+	}
+}

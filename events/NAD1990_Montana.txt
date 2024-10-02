@@ -8,7 +8,7 @@ country_event = {
 	is_triggered_only = yes
 
     option = {
-        name = SMT_events.3.a
+        name = SMT_events.1.a
 		ai_chance = {
             factor = 10
         }
@@ -49,6 +49,66 @@ country_event = {
 		        ideology = despotism_christian_nationalism_subtype
 		        expire = "2020.1.1.1"
 		    }
+		}
+    }
+}
+
+country_event = {
+    id = SMT_events.2
+    title = SMT_events.2.t
+    desc = SMT_events.2.d
+
+	is_triggered_only = yes
+
+    option = {
+        name = SMT_events.2.a
+		ai_chance = {
+            factor = 10
+        }
+		193 = { set_demilitarized_zone = yes }
+		country_event = { id = SMT_events.3 days = 5 }
+    }
+}
+
+country_event = {
+    id = SMT_events.3
+    title = SMT_events.3.t
+    desc = SMT_events.3.d
+
+	is_triggered_only = yes
+
+    option = {
+        name = SMT_events.3.a
+		ai_chance = {
+            factor = 10
+        }
+        SMT_Conrad_Burns = { set_nationality = SBV }
+		SBV = {
+			193 = {
+				set_demilitarized_zone = no
+				add_core_of = SBV
+			}
+			194 = { add_core_of = SBV }
+			178 = { add_core_of = SBV }
+			187 = { add_core_of = SBV }
+			197 = { add_core_of = SBV }
+			234 = { add_core_of = SBV }
+			219 = { add_core_of = SBV }
+			196 = { add_core_of = SBV }
+			transfer_state = 193
+			load_oob = SBV_1990
+			declare_war_on = {
+				target = SMT
+				type = annex_everything
+			}
+			add_country_leader_role = {
+			    character = SMT_Conrad_Burns
+			    promote_leader = yes
+			    country_leader = {
+			        ideology = despotism_personalist_dictatorship_subtype
+			        expire = "2020.1.1.1"
+			    }
+			}
 		}
     }
 }
