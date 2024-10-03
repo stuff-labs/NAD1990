@@ -44,7 +44,7 @@ characters = {
 	SMT_Max_Baucus = {
 		name = SMT_Max_Baucus
 		portraits = {
-			civilian = { large = "gfx/leaders/Portrait_Placeholder.dds" }
+			civilian = { large = "gfx/leaders/SMT/Portrait_SMT_Max_Baucus.dds" }
 		}
 		country_leader = {
 			ideology = paternalism_2_subtype
@@ -56,7 +56,7 @@ characters = {
 	SMT_Mike_Fellows = {
 		name = SMT_Mike_Fellows
 		portraits = {
-			civilian = { large = "gfx/leaders/Portrait_Placeholder.dds" }
+			civilian = { large = "gfx/leaders/SMT/Portrait_SMT_Mike_Fellows.dds" }
 		}
 		country_leader = {
 			ideology = conservatism_libertarianism_subtype
