@@ -9,6 +9,14 @@ spriteTypes = {
 		name = "GFX_idea_SNV_vegas_question"
 		texturefile = "gfx/interface/ideas/idea_SNV_vegas_question.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SNV_increasing_republican_influence"
+		texturefile = "gfx/interface/ideas/idea_SNV_increasing_republican_influence.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SNV_nevadan_attitude_apathy"
+		texturefile = "gfx/interface/ideas/idea_SNV_nevadan_attitude_apathy.dds"
+	}
 	
 	##tex
 	spriteType = {

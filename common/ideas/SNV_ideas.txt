@@ -22,7 +22,7 @@ ideas = {
             }
         }
         SNV_nevadan_attitude = { 
-            picture = HAI_militarized_economy
+            picture = SNV_nevadan_attitude_apathy
             allowed = {
                 tag = SNV
             }
@@ -35,7 +35,7 @@ ideas = {
             }
         }
         SNV_increasing_republican_influence = { 
-            picture = HAI_militarized_economy
+            picture = SNV_increasing_republican_influence
             allowed = {
                 tag = SNV
             }
