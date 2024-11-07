@@ -29,21 +29,26 @@ set_technology = {
 
 set_convoys = 30
 
-recruit_character = SKS_joan_finney
+recruit_character = SKS_bob_dole
 
 set_politics = {
-	ruling_party = liberalism
+	ruling_party = conservatism
 	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 45
-	conservatism = 35
+	liberalism = 38
+	conservatism = 49
 	fascism = 0
-	progressivism = 15
-	socialism = 5
+	progressivism = 0
+	socialism = 0
 	communism = 0
-	paternalism= 0
+	paternalism= 13
 	despotism = 0
+}
+
+SKS = {
+	create_faction = SKS_omaha_pact
+	add_to_faction = SNE
 }

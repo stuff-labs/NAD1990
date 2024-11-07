@@ -1,9 +1,9 @@
 characters={
-	SND_george_sinner = {
-		name="George A. Sinner"
+	SND_george_mcgovern = {
+		name="George McGovern"
 		portraits={
 			civilian={
-				large="gfx/leaders/SND/portrait_SND_george_sinner.dds"
+				large="gfx/leaders/SND/portrait_SND_george_mcgovern.dds"
 			}
 		}
 		country_leader={

@@ -19,7 +19,7 @@ set_technology = {
 
 set_convoys = 30
 
-recruit_character = SND_george_sinner
+recruit_character = SND_george_mcgovern
 
 set_politics = {
 	ruling_party = liberalism
@@ -28,13 +28,13 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 35
-	conservatism = 35
+	liberalism = 40
+	conservatism = 25
 	fascism = 0
 	progressivism = 20
 	socialism = 10
 	communism = 0
-	paternalism= 0
+	paternalism= 5
 	despotism = 0
 }
 

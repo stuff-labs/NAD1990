@@ -115,8 +115,8 @@ ANARCHY_OR = { #anarchist oregon
 	color_ui = rgb { 19 107 43 }
 }
 DAKOTA = { #dakota
-	color = rgb { 5 6 36 }
-	color_ui = rgb { 5 6 36 }
+	color = rgb { 94 145 145 }
+	color_ui = rgb { 94 145 145 }
 }
 KKK_ONTARIO = { 
 	color = rgb { 254 254 254 }

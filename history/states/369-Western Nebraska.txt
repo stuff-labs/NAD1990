@@ -2,7 +2,7 @@ state={
 	id=369
 	name="STATE_369"
 	history={
-		owner = SKS
+		owner = SNE
 		1990.1.2 = {
 			owner = USA
 		}
@@ -11,7 +11,7 @@ state={
 			industrial_complex = 1
 			air_base = 2
 		}
-		add_core_of = SKS
+		add_core_of = SNE
 		victory_points = {
 			8331 3
 		}

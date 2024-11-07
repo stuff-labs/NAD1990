@@ -1,9 +1,9 @@
 characters={
-	SKS_bob_dole = {
-		name="Bob Dole"
+	SNE_dick_cheney = {
+		name="Dick Cheney"
 		portraits={
 			civilian={
-				large="gfx/leaders/SKS/portrait_SKS_bob_dole.dds"
+				large="gfx/leaders/SNE/portrait_SNE_dick_cheney.dds"
 			}
 		}
 		country_leader={
