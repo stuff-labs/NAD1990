@@ -475,16 +475,6 @@
  SAR:0 "Republic of Arkansas"
  SAR_DEF:0 "the Republic of Arkansas"
  SAR_ADJ:0 "Arkansan"
- 
- SFL_fascism:1 "Florida"
- SFL_fascism_DEF:1 "Florida"
- SFL_paternalism:0 "Florida"
- SFL_paternalism_DEF:0 "Florida"
- SFL_communism:1 "Republic of Florida"
- SFL_communism_DEF:1 "the Republic of Florida"
- SFL:0 "Republic of Florida"
- SFL_DEF:0 "the Republic of Florida"
- SFL_ADJ:0 "Floridian"
 
  SIO_fascism:1 "Iowa"
  SIO_fascism_DEF:1 "Iowa"
@@ -1277,31 +1267,6 @@
  RIO:0 "Republic of the Río Grande"
  RIO_DEF:0 "the Republic of the Río Grande"
  RIO_ADJ:0 "Rio Grandean"
- 
- ######################################
- ###                                ###
- ###        Caribbean               ###
- ###                                ###
- ######################################
-
- CUB_fascism:1 "Cuban Empire"
- CUB_fascism_DEF:1 "The Cuban Empire"
- CUB_paternalism:0 "Cuba"
- CUB_paternalism_DEF:0 "Cuba"
- CUB_communism:1 "Socialist Republic of Cuba"
- CUB_communism_DEF:1 "the Socialist Republic of Cuba"
- CUB_liberalism:0 "Cuban Republic"
- CUB_liberalism_DEF:0 "The Cuban Republic"
- CUB_longism:1 "Cuba"
- CUB_longism_DEF:1 "Cuba"
- CUB_progressivism:0 "Republic of Cuba"
- CUB_progressivism_DEF:0 "The Republic of Cuba"
- CUB_liberalism_ADJ:0 "Cuban"
- CUB_fascism_ADJ:0 "Cuban"
- CUB_paternalism_ADJ:0 "Cuban"
- CUB_communism_ADJ:0 "Cuban"
- CUB_longism_ADJ:0 "Cuban"
- CUB_progressivism_ADJ:0 "Cuban"
 
  DOM_fascism:1 "Dominican Republic"
  DOM_fascism_DEF:1 "The Dominican Republic"

@@ -15,7 +15,6 @@ state={
 			air_base = 3
 		}
 		add_core_of = SID
-		add_core_of = LIN
 		1990.1.2 = {
 			owner = USA
 		}

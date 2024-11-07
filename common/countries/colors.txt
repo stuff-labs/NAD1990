@@ -51,8 +51,8 @@ SLA = {
 	color_ui = rgb { 5 73 123 }
 }
 SFL = {
-	color = rgb { 16 108 146 } 	#old : 11 91 120
-	color_ui = rgb { 16 108 146 }	
+	color = rgb { 37 124 137 } 	#old : 11 91 120
+	color_ui = rgb { 37 124 137 }	
 }
 SAZ = {
 	color = rgb { 200 144 64 }
@@ -675,8 +675,8 @@ GYA = {
 #Caribbean#
 ###########
 CUB = {
-	color = rgb { 140 65 166 }
-	color_ui = rgb { 140 65 166 }
+	color = rgb { 109 42 55 }
+	color_ui = rgb { 109 42 55 }
 }
 DOM = {
 	color = rgb { 152 130 191 }

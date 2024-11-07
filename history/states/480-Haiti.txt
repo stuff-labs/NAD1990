@@ -10,8 +10,7 @@ state={
 		tungsten = 5
 	}
 	history = {
-		owner = SFL
-        add_core_of = SFL
+		owner = HAI
 		add_core_of = HAI
 		buildings = {
 			infrastructure = 3

@@ -87,15 +87,13 @@ set_popularities = {
 	despotism = 0
 }
 add_ideas = {
-	SFL_humiliated_army
-	SFL_floridian_political_dominance
-	SFL_cuban_resistance
+	#SFL_humiliated_army
+	#SFL_floridian_political_dominance
+	#SFL_cuban_resistance
 	SFL_aftermath_of_the_80s
 }
-set_cosmetic_tag = FLOROCARIBBEAN
-recruit_character = SFL_vladimiro_roca
-recruit_character = SFL_ron_desantis
-recruit_character = SFL_provisional_government
+recruit_character = SFL_florida_man
+
 
 ### NAVAL ###
 if = {

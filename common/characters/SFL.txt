@@ -1,47 +1,62 @@
 characters={
-	SFL_vladimiro_roca={
-		name="Vladimiro Roca"
-		portraits={
-			civilian={
-				large="gfx/leaders/SFL/portrait_SFL_vladimiro_roca.dds"
-			}
-		}
-		country_leader={
-			ideology= paternalism_oligarchy_subtype 
-			traits={ floridan_puppet progressive_sympathies }
-			expire="2020.1.1.1"
-			id=-1
-		}
-	}
-
-	SFL_provisional_government ={
-		name= SFL_provisional_government
+	SFL_florida_man={
+		name="Florida Man"
 		portraits={
 			civilian={
 				large="gfx/leaders/Portrait_Placeholder.dds"
 			}
 		}
 		country_leader={
-			ideology= paternalism_provisional_government_subtype 
+			ideology= paternalism_oligarchy_subtype 
+			traits={  }
 			expire="2020.1.1.1"
 			id=-1
 		}
 	}
+
+	#SFL_vladimiro_roca={
+	#	name="Vladimiro Roca"
+	#	portraits={
+	#		civilian={
+	#			large="gfx/leaders/SFL/portrait_SFL_vladimiro_roca.dds"
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology= paternalism_oligarchy_subtype 
+	#		traits={ floridan_puppet progressive_sympathies }
+	#		expire="2020.1.1.1"
+	#		id=-1
+	#	}
+	#}
+
+	#SFL_provisional_government ={
+	#	name= SFL_provisional_government
+	#	portraits={
+	#		civilian={
+	#			large="gfx/leaders/Portrait_Placeholder.dds"
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology= paternalism_provisional_government_subtype 
+	#		expire="2020.1.1.1"
+	#		id=-1
+	#	}
+	#}
     #Cuba
 
-	SFL_vladimiro_cuba ={
-		name="Vladimiro Roca"
-		portraits={
-			civilian={
-				large="gfx/leaders/SFL/portrait_SFL_vladimiro_roca.dds"
-			}
-		}
-		country_leader={
-			ideology= progressivism_social_democracy_subtype
-			expire="2020.1.1.1"
-			id=-1
-		}
-	}
+	#SFL_vladimiro_cuba ={
+	#	name="Vladimiro Roca"
+	#	portraits={
+	#		civilian={
+	#			large="gfx/leaders/SFL/portrait_SFL_vladimiro_roca.dds"
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology= progressivism_social_democracy_subtype
+	#		expire="2020.1.1.1"
+	#		id=-1
+	#	}
+	#}
 
 
 	SFL_ron_desantis ={

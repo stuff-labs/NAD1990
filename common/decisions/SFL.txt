@@ -1,62 +1,62 @@
 
-SFL_haiti_war_timer_catagory = {
-	
-	hati_war_timer = {		
-		icon = GFX_decision_icon_default		
-		days_mission_timeout = 130
-		days_remove = 0
-		is_good = no		
-		
-		available = {
-			NOT = {
-				country_exists = HAI
-			}
-		}
-		
-		fire_only_once = yes		
-
-		activation = {
-			AND = {
-				country_exists = HAI
-				has_country_flag = SFL_haiti_war_underway
-			}
-		}
-
-
-		timeout_effect = {
-			clr_country_flag = SFL_haiti_war_underway
-			white_peace = HAI
-			retire_ideology_leader = paternalism
-			CUB = {
-				transfer_state = 603
-				transfer_state = 478
-				transfer_state = 606
-				transfer_state = 477
-				transfer_state = 454
-				transfer_state = 607
-				transfer_state = 226
-
-				add_state_core = 603
-				add_state_core = 478
-				add_state_core = 606
-				add_state_core = 477
-				add_state_core = 454
-				add_state_core = 607
-				add_state_core = 226
-
-			}
-		}
-		
-		remove_effect = {	
-			clr_country_flag = SFL_haiti_war_underway
-		}
-		
-		
-		ai_will_do = {	
-			factor = 0
-		}
-	}
-}
+#SFL_haiti_war_timer_catagory = {
+#	
+#	hati_war_timer = {		
+#		icon = GFX_decision_icon_default		
+#		days_mission_timeout = 130
+#		days_remove = 0
+#		is_good = no		
+#		
+#		available = {
+#			NOT = {
+#				country_exists = HAI
+#			}
+#		}
+#		
+#		fire_only_once = yes		
+#
+#		activation = {
+#			AND = {
+#				country_exists = HAI
+#				has_country_flag = SFL_haiti_war_underway
+#			}
+#		}
+#
+#
+#		timeout_effect = {
+#			clr_country_flag = SFL_haiti_war_underway
+#			white_peace = HAI
+#			retire_ideology_leader = paternalism
+#			CUB = {
+#				transfer_state = 603
+#				transfer_state = 478
+#				transfer_state = 606
+#				transfer_state = 477
+#				transfer_state = 454
+#				transfer_state = 607
+#				transfer_state = 226
+#
+#				add_state_core = 603
+#				add_state_core = 478
+#				add_state_core = 606
+#				add_state_core = 477
+#				add_state_core = 454
+#				add_state_core = 607
+#				add_state_core = 226
+#
+#			}
+#		}
+#		
+#		remove_effect = {	
+#			clr_country_flag = SFL_haiti_war_underway
+#		}
+#		
+#		
+#		ai_will_do = {	
+#			factor = 0
+#		}
+#	}
+#}
 
 
 #SFL_haiti_war = {

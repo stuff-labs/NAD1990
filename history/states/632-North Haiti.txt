@@ -10,9 +10,8 @@ state={
 		oil = 2
 	}
     history = {
-		owner = SFL
-        add_core_of = SFL
-	add_core_of = HAI
+		owner = HAI
+		add_core_of = HAI
 		buildings = {
 			infrastructure = 1
             air_base = 1
@@ -26,7 +25,6 @@ state={
 		victory_points = {
 			4187 10
 		}
-		set_demilitarized_zone = yes
 	}
 	manpower=452226
 	buildings_max_level_factor=1.000

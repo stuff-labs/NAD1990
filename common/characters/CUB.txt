@@ -1,0 +1,17 @@
+characters = {
+
+	CUB_fidel_castro = {
+		name = CUB_fidel_castro
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CUB/Portrait_CUB_fidel_castro.dds"
+			}
+		}
+		country_leader = {
+			ideology = communism_marxism_leninism_subtype 
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+}

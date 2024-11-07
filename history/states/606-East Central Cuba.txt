@@ -9,8 +9,8 @@ state={
 		chromium = 18
 	}
 	history = {
-		owner = SFL
-		add_core_of = SFL
+		owner = CUB
+		add_core_of = CUB
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 0

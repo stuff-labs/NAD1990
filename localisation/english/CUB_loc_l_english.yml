@@ -1,0 +1,23 @@
+﻿l_english:
+
+ CUB:0 "Republic of Cuba"
+ CUB_DEF:0 "the Republic of Cuba"
+
+ CUB_fascism_party: "Unorganised Dissidents"
+ CUB_fascism_party_long: "Unorganised Dissidents"
+ CUB_despotism_party: "Unorganised Dissidents"
+ CUB_despotism_party_long: "Unorganised Dissidents"
+ CUB_paternalism_party: "Unorganised Dissidents"
+ CUB_paternalism_party_long: "Unorganised Dissidents"
+ CUB_conservatism_party: "Unorganised Dissidents"
+ CUB_conservatism_party_long: "Unorganised Dissidents"
+ CUB_liberalism_party: "Unorganised Dissidents"
+ CUB_liberalism_party_long: "Unorganised Dissidents"
+ CUB_progressivism_party: "Unorganised Dissidents"
+ CUB_progressivism_party_long: "Unorganised Dissidents"
+ CUB_socialism_party: "Unorganised Dissidents"
+ CUB_socialism_party_long: "Unorganised Dissidents"
+ CUB_communism_party: "CPC"
+ CUB_communism_party_long: "Communist Party of Cuba"
+
+ CUB_fidel_castro: "Fidel Castro"

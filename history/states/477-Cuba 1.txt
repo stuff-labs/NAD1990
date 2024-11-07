@@ -13,8 +13,8 @@ state={
 	}
 
 	history = {
-		owner = SFL
-		add_core_of = SFL
+		owner = CUB
+		add_core_of = CUB
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -7,7 +7,6 @@ state={
 			owner = USA
 		}
 		add_core_of = SSW
-		add_core_of = LIN
 	}
 	impassable = yes
 	provinces={

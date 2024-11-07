@@ -14,7 +14,6 @@
 			arms_factory = 1
 		}
 		add_core_of = SSW
-		add_core_of = LIN
 	victory_points = {
 			976 3 
 		}
