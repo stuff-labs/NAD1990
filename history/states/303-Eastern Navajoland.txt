@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SAZ
+		owner = SNM
 		1990.1.2 = {
 			owner = USA
 		}		
@@ -15,8 +15,7 @@ state={
 			infrastructure = 1
 
 		}
-		add_claim_by = SNM
-		add_core_of = SAZ
+		add_core_of = SNM
 		
 		victory_points = {
 			3682 1
