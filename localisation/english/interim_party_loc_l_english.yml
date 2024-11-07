@@ -593,8 +593,8 @@
  SNE_paternalism_party_long: "National Democratic Republican Coalition"
  SNE_liberalism_party: "DPN"
  SNE_liberalism_party_long: "Democratic Party of Nebraska"
- SNE_conservatism_party: "NDRC"
- SNE_conservatism_party_long: "National Democratic Republican Coalition"
+ SNE_conservatism_party: "NDRC - Moderates"
+ SNE_conservatism_party_long: "National Democratic Republican Coalition - Moderates"
  
  SIN_fascsism_party: "KKK"
  SIN_fascism_party_long: "Klu Klux Klan"
