@@ -1,0 +1,30 @@
+characters={
+	SAK_ted_stevens = {
+		name="Ted Stevens"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAK/portrait_SAK_ted_stevens.dds"
+			}
+		}
+		country_leader={
+			ideology= paternalism_oligarchy_subtype   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	SAK_joseph_vogler = {
+		name="Joseph E. Vogler"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAK/portrait_SAK_joseph_vogler.dds"
+			}
+		}
+		country_leader={
+			ideology= conservatism_libertarianism_subtype   
+			traits={  }
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+}

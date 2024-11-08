@@ -1,0 +1,24 @@
+﻿l_english:
+
+ SAK:0 "Republic of Alaska"
+ SAK_DEF:0 "the Republic of Alaska"
+ SAK_ADJ:0 "Alaskan"
+
+ 
+ SAK_liberalism_party: "Unorganised Dissidents"
+ SAK_liberalism_party_long: "Unorganised Dissidents"
+ SAK_progressivism_party: "Unorganised Dissidents"
+ SAK_progressivism_party_long: "Unorganised Dissidents"
+ SAK_fascism_party: "Unorganised Radicals"
+ SAK_fascism_party_long: "The Unorganised Radicals"
+ SAK_communism_party: "Unorganised Radicals"
+ SAK_communism_party_long: "Unorganised Radicals"
+ SAK_despotism_party: "Unorganised Dissidents"
+ SAK_despotism_party_long: "Unorganised Dissidents"
+ SAK_conservatism_party: "AFRP"
+ SAK_conservatism_party_long: "Alaskan Freedom and Reform Party"
+ SAK_paternalism_party: "Alaskan Unity"
+ SAK_paternalism_party_long: "Unity Coalition of Alaska"
+ SAK_paternalism_1_party: "Alaskan Unity"
+ SAK_paternalism_1_party_long: "Unity Coalition of Alaska"
+ 

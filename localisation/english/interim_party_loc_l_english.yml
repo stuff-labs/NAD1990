@@ -168,9 +168,6 @@
  STN_liberalism_party_long: "Democratic Party"
  STN_despotism_party: "JDP"
  STN_despotism_party_long: "Jeffersonian Democrat Party"
- 
- STN_NEWliberalism_PARTY_NAME_SHORT: "New Democrat Party"  
- STN_NEWliberalism_PARTY_NAME_LONG: "New Democrat Party"
 
  SOK_fascism_party: "TDP"
  SOK_fascism_party_long: "True Democrat Party"
@@ -192,9 +189,6 @@
  ORL_liberalism_party_long: "People's Democratic Party"
  ORL_communism_party: "Louisiana People's Party"
  ORL_communism_party_long: "Louisiana People's Party"
- 
- SMN_roosevelt_progressivism_party: "FLP"
- SMN_roosevelt_progressivism_party_long: "Farmer Labor Party"
 
 
  SKS_liberalism_party: "CUPK"
@@ -538,21 +532,6 @@
  SOJ_liberalism_party_long: "Liberal Democratic Party of Russia"
  SOJ_debug_moment_party: "CPC"
  SOJ_debug_moment_party_long: "Communist Party of China"
- 
- SAK_trotsky_party: "International Left Opposition"
- SAK_trotsky_party_long: "International Left Opposition"
- SAK_max_party: "Workers Party of the United States"
- SAK_max_party_long: "Workers Party of the United States"
- SAK_ssr_party: "Alaskan Communist Party"
- SAK_ssr_party_long: "Alaskan Communist Party"
- SAK_liberalism_party: "Alaskan Sourdough Party"
- SAK_liberalism_party_long: "Alaskan Sourdough Party"
- SAK_progressivism_party: "Alaskan Progress Party"
- SAK_progressivism_party_long: "Alaskan Progress Party"
- SAK_fascism_party: "Brotherhood of Russian Truth"
- SAK_fascism_party_long: "The Brotherhood of Russian Truth"
- SAK_despotism_party: "Ukrayins'ke Prosvitnytstvo"
- SAK_despotism_party_long: "Ukrainian Enlightenment"
  
  
  

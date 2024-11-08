@@ -2,7 +2,7 @@ state={
 	id=433
 	name="STATE_433"
 	history={
-		owner = SOJ
+		owner = SAK
 		1990.1.2 = {
 			owner = USA
 		}		

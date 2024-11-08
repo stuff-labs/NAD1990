@@ -2,7 +2,7 @@ state={
 	id=71
 	name="STATE_71"
 	history={
-		owner = SOJ
+		owner = SAK
 		1990.1.2 = {
 			owner = USA
 		}
@@ -14,7 +14,7 @@ state={
 			}
 		}
 		add_core_of = SAK
-		add_core_of = SOJ
+		add_core_of = SAK
 		victory_points = {
 			5033 15
 		}

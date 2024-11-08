@@ -21,6 +21,7 @@ ideologies = {
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = yes
+			can_not_declare_war = yes
 		}
 		ai_fascist = yes
 	}
@@ -59,6 +60,7 @@ ideologies = {
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = yes
+			can_not_declare_war = yes
 		}
 		ai_neutral = yes
 	}
@@ -97,6 +99,7 @@ ideologies = {
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = yes
+			can_not_declare_war = yes
 		}
 		ai_neutral = yes
 	}
@@ -132,6 +135,7 @@ ideologies = {
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = yes
+			can_not_declare_war = yes
 		}
 		ai_neutral = yes
 	}
@@ -166,6 +170,7 @@ ideologies = {
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = yes
+			can_not_declare_war = yes
 		}
 		ai_neutral = yes
 	}
@@ -202,6 +207,7 @@ ideologies = {
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = yes
+			can_not_declare_war = yes
 		}
 		ai_neutral = yes
 	}
@@ -234,6 +240,7 @@ ideologies = {
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = yes
+			can_not_declare_war = yes
 		}
 		ai_neutral = yes
 	}
@@ -267,6 +274,7 @@ ideologies = {
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = yes
+			can_not_declare_war = yes
 		}
 		ai_communist = yes
 	}

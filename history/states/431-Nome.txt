@@ -5,7 +5,7 @@ state={
 		oil=22
 	}
 	history={
-		owner = SOJ
+		owner = SAK
 		1990.1.2 = {
 			owner = USA
 		}

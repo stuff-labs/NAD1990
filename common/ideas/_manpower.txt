@@ -186,10 +186,8 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
-					has_government = neutrality
 					has_government = fascism
 					has_government = communism
-					has_government = longism
 					#has_government = progressivism
 					AND = {
 						has_war = yes
@@ -204,17 +202,17 @@ ideas = {
 				}
 				has_war_support > 0.2
 			}
-			on_add = {
-				if = {
-					limit = {
-						has_idea = SOH_military_readiness
-					}
-					custom_effect_tooltip = SOH_military_readiness_up_1
-					add_to_variable = {
-						SOH_military_readiness_variable = 1
-					}
-				}
-			}
+			#on_add = {
+			#	if = {
+			#		limit = {
+			#			has_idea = SOH_military_readiness
+			#		}
+			#		custom_effect_tooltip = SOH_military_readiness_up_1
+			#		add_to_variable = {
+			#			SOH_military_readiness_variable = 1
+			#		}
+			#	}
+			#}
 			ai_will_do = {
    				factor = 1
 
@@ -258,10 +256,8 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
-					has_government = neutrality
 					has_government = fascism
 					has_government = communism
-					has_government = longism
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.5
@@ -305,17 +301,17 @@ ideas = {
 			cost = 200
 			removal_cost = -1
 			level = 3
-			on_add = {
-				if = {
-					limit = {
-						has_idea = SOH_military_readiness
-					}
-					custom_effect_tooltip = SOH_military_readiness_up_1
-					add_to_variable = {
-						SOH_military_readiness_variable = 1
-					}
-				}
-			}
+			#on_add = {
+			#	if = {
+			#		limit = {
+			#			has_idea = SOH_military_readiness
+			#		}
+			#		custom_effect_tooltip = SOH_military_readiness_up_1
+			#		add_to_variable = {
+			#			SOH_military_readiness_variable = 1
+			#		}
+			#	}
+			#}
 			modifier = {
 				#conscription = 0.125
 				conscription = 0.11
@@ -365,17 +361,17 @@ ideas = {
 					manpower_per_military_factory > 2500
 				}
 			}
-			on_add = {
-				if = {
-					limit = {
-						has_idea = SOH_military_readiness
-					}
-					custom_effect_tooltip = SOH_military_readiness_up_1
-					add_to_variable = {
-						SOH_military_readiness_variable = 1
-					}
-				}
-			}
+			#on_add = {
+			#	if = {
+			#		limit = {
+			#			has_idea = SOH_military_readiness
+			#		}
+			#		custom_effect_tooltip = SOH_military_readiness_up_1
+			#		add_to_variable = {
+			#			SOH_military_readiness_variable = 1
+			#		}
+			#	}
+			#}
 			cost = 200
 			removal_cost = -1
 			level = 2
@@ -411,17 +407,17 @@ ideas = {
 				#	}
 				#}
 			}
-			on_add = {
-				if = {
-					limit = {
-						has_idea = SOH_military_readiness
-					}
-					custom_effect_tooltip = SOH_military_readiness_up_1
-					add_to_variable = {
-						SOH_military_readiness_variable = 1
-					}
-				}
-			}
+			#on_add = {
+			#	if = {
+			#		limit = {
+			#			has_idea = SOH_military_readiness
+			#		}
+			#		custom_effect_tooltip = SOH_military_readiness_up_1
+			#		add_to_variable = {
+			#			SOH_military_readiness_variable = 1
+			#		}
+			#	}
+			#}
 			ai_will_do = {
 				factor = 1
 				modifier = {
@@ -464,46 +460,6 @@ ideas = {
 				#production_speed_buildings_factor = -0.4
 				#training_time_factor = 0.4
 				mobilization_speed = 0.25
-			}
-			
-			cancel_if_invalid = no
-		}
-
-
-
-		Chohei_conscription = {
-			
-			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
-				OR = {
-					and = {
-						original_tag = IJA 
-						date < 1936.6.1
-					}
-				}
-				#any_enemy_country = {
-				#	strength_ratio = {
-				#		tag = ROOT 
-				#		ratio > 1
-				#	}
-				#}
-			}
-
-			visible = {
-				original_tag = IJA
-			}
-
-			ai_will_do = {
-				factor = 0
-			}
-
-			cost = 800
-			removal_cost = -1
-			level = 1
-
-			modifier = {
-				conscription = 0.70
-				weekly_manpower = 50
 			}
 			
 			cancel_if_invalid = no
