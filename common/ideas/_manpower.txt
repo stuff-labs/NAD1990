@@ -8,7 +8,7 @@ ideas = {
 
 			cost = 50
 			removal_cost = -1
-			level = 9
+			level = 8
 			allowed = {
 				always = no
 			}
@@ -28,7 +28,7 @@ ideas = {
 						
 			cost = 50
 			removal_cost = -1
-			level = 8
+			level = 7
 			
 			allowed = {
 				always = no
@@ -52,7 +52,7 @@ ideas = {
 						
 			cost = 150
 			removal_cost = -1
-			level = 7
+			level = 6
 			
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
@@ -77,63 +77,12 @@ ideas = {
 				production_speed_buildings_factor = 0.04
 			}
 			
-			#default = yes
+			default = yes
 			
 			cancel_if_invalid = no
 		}
 
-		minutemen_militia_conscription = {
-						
-			cost = 75
-			removal_cost = -1
-			level = 6
-			
-			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
-				NOT = { has_idea = undisturbed_isolation }
-				NOT = { has_idea = isolation }
-			}
-
-			modifier = {
-				conscription = 0.035
-				mobilization_speed = 0.10
-				army_core_attack_factor = 0.05			
-				army_core_defence_factor = 0.05
-				#something small maybe
-			}
-
-			ai_will_do = {
-				factor = 1
-				
-				modifier = {
-					factor = 2
-					has_idea = volunteer_only 
-				}
-				modifier = {
-					# Ignore if high on manpower
-					factor = 0.5
-					manpower_per_military_factory > 3500
-				}
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory < 1000
-				}
-				#modifier = {
-				#	tag = ENG
-				#	has_idea_with_trait = military_theorist
-				#	factor = 20
-				#}
-				modifier = {
-					factor = 0
-					NOT = { has_idea = volunteer_only }
-				}
-				
-			}
-
-			cancel_if_invalid = no
-			default = yes			#maybe?
-		}
+		
 		
 		limited_conscription = {
 					
