@@ -97,12 +97,19 @@ if = {
 
 set_convoys = 50
 
+add_ideas = {
+	SAK_the_soviet_connection
+	SAK_corrupt_democracy
+	SAK_the_freedom_and_reform_party
+	SAK_petrostate_neutral
+}
+
 recruit_character = SAK_ted_stevens
 recruit_character = SAK_joseph_vogler
 
 set_politics = {
 	ruling_party = paternalism
-	last_election = "1990.1.1"
+	last_election = "1988.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }

@@ -1,0 +1,75 @@
+ideas = {    
+    country = {
+        SAK_the_soviet_connection = { 
+            picture = SAK_the_soviet_connection
+            allowed = {
+                tag = SAK
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                political_power_factor = 0.20
+                consumer_goods_factor = 0.10
+                production_speed_buildings_factor = 0.15
+                line_change_production_efficiency_factor = 0.15
+        		production_factory_max_efficiency_factor = 0.15
+        		industrial_capacity_factory = 0.15
+            }
+        }
+        SAK_corrupt_democracy = { 
+            picture = SAK_corrupt_democracy
+            allowed = {
+                tag = SAK
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                stability_factor = -0.05
+                #paternalism_drift = 0.01
+                political_power_gain = -0.15
+                consumer_goods_factor = 0.05
+            }
+        }
+        SAK_the_freedom_and_reform_party = { 
+            picture = SAK_the_freedom_and_reform_party
+            allowed = {
+                tag = SAK
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                paternalism_drift = -0.01
+                conservatism_drift = 0.01
+                stability_factor = -0.05
+            }
+        }
+
+        ###petrostate spirits start
+        SAK_petrostate_neutral = { 
+            picture = SAK_petrostate_neutral
+            allowed = {
+                tag = SAK
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                fuel_gain_factor = 0.20
+                consumer_goods_factor = -0.05
+                consumer_goods_factor = 0.10
+                stability_factor = 0.10
+            }
+            targeted_modifier = {
+                tag = SCA	
+                trade_cost_for_target_factor = -0.10
+            }
+        }
+    }
+}

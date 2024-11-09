@@ -234,7 +234,7 @@ recruit_character = SCA_gloria_la_riva
 recruit_character = SCA_Unorganised_Dissidents
 
 add_ideas = {
-	SCA_teetering_left_coalition
+	#SCA_teetering_left_coalition
 	SCA_gang_violence
 	SCA_reaganist_roots
 	SCA_republican_legacy
