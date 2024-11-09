@@ -80,11 +80,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/conservatism_social_credit_subtype.dds"
 	}
 
-	spriteType = {
-		name = "GFX_ideology_conservatism_pacific_conservatism_arnold_subtype"
-		texturefile = "gfx/interface/ideologies/conservatism_pacific_conservatism_arnold_subtype.dds"
-	}
+	#spriteType = {
+	#	name = "GFX_ideology_liberalism_populist_liberal_subtype"
+	#	texturefile = "gfx/interface/ideologies/liberalism_populist_liberal_subtype.dds"
+	#}
 
+	spriteType = {
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+	}
 	spriteType = {
 		name = "GFX_ideology_liberalism_group"
 		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
@@ -113,6 +117,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_communism_group"
 		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communism_new_communism_subtype"
+		texturefile = "gfx/interface/ideologies/communism_new_communism_subtype.dds"
 	}
 
 	#Government in Exile

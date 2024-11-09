@@ -162,7 +162,7 @@ ideas = {
         STX_lone_star_oil_buffed = {
             name = STX_lone_star_oil
             desc = STX_lone_star_oil_desc
-            picture = STX_texas_epic_fail_map
+            picture = STX_lone_star_oil
             allowed = {
                 tag = STX
             }

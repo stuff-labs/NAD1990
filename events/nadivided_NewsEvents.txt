@@ -100,6 +100,7 @@ news_event = { # la riots
 	}
 }
 
+###outdated and needs to be replaced
 news_event = { # arizona and nevada become DMZ's
 	id = usastates_news_new.4
 	title = usastates_news_new.4.t
@@ -151,6 +152,7 @@ news_event = { # arizona and nevada become nations
 		}
 	}
 }
+#############################
 
 news_event = { # Fred Trump Resignation
 	id = usastates_news_new.6

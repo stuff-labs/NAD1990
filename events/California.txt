@@ -1,5 +1,5 @@
 add_namespace = california_events
-add_namespace = california_events_trvd_path
+#add_namespace = california_events_trvd_path
 country_event = { 
     id = california_events.1
     title = california_events.1.t
@@ -25,7 +25,8 @@ country_event = {
     }
 }
 
-country_event = { #They DMZ
+###outdated
+#country_event = { #They DMZ
     id = california_events.2
     title = california_events.2.t
     desc = california_events.2.d
@@ -57,9 +58,9 @@ country_event = { #They DMZ
             set_demilitarized_zone = yes
         }
     }
-}
-
-country_event = { #They break off
+#}
+#
+#country_event = { #They break off
     id = california_events.3
     title = california_events.3.t
     desc = california_events.3.d
@@ -115,9 +116,9 @@ country_event = { #They break off
             drop_cosmetic_tag = PAZIFIK
         }
     }
-}
-
-country_event = { #Tvd davn
+#}
+#
+#country_event = { #Tvd davn
     id = california_events.4
     title = california_events.4.t
     desc = california_events.4.d
@@ -185,9 +186,9 @@ country_event = { #Tvd davn
 
         set_global_flag = california_went_trvd
     }
-}
-
-country_event = { #WAR FOR NEVADA
+#}
+#
+#country_event = { #WAR FOR NEVADA
     id = california_events.5
     title = california_events.5.t
     desc = california_events.5.d
@@ -219,13 +220,13 @@ country_event = { #WAR FOR NEVADA
         }
 
     }
-}
-
-
-
-#TRVD PATH EVENTS
-
-country_event = { #Alliance With Montana
+#}
+#
+#
+#
+##TRVD PATH EVENTS
+#
+#country_event = { #Alliance With Montana
     id = california_events_trvd_path.5
     title = california_events_trvd_path.5.t
     desc = california_events_trvd_path.5.d
@@ -262,9 +263,9 @@ country_event = { #Alliance With Montana
         }
         set_global_flag = CALIFORNIA_MONTANA_ALLIES
     }
-}
-
-country_event = { #War With Baja
+#}
+#
+#country_event = { #War With Baja
     id = california_events_trvd_path.6
     title = california_events_trvd_path.6.t
     desc = california_events_trvd_path.6.d
@@ -290,4 +291,4 @@ country_event = { #War With Baja
             type = annex_everything
         }
     }
-}
+#}
