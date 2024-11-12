@@ -1,0 +1,714 @@
+﻿add_namespace = SCA_News_Events
+add_namespace = usastates_news_new
+add_namespace = usastates_news_flavor
+
+##############################
+### CALIFORNIA NEWS EVENTS ###
+##############################
+
+news_event = { # MIKE CURB ELECTED
+	id = SCA_News_Events.1
+	title = SCA_News_Events.1.t
+	desc = SCA_News_Events.1.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.1.a
+	}
+}
+
+news_event = { # GEORGE DEUKMEJIAN ELECTED
+	id = SCA_News_Events.2
+	title = SCA_News_Events.2.t
+	desc = SCA_News_Events.2.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.2.a
+	}
+}
+
+news_event = { # JERRY BROWN ELECTED
+	id = SCA_News_Events.3
+	title = SCA_News_Events.3.t
+	desc = SCA_News_Events.3.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.3.a
+	}
+}
+
+news_event = { # MIKE CURB REELECTED
+	id = SCA_News_Events.4
+	title = SCA_News_Events.4.t
+	desc = SCA_News_Events.4.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.4.a
+	}
+}
+
+news_event = { # GEORGE DEUKMEJIAN REELECTED
+	id = SCA_News_Events.5
+	title = SCA_News_Events.5.t
+	desc = SCA_News_Events.5.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.5.a
+	}
+}
+
+news_event = { # JERRY BROWN REELECTED
+	id = SCA_News_Events.6
+	title = SCA_News_Events.6.t
+	desc = SCA_News_Events.6.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.6.a
+	}
+}
+
+news_event = { # BOB DORNAN ELECTED
+	id = SCA_News_Events.7
+	title = SCA_News_Events.7.t
+	desc = SCA_News_Events.7.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.7.a
+	}
+}
+
+news_event = { # PETE WILSON ELECTED
+	id = SCA_News_Events.8
+	title = SCA_News_Events.8.t
+	desc = SCA_News_Events.8.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.8.a
+	}
+}
+
+news_event = { # KATHLEEN BROWN ELECTED
+	id = SCA_News_Events.9
+	title = SCA_News_Events.9.t
+	desc = SCA_News_Events.9.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.9.a
+	}
+}
+
+news_event = { # DIANNE FEINSTEIN ELECTED
+	id = SCA_News_Events.10
+	title = SCA_News_Events.10.t
+	desc = SCA_News_Events.10.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.10.a
+	}
+}
+
+news_event = { # BOB DORNAN REELECTED
+	id = SCA_News_Events.11
+	title = SCA_News_Events.11.t
+	desc = SCA_News_Events.11.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.11.a
+	}
+}
+
+news_event = { # BOB DORNAN ELECTED (CURB SUCCESSION)
+	id = SCA_News_Events.12
+	title = SCA_News_Events.12.t
+	desc = SCA_News_Events.12.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.12.a
+	}
+}
+
+news_event = { # PETE WILSON REELECTED
+	id = SCA_News_Events.13
+	title = SCA_News_Events.13.t
+	desc = SCA_News_Events.13.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.13.a
+	}
+}
+
+news_event = { # PETE WILSON ELECTED (DEUKMEIJAN SUCCESSION)
+	id = SCA_News_Events.14
+	title = SCA_News_Events.14.t
+	desc = SCA_News_Events.14.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.14.a
+	}
+}
+
+news_event = { # RON UNZ ELECTED (WILSON PRIMARIED)
+	id = SCA_News_Events.15
+	title = SCA_News_Events.15.t
+	desc = SCA_News_Events.15.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.15.a
+	}
+}
+
+news_event = { # RON UNZ ELECTED (FEINSTEIN INCUMBENT)
+	id = SCA_News_Events.16
+	title = SCA_News_Events.16.t
+	desc = SCA_News_Events.16.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.16.a
+	}
+}
+
+news_event = { # SCHWARZENEGGER ELECTED (CURB SUCCESSION)
+	id = SCA_News_Events.17
+	title = SCA_News_Events.17.t
+	desc = SCA_News_Events.17.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.17.a
+	}
+}
+
+news_event = { # SCHWARZENEGGER ELECTED (DEUKMEJIAN SUCCESSION)
+	id = SCA_News_Events.18
+	title = SCA_News_Events.18.t
+	desc = SCA_News_Events.18.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.18.a
+	}
+}
+
+news_event = { # SCHWARZENEGGER ELECTED (LIBERAL INCUMBENT)
+	id = SCA_News_Events.19
+	title = SCA_News_Events.19.t
+	desc = SCA_News_Events.19.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.19.a
+	}
+}
+
+news_event = { # JERRY BROWN REELECTED AGAIN
+	id = SCA_News_Events.20
+	title = SCA_News_Events.20.t
+	desc = SCA_News_Events.20.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.20.a
+	}
+}
+
+news_event = { # JERRY BROWN DOES A GROVER CLEVELAND MOVE
+	id = SCA_News_Events.21
+	title = SCA_News_Events.21.t
+	desc = SCA_News_Events.21.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.21.a
+	}
+}
+
+news_event = { # KATHLEEN BROWN REELECTED
+	id = SCA_News_Events.22
+	title = SCA_News_Events.22.t
+	desc = SCA_News_Events.22.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.22.a
+	}
+}
+
+news_event = { # DIANNE FEINSTEIN REELECTED
+	id = SCA_News_Events.23
+	title = SCA_News_Events.23.t
+	desc = SCA_News_Events.23.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.23.a
+	}
+}
+
+news_event = { # GRAY DAVIS ELECTED
+	id = SCA_News_Events.24
+	title = SCA_News_Events.24.t
+	desc = SCA_News_Events.24.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.24.a
+	}
+}
+
+news_event = { # AL CHECCHI ELECTED
+	id = SCA_News_Events.25
+	title = SCA_News_Events.25.t
+	desc = SCA_News_Events.25.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SCA_News_Events.25.a
+	}
+}
+
+###################
+### OTHER STUFF ###
+###################
+
+news_event = { #florida_haiti_war
+	id = usastates_news_new.1
+	title = usastates_news_new.1.t
+	desc = usastates_news_new.1.d
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.1.a
+			trigger = {
+				tag = SFL
+			}
+	}
+	option = {
+		name = usastates_news_new.1.b
+			trigger = {
+				tag = HAI
+			}
+	}
+	option = {
+		name = usastates_news_new.1.c
+		trigger = {
+			NOT = {
+				tag = HAI
+				tag = SFL
+			}
+		}
+	}
+}
+
+news_event = { # Noreiga Seizes The Canal
+	id = usastates_news_new.2
+	title = usastates_news_new.2.t
+	desc = usastates_news_new.2.d
+	picture = GFX_newsevent_noriega_seizes_the_canal
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.2.a
+		trigger = {
+			tag = SFL
+		}
+	}
+	option = {
+		name = usastates_news_new.2.b
+		trigger = {
+			tag = PAN
+		}
+	}
+	option = {
+		name = usastates_news_new.2.c
+		trigger = {
+			tag = HAI
+		}
+	}
+	option = {
+		name = usastates_news_new.2.e
+		trigger = {
+			NOT = {
+				tag = SFL
+				tag = PAN
+				tag = HAI
+			}
+		}
+	}
+}
+
+news_event = { # la riots
+	id = usastates_news_new.3
+	title = usastates_news_new.3.t
+	desc = usastates_news_new.3.d
+	picture = GFX_newsevent_los_angeles_riots
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.3.a
+		trigger = {
+			tag = SCA
+		}
+	}
+	option = {
+		name = usastates_news_new.3.b
+		trigger = {
+			NOT = {
+				tag = SCA
+			}
+		}
+	}
+}
+
+###outdated and needs to be replaced
+news_event = { # arizona and nevada become DMZ's
+	id = usastates_news_new.4
+	title = usastates_news_new.4.t
+	desc = usastates_news_new.4.d
+	picture = GFX_newsevent_los_angeles_riots
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.4.a
+		trigger = {
+			tag = SCA
+		}
+	}
+	option = {
+		name = usastates_news_new.4.b
+		trigger = {
+			NOT = {
+				tag = SCA
+			}
+		}
+	}
+}
+
+news_event = { # arizona and nevada become nations
+	id = usastates_news_new.5
+	title = usastates_news_new.5.t
+	desc = usastates_news_new.5.d
+	picture = GFX_newsevent_los_angeles_riots
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.5.a
+		trigger = {
+			tag = SCA
+		}
+	}
+	option = {
+		name = usastates_news_new.5.b
+		trigger = {
+			NOT = {
+				tag = SCA
+			}
+		}
+	}
+}
+#############################
+
+news_event = { # Fred Trump Resignation
+	id = usastates_news_new.6
+	title = usastates_news_new.6.t
+	desc = usastates_news_new.6.d
+	picture = GFX_newsevent_fred_trump_resignation
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.6.a
+	}
+}
+
+news_event = { # Chief Executive Trump
+	id = usastates_news_new.7
+	title = usastates_news_new.7.t
+	desc = usastates_news_new.7.d
+	picture = GFX_newsevent_new_chief_executive
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.7.a
+	}
+}
+
+news_event = { # Chief Executive Belfort
+	id = usastates_news_new.8
+	title = usastates_news_new.8.t
+	desc = usastates_news_new.8.d
+	picture = GFX_newsevent_new_chief_executive
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.8.a
+	}
+}
+
+news_event = { # Chief Executive Bloomberg
+	id = usastates_news_new.9
+	title = usastates_news_new.9.t
+	desc = usastates_news_new.9.d
+	picture = GFX_newsevent_new_chief_executive
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.9.a
+	}
+}
+
+news_event = { # Chief Executive Gotti
+	id = usastates_news_new.10
+	title = usastates_news_new.10.t
+	desc = usastates_news_new.10.d
+	picture = GFX_newsevent_gotti_coup
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.10.a
+	}
+}
+
+news_event = { # cali election - no change
+	id = usastates_news_new.11
+	title = usastates_news_new.11.t
+	desc = usastates_news_new.11.d
+	picture = GFX_newsevent_gotti_coup
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.11.a
+	}
+}
+
+news_event = { # cali election - wholsum
+	id = usastates_news_new.12
+	title = usastates_news_new.12.t
+	desc = usastates_news_new.12.d
+	picture = GFX_newsevent_gotti_coup
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.12.a
+	}
+}
+
+news_event = { # cali election - wholsum
+	id = usastates_news_new.13
+	title = usastates_news_new.13.t
+	desc = usastates_news_new.13.d
+	picture = GFX_newsevent_gotti_coup
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.13.a
+	}
+}
+
+news_event = { # joe biden takes joever dc
+	id = usastates_news_new.14
+	title = usastates_news_new.14.t
+	desc = usastates_news_new.14.d
+	picture = GFX_newsevent_joe_biden_takes_over
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.14.a
+	}
+}
+
+news_event = { # Zapista Rebellion
+	id = usastates_news_new.15
+	title = usastates_news_new.15.t
+	desc = usastates_news_new.15.d
+	picture = GFX_newsevent_zapista_rebellion
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.15.a
+	}
+}
+
+news_event = { # Assassination of Luis Donaldo Colosio
+	id = usastates_news_new.16
+	title = usastates_news_new.16.t
+	desc = usastates_news_new.16.d
+	picture = GFX_newsevent_assassination_of_luis_donaldo_colosio
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.16.a
+	}
+}
+
+news_event = { # Inauguration of Ernesto Zedillo
+	id = usastates_news_new.17
+	title = usastates_news_new.17.t
+	desc = usastates_news_new.17.d
+	picture = GFX_newsevent_inauguration_of_ernesto_zedillo
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.17.a
+	}
+}
+
+news_event = { # Peso Crisis
+	id = usastates_news_new.18
+	title = usastates_news_new.18.t
+	desc = usastates_news_new.18.d
+	picture = GFX_newsevent_peso_crisis
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_new.18.a
+	}
+}
+
+###########################
+### FLAVOUR STARTS HERE ###
+###########################
+
+news_event = { #noth hollywood shooting
+	id = usastates_news_flavor.1
+	title = usastates_news_flavor.1.t
+	desc = usastates_news_flavor.1.d
+	picture = GFX_newsevent_north_hollywood
+
+	is_triggered_only = yes
+
+	major = yes
+
+	option = {
+		name = usastates_news_flavor.1.a
+			trigger = {
+				tag = SCA
+			}
+	}
+	option = {
+		name = usastates_news_flavor.1.b
+			trigger = {
+				NOT = {
+					tag = SCA
+				}
+			}
+	}
+}

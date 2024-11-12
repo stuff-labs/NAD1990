@@ -2560,10 +2560,10 @@ focus_tree = { #5 Rockwell Pre Civil War
 	
 	country = {
 		factor = 0
-		modifier = {		
-			add = 10
-			tag = SCA
-		}
+		#modifier = {		
+		#	add = 10
+		#	tag = SCA
+		#}
 	}
 	continuous_focus_position = { x = 1 y = 3300 }
 

@@ -26,7 +26,7 @@ characters = {
 	SMT_Charlie_Duke = {
 		name = SMT_Charlie_Duke
 		portraits = {
-			civilian = { large = "gfx/leaders/Portrait_Placeholder.dds" }
+			civilian = { large = "gfx/leaders/SMT/Portrait_SMT_Charlie_Duke.dds" }
 		}
 	}
 	SMT_Conrad_Burns = {

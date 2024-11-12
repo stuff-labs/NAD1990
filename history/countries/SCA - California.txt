@@ -1,22 +1,12 @@
 ﻿capital = 52
 
 oob = "SCA_1990"
-
 starting_train_buffer = 4
+set_research_slots = 3
+set_convoys = 100
 
-
-
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SCA_1936_naval_mtg"
-	else = {
-		set_naval_oob = "SCA_1936_naval_legacy"
-	}
-}
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "SCA_1936_air_bba"
 		set_technology = {
 			iw_small_airframe = 1
 			basic_small_airframe = 1
@@ -29,7 +19,6 @@ if = {
 			aircraft_construction = 1
 		}
 	else = {
-		set_air_oob = "SCA_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			cv_early_fighter = 1
@@ -41,7 +30,6 @@ if = {
 		}
 	}
 }
-
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -61,10 +49,6 @@ if = {
 	}
 
 }
-
-
-
-set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1		
@@ -132,573 +116,50 @@ if = {
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 	}
-
-}
-
-set_convoys = 100
-
-###set_cosmetic_tag = PAZIFIK
-
-SCA = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = SNV
-			autonomy_state = autonomy_puppet
-		}
-	}
-	else = {
-		puppet = SNV
-	}
-}
-
-SNV = {
-	set_politics = {
-		ruling_party = conservatism
-		last_election = "1990.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		liberalism = 26
-		conservatism = 38
-		fascism = 0
-		progressivism = 20
-		socialism = 3
-		communism = 0
-		paternalism= 11
-		despotism = 2
-	}
 }
 
 SCA = {
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-		set_autonomy = {
-			target = SAZ
-			autonomy_state = autonomy_puppet
-		}
-	}
-	else = {
-		puppet = SAZ
-	}
-}
-
-SAZ = {
-	set_politics = {
-		ruling_party = conservatism
-		last_election = "1990.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		liberalism = 35
-		conservatism = 40
-		fascism = 0
-		progressivism = 25
-		socialism = 0
-		communism = 0
-		paternalism= 0
-		despotism = 0
-	}
-}
-
-
-
-set_politics = {
-	ruling_party = paternalism
-	last_election = "1986.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	liberalism = 15
-	liberalism_2 = 10
-	conservatism = 17
-	fascism = 0
-	progressivism = 5
-	socialism = 8
-	communism = 0
-	paternalism = 40
-	despotism = 5
-}
-#Leaders
-recruit_character = SCA_ronald_reagan
-recruit_character = SCA_jerry_brown
-#recruit_character = SCA_henry_lamont_beach #6 feet under
-recruit_character = SCA_gloria_la_riva
-recruit_character = SCA_Unorganised_Dissidents
-
-add_ideas = {
-	#SCA_teetering_left_coalition
-	SCA_gang_violence
-	SCA_reaganist_roots
-	SCA_republican_legacy
-	developed_economic_capacity
-}
-set_rule = {
-	can_puppet = no
-	can_join_factions = yes
-	can_create_factions = yes
-}
-SCA = {
-	create_faction = SCA_pacifit_treaty_organization
+	create_faction = SCA_Pacific_Treaty_Organisation
 	add_to_faction = SUT
 	add_to_faction = SID
-	#add_to_faction = BAJ
 	add_to_faction = SHI
 	add_to_faction = SNV
 	add_to_faction = SAZ
 }
 
-
-######Variants################
-if = {
-	limit = { 
-		not = { 
-			has_dlc = "Man the Guns" 
-		} 
-	}
-	### Ship Variants ###
-	create_equipment_variant = {
-		name = "Barracuda Class"
-		type = submarine_1
-		upgrades = {
-			ship_reliability_upgrade = 1
-			sub_engine_upgrade = 1
-			sub_stealth_upgrade = 1
-			sub_torpedo_upgrade = 1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "Farragut Class"
-		type = destroyer_1
-		upgrades = {
-			ship_torpedo_upgrade = 3
-			destroyer_engine_upgrade = 3
-			ship_ASW_upgrade = 3
-			ship_anti_air_upgrade = 3
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Portland Class"
-		type = heavy_cruiser_1
-		upgrades = {
-			ship_reliability_upgrade = 2
-			ship_engine_upgrade = 2
-			ship_armor_upgrade = 2
-			ship_gun_upgrade = 2
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Pennsylvania Class"
-		type = battleship_1
-		upgrades = {
-			ship_reliability_upgrade = 1
-			ship_engine_upgrade = 1
-			ship_armor_upgrade = 1
-			ship_gun_upgrade = 1
-		}
-		obsolete = yes
-	}
-
-	create_equipment_variant = {
-		name = "New Mexico Class"
-		type = battleship_1
-		upgrades = {
-			ship_reliability_upgrade = 2
-			ship_engine_upgrade = 2
-			ship_armor_upgrade = 2
-			ship_gun_upgrade = 2
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Colorado Class"
-		type = battleship_1
-		upgrades = {
-			ship_reliability_upgrade = 3
-			ship_engine_upgrade = 3
-			ship_armor_upgrade = 3
-			ship_gun_upgrade = 4
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Yorktown Class"
-		type = carrier_2
-		upgrades = {
-			ship_deckspace_upgrade = 1
-			carrier_armor_upgrade = 1
-			ship_engine_upgrade = 1
-			ship_reliability_upgrade = 1
-		}
-	}
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1987.6.6"
+	election_frequency = 48
+	elections_allowed = yes
 }
 
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	create_equipment_variant = {
-		name = "Clemson Class"				
-		type = ship_hull_light_1
-		name_group = SCA_DE_historical
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_depth_charge_1
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Farragut Class"				# represents Farragut, Porter, Mahan classes
-		type = ship_hull_light_1
-		name_group = SCA_DD_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = ship_sonar_1
-			fixed_ship_engine_slot = light_ship_engine_2
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_depth_charge_1
-		}
-	}
-	create_equipment_variant = {
-		name = "Barracuda Class"			# represents Barracuda, Dolphin, Cachalot classes
-		type = ship_hull_submarine_1
-		name_group = SCA_SS_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = empty
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Porpoise Class"				# represents Porpoise, Shark, and Perch classes
-		type = ship_hull_submarine_2
-		name_group = SCA_SS_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_2
-			rear_1_custom_slot = empty
-		}
-	}
-	create_equipment_variant = {
-		name = "California Class"				# represents Pennsylvania, Nevada, Tennessee, and New Mexico classes
-		type = ship_hull_heavy_1
-		name_group = SCA_BB_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bb_2
-			front_1_custom_slot = ship_anti_air_1
-			mid_1_custom_slot = ship_airplane_launcher_1
-			mid_2_custom_slot = ship_secondaries_1
-			rear_1_custom_slot = ship_heavy_battery_1
-		}
-	}
-	create_equipment_variant = {
-		name = "Colorado Class"				
-		type = ship_hull_heavy_1
-		name_group = SCA_BB_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_heavy_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = heavy_ship_engine_1
-			fixed_ship_secondaries_slot = ship_secondaries_1
-			fixed_ship_armor_slot = ship_armor_bb_2
-			front_1_custom_slot = ship_anti_air_1
-			mid_1_custom_slot = ship_secondaries_1
-			mid_2_custom_slot = ship_airplane_launcher_1
-			rear_1_custom_slot = ship_heavy_battery_2
-		}
-	}
-	###########Plane variants###########
-if = {
-	limit = {
-		has_dlc = "By Blood Alone"
-	}
-	create_equipment_variant = {
-		name = "P-6" #export models only
-		type = small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "P-26A" #
-		type = small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-		icon = "GFX_USA_light_plane_2_medium"
-	}
-	create_equipment_variant = {
-		name = "O2U" #
-		type = small_plane_cas_airframe_0
-		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			fixed_auxiliary_weapon_slot_1 = light_mg_2x
-			engine_type_slot = engine_1_1x
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "SBU Corsair" #
-		type = cv_small_plane_cas_airframe_0
-		modules = {
-			fixed_main_weapon_slot = bomb_locks
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = dive_brakes_small
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "BM-2" #
-		type = cv_small_plane_naval_bomber_airframe_0
-		modules = {
-			fixed_main_weapon_slot = torpedo_mounting
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "A-12" #
-		type = small_plane_cas_airframe_0
-		modules = {
-			fixed_main_weapon_slot = small_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = light_mg_4x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-		icon = "GFX_USA_CAS1_medium"
-	}
-	create_equipment_variant = {
-		name = "A-17" #
-		type = small_plane_cas_airframe_1
-		modules = {
-			fixed_main_weapon_slot = small_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = light_mg_4x
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
-		}
-		icon = "GFX_USA_CAS1_medium"
-	}
-	create_equipment_variant = {
-		name = "P-35A" #
-		type = small_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			fixed_auxiliary_weapon_slot_1 = heavy_mg_2x
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
-		}
-		icon = "GFX_USA_light_plane_4_medium"
-	}
-	create_equipment_variant = {
-		name = "P-36A" #
-		type = small_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = light_mg_4x
-			fixed_auxiliary_weapon_slot_1 = light_mg_2x
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
-		}
-		icon = "GFX_USA_fighter1_medium"
-	}
-	create_equipment_variant = {
-		name = "B-6A" #also covers other Keystone bombers
-		type = medium_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			engine_type_slot = engine_1_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "B-10" #
-		type = medium_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			engine_type_slot = engine_1_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		icon = "GFX_medium_plane_1_medium"
-	}
-	create_equipment_variant = {
-		name = "B-18" #
-		type = medium_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = lmg_defense_turret
-		}
-		icon = "GFX_USA_early_bomber_medium"
-	}
-	create_equipment_variant = {
-		name = "P2Y" #
-		type = medium_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = bomb_locks
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = flying_boat_medium
-			special_type_slot_2 = lmg_defense_turret
-		}
-		obsolete = yes
-		icon = "GFX_USA_naval_bomber1_medium"
-	}
-	create_equipment_variant = {
-		name = "PBY" #
-		type = medium_plane_airframe_1
-		modules = {
-			fixed_main_weapon_slot = medium_bomb_bay
-			fixed_auxiliary_weapon_slot_1 = torpedo_mounting
-			engine_type_slot = engine_2_2x
-			special_type_slot_1 = flying_boat_medium
-			special_type_slot_2 = lmg_defense_turret
-		}
-		icon = "GFX_USA_naval_bomber1_medium"
-	}
-	create_equipment_variant = {
-		name = "F4B" #also covers F2F
-		type = cv_small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_1_1x
-			special_type_slot_1 = empty
-		}
-		obsolete = yes
-		icon = "GFX_USA_cv_fighter1_medium"
-	}
-	create_equipment_variant = {
-		name = "F3F" #
-		type = cv_small_plane_airframe_0
-		modules = {
-			fixed_main_weapon_slot = light_mg_2x
-			engine_type_slot = engine_2_1x
-			special_type_slot_1 = empty
-		}
-		icon = "GFX_USA_cv_fighter1_medium"
-	}
-	#######Tank Variants#################
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	create_equipment_variant = {
-		name = "M1 Combat Car"
-		type = light_tank_chassis_1
-		parent_version = 0
-		modules = {
-			main_armament_slot = tank_heavy_machine_gun
-			turret_type_slot = tank_light_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-			special_type_slot_1 = tank_radio_1
-		}
-		upgrades = {
-			tank_nsb_armor_upgrade = 2
-			tank_nsb_engine_upgrade = 5
-		}
-		icon = "GFX_USA_basic_light_tank_medium"
-	}
-	create_equipment_variant = {
-		name = "M2A2"
-		type = light_tank_chassis_1
-		parent_version = 1
-		modules = {
-			main_armament_slot = tank_heavy_machine_gun
-			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
-			special_type_slot_1 = secondary_turret_hmg
-			special_type_slot_2 = tank_radio_1
-		}
-		upgrades = {
-			tank_nsb_armor_upgrade = 2
-			tank_nsb_engine_upgrade = 5
-		}
-		icon = "GFX_USA_basic_light_tank_medium"
-	}
+set_popularities = {
+	fascism = 1
+	despotism = 0
+	paternalism = 8
+	conservatism = 58
+	liberalism = 33
+	progressivism = 0
+	socialism = 0
+	communism = 0
 }
 
+recruit_character = SCA_Tom_Metzger
+recruit_character = SCA_Ronald_Reagan
+recruit_character = SCA_Jerry_Brown
+recruit_character = SCA_Mike_Curb
+recruit_character = SCA_George_Deukmejian
+recruit_character = SCA_Bob_Dornan
+recruit_character = SCA_Pete_Wilson
+recruit_character = SCA_Arnold_Schwarzenegger
+recruit_character = SCA_Ron_Unz
+recruit_character = SCA_Kathleen_Brown
+recruit_character = SCA_Dianne_Feinstein
+recruit_character = SCA_Gray_Davis
+recruit_character = SCA_Al_Checchi
+recruit_character = SCA_Disorganised_Leadership
 
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+add_ideas = {
+	developed_economic_capacity
 }

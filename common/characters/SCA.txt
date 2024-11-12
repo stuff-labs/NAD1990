@@ -1,129 +1,94 @@
-characters={ #LOC KEYS FOR NAMES PEOPLE
-	SCA_jerry_brown={
-		name="Jerry Brown"
-		portraits={
-			civilian={
-				large="gfx/leaders/SCA/portrait_SCA_jerry_brown.dds"
-			}
-		}
-		country_leader={
-			ideology= liberalism_subtype 
-			traits={ }
-			expire="2020.1.1.1"
-			id=-1
-		}
-	}
-	SCA_gloria_la_riva={
-		name="Gloria La Riva"
-		portraits={
-			civilian={
-				large="gfx/leaders/SCA/portrait_SCA_gloria_la_riva.dds"
-			}
-		}
-		country_leader={
-			ideology= socialism_subtype 
-			traits={ }
-			expire="2020.1.1.1"
-			id=-1
-		}
-	}
-	SCA_henry_lamont_beach={
-		name="Henry Lamont Beach"
-		portraits={
-			civilian={
-				large="gfx/leaders/SCA/portrait_SCA_henry_lamont_beach.dds"
-			}
-		}
-		country_leader={
-			ideology= fascism_subtype 
-			traits={ }
-			expire="2020.1.1.1"
-			id=-1
-		}
-	}
-	SCA_ronald_reagan={
-		name="Ronald Reagan"
-		portraits={
-			civilian={
-				large="gfx/leaders/SCA/portrait_SCA_ronald_reagan.dds"
-			}
-		}
-		country_leader={
-			ideology= paternalism_pacific_conservatism_base_subtype  
-			traits={ }
-			expire="2020.1.1.1"
-			id=-1
-		}
-	}
-	SCA_Unorganised_Dissidents = {
-		name = SCA_Unorganised_Dissidents
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/NYC/Portrait_NYC_Unorganised_Dissidents.dds"
-			}
-		}
-		country_leader = {
-			ideology = liberalism_2_subtype
-			traits = {  }
-			expire = "2020.1.1.1"
-			id = -1
-		}
-		country_leader = {
-			ideology = progressivism_subtype
-			traits = {  }
-			expire = "2020.1.1.1"
-			id = -1
-		}
+characters={
+	SCA_Tom_Metzger = {
+		name = SCA_Tom_Metzger
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Tom_Metzger.dds" } }
 		country_leader = {
 			ideology = fascism_nazism_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
+	}
+	SCA_Disorganised_Leadership = {
+		name = SCA_Disorganised_Leadership
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
 		country_leader = {
-			ideology = despotism_subtype
+			ideology = paternalism_right_wing_populism_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = communism_subtype
+			ideology = conservatism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = liberalism_subtype
 			traits = {  }
 			expire = "2020.1.1.1"
 			id = -1
 		}
 	}
-
-
-
-	#CALIFORNIAN SPLIT - PUPPET LEADERS
-	RCA_oscar_zeta_acosta = {
-		name= RCA_oscar_zeta_acosta
-		portraits={
-			civilian={
-				large="gfx/leaders/SCA/portrait_SCA_oscar_zeta_accosta.dds"
-			}
-		}
-		country_leader={
-			ideology= freak_power 
-			traits={ }
-			expire="2020.1.1.1"
-			id=-1
+	SCA_Ronald_Reagan = {
+		name = SCA_Ronald_Reagan
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Ronald_Reagan.dds" } }
+		country_leader = {
+			ideology = conservatism_hollywood_conservatism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
 		}
 	}
-
-	LAA_provisional_authority = {
-		name= LAA_provisional_authority
-		portraits={
-			civilian={
-				large="gfx/leaders/SCA/portrait_SCA_provisional_authority.dds"
-			}
+	SCA_Jerry_Brown = {
+		name = SCA_Jerry_Brown
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Jerry_Brown.dds" } }
+		country_leader = {
+			ideology = liberalism_populist_liberal_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
 		}
-		country_leader={
-			ideology= provisional_government 
-			traits={ }
-			expire="2020.1.1.1"
-			id=-1
-		}
+	}
+	SCA_Mike_Curb = {
+		name = SCA_Mike_Curb
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Mike_Curb.dds" } }
+	}
+	SCA_George_Deukmejian = {
+		name = SCA_George_Deukmejian
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_George_Deukmejian.dds" } }
+	}
+	SCA_Bob_Dornan = {
+		name = SCA_Bob_Dornan
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Bob_Dornan.dds" } }
+	}
+	SCA_Pete_Wilson = {
+		name = SCA_Pete_Wilson
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Pete_Wilson.dds" } }
+	}
+	SCA_Arnold_Schwarzenegger = {
+		name = SCA_Arnold_Schwarzenegger
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Arnold_Schwarzenegger.dds" } }
+	}
+	SCA_Ron_Unz = {
+		name = SCA_Ron_Unz
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Ron_Unz.dds" } }
+	}
+	SCA_Kathleen_Brown = {
+		name = SCA_Kathleen_Brown
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Kathleen_Brown.dds" } }
+	}
+	SCA_Dianne_Feinstein = {
+		name = SCA_Dianne_Feinstein
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Dianne_Feinstein.dds" } }
+	}
+	SCA_Gray_Davis = {
+		name = SCA_Gray_Davis
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Gray_Davis.dds" } }
+	}
+	SCA_Al_Checchi = {
+		name = SCA_Al_Checchi
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Al_Checchi.dds" } }
 	}
 }
