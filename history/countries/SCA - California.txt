@@ -153,6 +153,7 @@ recruit_character = SCA_George_Deukmejian
 recruit_character = SCA_Bob_Dornan
 recruit_character = SCA_Pete_Wilson
 recruit_character = SCA_Arnold_Schwarzenegger
+recruit_character = SCA_Dan_Lungren
 recruit_character = SCA_Ron_Unz
 recruit_character = SCA_Kathleen_Brown
 recruit_character = SCA_Dianne_Feinstein

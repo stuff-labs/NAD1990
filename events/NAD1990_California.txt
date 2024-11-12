@@ -188,7 +188,7 @@ country_event = { # ELECTION THREE
             every_country = {
                 limit = { is_ai = no }
                 news_event = {
-                    id = SCA_News_Events.20
+                    id = SCA_News_Events.16
                 }
             }
             SCA_Jerry_Brown = {
@@ -196,11 +196,11 @@ country_event = { # ELECTION THREE
                     civilian = { large = "gfx/leaders/SCA/Portrait_SCA_Jerry_Brown_Old.dds" }
                 }
             }
-                set_popularities = {
-                    paternalism = 5
-                    conservatism = 29
-                    liberalism = 66
-                }
+            set_popularities = {
+                paternalism = 5
+                conservatism = 29
+                liberalism = 66
+            }
         }
         else_if = {
             limit = { has_government = conservatism }
@@ -210,7 +210,7 @@ country_event = { # ELECTION THREE
                 every_country = {
                     limit = { is_ai = no }
                     news_event = {
-                        id = SCA_News_Events.13
+                        id = SCA_News_Events.12
                     }
                 }
                 set_popularities = {
@@ -245,7 +245,7 @@ country_event = { # ELECTION THREE
                 every_country = {
                     limit = { is_ai = no }
                     news_event = {
-                        id = SCA_News_Events.23
+                        id = SCA_News_Events.19
                     }
                 }
             }
@@ -253,7 +253,7 @@ country_event = { # ELECTION THREE
                 every_country = {
                     limit = { is_ai = no }
                     news_event = {
-                        id = SCA_News_Events.22
+                        id = SCA_News_Events.18
                     }
                 }
             }
@@ -262,30 +262,13 @@ country_event = { # ELECTION THREE
 
     option = { # RON UNZ
         name = SCA_events.3.b
-        trigger = {
-            OR = {
-                has_country_leader = { ruling_only = yes character = SCA_Pete_Wilson }
-                has_country_leader = { ruling_only = yes character = SCA_Kathleen_Brown }
-                has_country_leader = { ruling_only = yes character = SCA_Dianne_Feinstein }
-            }
-        }
+        trigger = { has_country_leader = { ruling_only = yes character = SCA_Pete_Wilson } }
         ai_chance = { factor = 1 }
         set_country_flag = SCA_Ron_Unz_elected_flag
-        if = {
-            limit = { has_country_leader = { ruling_only = yes character = SCA_Pete_Wilson } }
-            every_country = {
-                limit = { is_ai = no }
-                news_event = {
-                    id = SCA_News_Events.15
-                }
-            }
-        }
-        else = {
-            every_country = {
-                limit = { is_ai = no }
-                news_event = {
-                    id = SCA_News_Events.16
-                }
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SCA_News_Events.13
             }
         }
     }
@@ -307,52 +290,6 @@ country_event = { # ELECTION THREE
             }
         }
         set_country_flag = SCA_Arnold_Schwarzenegger_elected_flag
-        if = {
-            limit = { has_country_leader = { ruling_only = yes character = SCA_Mike_Curb } }
-            every_country = {
-                limit = { is_ai = no }
-                news_event = {
-                    id = SCA_News_Events.17
-                }
-            }
-        }
-        else_if = {
-            limit = { has_country_leader = { ruling_only = yes character = SCA_George_Deukmejian } }
-            every_country = {
-                limit = { is_ai = no }
-                news_event = {
-                    id = SCA_News_Events.18
-                }
-            }
-        }
-        else = {
-            every_country = {
-                limit = { is_ai = no }
-                news_event = {
-                    id = SCA_News_Events.19
-                }
-            }
-        }
-    }
-
-    option = { # BOB DORNAN
-        name = SCA_events.3.d
-        trigger = { has_country_leader = { ruling_only = yes character = SCA_Mike_Curb } }
-        ai_chance = { factor = 1 }
-        set_country_flag = SCA_Bob_Dornan_elected_flag
-        every_country = {
-            limit = { is_ai = no }
-            news_event = {
-                id = SCA_News_Events.12
-            }
-        }
-    }
-
-    option = { # PETE WILSON
-        name = SCA_events.3.e
-        trigger = { has_country_leader = { ruling_only = yes character = SCA_George_Deukmejian } }
-        ai_chance = { factor = 1 }
-        set_country_flag = SCA_Pete_Wilson_elected_flag
         every_country = {
             limit = { is_ai = no }
             news_event = {
@@ -361,8 +298,30 @@ country_event = { # ELECTION THREE
         }
     }
 
+    option = { # DAN LUNGREN
+        name = SCA_events.3.d
+        trigger = {
+            OR = {
+                AND = {
+                    has_government = liberalism
+                    NOT = { has_country_leader = { ruling_only = yes character = SCA_Jerry_Brown } }
+                }
+                has_country_leader = { ruling_only = yes character = SCA_Mike_Curb }
+                has_country_leader = { ruling_only = yes character = SCA_George_Deukmejian }
+            }
+        }
+        ai_chance = { factor = 1 }
+        set_country_flag = SCA_Dan_Lungren_elected_flag
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SCA_News_Events.15
+            }
+        }
+    }
+
     option = { # JERRY BROWN
-        name = SCA_events.3.f
+        name = SCA_events.3.e
         trigger = {
             has_government = conservatism
             has_country_flag = SCA_Jerry_Brown_first_term_flag 
@@ -372,13 +331,13 @@ country_event = { # ELECTION THREE
         every_country = {
             limit = { is_ai = no }
             news_event = {
-                id = SCA_News_Events.21
+                id = SCA_News_Events.17
             }
         }
     }
 
     option = { # GRAY DAVIS
-        name = SCA_events.3.g
+        name = SCA_events.3.f
         trigger = {
             has_government = conservatism
             NOT = { has_country_flag = SCA_Jerry_Brown_first_term_flag }
@@ -388,13 +347,13 @@ country_event = { # ELECTION THREE
         every_country = {
             limit = { is_ai = no }
             news_event = {
-                id = SCA_News_Events.24
+                id = SCA_News_Events.20
             }
         }
     }
 
     option = { # AL CHECCHI
-        name = SCA_events.3.h
+        name = SCA_events.3.g
         trigger = {
             has_government = conservatism
             NOT = { has_country_flag = SCA_Jerry_Brown_first_term_flag }
@@ -404,7 +363,7 @@ country_event = { # ELECTION THREE
         every_country = {
             limit = { is_ai = no }
             news_event = {
-                id = SCA_News_Events.25
+                id = SCA_News_Events.21
             }
         }
     }
@@ -601,9 +560,7 @@ country_event = { # INAUGURATION THREE
         if = { # RON UNZ
             limit = { has_country_flag = SCA_Ron_Unz_elected_flag }
             SCA_Pete_Wilson = { remove_country_leader_role = { ideology = conservatism_subtype } }
-            SCA_Jerry_Brown = { remove_country_leader_role = { ideology = liberalism_subtype } }
-            SCA_Kathleen_Brown = { remove_country_leader_role = { ideology = liberalism_subtype } }
-            SCA_Dianne_Feinstein = { remove_country_leader_role = { ideology = liberalism_subtype } }
+            SCA_Jerry_Brown = { remove_country_leader_role = { ideology = liberalism_populist_liberal_subtype } }
             add_country_leader_role = {
                 character = SCA_Ron_Unz
                 promote_leader = yes
@@ -633,7 +590,7 @@ country_event = { # INAUGURATION THREE
             limit = { has_country_flag = SCA_Arnold_Schwarzenegger_elected_flag }
             SCA_Mike_Curb = { remove_country_leader_role = { ideology = conservatism_hollywood_conservatism_subtype } }
             SCA_George_Deukmejian = { remove_country_leader_role = { ideology = conservatism_subtype } }
-            SCA_Jerry_Brown = { remove_country_leader_role = { ideology = liberalism_subtype } }
+            SCA_Jerry_Brown = { remove_country_leader_role = { ideology = liberalism_populist_liberal_subtype } }
             SCA_Kathleen_Brown = { remove_country_leader_role = { ideology = liberalism_subtype } }
             SCA_Dianne_Feinstein = { remove_country_leader_role = { ideology = liberalism_subtype } }
             add_country_leader_role = {
@@ -666,38 +623,40 @@ country_event = { # INAUGURATION THREE
                 elections_allowed = yes
             }
         }
-        else_if = { # BOB DORNAN
-            limit = { has_country_flag = SCA_Bob_Dornan_elected_flag }
+        else_if = { # DAN LUNGREN
+            limit = { has_country_flag = SCA_Dan_Lungren_elected_flag }
             SCA_Mike_Curb = { remove_country_leader_role = { ideology = conservatism_hollywood_conservatism_subtype } }
-            add_country_leader_role = {
-                character = SCA_Bob_Dornan
-                promote_leader = yes
-                country_leader = {
-                    ideology = conservatism_hollywood_conservatism_subtype
-                    expire = "2020.1.1.1"
-                }
-            }
-            set_popularities = {
-                paternalism = 12
-                conservatism = 44
-                liberalism = 44
-            }
-        }
-        else_if = { # PETE WILSON
-            limit = { has_country_flag = SCA_Pete_Wilson_elected_flag }
             SCA_George_Deukmejian = { remove_country_leader_role = { ideology = conservatism_subtype } }
+            SCA_Kathleen_Brown = { remove_country_leader_role = { ideology = liberalism_subtype } }
+            SCA_Dianne_Feinstein = { remove_country_leader_role = { ideology = liberalism_subtype } }
             add_country_leader_role = {
-                character = SCA_Pete_Wilson
+                character = SCA_Dan_Lungren
                 promote_leader = yes
                 country_leader = {
                     ideology = conservatism_subtype
                     expire = "2020.1.1.1"
                 }
             }
-            set_popularities = {
-                paternalism = 4
-                conservatism = 52
-                liberalism = 44
+            if = {
+                limit = { has_government = liberalism }
+                set_popularities = {
+                    paternalism = 8
+                    conservatism = 44
+                    liberalism = 48
+                }
+            }
+            else = {
+                set_popularities = {
+                    paternalism = 8
+                    conservatism = 48
+                    liberalism = 44
+                }
+            }
+            set_politics = {
+                ruling_party = conservatism
+                last_election = "1999.6.6"
+                election_frequency = 48
+                elections_allowed = yes
             }
         }
         else_if = { # JERRY BROWN

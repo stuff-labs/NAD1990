@@ -71,6 +71,10 @@ characters={
 		name = SCA_Arnold_Schwarzenegger
 		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Arnold_Schwarzenegger.dds" } }
 	}
+	SCA_Dan_Lungren = {
+		name = SCA_Dan_Lungren
+		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Dan_Lungren.dds" } }
+	}
 	SCA_Ron_Unz = {
 		name = SCA_Ron_Unz
 		portraits = { civilian = { large="gfx/leaders/SCA/Portrait_SCA_Ron_Unz.dds" } }
