@@ -4,7 +4,7 @@ state={
 	name="STATE_117"
 
 	history={
-		owner = PON
+		owner = PQC
 		1990.1.2 = {
 			owner = CAN
 		}
@@ -13,7 +13,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = PON
+		add_core_of = PQC
 
 	}
 

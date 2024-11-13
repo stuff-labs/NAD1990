@@ -12,7 +12,6 @@ state={
 		1990.1.2 = {
 			owner = USA
 		}
-		add_core_of = JEF
 		victory_points = {
 			697 1
 		}

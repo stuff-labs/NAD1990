@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = PON
+		owner = PQC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = PON
+		add_core_of = PQC
 		1990.1.2 = {
 			owner = CAN
 		}

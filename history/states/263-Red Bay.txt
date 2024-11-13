@@ -16,8 +16,6 @@ state={
 			}
 		}
 		add_core_of = PON
-		add_core_of = LAB
-		add_core_of = PON
 		1990.1.2 = {
 			owner = CAN
 		}

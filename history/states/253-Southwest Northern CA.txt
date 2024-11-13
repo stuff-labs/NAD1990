@@ -12,7 +12,6 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = SCA
-		add_core_of = JEF
 		1990.1.2 = {
 			owner = USA
 		}

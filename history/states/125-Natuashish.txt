@@ -20,7 +20,6 @@ state={
 			}
 		}
 		add_core_of = PON
-		add_core_of = LAB
 		victory_points = {
 			3607 5 
 		}

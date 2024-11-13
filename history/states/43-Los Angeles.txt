@@ -21,7 +21,6 @@ state={
 
 		}
 		add_core_of = SCA
-		add_core_of = LAA
 		victory_points = {
 			6326 40 
 		}

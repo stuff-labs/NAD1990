@@ -4,7 +4,7 @@ state={
 	name="STATE_110"
 
 	history={
-		owner = PON
+		owner = PQC
 		1990.1.2 = {
 			owner = CAN
 		}
@@ -18,7 +18,7 @@ state={
 			}
 
 		}
-		add_core_of = PON
+		add_core_of = PQC
 		victory_points = {
 			2998 3
 		}

@@ -22,7 +22,6 @@ state={
 		}
 
 		add_core_of = PON
-		add_core_of = NFL
 		1990.1.2 = {
 			owner = CAN
 		}

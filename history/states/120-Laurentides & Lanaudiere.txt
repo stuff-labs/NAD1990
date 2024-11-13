@@ -4,7 +4,7 @@ state={
 	name="STATE_120"
 
 	history={
-		owner = PON
+		owner = PQC
 		1990.1.2 = {
 			owner = CAN
 		}
@@ -14,7 +14,7 @@ state={
 			air_base = 5
 			arms_factory = 1
 		}
-		add_core_of = PON
+		add_core_of = PQC
 		victory_points = {
 			8043 6 #gatineau
 		}

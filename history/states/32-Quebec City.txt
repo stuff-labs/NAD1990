@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = PON
+		owner = PQC
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -28,12 +28,10 @@ state={
 		victory_points = {
 			2820 30 
 		}
-		add_core_of = PON
+		add_core_of = PQC
 		1990.1.2 = {
 			owner = CAN
-			set_demilitarized_zone = no
 		}
-		set_demilitarized_zone = yes
 	}
 
 	provinces={
