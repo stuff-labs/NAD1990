@@ -5,9 +5,8 @@ state={
 		steel=24
 	}
 	history={
-		owner = SRO
-		add_core_of = SRO
-		add_claim_by = SRO
+		owner = SOR
+		add_core_of = SOR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -16,9 +15,6 @@ state={
 		}
 		victory_points = {
 			193 30
-		}
-		1990.1.2 = {
-			owner = USA
 		}
 	}
 	provinces={

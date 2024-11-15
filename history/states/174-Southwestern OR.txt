@@ -2,21 +2,14 @@ state={
 	id=174
 	name="STATE_174"
 	history={
-		owner = SRO
-		add_core_of = SRO
-		1990.1.2 = {
-			owner = USA
-		}
+		owner = SOR
+		add_core_of = SOR
 		buildings = {
 			infrastructure = 2
 		}
 		victory_points = {
 			437 1
-                }
-		1990.1.2 = {
-			owner = USA
-		}
-		add_claim_by = SRO
+        }
 	}
 	provinces={
 		68 437 506 2338 2353 

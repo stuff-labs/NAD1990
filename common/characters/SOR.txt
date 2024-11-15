@@ -1,0 +1,84 @@
+characters={
+	SOR_Disorganised_Leadership = {
+		name = SOR_Disorganised_Leadership
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+		country_leader = {
+			ideology = paternalism_right_wing_populism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = liberalism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = progressivism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SOR_Kevin_Mannix = {
+		name = SOR_Kevin_Mannix
+		portraits = { civilian = { large="gfx/leaders/SOR/Portrait_SOR_Kevin_Mannix.dds" } }
+		country_leader = {
+			ideology = paternalism_right_wing_populism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SOR_Neil_Goldschmidt = {
+		name = SOR_Neil_Goldschmidt
+		portraits = { civilian = { large="gfx/leaders/SOR/Portrait_SOR_Neil_Goldschmidt.dds" } }
+		country_leader = {
+			ideology = liberalism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SOR_John_Kitzhaber = {
+		name = SOR_John_Kitzhaber
+		portraits = { civilian = { large="gfx/leaders/SOR/Portrait_SOR_John_Kitzhaber.dds" } }
+		country_leader = {
+			ideology = progressivism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SOR_Ted_Kulongoski = {
+		name = SOR_Ted_Kulongoski
+		portraits = { civilian = { large="gfx/leaders/SOR/Portrait_SOR_Ted_Kulongoski.dds" } }
+	}
+	SOR_Ron_Wyden = {
+		name = SOR_Ron_Wyden
+		portraits = { civilian = { large="gfx/leaders/SOR/Portrait_SOR_Ron_Wyden.dds" } }
+	}
+	SOR_Bill_Sizemore = {
+		name = SOR_Bill_Sizemore
+		portraits = { civilian = { large="gfx/leaders/SOR/Portrait_SOR_Bill_Sizemore.dds" } }
+	}
+	SOR_Jeff_Merkley = {
+		name = SOR_Jeff_Merkley
+		portraits = { civilian = { large="gfx/leaders/SOR/Portrait_SOR_Jeff_Merkley.dds" } }
+	}
+	SOR_Tony_Corcoran = {
+		name = SOR_Tony_Corcoran
+		portraits = { civilian = { large="gfx/leaders/SOR/Portrait_SOR_Tony_Corcoran.dds" } }
+	}
+	SOR_Phil_Knight = {
+		name = SOR_Phil_Knight
+		portraits = { civilian = { large="gfx/leaders/SOR/Portrait_SOR_Phil_Knight.dds" } }
+	}
+}

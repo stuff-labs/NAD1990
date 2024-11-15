@@ -5,22 +5,15 @@ state={
 		tungsten=8.000
 	}
 	history={
-		owner = SRO
-		add_core_of = SRO
-		1990.1.2 = {
-			owner = USA
-		}
+		owner = SOR
+		add_core_of = SOR
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 		}
 		victory_points = {
 			2355 10
-                }
-		1990.1.2 = {
-			owner = USA
-		}
-		add_claim_by = SRO
+        }
 	}
 	provinces={
 		69 85 172 2355 2598 

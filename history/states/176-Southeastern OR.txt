@@ -5,23 +5,15 @@ state={
 		aluminium=4.000
 	}
 	history={
-		owner = SRO
-		add_core_of = SRO
-		1990.1.2 = {
-			owner = USA
-		}
+		owner = SOR
+		add_core_of = SOR
 		buildings = {
 			infrastructure = 1
 			air_base = 2
 		}
-        
 		victory_points = {
 			2923 1
-                }
-		1990.1.2 = {
-			owner = USA
-		}
-		add_claim_by = SRO
+        }
 	}
 	provinces={
 		2357 2882 2885 2905 2923 2945 

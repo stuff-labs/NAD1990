@@ -5,11 +5,8 @@ state={
 		257 447 2354 2426 2966 3006 
 	}
 	history={
-		owner = SRO
-		1990.1.2 = {
-			owner = USA
-		}
-		add_core_of = SRO
+		owner = SOR
+		add_core_of = SOR
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -17,11 +14,10 @@ state={
 		}
 		victory_points = {
 			3006 10
-                }
+        }
 		victory_points = {
 			2354 4
-                }
-        add_claim_by = SRO
+        }
 	}
 	manpower=36213
 	buildings_max_level_factor=1.000

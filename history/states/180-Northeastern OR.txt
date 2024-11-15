@@ -6,11 +6,8 @@ state={
 		chromium=4
 	}
 	history={
-		owner = SRO
-		add_core_of = SRO
-		1990.1.2 = {
-			owner = USA
-		}
+		owner = SOR
+		add_core_of = SOR
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -19,14 +16,10 @@ state={
 		}
 		victory_points = {
 			261 1
-                }
+        }
 		victory_points = {
 			181 1
-                }
-		1990.1.2 = {
-			owner = USA
-		}
-		add_claim_by = SRO
+        }
 	}
 	provinces={
 		181 261 347 394 2628 

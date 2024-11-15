@@ -8,12 +8,8 @@ state={
 		steel=16
 	}
 	history={
-		owner = SRO
-		add_core_of = SRO
-		add_claim_by = SRO
-		1990.1.2 = {
-			owner = USA
-		}
+		owner = SOR
+		add_core_of = SOR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

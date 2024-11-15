@@ -120,6 +120,7 @@ if = {
 
 SCA = {
 	create_faction = SCA_Pacific_Treaty_Organisation
+	add_to_faction = SOR
 	add_to_faction = SUT
 	add_to_faction = SID
 	add_to_faction = SHI
