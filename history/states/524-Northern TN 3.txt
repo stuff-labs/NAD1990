@@ -8,7 +8,7 @@ state={
 	}
 	
 	history={
-		owner = SNC
+		owner = STN
 		1990.1.2 = {
 			owner = USA
 		}
@@ -25,7 +25,7 @@ state={
 			3821 20 #knoxville 
 		}
 		
-		add_core_of = SNC
+		add_core_of = STN
 	}
 	
 	provinces={

@@ -1,0 +1,14 @@
+characters = {
+	STN_al_gore = {
+		name = STN_al_gore
+		portraits = {
+			civilian = { large = "gfx/leaders/STN/Portrait_STN_al_gore.dds" }
+		}
+		country_leader = {
+			ideology = liberalism_subtype 
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+}

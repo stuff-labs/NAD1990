@@ -1,0 +1,24 @@
+﻿l_english:
+
+ STN:0 "Republic of Tennessee"
+ STN_DEF:0 "the Republic of Tennessee"
+ STN_ADJ:0 "Tennessean"
+
+ STN_fascism_party: "Unorganised Dissidents"
+ STN_fascism_party_long: "Unorganised Dissidents"
+ STN_despotism_party: "Unorganised Dissidents"
+ STN_despotism_party_long: "Unorganised Dissidents"
+ STN_paternalism_party: "Unorganised Dissidents"
+ STN_paternalism_party_long: "Unorganised Dissidents"
+ STN_conservatism_party: "TNGOP"
+ STN_conservatism_party_long: "Tennessee Grand Old Party"
+ STN_liberalism_party: "TNDP"
+ STN_liberalism_party_long: "Tennessee Democratic Party"
+ STN_progressivism_party: "Unorganised Dissidents"
+ STN_progressivism_party_long: "Unorganised Dissidents"
+ STN_socialism_party: "Unorganised Dissidents"
+ STN_socialism_party_long: "Unorganised Dissidents"
+ STN_communism_party: "Unorganised Dissidents"
+ STN_communism_party_long: "Unorganised Dissidents"
+
+ STN_al_gore: "Al Gore"

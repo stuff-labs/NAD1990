@@ -425,16 +425,6 @@
  SOK_DEF:0 "The Republic of Oklahoma"
  SOK_ADJ:0 "Oklahoman"
  
- STN_fascism:1 "Tennessee"
- STN_fascism_DEF:1 "Tennessee"
- STN_paternalism:0 "Tennessee"
- STN_paternalism_DEF:0 "Tennessee"
- STN_communism:1 "Republic of Tennessee"
- STN_communism_DEF:1 "the Republic of Tennessee"
- STN:0 "Republic of Tennessee"
- STN_DEF:0 "the Republic of Tennessee"
- STN_ADJ:0 "Tennessean"
- 
  SAR_fascism:1 "Arkansas"
  SAR_fascism_DEF:1 "Arkansas"
  SAR_paternalism:0 "Arkansas"

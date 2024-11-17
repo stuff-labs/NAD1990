@@ -4,14 +4,14 @@ state={
 	name="STATE_522"
 	
 	history={
-		owner = SNC
+		owner = STN
 		1990.1.2 = {
 			owner = USA
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SNC
+		add_core_of = STN
 		
 		victory_points = {
 			1533 2 

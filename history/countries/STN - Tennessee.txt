@@ -21,16 +21,22 @@ starting_train_buffer = 5
 
 set_convoys = 30
 
+recruit_character = STN_al_gore
+
 set_politics = {
-	ruling_party = paternalism 
-	last_election = "1936.1.1"
+	ruling_party = liberalism 
+	last_election = "1986.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
-set_popularities = {
-	liberalism = 23
-	fascism = 11
-	communism = 1
-	paternalism = 65
-}
 
+set_popularities = {
+	fascism = 0
+	despotism = 0
+	paternalism = 2
+	conservatism = 33
+	liberalism = 65
+	progressivism = 0
+	socialism = 0
+	communism = 0
+}

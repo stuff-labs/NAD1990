@@ -9,14 +9,14 @@ state={
 	}
 
 	history={
-		owner = SNC
+		owner = STN
 		1990.1.2 = {
 			owner = USA
 		}
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SNC
+		add_core_of = STN
 	}
 	
 	provinces={

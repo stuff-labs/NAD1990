@@ -156,18 +156,6 @@
  SHI_despotism_party_long: "House of Kawānanakoa"
  SHI_progressivism_party: "Social Democratic Party"
  SHI_progressivism_party_long: "Social Democratic Party of Hawaii"
- 
-
- STN_communism_party: "STFU" #I swear I'm not swearing at you
- STN_communism_party_long: "Southern Tenant Farmers Union"
- STN_fascism_party: "Agrarian Democrat Party"
- STN_fascism_party_long: "Agrarian Democratic Party"
- STN_paternalism_party: "Crumpist Democrat Party"
- STN_paternalism_party_long: "Crumpist Democratic Party"
- STN_liberalism_party: "Democrat Party"
- STN_liberalism_party_long: "Democratic Party"
- STN_despotism_party: "JDP"
- STN_despotism_party_long: "Jeffersonian Democrat Party"
 
  SOK_fascism_party: "TDP"
  SOK_fascism_party_long: "True Democrat Party"

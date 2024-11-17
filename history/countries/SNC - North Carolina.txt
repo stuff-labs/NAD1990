@@ -99,6 +99,7 @@ set_rule = {
 SNC = {
 	create_faction = SNC_southern_defense_council
 	add_to_faction = SKY
+	add_to_faction = STN
 }
 
 if = {

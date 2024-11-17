@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = SNC
+		owner = STN
 		1990.1.2 = {
 			owner = USA
 		}
@@ -23,7 +23,7 @@ state={
 			1648 5 #johnson city 
 		}
 		
-		add_core_of = SNC
+		add_core_of = STN
 
 	}
 

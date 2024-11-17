@@ -90,7 +90,7 @@ recruit_character = PON_John_Turner
 
 add_ideas = {
 	developed_economic_capacity
-	PON_quebec_compromise
+	#PON_quebec_compromise
 	PON_teetering_bankruptcy
 }
 
