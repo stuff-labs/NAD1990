@@ -10,10 +10,12 @@ buildings = {
 		local_resources_tungsten = 0
 		local_resources_chromium = 0
 		refinery = yes
-		max_level = 20
-		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 20
+		}
 	}
 
 	aluminum_mill = {
@@ -24,10 +26,12 @@ buildings = {
 		local_resources_tungsten = 0
 		local_resources_chromium = 0
 		refinery = yes
-		max_level = 20
-		shares_slots = yes
 		value = 5
 		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 20
+		}
 	}
 	
 }
