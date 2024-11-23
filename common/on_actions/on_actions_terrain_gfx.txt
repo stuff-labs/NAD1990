@@ -426,12 +426,6 @@ on_actions = {
 					province = { id = 193 }
 				}
 			}
-			181 = {
-				add_province_modifier = {
-					static_modifiers = { terrain_salem }
-					province = { id = 2754 }
-				}
-			}
 			189 = {
 				add_province_modifier = {
 					static_modifiers = { terrain_tacoma }
@@ -790,12 +784,6 @@ on_actions = {
 				add_province_modifier = {
 					static_modifiers = { terrain_dawson_city } 
 					province = { id = 7291 }
-				}
-			}
-			183 = {
-				add_province_modifier = {
-					static_modifiers = { terrain_eugene } 
-					province = { id = 2946 }
 				}
 			}
 			43 = {

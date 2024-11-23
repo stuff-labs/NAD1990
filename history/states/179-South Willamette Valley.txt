@@ -1,0 +1,31 @@
+state={
+	id=179
+	name="STATE_179"
+	history={
+		owner = SOR
+		add_core_of = SOR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			2565 1
+		}
+		victory_points = {
+			2950 2
+		}
+		victory_points = {
+			364 5
+		}
+		victory_points = {
+			570 2
+		}
+	}
+	provinces={
+		3082 2605 366 2950 364 2565 2571 2695 570 2946 2699
+	}
+	manpower=483839
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=0.0 
+}

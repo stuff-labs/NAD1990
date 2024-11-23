@@ -1,0 +1,19 @@
+state={
+	id=183
+	name="STATE_183"
+	history={
+		owner = SOR
+		add_core_of = SOR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		3006 257 104 619 353 2598 439 85 172 2966 69 2355 2940 2570 2356 432 253 363 2726 2479 2945 2357 615 636 629 2905 2882 2885 2923
+	}
+	manpower=97986
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

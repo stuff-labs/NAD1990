@@ -1,0 +1,25 @@
+state={
+	id=54
+	name="STATE_54"
+	history={
+		owner = SOR
+		add_core_of = SOR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			2657 1
+		}
+		victory_points = {
+			293 5
+		}
+	}
+	provinces={
+		2727 1775 2676 1294 2627 293 2754 2657 125
+	}
+	manpower=677296
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}
