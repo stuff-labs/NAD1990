@@ -37,7 +37,7 @@ set_popularities = {
 	communism = 0
 }
 
-recruit_character = SIL_Dan_Quayle
+recruit_character = SIL_john_ilinois
 
  ############################### BBA STUFF #########################
 

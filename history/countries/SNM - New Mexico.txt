@@ -33,12 +33,12 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 30
-	conservatism = 25
-	fascism = 15
-	progressivism = 5
+	liberalism = 55
+	conservatism = 45
+	fascism = 0
+	progressivism = 0
 	socialism = 0
 	communism = 0
 	paternalism= 0
-	despotism = 25
+	despotism = 0
 }

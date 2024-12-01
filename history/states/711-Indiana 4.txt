@@ -6,12 +6,11 @@ state = {
 		2037 4845 7673 7681 7688 7689 7691 7692 7694 
 	}
     history = {
-        owner = SOH
+        owner = SIN
 		1990.1.2 = {
 			owner = USA
 		}
-        add_core_of = SOH
-        # add_core_of = FOM
+        add_core_of = SIN
         victory_points = {
             7694 2
         }

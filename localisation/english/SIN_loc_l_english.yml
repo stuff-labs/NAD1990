@@ -1,0 +1,24 @@
+﻿l_english:
+
+ SIN: "Republic of Indiana"
+ SIN_DEF: "the Republic of Indiana"
+ SIN_ADJ: "Indianan"
+
+ SIN_fascism_party: "Unorganised Radicals"
+ SIN_fascism_party_long: "Unorganised Radicals"
+ SIN_despotism_party: "Unorganised Radicals"
+ SIN_despotism_party_long: "Unorganised Radicals"
+ SIN_paternalism_party: "RPPI - Q"
+ SIN_paternalism_party_long: "Republican People's Party of Indiana - Quayle"
+ SIN_conservatism_party: "RPPI - R"
+ SIN_conservatism_party_long: "Republican People's Party of Indiana - Reform"
+ SIN_liberalism_party: "Unorganised Dissidents"
+ SIN_liberalism_party_long: "Unorganised Dissidents"
+ SIN_progressivism_party: "Unorganised Dissidents"
+ SIN_progressivism_party_long: "Unorganised Dissidents"
+ SIN_socialism_party: "Unorganised Dissidents"
+ SIN_socialism_party_long: "Unorganised Dissidents"
+ SIN_communism_party: "Unorganised Dissidents"
+ SIN_communism_party_long: "Unorganised Dissidents"
+
+ SIN_Dan_Quayle: "Dan Quayle"

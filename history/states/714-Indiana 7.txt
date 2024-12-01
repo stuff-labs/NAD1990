@@ -4,11 +4,11 @@ state={
 	name="STATE_714"
 
 	history={
-		owner = SOH
+		owner = SIN
 		1990.1.2 = {
 			owner = USA
 		}
-		add_core_of = SOH
+		add_core_of = SIN
 		victory_points = {
 			3962 3 
 		}

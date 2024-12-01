@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = SOH
+		owner = SIN
 		1990.1.2 = {
 			owner = USA
 		}
@@ -19,7 +19,7 @@ state={
 			air_base = 5
 
 		}
-		add_core_of = SOH
+		add_core_of = SIN
 		
 		victory_points = {
 			1976 20 

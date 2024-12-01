@@ -524,12 +524,6 @@
  CHI_despotism_party: "UPI"
  CHI_despotism_party_long: "Union Progressive Party of Illinois"
  
- 
- SIN_liberalism_party: "Republican Party"
- SIN_liberalism_party_long: "Republican Party"
- SIN_paternalism_party: "Democratic Party"
- SIN_paternalism_party_long: "Democratic Party"
- 
  MSO_paternalism_party: "PNR"
  MSO_paternalism_party_long: "Partido Nacional Revolucionario"
  
@@ -550,9 +544,6 @@
  SNE_liberalism_party_long: "Democratic Party of Nebraska"
  SNE_conservatism_party: "NDRC - Moderates"
  SNE_conservatism_party_long: "National Democratic Republican Coalition - Moderates"
- 
- SIN_fascsism_party: "KKK"
- SIN_fascism_party_long: "Klu Klux Klan"
 
  SNY_communism_party: "YCP"
  SNY_communism_party_long: "Yankee Communist Party"

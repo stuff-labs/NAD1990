@@ -245,22 +245,6 @@
  SHI_DEF:0 "Republic of Hawaii"
  SHI_ADJ:0 "Hawaiian"
 
- SIN_fascism:1 "Indiana"
- SIN_fascism_DEF:1 "Indiana"
- SIN_paternalism:0 "Indiana"
- SIN_paternalism_DEF:0 "Indiana"
- SIN_communism:1 "Indiana"
- SIN_communism_DEF:1 "Indiana"
- SIN:0 "Republic of Indiana"
- SIN_DEF:0 "the Republic of Indiana"
- SIN_ADJ:0 "Indianan"
- 
- SKY_fascism:1 "Kentucky Empire"
- SKY_fascism_DEF:1 "Kentucky Empire"
- SKY_paternalism:0 "Kentucky"
- SKY_paternalism_DEF:0 "Kentucky"
- SKY_communism:1 "Kentucky"
- SKY_communism_DEF:1 "Kentucky"
  SKY:0 "Commonwealth of Kentucky"
  SKY_DEF:0 "the Commonwealth of Kentucky"
  SKY_ADJ:0 "Kentuckan"
@@ -276,25 +260,9 @@
 
  
  ####################COLORADO TAGS#################
- SCO_fascism:1 "State of Colorado"
- SCO_fascism_DEF:1 "the State of Colorado"
- SCO_paternalism:0 "State of Colorado"
- SCO_paternalism_DEF:0 "State of Colorado"
- SCO_communism:1 "Miner's Republic Of Colorado"
- SCO_communism_DEF:1 "the Miner's Republic Of Colorado"
  SCO:0 "State of Colorado"
  SCO_DEF:0 "the State of Colorado"
  SCO_ADJ:0 "Coloradan"
- 
- OCO_fascism:1 "Old Colorado Provisional Goverment"
- OCO_fascism_DEF:1 "Old Colorado Provisional Goverment"
- OCO_paternalism:0 "Old Colorado Provisional Goverment"
- OCO_paternalism_DEF:0 "Old Colorado Provisional Goverment"
- OCO_communism:1 "Colorado Soviet Socialist Republic"
- OCO_communism_DEF:1 "CSSR"
- OCO:0 "Old Colorado Provisional Goverment"
- OCO_DEF:0 "Old Colorado Provisional Goverment"
- OCO_ADJ:0 "Old Colorado Provisional Goverment"
  ###########################################END################################
  SDE_fascism:1 "Delawarian Empire"
  SDE_fascism_DEF:1 "the Delawarian Empire"

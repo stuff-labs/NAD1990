@@ -1,10 +1,10 @@
 characters = {
 
-	SIL_john_ilinois = {
-		name = SIL_john_ilinois
+	SIN_Dan_Quayle = {
+		name = SIN_Dan_Quayle
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SIL/Portrait_SIL_john_ilinois.dds"
+				large = "gfx/leaders/SIN/Portrait_SIN_Dan_Quayle.dds"
 			}
 		}
 		country_leader = {
