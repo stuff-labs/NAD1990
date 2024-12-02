@@ -1,0 +1,20 @@
+﻿l_english:
+
+ SCO:0 "State of Colorado"
+ SCO_DEF:0 "the State of Colorado"
+ SCO_ADJ:0 "Coloradan"
+
+ SCO_communism_party: "Unorganised Dissidents"
+ SCO_communism_party_long: "Unorganised Dissidents"
+ SCO_fascism_party: "WNF"
+ SCO_fascism_party_long: "White National Front"
+ SCO_conservatism_party: "Unorganised Dissidents"
+ SCO_conservatism_party_long: "Unorganised Dissidents"
+ SCO_liberalism_party: "CLP"
+ SCO_liberalism_party_long: "Colorado Liberal Party"
+ SCO_despotism_party: "Unorganised Dissidents"
+ SCO_despotism_party_long: "Unorganised Dissidents"
+ SCO_paternalism_party: "Unorganised Dissidents"
+ SCO_paternalism_party_long: "Unorganised Dissidents"
+
+ SCO_richard_lamm: "Richard Lamm"

@@ -1,13 +1,13 @@
 characters={
-	SCO_john_andrews={
-		name="John Andrews"
+	SCO_richard_lamm={
+		name= SCO_richard_lamm
 		portraits={
 			civilian={
-				large="gfx/leaders/SCO/portrait_SCO_john_andrews.dds"
+				large="gfx/leaders/SCO/portrait_SCO_richard_lamm.dds"
 			}
 		}
 		country_leader={
-			ideology= despotism_subtype 
+			ideology= liberalism_populist_liberal_subtype  
 			traits={ }
 			expire="2020.1.1.1"
 			id=-1

@@ -28,30 +28,30 @@ set_convoys = 30
 set_war_support = 0.35
 set_stability = 0.73
 
-recruit_character = SOH_arthur_laffer
+recruit_character = SOH_jim_traficant
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = liberalism
 	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 33
-	conservatism = 38
+	liberalism = 100
+	conservatism = 0
 	fascism = 0
-	progressivism = 8
-	socialism = 2
+	progressivism = 0
+	socialism = 0
 	communism = 0
-	paternalism= 9
-	despotism = 10
+	paternalism= 0
+	despotism = 0
 }
 
 add_ideas = {
-	SOH_the_laffer_curve_failing
-	SOH_legacy_of_the_ohio_gang
+	#SOH_the_laffer_curve_failing
+	#SOH_legacy_of_the_ohio_gang
 	SOH_rusting_away
-	SOH_indiana_problem
+	#SOH_indiana_problem
 }
 
 

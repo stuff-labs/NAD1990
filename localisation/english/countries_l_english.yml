@@ -256,13 +256,7 @@
  SKS:0 "Republic of Kansas"
  SKS_DEF:0 "the Republic of Kansas"
  SKS_ADJ:0 "Kansan"
- 
 
- 
- ####################COLORADO TAGS#################
- SCO:0 "State of Colorado"
- SCO_DEF:0 "the State of Colorado"
- SCO_ADJ:0 "Coloradan"
  ###########################################END################################
  SDE_fascism:1 "Delawarian Empire"
  SDE_fascism_DEF:1 "the Delawarian Empire"
