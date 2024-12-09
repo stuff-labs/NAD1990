@@ -1,0 +1,553 @@
+add_namespace = SMN_events
+
+country_event = { # ELECTION ONE
+    id = SMN_events.1
+    title = SMN_events.1.t
+    desc = SMN_events.1.desc
+
+    is_triggered_only = yes
+
+    immediate = {
+        country_event = { id = SMN_events.2 days = 1460 } # Next Election
+        country_event = { id = SMN_events.4 days = 68 } # Inauguration
+    }
+
+    option = { # PAUL WELLSTONE
+        name = SMN_events.1.a
+        ai_chance = { factor = 3 }
+        set_country_flag = SMN_Paul_Wellstone_elected_flag
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SMN_News_Events.1
+            }
+        }
+    }
+
+    option = { # DAVID DURENBERGER
+        name = SMN_events.1.b
+        ai_chance = { factor = 3 }
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SMN_News_Events.2
+            }
+        }
+    }
+}
+
+country_event = { # ELECTION TWO
+    id = SMN_events.2
+    title = SMN_events.2.t
+    desc = SMN_events.2.desc
+
+    is_triggered_only = yes
+
+    immediate = {
+        country_event = { id = SMN_events.3 days = 1460 } # Next Election
+        country_event = { id = SMN_events.5 days = 68 } # Inauguration
+    }
+
+    option = { # INCUMBENT REELECTED
+        name = SMN_events.2.a
+        ai_chance = { factor = 2 }
+        country_event = { id = SMN_events.7 days = 790 }
+        if = {
+            limit = { has_government = progressivism }
+                every_country = {
+                    limit = { is_ai = no }
+                    news_event = {
+                        id = SMN_News_Events.3
+                    }
+                }
+                set_popularities = {
+                    liberalism = 7
+				    conservatism = 42
+				    conservatism_2 = 4
+				    progressivism = 47
+                }
+        }
+        else = {
+            every_country = {
+                limit = { is_ai = no }
+                news_event = {
+                    id = SMN_News_Events.4
+                }
+            }
+            set_popularities = {
+                liberalism = 7
+				conservatism = 54
+				conservatism_2 = 4
+				progressivism = 35
+            }
+        }
+    }
+
+    option = { # HERB KOHL
+        name = SMN_events.2.b
+        trigger = { has_government = conservatism }
+        ai_chance = { factor = 1 }
+        set_country_flag = SMN_herb_kohl_elected_flag
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SMN_News_Events.5
+            }
+        }
+    }
+
+    option = { # ARNE CARLSON
+        name = SMN_events.2.c
+        trigger = { has_government = progressivism }
+        ai_chance = { factor = 1 }
+        set_country_flag = SMN_arne_carlson_elected_flag
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SMN_News_Events.6
+            }
+        }
+    }
+}
+
+country_event = { # ELECTION THREE
+    id = SMN_events.3
+    title = SMN_events.3.t
+    desc = SMN_events.3.desc
+
+    is_triggered_only = yes
+
+    immediate = {
+        country_event = { id = SMN_events.6 days = 68 } # Inauguration
+    }
+
+    option = { # INCUMBENT REELECTED
+        name = SMN_events.3.a
+        trigger = {
+            OR = {
+                has_country_leader = { ruling_only = yes character = SMN_arne_carlson }
+                has_country_leader = { ruling_only = yes character = SMN_herb_kohl }
+            }
+        }
+        ai_chance = { factor = 2 }
+        country_event = { id = SMN_events.7 days = 790 }
+        if = {            
+            limit = { has_government = progressivism }
+                every_country = {
+                    limit = { is_ai = no }
+                    news_event = {
+                        id = SMN_News_Events.7
+                    }
+                }
+                set_popularities = {
+                    liberalism = 12
+					conservatism = 38
+					conservatism_2 = 2
+					progressivism = 48
+                }
+        }
+        else = {
+            every_country = {
+                limit = { is_ai = no }
+                news_event = {
+                    id = SMN_News_Events.8
+                }
+            }
+            set_popularities = {
+                paternalism = 8
+                conservatism = 38
+                liberalism = 54
+            }
+        }
+    }
+
+    option = { # JESSE VENTURA
+        name = SMN_events.3.b
+        ai_chance = { factor = 1 }
+        set_country_flag = SMN_jesse_ventura_elected_flag
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SMN_News_Events.9
+            }
+        }
+    }
+
+    option = { # TOMMY THOMPSON 
+        name = SMN_events.3.c
+        ai_chance = { factor = 1 }
+        trigger = { 
+            NOT = {
+                has_government = conservatism 
+            }
+        }
+        set_country_flag = SMN_tommy_thompson_elected_flag
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SMN_News_Events.10
+            }
+        }
+    }
+
+    option = { # RUSS FEINGOLD
+        name = SMN_events.3.d
+        ai_chance = { factor = 1 }
+        trigger = { 
+            NOT = {
+                has_country_leader = { ruling_only = yes character = SMN_herb_kohl }
+            }
+        }
+        set_country_flag = SMN_russ_feingold_elected_flag
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SMN_News_Events.11
+            }
+        }
+    }
+
+    option = { # THE NEW NORM AINT THE SAME AS THE OLD NORM
+        name = SMN_events.3.e
+        ai_chance = { factor = 1 }
+        trigger = { 
+                has_country_leader = { ruling_only = yes character = SMN_rod_grams }
+        }
+        set_country_flag = SMN_norm_coleman_republican_elected_flag
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SMN_News_Events.12
+            }
+        }
+    }
+
+    option = { # THE OLD NORM IS THE SAME AS THE OLD NORM
+        name = SMN_events.3.f
+        ai_chance = { factor = 1 }
+        trigger = { 
+                has_country_leader = { ruling_only = yes character = SMN_mark_dayton }
+        }
+        set_country_flag = SMN_norm_coleman_liberal_elected_flag
+        every_country = {
+            limit = { is_ai = no }
+            news_event = {
+                id = SMN_News_Events.13
+            }
+        }
+    }
+}
+
+
+country_event = { # INAUGURATION ONE
+    id = SMN_events.4
+    title = SMN_events.4.t
+    desc = SMN_events.4.desc
+
+    is_triggered_only = yes
+
+    option = {
+        name = SMN_events.4.a
+        ai_chance = { factor = 1 }
+        if = { # PAUL WELLSTONE
+            limit = { has_country_flag = SMN_Paul_Wellstone_elected_flag }
+            clr_country_flag = SMN_Paul_Wellstone_elected_flag
+            SMN_skip_humphrey = { remove_country_leader_role = { ideology = progressivism_subtype } }
+            SMN_david_durenberger = { remove_country_leader_role = { ideology = conservatism_centrist_conservatism_subtype } }
+            add_country_leader_role = {
+                character = SMN_paul_wellstone
+                promote_leader = yes
+                country_leader = {
+                    ideology = progressivism_social_democracy_subtype
+                    expire = "2020.1.1.1"
+                }
+            }
+            set_popularities = {
+                liberalism = 7
+				conservatism = 44
+				conservatism_2 = 4
+				progressivism = 45
+            }
+        }
+        else = { # DAVID DURENBERGER
+            SMN_skip_humphrey = { remove_country_leader_role = { ideology = progressivism_subtype } }
+            set_politics = {
+                ruling_party = conservatism
+                last_election = "1990.5.11"
+                election_frequency = 48
+                elections_allowed = yes
+            }
+            set_popularities = {
+                liberalism = 7
+				conservatism = 52
+				conservatism_2 = 4
+				progressivism = 37
+            }
+        }
+    }
+}
+
+country_event = { # INAUGURATION TWO
+    id = SMN_events.5
+    title = SMN_events.5.t
+    desc = SMN_events.5.desc
+
+    is_triggered_only = yes
+
+    option = {
+        name = SMN_events.5.a
+        ai_chance = { factor = 1 }
+        if = { # ARNE CARLSON
+            limit = { has_country_flag = SMN_arne_carlson_elected_flag }
+            clr_country_flag = SMN_arne_carlson_elected_flag
+            SMN_paul_wellstone = { remove_country_leader_role = { ideology = progressivism_social_democracy_subtype } }
+            add_country_leader_role = {
+                character = SMN_paul_wellstone
+                promote_leader = yes
+                country_leader = {
+                    ideology = progressivism_social_democracy_subtype
+                    expire = "2020.1.1.1"
+                }
+            }
+            set_popularities = {
+                liberalism = 7
+				conservatism = 52
+				conservatism_2 = 4
+				progressivism = 37
+            }
+            set_politics = {
+                ruling_party = conservatism
+                last_election = "1994.5.11"
+                election_frequency = 48
+                elections_allowed = yes
+            }
+        }
+        else_if = { # HERB KOHL
+            limit = { has_country_flag = SMN_herb_kohl_elected_flag }
+            clr_country_flag = SMN_herb_kohl_elected_flag
+            SMN_david_durenberger = { remove_country_leader_role = { ideology = conservatism_centrist_conservatism_subtype } }
+            set_politics = {
+                ruling_party = progressivism
+                last_election = "1994.5.11"
+                election_frequency = 48
+                elections_allowed = yes
+            }
+            set_popularities = {
+                liberalism = 7
+				conservatism = 44
+				conservatism_2 = 4
+				progressivism = 45
+            }
+        }
+    }
+}
+
+country_event = { # INAUGURATION THREE
+    id = SMN_events.6
+    title = SMN_events.6.t
+    desc = SMN_events.6.desc
+
+    is_triggered_only = yes
+
+    option = {
+        name = SMN_events.6.a
+        ai_chance = { factor = 1 }
+        if = { # JESSE VENTURA
+            limit = { has_country_flag = SMN_jesse_ventura_elected_flag }
+            SMN_arne_carlson = { remove_country_leader_role = { ideology = conservatism_centrist_conservatism_subtype } }
+            SMN_rod_grams = { remove_country_leader_role = { ideology = conservatism_centrist_conservatism_subtype } }
+            SMN_mark_dayton = { remove_country_leader_role = { ideology = progressivism_social_democracy_subtype } }
+            SMN_herb_kohl = { remove_country_leader_role = { ideology = progressivism_subtype } }
+            add_country_leader_role = {
+                character = SMN_jessie_ventura
+                promote_leader = yes
+                country_leader = {
+                    ideology = conservatism_libertarianism_subtype
+                    expire = "2020.1.1.1"
+                }
+            }
+            set_party_name = {
+                ideology = conservatism
+                long_name = SMN_conservatism_2_party_long
+                name = SMN_conservatism_2_party
+            }
+            set_party_name = {
+                ideology = conservatism_2
+                long_name = SMN_conservatism_party_long
+                name = SMN_conservatism_party
+            }
+            set_popularities = {
+                liberalism = 7
+				conservatism = 34
+				conservatism_2 = 33
+				progressivism = 26
+            }
+            set_politics = {
+                ruling_party = conservatism
+                last_election = "1998.5.11"
+                election_frequency = 48
+                elections_allowed = yes
+            }
+        }
+        else_if = { # RUSS FEINGOLD
+            limit = { has_country_flag = SMN_russ_feingold_elected_flag }
+            if = {
+                limit = { has_government = progressivism }
+                set_popularities = {
+                    liberalism = 7
+                    conservatism = 40
+                    conservatism_2 = 4
+                    progressivism = 49
+                }
+            }
+            else = {
+                set_popularities = {
+                    liberalism = 7
+                    conservatism = 44
+                    conservatism_2 = 4
+                    progressivism = 45
+                }
+            }
+            SMN_arne_carlson = { remove_country_leader_role = { ideology = conservatism_centrist_conservatism_subtype } }
+            SMN_rod_grams = { remove_country_leader_role = { ideology = conservatism_centrist_conservatism_subtype } }
+            SMN_mark_dayton = { remove_country_leader_role = { ideology = progressivism_social_democracy_subtype } }
+            add_country_leader_role = {
+                character = SMN_russ_feingold
+                promote_leader = yes
+                country_leader = {
+                    ideology = progressivism_subtype
+                    expire = "2020.1.1.1"
+                }
+            }
+            set_politics = {
+                ruling_party = progressivism
+                last_election = "1998.5.11"
+                election_frequency = 48
+                elections_allowed = yes
+            }
+            
+        }
+        else_if = { # TOMMY THOMPSON
+            limit = { has_country_flag = SMN_tommy_thompson_elected_flag }
+            SMN_mark_dayton = { remove_country_leader_role = { ideology = progressivism_social_democracy_subtype } }
+            SMN_herb_kohl = { remove_country_leader_role = { ideology = progressivism_subtype } }
+            add_country_leader_role = {
+                character = SMN_tommy_thompson
+                promote_leader = yes
+                country_leader = {
+                    ideology = conservatism_subtype
+                    expire = "2020.1.1.1"
+                }
+            }
+            set_politics = {
+                ruling_party = conservatism
+                last_election = "1998.5.11"
+                election_frequency = 48
+                elections_allowed = yes
+            }
+            set_party_name = {
+                ideology = conservatism
+                long_name = SMN_conservatism_unwoke_party_long
+                name = SMN_conservatism_unwoke_party
+            }
+            set_popularities = {
+                liberalism = 7
+				conservatism = 52
+				conservatism_2 = 4
+				progressivism = 37
+            }
+        }
+        else_if = { # OLD NORM
+            limit = { has_country_flag = SMN_norm_coleman_liberal_elected_flag }
+            SMN_mark_dayton = { remove_country_leader_role = { ideology = progressivism_social_democracy_subtype } }
+            add_country_leader_role = {
+                character = SMN_norm_coleman
+                promote_leader = yes
+                country_leader = {
+                    ideology = liberalism_centrist_liberal_subtype
+                    expire = "2020.1.1.1"
+                }
+            }
+            set_politics = {
+                ruling_party = liberalism
+                last_election = "1998.5.11"
+                election_frequency = 48
+                elections_allowed = yes
+            }
+            set_popularities = {
+                liberalism = 28
+                conservatism = 40
+                conservatism_2 = 4
+                progressivism = 28
+            }
+        }
+        else_if = { # NEW NORM
+            limit = { has_country_flag = SMN_norm_coleman_republican_elected_flag }
+            SMN_rod_grams = { remove_country_leader_role = { ideology = conservatism_centrist_conservatism_subtype } }
+            add_country_leader_role = {
+                character = SMN_norm_coleman
+                promote_leader = yes
+                country_leader = {
+                    ideology = conservatism_centrist_conservatism_subtype
+                    expire = "2020.1.1.1"
+                }
+            }
+            set_popularities = {
+                liberalism = 7
+				conservatism = 52
+				conservatism_2 = 4
+				progressivism = 37
+            }
+        }
+    }
+}
+
+
+
+country_event = { # LIFE OR BATH FOR PAUL WELLSTONE OR DURENBERGER
+    id = SMN_events.7
+    title = SMN_events.7.t
+    desc = SMN_events.7.desc
+
+    is_triggered_only = yes
+
+    option = {
+        name = SMN_events.7.a
+        ai_chance = { factor = 1 }
+        if = { 
+            limit = { has_government = progressivism }
+            kill_country_leader = yes
+            add_country_leader_role = {
+                character = SMN_mark_dayton
+                promote_leader = yes
+                country_leader = {
+                    ideology = progressivism_social_democracy_subtype
+                    expire = "2020.1.1.1"
+                }
+            }
+            every_country = {
+                limit = { is_ai = no }
+                news_event = {
+                    id = SMN_News_Events.14
+                }
+            }
+        }
+        else = {
+            SMN_david_durenberger = { remove_country_leader_role = { ideology = conservatism_centrist_conservatism_subtype } }
+            add_country_leader_role = {
+                character = SMN_rod_grams
+                promote_leader = yes
+                country_leader = {
+                    ideology = conservatism_centrist_conservatism_subtype
+                    expire = "2020.1.1.1"
+                }
+            }
+            every_country = {
+                limit = { is_ai = no }
+                news_event = {
+                    id = SMN_News_Events.15
+                }
+            }
+        }
+    }
+}

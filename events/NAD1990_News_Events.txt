@@ -1,6 +1,206 @@
 ﻿add_namespace = SCA_News_Events
+add_namespace = SMN_News_Events
 add_namespace = usastates_news_new
 add_namespace = usastates_news_flavor
+
+##############################
+### SODA NEWS EVENTS ###
+##############################
+
+news_event = { # PAUL WELLSTONE ELECTED
+	id = SMN_News_Events.1
+	title = SMN_News_Events.1.t
+	desc = SMN_News_Events.1.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.1.a
+	}
+}
+
+news_event = { # DAVID DURENBERGER ELECTED
+	id = SMN_News_Events.2
+	title = SMN_News_Events.2.t
+	desc = SMN_News_Events.2.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.2.a
+	}
+}
+
+news_event = { # PAUL WELLSTONE REELECTED
+	id = SMN_News_Events.3
+	title = SMN_News_Events.3.t
+	desc = SMN_News_Events.3.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.3.a
+	}
+}
+
+news_event = { # DAVID DURENBERGER REELECTED
+	id = SMN_News_Events.4
+	title = SMN_News_Events.4.t
+	desc = SMN_News_Events.4.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.4.a
+	}
+}
+
+news_event = { # HERB KOHL ELECTED
+	id = SMN_News_Events.5
+	title = SMN_News_Events.5.t
+	desc = SMN_News_Events.5.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.5.a
+	}
+}
+
+news_event = { # ARNE CARLSON ELECTED
+	id = SMN_News_Events.6
+	title = SMN_News_Events.6.t
+	desc = SMN_News_Events.6.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.6.a
+	}
+}
+
+news_event = { # HERB KOHL REELECTED
+	id = SMN_News_Events.7
+	title = SMN_News_Events.7.t
+	desc = SMN_News_Events.7.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.7.a
+	}
+}
+
+news_event = { # ARNE CARLSON REELECTED
+	id = SMN_News_Events.8
+	title = SMN_News_Events.8.t
+	desc = SMN_News_Events.8.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.8.a
+	}
+}
+
+news_event = { # JESSE VENTURA ELECTED
+	id = SMN_News_Events.9
+	title = SMN_News_Events.9.t
+	desc = SMN_News_Events.9.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.9.a
+	}
+}
+
+news_event = { # TOMMY THOMPSON ELECTED
+	id = SMN_News_Events.10
+	title = SMN_News_Events.10.t
+	desc = SMN_News_Events.10.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.10.a
+	}
+}
+
+news_event = { # RUSS FEINGOLD ELECTED
+	id = SMN_News_Events.11
+	title = SMN_News_Events.11.t
+	desc = SMN_News_Events.11.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.11.a
+	}
+}
+
+news_event = { # THE NEW NORM ELECTED
+	id = SMN_News_Events.12
+	title = SMN_News_Events.12.t
+	desc = SMN_News_Events.12.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.12.a
+	}
+}
+
+news_event = { # THE OLD NORM ELECTED
+	id = SMN_News_Events.13
+	title = SMN_News_Events.13.t
+	desc = SMN_News_Events.13.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.13.a
+	}
+}
+
+news_event = { # PAUL WELLSTONE DIES
+	id = SMN_News_Events.14
+	title = SMN_News_Events.14.t
+	desc = SMN_News_Events.14.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.14.a
+	}
+}
+
+news_event = { # DURENBERGER IMPEACHED
+	id = SMN_News_Events.15
+	title = SMN_News_Events.15.t
+	desc = SMN_News_Events.15.desc
+	picture = GFX_newsevent_florida_haiti_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = SMN_News_Events.15.a
+	}
+}
 
 ##############################
 ### CALIFORNIA NEWS EVENTS ###

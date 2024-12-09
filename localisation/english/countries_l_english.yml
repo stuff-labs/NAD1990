@@ -325,17 +325,7 @@
  SWI:0 "Republic of Wisconsin"
  SWI_DEF:0 "The Republic of Wisconsin"
  SWI_ADJ:0 "Wisconsinite"
- 
- SMN_fascism:1 "North Star Empire"
- SMN_fascism_DEF:1 "Minnesota"
- SMN_paternalism:0 "The State Of Minnesota"
- SMN_paternalism_DEF:0 "The State"
- SMN_communism:1 "Peoples Republic of Minnesota"
- SMN_communism_DEF:1 "The Republic of Minnesota"
- SMN:0 "Republic of Minnesota"
- SMN_DEF:0 "The Republic of Minnesota"
- SMN_ADJ:0 "Minnesotan"
- 
+
  SNY_fascism:1 "The Empire State"
  SNY_fascism_DEF:1 "The Empire State"
  SNY:1 "Republic of New York"

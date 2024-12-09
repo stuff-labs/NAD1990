@@ -1,0 +1,140 @@
+﻿l_english:
+
+ SMN:0 "Republic of Minnesota"
+ SMN_DEF:0 "The Republic of Minnesota"
+ SMN_ADJ:0 "Minnesotan"
+
+ SMN_union_of_sup:0 "Union of Superior"
+ SMN_union_of_sup_DEF:0 "the Union of Superior"
+ SMN_union_of_sup_ADJ:0 "Superiorian"
+
+
+ SMN_progressivism_party: "SDFL" 
+ SMN_progressivism_party_long: "Superior Democratic Farmer-Labor Party"
+ SMN_socialism_party: "Unorganised Dissidents"
+ SMN_socialism_party_long: "Unorganised Dissidents"
+ SMN_liberalism_party: "SDFL - C"
+ SMN_liberalism_party_long: "Superior Democratic Farmer-Labor Party - Centrist"
+ SMN_paternalism_party: "Unorganised Dissidents"
+ SMN_paternalism_party_long: "Unorganised Dissidents"
+ SMN_conservatism_party: "I-R"
+ SMN_conservatism_party_long: "Independent Republicans"
+ SMN_conservatism_2_party: "IPS"
+ SMN_conservatism_2_party_long: "Independence Party of Superior"
+ SMN_conservatism_unwoke_party: "GOPS"
+ SMN_conservatism_unwoke_party_long: "Grand Old Party of Superior"
+
+ 
+
+ SMN_skip_humphrey: "Skip Humphrey"
+ SMN_david_durenberger: "David Durenberger"
+ SMN_Disorganised_Leadership: "Disorganized Leadership"
+ SMN_jessie_ventura: "Jessie Ventura"
+ SMN_paul_wellstone: "Paul Wellstone"
+ SMN_arne_carlson: "Arne Carlson"
+ SMN_rod_grams: "Rod Grams"
+ SMN_mark_dayton: "Mark Dayton"
+ SMN_herb_kohl: "Herb Kohl"
+ SMN_norm_coleman: "Norm Coleman"
+ SMN_tommy_thompson: "Tommy Thompson"
+ SMN_russ_feingold: "Russ Feingold"
+
+ SMN_events.1.t: "Election One"
+ SMN_events.1.desc: "election stuff"
+ SMN_events.1.a: "Wellstone!"
+ SMN_events.1.b: "Durenberger!"
+ 
+ SMN_events.2.t: "Election Two"
+ SMN_events.2.desc: "election stuff"
+ SMN_events.2.a: "Four More Years!"
+ SMN_events.2.b: "Elect the retail store guy!"
+ SMN_events.2.c: "Carlson!"
+ 
+ SMN_events.3.t: "Election Three"
+ SMN_events.3.desc: "election stuff"
+ SMN_events.3.a: "Four More Years!"
+ SMN_events.3.b: "Ventura!"
+ SMN_events.3.c: "I love lung cancer"
+ SMN_events.3.d: "Feingold!"
+ SMN_events.3.e: "The New Norm!"
+ SMN_events.3.f: "The Old Norm!"
+
+ SMN_events.4.t: "Inauguration One"
+ SMN_events.4.desc: "Inauguration stuff."
+ SMN_events.4.a: "Let's inaugurate this fine individual."
+
+ SMN_events.5.t: "Inauguration Two"
+ SMN_events.5.desc: "Inauguration stuff."
+ SMN_events.5.a: "Let's inaugurate this fine individual."
+
+ SMN_events.6.t: "Inauguration Three"
+ SMN_events.6.desc: "Inauguration stuff."
+ SMN_events.6.a: "Let's inaugurate this fine individual."
+
+ SMN_events.7.t: "Life or Bath for the President"
+ SMN_events.7.desc: "woah"
+ SMN_events.7.a: "Bath"
+
+ SMN_News_Events.1.t: "Paul Wellstone Elected in Superior"
+ SMN_News_Events.1.desc: "Surely nothing bad will happen to him"
+ SMN_News_Events.1.a: "Yeah sure, okay."
+
+ SMN_News_Events.2.t: "David Durenberger Elected in Superior"
+ SMN_News_Events.2.desc: "He would never misuse public funds"
+ SMN_News_Events.2.a: "Yeah sure, okay."
+
+ SMN_News_Events.3.t: "Paul Wellstone Relected in Superior"
+ SMN_News_Events.3.desc: "Surely nothing bad will happen to him"
+ SMN_News_Events.3.a: "Yeah sure, okay."
+
+ SMN_News_Events.4.t: "David Durenberger Relected in Superior"
+ SMN_News_Events.4.desc: "He would never misuse public funds"
+ SMN_News_Events.4.a: "Yeah sure, okay."
+
+ SMN_News_Events.5.t: "Herb Kohl Elected in Superior"
+ SMN_News_Events.5.desc: "He owns Kohls"
+ SMN_News_Events.5.a: "Yeah sure, okay."
+
+ SMN_News_Events.6.t: "Arne Carlson Elected in Superior"
+ SMN_News_Events.6.desc: "He is woke"
+ SMN_News_Events.6.a: "Yeah sure, okay."
+
+ SMN_News_Events.7.t: "Herb Kohl Relected in Superior"
+ SMN_News_Events.7.desc: "He still owns Kohls"
+ SMN_News_Events.7.a: "Yeah sure, okay."
+
+ SMN_News_Events.8.t: "Arne Carlson Relected in Superior"
+ SMN_News_Events.8.desc: "He is still woke"
+ SMN_News_Events.8.a: "Yeah sure, okay."
+
+ SMN_News_Events.9.t: "Jesse Ventura Elected in Superior"
+ SMN_News_Events.9.desc: "Top 10 Jesse Ventura funny moments"
+ SMN_News_Events.9.a: "Yeah sure, okay."
+
+ SMN_News_Events.10.t: "Tommy Thompson Elected in Superior"
+ SMN_News_Events.10.desc: "He loves big tobacco"
+ SMN_News_Events.10.a: "Yeah sure, okay."
+
+ SMN_News_Events.11.t: "Russ Feingold Elected in Superior"
+ SMN_News_Events.11.desc: "He's also woke"
+ SMN_News_Events.11.a: "Yeah sure, okay."
+
+ SMN_News_Events.12.t: "Norm Coleman Elected in Superior"
+ SMN_News_Events.12.desc: "He is not woke and he wants normal beer"
+ SMN_News_Events.12.a: "Yeah sure, okay."
+
+ SMN_News_Events.13.t: "Norm Coleman Elected in Superior"
+ SMN_News_Events.13.desc: "He is woke and wants gay beer"
+ SMN_News_Events.13.a: "Yeah sure, okay."
+
+ SMN_News_Events.14.t: "Superior President Killed in Plane Crash"
+ SMN_News_Events.14.desc: "He got the Estigarribia treatment"
+ SMN_News_Events.14.a: "Yeah sure, okay."
+ 
+ SMN_News_Events.15.t: "Superior President Impeached"
+ SMN_News_Events.15.desc: "Why they put him in a peach"
+ SMN_News_Events.15.a: "Shocking"
+
+ 
+
+ 

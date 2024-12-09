@@ -21,24 +21,32 @@ set_technology = {
 }
 set_cosmetic_tag = SMN_union_of_sup
 set_convoys = 30
-recruit_character = SMN_jessie_ventura
+
 set_politics = {
-	ruling_party = liberalism
-	last_election = "1990.1.1"
+	ruling_party = progressivism
+	last_election = "1986.5.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	liberalism = 45
-	conservatism = 28
-	fascism = 0
-	progressivism = 23
-	socialism = 4
-	communism = 0
-	paternalism= 0
-	despotism = 0
+	liberalism = 12
+	conservatism = 38
+	conservatism_2 = 2
+	progressivism = 48
 }
 
+recruit_character = SMN_skip_humphrey
+recruit_character = SMN_david_durenberger
+recruit_character = SMN_Disorganised_Leadership
+recruit_character = SMN_jessie_ventura
+recruit_character = SMN_paul_wellstone
+recruit_character = SMN_arne_carlson
+recruit_character = SMN_rod_grams
+recruit_character = SMN_mark_dayton
+recruit_character = SMN_herb_kohl
+recruit_character = SMN_norm_coleman
+recruit_character = SMN_tommy_thompson
+recruit_character = SMN_russ_feingold
 
 
 if = {

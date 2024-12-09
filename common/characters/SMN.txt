@@ -1,16 +1,87 @@
 characters={
-	SMN_jessie_ventura = {
-		name="Jesse Ventura"
-		portraits={
-			civilian={
-				large="gfx/leaders/SMN/portrait_SMN_jessie_ventura.dds"
-			}
-		}
-		country_leader={
-			ideology= liberalism_centrist_liberal_subtype   
-			traits={  }
-			expire="2020.1.1.1"
-			id=-1
+	SMN_skip_humphrey = {
+		name = SMN_skip_humphrey
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+		country_leader = {
+			ideology = progressivism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
 		}
 	}
+	SMN_david_durenberger = {
+		name = SMN_david_durenberger
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+		country_leader = {
+			ideology = conservatism_centrist_conservatism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SMN_Disorganised_Leadership = {
+		name = SMN_Disorganised_Leadership
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+		country_leader = {
+			ideology = conservatism_1_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = liberalism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = progressivism_subtype
+			traits = {  }
+			expire = "2020.1.1.1"
+			id = -1
+		}
+	}
+	SMN_jessie_ventura = {
+		name = SMN_jessie_ventura
+		portraits = { civilian = { large="gfx/leaders/SMN/portrait_SMN_jessie_ventura.dds" } }
+	}
+	SMN_paul_wellstone = {
+		name = SMN_paul_wellstone
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+	}
+	SMN_arne_carlson = {
+		name = SMN_arne_carlson
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+	}
+	SMN_rod_grams = {
+		name = SMN_rod_grams
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+	}
+	SMN_mark_dayton = {
+		name = SMN_mark_dayton
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+	}
+	SMN_herb_kohl = {
+		name = SMN_herb_kohl
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+	}
+	SMN_norm_coleman = {
+		name = SMN_norm_coleman
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+	}
+	SMN_tommy_thompson = {
+		name = SMN_tommy_thompson
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+	}
+	SMN_russ_feingold = {
+		name = SMN_russ_feingold
+		portraits = { civilian = { large="gfx/leaders/Portrait_Placeholder.dds" } }
+	}
+	
 }

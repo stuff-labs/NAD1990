@@ -654,17 +654,6 @@
 
  PNT_conservatism_party: "Albertan Adminstration"
  PNT_conservatism_party_long: "Albertan Adminstration"
-
- SMN_progressivism_party: "Green-Grassroots" #Chris Wright (activist)
- SMN_progressivism_party_long: "Green Party-Grassroots Party Coalition"
- SMN_socialism_party: "SWP"
- SMN_socialism_party_long: "Socialist Workers Party of Minnesota"
- SMN_liberalism_party: "DRP"
- SMN_liberalism_party_long: "Democratic Reform Party of Minnesota"
- SMN_paternalism_party: "NCC"
- SMN_paternalism_party_long: "Northern Command Center"
- SMN_conservatism_party: "CUP"
- SMN_conservatism_party_long: "Conservative Union Party"
  
  SUP_progressivism_party: "Farmer-Labor"
  SUP_progressivism_party_long: "Farmer-Labor Party"
